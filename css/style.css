@@ -49,7 +49,7 @@ body {
 
 /*header section*/
 .hero_area {
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/hero-bg2.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: top right;
@@ -269,7 +269,7 @@ a:focus {
 }
 
 .overlay a:hover {
-  color: #252525;
+  color: #0a3d62;
 }
 
 .overlay-content {
@@ -288,7 +288,7 @@ a:focus {
 /* slider section */
 .slider_section {
   padding: 75px 0;
-  color: #0b0b0b;
+  color: #0a3d62;
 }
 
 .slider_section .container {
@@ -303,13 +303,13 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #3554d1;
+  color: #0a3d62;
   font-weight: bold;
   font-size: 4rem;
 }
 
 .slider_section .detail-box h1 span {
-  color: #0f2480;
+  color: #0a3d62;
 }
 
 .slider_section .detail-box p {
@@ -324,16 +324,16 @@ a:focus {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
-  color: #3554d1;
+  color: #0a3d62;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #3554d1;
+  border: 1px solid #0a3d62;
   border-radius: 25px;
   margin-bottom: 75px;
 }
 
 .slider_section .detail-box .btn-box a:hover {
-  background-color: #3554d1;
+  background-color: #0a3d62;
   border-color: transparent;
   color: #ffffff;
 }
