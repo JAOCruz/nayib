@@ -448,8 +448,22 @@ a:focus {
   margin: .65%;
 }
 
+.sale_section .sale_container .box .img-box {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
 .sale_section .sale_container .box .img-box img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.sale_section .sale_container .box .img-box:hover img {
+  transform: scale(1.05);
 }
 
 .sale_section .sale_container .box .detail-box {
