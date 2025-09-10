@@ -3,6 +3,9 @@ class PagePropertiesManager {
     constructor() {
         this.propertiesData = null;
         this.currentPage = this.getCurrentPage();
+        this.itemsPerPage = 10;
+        this.currentPageNumber = 1;
+        this.filteredData = [];
         this.init();
     }
 
@@ -68,14 +71,18 @@ class PagePropertiesManager {
         // Store original data for filtering
         this.originalSolaresData = solaresCategory.data;
         this.filteredSolaresData = [...solaresCategory.data];
+        this.filteredData = this.filteredSolaresData;
+        this.currentPageNumber = 1;
 
         this.renderSolares();
         this.setupSolaresFilters();
+        this.setupPagination();
     }
 
     renderSolares() {
         const propertiesContainer = document.querySelector('.properties_container');
         const solaresCategory = this.propertiesData.categories.solares;
+        const paginatedData = this.getPaginatedData();
         
         propertiesContainer.innerHTML = `
             <div class="category_section">
@@ -84,17 +91,162 @@ class PagePropertiesManager {
                     <p>${solaresCategory.description}</p>
                 </div>
                 <div class="solares_list">
-                    ${this.createSolaresList(this.filteredSolaresData)}
+                    ${this.createSolaresList(paginatedData)}
                 </div>
             </div>
         `;
 
+        this.updatePaginationInfo();
+    }
+
+    getPaginatedData() {
+        const startIndex = (this.currentPageNumber - 1) * this.itemsPerPage;
+        const endIndex = startIndex + this.itemsPerPage;
+        
+        // Flatten the data for pagination
+        const allSolares = [];
+        this.filteredData.forEach(location => {
+            location.solares.forEach(solar => {
+                allSolares.push({
+                    ...solar,
+                    ubicacion: location.ubicacion
+                });
+            });
+        });
+
+        const paginatedSolares = allSolares.slice(startIndex, endIndex);
+        
+        // Group back by location for display
+        const groupedData = {};
+        paginatedSolares.forEach(solar => {
+            if (!groupedData[solar.ubicacion]) {
+                groupedData[solar.ubicacion] = {
+                    ubicacion: solar.ubicacion,
+                    solares: []
+                };
+            }
+            const { ubicacion, ...solarData } = solar;
+            groupedData[solar.ubicacion].solares.push(solarData);
+        });
+
+        return Object.values(groupedData);
+    }
+
+    updatePaginationInfo() {
+        const totalItems = this.filteredData.reduce((total, location) => total + location.solares.length, 0);
+        const totalPages = Math.ceil(totalItems / this.itemsPerPage);
+        
         // Update results count
-        const totalSolares = this.filteredSolaresData.reduce((total, location) => total + location.solares.length, 0);
         const resultsCount = document.getElementById('resultsCount');
         if (resultsCount) {
-            resultsCount.textContent = `Mostrando ${totalSolares} solares de ${this.originalSolaresData.reduce((total, location) => total + location.solares.length, 0)} total`;
+            const startItem = (this.currentPageNumber - 1) * this.itemsPerPage + 1;
+            const endItem = Math.min(this.currentPageNumber * this.itemsPerPage, totalItems);
+            resultsCount.textContent = `Mostrando ${startItem}-${endItem} de ${totalItems} solares`;
         }
+
+        // Update pagination info
+        const paginationInfo = document.getElementById('pagination_info');
+        if (paginationInfo) {
+            paginationInfo.textContent = `Página ${this.currentPageNumber} de ${totalPages}`;
+        }
+
+        // Update pagination controls
+        this.updatePaginationControls(totalPages);
+    }
+
+    updatePaginationControls(totalPages) {
+        const prevButton = document.getElementById('prev_page');
+        const nextButton = document.getElementById('next_page');
+        const pageNumbers = document.getElementById('page_numbers');
+
+        if (prevButton) {
+            prevButton.disabled = this.currentPageNumber === 1;
+        }
+
+        if (nextButton) {
+            nextButton.disabled = this.currentPageNumber === totalPages || totalPages === 0;
+        }
+
+        if (pageNumbers) {
+            this.renderPageNumbers(totalPages);
+        }
+    }
+
+    renderPageNumbers(totalPages) {
+        const pageNumbers = document.getElementById('page_numbers');
+        if (!pageNumbers) return;
+
+        let html = '';
+        const currentPage = this.currentPageNumber;
+        const maxVisiblePages = 5;
+
+        if (totalPages <= maxVisiblePages) {
+            // Show all pages
+            for (let i = 1; i <= totalPages; i++) {
+                html += `<span class="page_number ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</span>`;
+            }
+        } else {
+            // Show pages with ellipsis
+            if (currentPage <= 3) {
+                for (let i = 1; i <= 4; i++) {
+                    html += `<span class="page_number ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</span>`;
+                }
+                html += '<span class="page_number ellipsis">...</span>';
+                html += `<span class="page_number" data-page="${totalPages}">${totalPages}</span>`;
+            } else if (currentPage >= totalPages - 2) {
+                html += '<span class="page_number" data-page="1">1</span>';
+                html += '<span class="page_number ellipsis">...</span>';
+                for (let i = totalPages - 3; i <= totalPages; i++) {
+                    html += `<span class="page_number ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</span>`;
+                }
+            } else {
+                html += '<span class="page_number" data-page="1">1</span>';
+                html += '<span class="page_number ellipsis">...</span>';
+                for (let i = currentPage - 1; i <= currentPage + 1; i++) {
+                    html += `<span class="page_number ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</span>`;
+                }
+                html += '<span class="page_number ellipsis">...</span>';
+                html += `<span class="page_number" data-page="${totalPages}">${totalPages}</span>`;
+            }
+        }
+
+        pageNumbers.innerHTML = html;
+
+        // Add click event listeners to page numbers
+        pageNumbers.querySelectorAll('.page_number:not(.ellipsis)').forEach(pageNumber => {
+            pageNumber.addEventListener('click', () => {
+                const page = parseInt(pageNumber.dataset.page);
+                this.goToPage(page);
+            });
+        });
+    }
+
+    setupPagination() {
+        const prevButton = document.getElementById('prev_page');
+        const nextButton = document.getElementById('next_page');
+
+        if (prevButton) {
+            prevButton.addEventListener('click', () => {
+                if (this.currentPageNumber > 1) {
+                    this.goToPage(this.currentPageNumber - 1);
+                }
+            });
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener('click', () => {
+                const totalItems = this.filteredData.reduce((total, location) => total + location.solares.length, 0);
+                const totalPages = Math.ceil(totalItems / this.itemsPerPage);
+                if (this.currentPageNumber < totalPages) {
+                    this.goToPage(this.currentPageNumber + 1);
+                }
+            });
+        }
+    }
+
+    goToPage(pageNumber) {
+        this.currentPageNumber = pageNumber;
+        this.renderSolares();
     }
 
     setupSolaresFilters() {
@@ -168,6 +320,9 @@ class PagePropertiesManager {
             };
         }).filter(location => location.solares.length > 0);
 
+        // Update filtered data and reset to first page
+        this.filteredData = this.filteredSolaresData;
+        this.currentPageNumber = 1;
         this.renderSolares();
     }
 
@@ -180,6 +335,8 @@ class PagePropertiesManager {
         document.getElementById('legalStatus').value = '';
 
         this.filteredSolaresData = [...this.originalSolaresData];
+        this.filteredData = this.filteredSolaresData;
+        this.currentPageNumber = 1;
         this.renderSolares();
     }
 
