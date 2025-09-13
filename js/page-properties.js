@@ -18,13 +18,38 @@ class PagePropertiesManager {
     }
 
     async init() {
-        try {
-            const response = await fetch('data/properties.json');
-            this.propertiesData = await response.json();
-            this.loadPageContent();
-        } catch (error) {
-            console.error('Error loading properties data:', error);
+        const possiblePaths = [
+            'data/properties.json',
+            './data/properties.json',
+            '/data/properties.json',
+            'data/properties.json?t=' + Date.now() // Cache buster
+        ];
+
+        for (const path of possiblePaths) {
+            try {
+                console.log(`Attempting to fetch properties data from: ${path}`);
+                const response = await fetch(path);
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+                
+                if (!response.ok) {
+                    console.log(`Failed to fetch from ${path}, trying next path...`);
+                    continue;
+                }
+                
+                this.propertiesData = await response.json();
+                console.log('Properties data loaded successfully from:', path);
+                this.loadPageContent();
+                return; // Success, exit the function
+            } catch (error) {
+                console.error(`Error loading from ${path}:`, error);
+                continue; // Try next path
+            }
         }
+        
+        // If all paths failed
+        console.error('Failed to load properties data from all attempted paths');
+        this.showErrorMessage();
     }
 
     loadPageContent() {
@@ -438,6 +463,26 @@ class PagePropertiesManager {
                 <div class="col_total">${totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice}</div>
             </div>
         `;
+    }
+
+    showErrorMessage() {
+        const propertiesContainer = document.querySelector('.properties_container');
+        if (!propertiesContainer) return;
+
+        propertiesContainer.innerHTML = `
+            <div class="error_message">
+                <h3>Error al cargar los datos</h3>
+                <p>No se pudieron cargar los datos de los solares. Por favor, intente recargar la página.</p>
+                <p>Si el problema persiste, contacte al administrador.</p>
+                <button onclick="location.reload()" class="btn_filter">Recargar Página</button>
+            </div>
+        `;
+
+        // Update results count to show error
+        const resultsCount = document.getElementById('resultsCount');
+        if (resultsCount) {
+            resultsCount.textContent = 'Error al cargar los datos';
+        }
     }
 }
 
