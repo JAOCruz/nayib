@@ -18,11 +18,15 @@ class PagePropertiesManager {
     }
 
     async init() {
+        // Get the base URL of the current page
+        const baseUrl = window.location.origin;
+        
         const possiblePaths = [
             'data/properties.json',
             './data/properties.json',
             '/data/properties.json',
-            'data/properties.json?t=' + Date.now() // Cache buster
+            `${baseUrl}/data/properties.json`,
+            `${baseUrl}/data/properties.json?t=${Date.now()}` // Cache buster with absolute URL
         ];
 
         for (const path of possiblePaths) {
@@ -531,11 +535,23 @@ class PagePropertiesManager {
         const propertiesContainer = document.querySelector('.properties_container');
         if (!propertiesContainer) return;
 
+        // Get current page and URL information for debugging
+        const currentPath = window.location.pathname;
+        const currentOrigin = window.location.origin;
+        const fullUrl = window.location.href;
+
         propertiesContainer.innerHTML = `
             <div class="error_message">
                 <h3>Error al cargar los datos</h3>
                 <p>No se pudieron cargar los datos de los solares. Por favor, intente recargar la página.</p>
                 <p>Si el problema persiste, contacte al administrador.</p>
+                <details>
+                    <summary>Información de depuración (para desarrolladores)</summary>
+                    <p>URL actual: ${fullUrl}</p>
+                    <p>Ruta: ${currentPath}</p>
+                    <p>Origen: ${currentOrigin}</p>
+                    <p>Rutas intentadas: data/properties.json, ./data/properties.json, /data/properties.json, ${currentOrigin}/data/properties.json</p>
+                </details>
                 <button onclick="location.reload()" class="btn_filter">Recargar Página</button>
             </div>
         `;
