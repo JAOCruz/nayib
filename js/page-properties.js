@@ -53,6 +53,9 @@ class PagePropertiesManager {
     }
 
     loadPageContent() {
+        console.log('Loading page content for:', this.currentPage);
+        console.log('Properties data available:', !!this.propertiesData);
+        
         switch (this.currentPage) {
             case 'propiedades':
                 this.loadPropiedades();
@@ -87,11 +90,29 @@ class PagePropertiesManager {
     }
 
     loadSolares() {
+        console.log('loadSolares called');
         const propertiesContainer = document.querySelector('.properties_container');
-        if (!propertiesContainer || !this.propertiesData) return;
+        console.log('Properties container found:', !!propertiesContainer);
+        console.log('Properties data available:', !!this.propertiesData);
+        
+        if (!propertiesContainer) {
+            console.error('Properties container not found!');
+            return;
+        }
+        
+        if (!this.propertiesData) {
+            console.error('Properties data not available!');
+            return;
+        }
 
         const solaresCategory = this.propertiesData.categories.solares;
-        if (!solaresCategory) return;
+        console.log('Solares category found:', !!solaresCategory);
+        console.log('Solares category data:', solaresCategory);
+        
+        if (!solaresCategory) {
+            console.error('Solares category not found in data!');
+            return;
+        }
 
         // Store original data for filtering
         this.originalSolaresData = solaresCategory.data;
@@ -99,17 +120,29 @@ class PagePropertiesManager {
         this.filteredData = this.filteredSolaresData;
         this.currentPageNumber = 1;
 
+        console.log('About to render solares...');
         this.renderSolares();
         this.setupSolaresFilters();
         this.setupPagination();
     }
 
     renderSolares() {
+        console.log('renderSolares called');
         const propertiesContainer = document.querySelector('.properties_container');
         const solaresCategory = this.propertiesData.categories.solares;
         const paginatedData = this.getPaginatedData();
         
-        propertiesContainer.innerHTML = `
+        console.log('Properties container in renderSolares:', !!propertiesContainer);
+        console.log('Solares category in renderSolares:', !!solaresCategory);
+        console.log('Paginated data:', paginatedData);
+        console.log('Paginated data length:', paginatedData.length);
+        
+        if (!propertiesContainer) {
+            console.error('Properties container not found in renderSolares!');
+            return;
+        }
+        
+        const htmlContent = `
             <div class="category_section">
                 <div class="category_header">
                     <h3>${solaresCategory.name}</h3>
@@ -120,17 +153,27 @@ class PagePropertiesManager {
                 </div>
             </div>
         `;
+        
+        console.log('HTML content to be inserted:', htmlContent);
+        propertiesContainer.innerHTML = htmlContent;
+        console.log('HTML inserted into container');
 
         this.updatePaginationInfo();
     }
 
     getPaginatedData() {
+        console.log('getPaginatedData called');
+        console.log('Filtered data:', this.filteredData);
+        console.log('Filtered data length:', this.filteredData.length);
+        
         const startIndex = (this.currentPageNumber - 1) * this.itemsPerPage;
         const endIndex = startIndex + this.itemsPerPage;
         
         // Flatten the data for pagination
         const allSolares = [];
         this.filteredData.forEach(location => {
+            console.log('Processing location:', location.ubicacion);
+            console.log('Location solares count:', location.solares.length);
             location.solares.forEach(solar => {
                 allSolares.push({
                     ...solar,
@@ -139,7 +182,9 @@ class PagePropertiesManager {
             });
         });
 
+        console.log('All solares flattened:', allSolares.length);
         const paginatedSolares = allSolares.slice(startIndex, endIndex);
+        console.log('Paginated solares:', paginatedSolares.length);
         
         // Group back by location for display
         const groupedData = {};
@@ -154,7 +199,9 @@ class PagePropertiesManager {
             groupedData[solar.ubicacion].solares.push(solarData);
         });
 
-        return Object.values(groupedData);
+        const result = Object.values(groupedData);
+        console.log('Final grouped data:', result);
+        return result;
     }
 
     updatePaginationInfo() {
@@ -428,22 +475,37 @@ class PagePropertiesManager {
     }
 
     createSolaresList(solaresData) {
-        return solaresData.map(location => `
-            <div class="location_group">
-                <h4 class="location_title">${location.ubicacion}</h4>
-                <div class="solares_table">
-                    <div class="table_header">
-                        <div class="col_area">Área (m²)</div>
-                        <div class="col_frente">Frente (m)</div>
-                        <div class="col_fondo">Fondo (m)</div>
-                        <div class="col_precio">Precio USD/m²</div>
-                        <div class="col_estatus">Estatus Legal</div>
-                        <div class="col_total">Total USD</div>
+        console.log('createSolaresList called with data:', solaresData);
+        console.log('Data length:', solaresData.length);
+        
+        if (!solaresData || solaresData.length === 0) {
+            console.log('No solares data to display');
+            return '<div class="no-data">No hay solares disponibles</div>';
+        }
+        
+        const result = solaresData.map(location => {
+            console.log('Creating list for location:', location.ubicacion);
+            console.log('Location solares:', location.solares);
+            return `
+                <div class="location_group">
+                    <h4 class="location_title">${location.ubicacion}</h4>
+                    <div class="solares_table">
+                        <div class="table_header">
+                            <div class="col_area">Área (m²)</div>
+                            <div class="col_frente">Frente (m)</div>
+                            <div class="col_fondo">Fondo (m)</div>
+                            <div class="col_precio">Precio USD/m²</div>
+                            <div class="col_estatus">Estatus Legal</div>
+                            <div class="col_total">Total USD</div>
+                        </div>
+                        ${location.solares.map(solar => this.createSolarRow(solar)).join('')}
                     </div>
-                    ${location.solares.map(solar => this.createSolarRow(solar)).join('')}
                 </div>
-            </div>
-        `).join('');
+            `;
+        }).join('');
+        
+        console.log('Generated HTML for solares list:', result);
+        return result;
     }
 
     createSolarRow(solar) {
