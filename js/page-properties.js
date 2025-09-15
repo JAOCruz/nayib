@@ -41,10 +41,37 @@ class PagePropertiesManager {
                     continue;
                 }
                 
-                this.propertiesData = await response.json();
-                console.log('Properties data loaded successfully from:', path);
-                this.loadPageContent();
-                return; // Success, exit the function
+                try {
+                    const text = await response.text();
+                    console.log('Raw response text (first 100 chars):', text.substring(0, 100));
+                    
+                    // Try to parse the JSON manually to catch any parsing errors
+                    try {
+                        this.propertiesData = JSON.parse(text);
+                        console.log('JSON parsed successfully');
+                    } catch (parseError) {
+                        console.error('JSON parse error:', parseError);
+                        // Try to fix common JSON issues and parse again
+                        const cleanedText = text.trim().replace(/^\uFEFF/, ''); // Remove BOM if present
+                        try {
+                            this.propertiesData = JSON.parse(cleanedText);
+                            console.log('JSON parsed successfully after cleaning');
+                        } catch (secondParseError) {
+                            console.error('JSON parse error after cleaning:', secondParseError);
+                            throw secondParseError;
+                        }
+                    }
+                    
+                    console.log('Properties data loaded successfully from:', path);
+                    console.log('Data has categories:', !!this.propertiesData.categories);
+                    console.log('Data has solares:', !!this.propertiesData.categories?.solares);
+                    
+                    this.loadPageContent();
+                    return; // Success, exit the function
+                } catch (jsonError) {
+                    console.error('Error processing JSON:', jsonError);
+                    throw jsonError;
+                }
             } catch (error) {
                 console.error(`Error loading from ${path}:`, error);
                 continue; // Try next path
@@ -98,56 +125,97 @@ class PagePropertiesManager {
         const propertiesContainer = document.querySelector('.properties_container');
         console.log('Properties container found:', !!propertiesContainer);
         console.log('Properties data available:', !!this.propertiesData);
-        console.log('Full properties data:', JSON.stringify(this.propertiesData));
+        
+        // Create a debug div to show information on the page
+        const debugDiv = document.createElement('div');
+        debugDiv.style.padding = '10px';
+        debugDiv.style.margin = '10px 0';
+        debugDiv.style.border = '1px solid red';
+        debugDiv.style.backgroundColor = '#ffeeee';
         
         if (!propertiesContainer) {
             console.error('Properties container not found!');
+            debugDiv.innerHTML = '<strong>Error:</strong> Properties container not found!';
+            document.body.appendChild(debugDiv);
             return;
         }
         
         if (!this.propertiesData) {
             console.error('Properties data not available!');
+            debugDiv.innerHTML = '<strong>Error:</strong> Properties data not available!';
+            propertiesContainer.appendChild(debugDiv);
             return;
         }
 
-        // Debug: Check if categories exists
-        if (!this.propertiesData.categories) {
-            console.error('No categories found in properties data!');
-            console.log('Properties data structure:', Object.keys(this.propertiesData));
-            this.showErrorMessage('No categories found in data');
-            return;
+        try {
+            console.log('Properties data type:', typeof this.propertiesData);
+            console.log('Is properties data array?', Array.isArray(this.propertiesData));
+            
+            // Try to access some properties to see if it's properly parsed
+            const keys = Object.keys(this.propertiesData);
+            console.log('Top-level keys in data:', keys.join(', '));
+            
+            // Debug: Check if categories exists
+            if (!this.propertiesData.categories) {
+                console.error('No categories found in properties data!');
+                console.log('Properties data structure:', keys);
+                debugDiv.innerHTML = '<strong>Error:</strong> No categories found in data. Available keys: ' + keys.join(', ');
+                propertiesContainer.appendChild(debugDiv);
+                this.showErrorMessage('No categories found in data');
+                return;
+            }
+
+            const categoryKeys = Object.keys(this.propertiesData.categories);
+            console.log('Category keys:', categoryKeys.join(', '));
+            
+            const solaresCategory = this.propertiesData.categories.solares;
+            console.log('Solares category found:', !!solaresCategory);
+            
+            if (!solaresCategory) {
+                console.error('Solares category not found in data!');
+                console.log('Available categories:', categoryKeys);
+                debugDiv.innerHTML = '<strong>Error:</strong> Solares category not found. Available categories: ' + categoryKeys.join(', ');
+                propertiesContainer.appendChild(debugDiv);
+                this.showErrorMessage('Solares category not found');
+                return;
+            }
+
+            console.log('Solares category keys:', Object.keys(solaresCategory).join(', '));
+            
+            // Check if data property exists in solares category
+            if (!solaresCategory.data || !Array.isArray(solaresCategory.data)) {
+                console.error('Solares data is missing or not an array!');
+                console.log('Solares category structure:', Object.keys(solaresCategory));
+                debugDiv.innerHTML = '<strong>Error:</strong> Solares data is missing or not an array! Solares keys: ' + Object.keys(solaresCategory).join(', ');
+                propertiesContainer.appendChild(debugDiv);
+                this.showErrorMessage('Solares data is missing or invalid');
+                return;
+            }
+
+            console.log('Solares data is array of length:', solaresCategory.data.length);
+            
+            // Store original data for filtering
+            this.originalSolaresData = solaresCategory.data;
+            this.filteredSolaresData = [...solaresCategory.data];
+            this.filteredData = this.filteredSolaresData;
+            this.currentPageNumber = 1;
+
+            console.log('About to render solares...');
+            console.log('Filtered data length:', this.filteredData.length);
+            
+            // If we got this far, remove the debug div
+            if (debugDiv.parentNode) {
+                debugDiv.parentNode.removeChild(debugDiv);
+            }
+            
+            this.renderSolares();
+            this.setupSolaresFilters();
+            this.setupPagination();
+        } catch (error) {
+            console.error('Error in loadSolares:', error);
+            debugDiv.innerHTML = '<strong>Error in loadSolares:</strong> ' + error.message;
+            propertiesContainer.appendChild(debugDiv);
         }
-
-        const solaresCategory = this.propertiesData.categories.solares;
-        console.log('Solares category found:', !!solaresCategory);
-        console.log('Solares category data:', solaresCategory);
-        
-        if (!solaresCategory) {
-            console.error('Solares category not found in data!');
-            console.log('Available categories:', Object.keys(this.propertiesData.categories));
-            this.showErrorMessage('Solares category not found');
-            return;
-        }
-
-        // Check if data property exists in solares category
-        if (!solaresCategory.data || !Array.isArray(solaresCategory.data)) {
-            console.error('Solares data is missing or not an array!');
-            console.log('Solares category structure:', Object.keys(solaresCategory));
-            this.showErrorMessage('Solares data is missing or invalid');
-            return;
-        }
-
-        // Store original data for filtering
-        this.originalSolaresData = solaresCategory.data;
-        this.filteredSolaresData = [...solaresCategory.data];
-        this.filteredData = this.filteredSolaresData;
-        this.currentPageNumber = 1;
-
-        console.log('About to render solares...');
-        console.log('Filtered data length:', this.filteredData.length);
-        this.renderSolares();
-        this.setupSolaresFilters();
-        this.setupPagination();
     }
 
     renderSolares() {

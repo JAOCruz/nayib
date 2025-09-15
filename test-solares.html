@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Test Solares</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>Test Solares Page</h1>
+    
+    <div id="debug-info" style="padding: 10px; margin: 10px 0; border: 1px solid #ccc;"></div>
+    
+    <div class="properties_container">
+      <!-- This will be populated by JavaScript -->
+    </div>
+  </div>
+
+  <script>
+    // Simple test script
+    document.addEventListener('DOMContentLoaded', async function() {
+      const debugInfo = document.getElementById('debug-info');
+      const propertiesContainer = document.querySelector('.properties_container');
+      
+      debugInfo.innerHTML = '<p>Loading data...</p>';
+      
+      try {
+        // Try to load the simplified JSON file
+        const response = await fetch('data/simple-properties.json');
+        debugInfo.innerHTML += `<p>Response status: ${response.status}</p>`;
+        
+        if (!response.ok) {
+          throw new Error(`Failed to fetch: ${response.status}`);
+        }
+        
+        const text = await response.text();
+        debugInfo.innerHTML += `<p>Raw data (first 100 chars): ${text.substring(0, 100).replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`;
+        
+        const data = JSON.parse(text);
+        debugInfo.innerHTML += `<p>JSON parsed successfully</p>`;
+        debugInfo.innerHTML += `<p>Data type: ${typeof data}</p>`;
+        debugInfo.innerHTML += `<p>Has categories: ${!!data.categories}</p>`;
+        
+        if (data.categories && data.categories.solares) {
+          const solares = data.categories.solares;
+          debugInfo.innerHTML += `<p>Has solares category: Yes</p>`;
+          debugInfo.innerHTML += `<p>Solares keys: ${Object.keys(solares).join(', ')}</p>`;
+          
+          if (solares.data && Array.isArray(solares.data)) {
+            debugInfo.innerHTML += `<p>Solares data is array of length: ${solares.data.length}</p>`;
+            
+            // Render the data
+            const htmlContent = `
+              <div class="category_section">
+                <div class="category_header">
+                  <h3>${solares.name}</h3>
+                  <p>${solares.description}</p>
+                </div>
+                <div class="solares_list">
+                  ${createSolaresList(solares.data)}
+                </div>
+              </div>
+            `;
+            
+            propertiesContainer.innerHTML = htmlContent;
+            debugInfo.innerHTML += `<p>Content rendered</p>`;
+          } else {
+            debugInfo.innerHTML += `<p>Error: Solares data is missing or not an array</p>`;
+          }
+        } else {
+          debugInfo.innerHTML += `<p>Error: No solares category found</p>`;
+        }
+      } catch (error) {
+        debugInfo.innerHTML += `<p>Error: ${error.message}</p>`;
+      }
+    });
+    
+    function createSolaresList(solaresData) {
+      if (!solaresData || solaresData.length === 0) {
+        return '<div class="no-data">No hay solares disponibles</div>';
+      }
+      
+      return solaresData.map(location => `
+        <div class="location_group">
+          <h4 class="location_title">${location.ubicacion}</h4>
+          <div class="solares_table">
+            <div class="table_header">
+              <div class="col_area">Área (m²)</div>
+              <div class="col_frente">Frente (m)</div>
+              <div class="col_fondo">Fondo (m)</div>
+              <div class="col_precio">Precio USD/m²</div>
+              <div class="col_estatus">Estatus Legal</div>
+              <div class="col_total">Total USD</div>
+            </div>
+            ${location.solares.map(solar => createSolarRow(solar)).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    function createSolarRow(solar) {
+      const totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
+                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                         (solar.area_m2 * solar.precio_usd_m2).toLocaleString());
+      
+      return `
+        <div class="solar_row">
+          <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
+          <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
+          <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
+          <div class="col_precio">${solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>
+          <div class="col_estatus">
+            <span class="estatus_badge ${solar.estatus_legal.toLowerCase().replace(/\s+/g, '_')}">${solar.estatus_legal}</span>
+          </div>
+          <div class="col_total">${totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice}</div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

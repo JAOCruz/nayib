@@ -1,0 +1,23 @@
+{
+  "categories": {
+    "solares": {
+      "name": "Terrenos y Solares disponibles",
+      "description": "Lotes de terreno y solares disponibles en diferentes ubicaciones de República Dominicana.",
+      "isListFormat": true,
+      "data": [
+        {
+          "ubicacion": "Test Location",
+          "solares": [
+            {
+              "area_m2": 1000.00,
+              "frente_m": 20.00,
+              "fondo_m": 50.00,
+              "precio_usd_m2": 100.00,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
