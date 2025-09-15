@@ -1,25 +1,23 @@
 [build]
-  # Since this is a static site with no build step
   publish = "."
-  command = ""  # No build command needed
+  command = ""
 
+# Ensure proper headers for JSON files
 [[headers]]
-  # Set proper headers for JSON files
-  for = "/data/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+  for = "*.json"
+  [headers.values]
     Content-Type = "application/json"
-    Cache-Control = "no-cache, no-store, must-revalidate"
+    Cache-Control = "max-age=0, must-revalidate"
 
-# Ensure properties.json is properly served
-[[redirects]]
-  from = "/data/properties.json"
-  to = "/data/properties.json"
-  status = 200
-  force = true
-
-# Handle 404s by redirecting to index
+# Handle 404s for SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
+  status = 200
+  conditions = {Role = ["admin"]}
+  
+# But don't redirect API calls or static files
+[[redirects]]
+  from = "/data/*"
+  to = "/data/:splat"
   status = 200
