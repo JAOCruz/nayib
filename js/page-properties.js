@@ -10,10 +10,53 @@ class PagePropertiesManager {
     }
 
     getCurrentPage() {
+        // First check for the forced page type (set directly in HTML)
+        if (window.FORCE_PAGE_TYPE) {
+            console.log('Using forced page type:', window.FORCE_PAGE_TYPE);
+            return window.FORCE_PAGE_TYPE;
+        }
+        
         const path = window.location.pathname;
-        if (path.includes('propiedades.html')) return 'propiedades';
-        if (path.includes('solares.html')) return 'solares';
-        if (path.includes('oficinas.html')) return 'oficinas';
+        const fullUrl = window.location.href;
+        
+        console.log('Current pathname:', path);
+        console.log('Current full URL:', fullUrl);
+        
+        // Check if the URL contains the page name
+        if (path.includes('solares.html') || fullUrl.includes('solares.html')) {
+            console.log('Detected page: solares');
+            return 'solares';
+        }
+        if (path.includes('propiedades.html') || fullUrl.includes('propiedades.html')) {
+            console.log('Detected page: propiedades');
+            return 'propiedades';
+        }
+        if (path.includes('oficinas.html') || fullUrl.includes('oficinas.html')) {
+            console.log('Detected page: oficinas');
+            return 'oficinas';
+        }
+        
+        // Fallback: Check if we're on the solares page by looking at the HTML title
+        const pageTitle = document.title;
+        if (pageTitle && pageTitle.toLowerCase().includes('solares')) {
+            console.log('Detected page by title: solares');
+            return 'solares';
+        }
+        
+        // Final fallback: Check if the URL ends with a slash and has "solares" in it
+        if ((path.endsWith('/') || path.endsWith('/solares')) && path.toLowerCase().includes('solares')) {
+            console.log('Detected page by path segment: solares');
+            return 'solares';
+        }
+        
+        // Check if the current page has the solares container
+        const solaresContainer = document.querySelector('.solares_list');
+        if (solaresContainer) {
+            console.log('Detected solares container in the page');
+            return 'solares';
+        }
+        
+        console.log('No specific page detected, defaulting to: propiedades');
         return 'propiedades';
     }
 
