@@ -1,7 +1,7 @@
 {
   "categories": {
     "solares": {
-      "name": "Terrenos y Solares disponibles",
+      "name": "Solares disponibles",
       "description": "Lotes de terreno y solares disponibles en diferentes ubicaciones de República Dominicana.",
       "isListFormat": true,
       "data": [
