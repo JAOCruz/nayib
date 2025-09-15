@@ -98,6 +98,7 @@ class PagePropertiesManager {
         const propertiesContainer = document.querySelector('.properties_container');
         console.log('Properties container found:', !!propertiesContainer);
         console.log('Properties data available:', !!this.propertiesData);
+        console.log('Full properties data:', JSON.stringify(this.propertiesData));
         
         if (!propertiesContainer) {
             console.error('Properties container not found!');
@@ -109,12 +110,30 @@ class PagePropertiesManager {
             return;
         }
 
+        // Debug: Check if categories exists
+        if (!this.propertiesData.categories) {
+            console.error('No categories found in properties data!');
+            console.log('Properties data structure:', Object.keys(this.propertiesData));
+            this.showErrorMessage('No categories found in data');
+            return;
+        }
+
         const solaresCategory = this.propertiesData.categories.solares;
         console.log('Solares category found:', !!solaresCategory);
         console.log('Solares category data:', solaresCategory);
         
         if (!solaresCategory) {
             console.error('Solares category not found in data!');
+            console.log('Available categories:', Object.keys(this.propertiesData.categories));
+            this.showErrorMessage('Solares category not found');
+            return;
+        }
+
+        // Check if data property exists in solares category
+        if (!solaresCategory.data || !Array.isArray(solaresCategory.data)) {
+            console.error('Solares data is missing or not an array!');
+            console.log('Solares category structure:', Object.keys(solaresCategory));
+            this.showErrorMessage('Solares data is missing or invalid');
             return;
         }
 
@@ -125,6 +144,7 @@ class PagePropertiesManager {
         this.currentPageNumber = 1;
 
         console.log('About to render solares...');
+        console.log('Filtered data length:', this.filteredData.length);
         this.renderSolares();
         this.setupSolaresFilters();
         this.setupPagination();
@@ -531,7 +551,7 @@ class PagePropertiesManager {
         `;
     }
 
-    showErrorMessage() {
+    showErrorMessage(errorDetails = '') {
         const propertiesContainer = document.querySelector('.properties_container');
         if (!propertiesContainer) return;
 
@@ -551,8 +571,12 @@ class PagePropertiesManager {
                     <p>Ruta: ${currentPath}</p>
                     <p>Origen: ${currentOrigin}</p>
                     <p>Rutas intentadas: data/properties.json, ./data/properties.json, /data/properties.json, ${currentOrigin}/data/properties.json</p>
+                    ${errorDetails ? `<p>Error específico: ${errorDetails}</p>` : ''}
+                    <p>Datos cargados: ${this.propertiesData ? 'Sí' : 'No'}</p>
+                    ${this.propertiesData ? `<p>Estructura de datos: ${Object.keys(this.propertiesData).join(', ')}</p>` : ''}
                 </details>
                 <button onclick="location.reload()" class="btn_filter">Recargar Página</button>
+                <button onclick="localStorage.clear(); location.reload()" class="btn_filter">Limpiar Cache y Recargar</button>
             </div>
         `;
 

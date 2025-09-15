@@ -1,0 +1,20 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/data/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"
+
+[[redirects]]
+  from = "/data/properties.json"
+  to = "/data/properties.json"
+  status = 200
+  force = true
+
+# Handle 404s
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
