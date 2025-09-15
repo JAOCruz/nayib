@@ -1,6 +1,7 @@
 # Redirects for Netlify
-# Ensure JSON files are served correctly
-/data/properties.json /data/properties.json 200
+# Ensure JSON files are served correctly with proper content type
+/data/properties.json /data/properties.json 200!
+/data/* /data/:splat 200!
 
 # Handle SPA routing if needed
 /* /index.html 200

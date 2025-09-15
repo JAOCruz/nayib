@@ -1,19 +1,24 @@
 [build]
+  # Since this is a static site with no build step
   publish = "."
+  command = ""  # No build command needed
 
 [[headers]]
+  # Set proper headers for JSON files
   for = "/data/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/json"
+    Cache-Control = "no-cache, no-store, must-revalidate"
 
+# Ensure properties.json is properly served
 [[redirects]]
   from = "/data/properties.json"
   to = "/data/properties.json"
   status = 200
   force = true
 
-# Handle 404s
+# Handle 404s by redirecting to index
 [[redirects]]
   from = "/*"
   to = "/index.html"
