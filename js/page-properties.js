@@ -6,6 +6,7 @@ class PagePropertiesManager {
         this.itemsPerPage = 10;
         this.currentPageNumber = 1;
         this.filteredData = [];
+        this.currentLocation = '';
         this.init();
     }
 
@@ -587,10 +588,12 @@ class PagePropertiesManager {
         return `
             <div class="property_item">
                 <div class="img-box">
-                    <img src="${property.image}" alt="${property.title}">
-                    <div class="badge">
-                        <span>${property.badge}</span>
-                    </div>
+                    <a href="property-detail.html?id=${property.id}&type=${this.currentPage}">
+                        <img src="${property.image}" alt="${property.title}">
+                        <div class="badge">
+                            <span>${property.badge}</span>
+                        </div>
+                    </a>
                 </div>
                 <div class="detail-box">
                     <h4 class="price">$${property.price.toLocaleString()} ${property.currency}</h4>
@@ -602,7 +605,7 @@ class PagePropertiesManager {
                         ${property.features.map(feature => `<span class="feature">${feature}</span>`).join('')}
                     </div>
                     <div class="btn-box">
-                        <a href="#" class="btn-property">Ver Detalles</a>
+                        <a href="property-detail.html?id=${property.id}&type=${this.currentPage}" class="btn-property">Ver Detalles</a>
                     </div>
                 </div>
             </div>
@@ -621,6 +624,10 @@ class PagePropertiesManager {
         const result = solaresData.map(location => {
             console.log('Creating list for location:', location.ubicacion);
             console.log('Location solares:', location.solares);
+            
+            // Set current location for use in createSolarRow
+            this.currentLocation = location.ubicacion;
+            
             return `
                 <div class="location_group">
                     <h4 class="location_title">${location.ubicacion}</h4>
@@ -633,7 +640,7 @@ class PagePropertiesManager {
                             <div class="col_estatus">Estatus Legal</div>
                             <div class="col_total">Total USD</div>
                         </div>
-                        ${location.solares.map(solar => this.createSolarRow(solar)).join('')}
+                        ${location.solares.map((solar, index) => this.createSolarRow(solar, index)).join('')}
                     </div>
                 </div>
             `;
@@ -643,13 +650,18 @@ class PagePropertiesManager {
         return result;
     }
 
-    createSolarRow(solar) {
+    createSolarRow(solar, index) {
         const totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
                           (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
                            (solar.area_m2 * solar.precio_usd_m2).toLocaleString());
         
+        // Create a slug from the location name
+        const locationSlug = this.slugify(this.currentLocation);
+        // Create a unique ID for this solar
+        const solarId = `${locationSlug}-${index}`;
+        
         return `
-            <div class="solar_row">
+            <div class="solar_row" onclick="window.location.href='property-detail.html?id=${solarId}&type=solares'" style="cursor: pointer;">
                 <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
@@ -660,6 +672,18 @@ class PagePropertiesManager {
                 <div class="col_total">${totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice}</div>
             </div>
         `;
+    }
+    
+    slugify(text) {
+        return text
+            .toString()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, '-')
+            .replace(/[^\w\-]+/g, '')
+            .replace(/\-\-+/g, '-');
     }
 
     showErrorMessage(errorDetails = '') {

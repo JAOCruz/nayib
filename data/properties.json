@@ -5,6 +5,105 @@
       "description": "Multifamiliares, estudios, Airbnb y terrenos. Oportunidades de inversión verificadas en el mercado dominicano.",
       "properties": [
         {
+          "id": "prop-santiago-001",
+          "title": "Apartamentos de Alto Estándar en Santiago",
+          "price": 230000,
+          "currency": "USD",
+          "location": "Santiago, República Dominicana",
+          "type": "Apartamentos",
+          "units": 2,
+          "area": "98.27 m²",
+          "image": "images/properties/2/1.png",
+          "description": "Se venden 2 Apartamentos que quedan disponibles en un proyecto residencial de alto estándar dentro del corazón de Santiago, con diseño moderno, vistas a la ciudad, áreas verdes y acceso rápido a servicios, comercios y espacios recreativos.",
+          "features": ["Azotea", "Gimnasio", "Spa", "Piscina", "Terraza exterior", "Vistas panorámicas de Santiago"],
+          "roi": "7-9%",
+          "status": "Listo para entrega",
+          "badge": "Entrega Inmediata",
+          "gallery": [
+            "images/properties/2/1.png", "images/properties/2/2.png", "images/properties/2/3.png", 
+            "images/properties/2/4.png", "images/properties/2/5.png", "images/properties/2/6.png", 
+            "images/properties/2/7.png", "images/properties/2/8.png", "images/properties/2/9.png", 
+            "images/properties/2/10.png", "images/properties/2/11.png", "images/properties/2/12.png",
+            "images/properties/2/13.png", "images/properties/2/14.png", "images/properties/2/15.png",
+            "images/properties/2/16.png", "images/properties/2/17.png", "images/properties/2/18.png",
+            "images/properties/2/19.png", "images/properties/2/20.png"
+          ],
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "10%",
+            "construction": "30%",
+            "delivery": "60%"
+          },
+          "apartment_types": [
+            {
+              "type": "A",
+              "area": "98.27 m²",
+              "price": "230,000 - 232,000 USD",
+              "features": [
+                "1 habitación con balcón y baño",
+                "Estar",
+                "Cocina-comedor",
+                "Baño de visita",
+                "Balcón",
+                "Área de lavado",
+                "Área para ropa blanca",
+                "1 parqueo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-luxury-001",
+          "title": "Apartamentos de Lujo en Playa Nueva Romana",
+          "price": 136084,
+          "currency": "USD",
+          "location": "Playa Nueva Romana, La Romana",
+          "type": "Apartamentos de Lujo",
+          "units": 5,
+          "area": "51.43 - 238.27 m²",
+          "image": "images/properties/1/1.png",
+          "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort. Ofrece acceso a playa privada, campos de golf, hoteles 5 estrellas, club de playa, zona comercial y seguridad 24/7, ideal para una experiencia vacacional única.",
+          "features": ["Lobby de lujo", "Cafetería", "Gimnasio", "Salón de juegos", "Área de piscina", "Salón de reuniones", "Locales comerciales", "Playa privada", "Campos de golf"],
+          "roi": "8-10%",
+          "status": "En construcción",
+          "badge": "Proyecto Exclusivo",
+          "gallery": ["images/properties/1/1.png", "images/properties/1/2.png", "images/properties/1/3.png", "images/properties/1/4.png", "images/properties/1/5.png", "images/properties/1/6.png", "images/properties/1/7.png", "images/properties/1/8.png", "images/properties/1/9.png", "images/properties/1/10.png", "images/properties/1/11.png"],
+          "delivery": "Febrero 2027",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "10%",
+            "construction": "30%",
+            "delivery": "60%"
+          },
+          "apartment_types": [
+            {
+              "type": "A",
+              "area": "51.43 m²",
+              "features": ["1 dormitorio principal", "1 closet", "1 baño", "1 comedor", "1 balcón", "1 parqueo"]
+            },
+            {
+              "type": "B",
+              "area": "101.62 m²",
+              "features": ["1 dormitorio", "2 baños", "1 cocina", "1 sala", "1 comedor", "1 parqueo", "mezzanine"]
+            },
+            {
+              "type": "C",
+              "area": "136.65 m²",
+              "features": ["2 dormitorios + servicio", "2.5 baños", "1 cocina", "1 área de lavado", "1 sala", "1 comedor", "1 balcón", "1 parqueo"]
+            },
+            {
+              "type": "D",
+              "area": "193.15 m²",
+              "features": ["3 dormitorios + servicio", "3.5 baños", "1 área de lavado", "1 sala", "2 comedores", "2 cocinas", "2 balcones", "2 parqueos"]
+            },
+            {
+              "type": "E",
+              "area": "238.27 m²",
+              "features": ["3 dormitorios + servicio", "4.5 baños", "1 área de lavado", "2 sala", "1 comedor", "2 cocinas", "2 balcones", "2 parqueos", "mezzanine"]
+            }
+          ]
+        },
+        {
           "id": "prop-001",
           "title": "Edificio Residencial Bella Vista",
           "price": 850000,
@@ -1135,6 +1234,36 @@
     }
   },
   "featured": [
+    {
+      "id": "prop-santiago-001",
+      "title": "Apartamentos de Alto Estándar en Santiago",
+      "price": 230000,
+      "currency": "USD",
+      "location": "Santiago, República Dominicana",
+      "type": "Apartamentos",
+      "area": "98.27 m²",
+      "image": "images/properties/2/1.png",
+      "description": "Proyecto residencial de alto estándar en el corazón de Santiago, con diseño moderno y vistas panorámicas.",
+      "features": ["1 Habitación", "Balcón", "Cocina-comedor", "Gimnasio", "Piscina", "Spa"],
+      "roi": "7-9%",
+      "badge": "Entrega Inmediata"
+    },
+    {
+      "id": "prop-luxury-001",
+      "title": "Apartamentos de Lujo en Playa Nueva Romana",
+      "price": 136084,
+      "currency": "USD",
+      "location": "Playa Nueva Romana, La Romana",
+      "type": "Apartamentos de Lujo",
+      "units": 5,
+      "area": "51.43 - 238.27 m²",
+      "image": "images/properties/1/1.png",
+      "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort.",
+      "features": ["Lobby de lujo", "Cafetería", "Gimnasio", "Piscina", "Playa privada"],
+      "roi": "8-10%",
+      "status": "En construcción",
+      "badge": "Proyecto Exclusivo"
+    },
     {
       "id": "feat-001",
       "title": "Condominio de Lujo Punta Cana",

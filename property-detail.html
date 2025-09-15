@@ -8,21 +8,149 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <meta name="keywords" content="bienes raíces, propiedades, multifamiliares, estudios, oficinas, airbnb, terrenos, inversión, Santo Domingo, República Dominicana" />
-  <meta name="description" content="LOWEST-WESSIN INMOBILIARIA - Propiedades disponibles: Multifamiliares, Estudios, Airbnb, Terrenos. Inversiones verificadas y oportunidades exclusivas." />
+  <meta name="keywords" content="bienes raíces, propiedades, detalles, inversión, República Dominicana" />
+  <meta name="description" content="LOWEST-WESSIN INMOBILIARIA - Detalles de propiedad. Información completa sobre propiedades disponibles." />
   <meta name="author" content="LOWEST-WESSIN INMOBILIARIA, E.I.R.L." />
 
-  <title>Propiedades - LOWEST-WESSIN INMOBILIARIA, E.I.R.L.</title>
+  <title>Detalles de Propiedad - LOWEST-WESSIN INMOBILIARIA, E.I.R.L.</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Custom styles for property details -->
+  <style>
+    .property-detail-section {
+      padding: 60px 0;
+    }
+    
+    .property-gallery {
+      margin-bottom: 30px;
+    }
+    
+    .main-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    
+    .thumbnail-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .thumbnail {
+      width: 100px;
+      height: 70px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+    
+    .thumbnail:hover {
+      opacity: 0.8;
+    }
+    
+    .property-info {
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+    
+    .property-title {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .property-price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+    
+    .property-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .property-description {
+      margin-bottom: 20px;
+    }
+    
+    .property-features {
+      margin-bottom: 30px;
+    }
+    
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .contact-form {
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .btn-contact {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-contact:hover {
+      background-color: #0056b3;
+    }
+    
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+    
+    .property-not-found {
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
 </head>
 
 <body class="sub_page">
@@ -39,10 +167,10 @@
               <div class="User_option">
                 <li class="">
                   <a class="mr-4" href="propiedades.html">
-                    Propiedades
+                    Inmuebles Edificados
                   </a>
                   <a class="mr-4" href="solares.html">
-                    Solares
+                    Terrenos
                   </a>
                 </li>
               </div>
@@ -65,10 +193,8 @@
               <div class="overlay-content">
                 <a href="index.html">INICIO</a>
                 <a href="about.html">ACERCA DE</a>
-                <a href="propiedades.html">PROPIEDADES</a>
-                <a href="solares.html">SOLARES</a>
-                <a href="oficinas.html">OFICINAS</a>
-                <a href="price.html">SERVICIOS</a>
+                <a href="propiedades.html">INMUEBLES EDIFICADOS</a>
+                <a href="solares.html">TERRENOS</a>
                 <a href="contact.html">CONTACTO</a>
               </div>
             </div>
@@ -79,25 +205,17 @@
     <!-- end header section -->
   </div>
 
-  <!-- properties listing section -->
-  <section class="properties_section layout_padding">
+  <!-- property detail section -->
+  <section class="property-detail-section layout_padding">
     <div class="container">
-      <div class="heading_container">
-        <h2>
-          Propiedades Disponibles
-        </h2>
-        <p>
-          Oportunidades de inversión verificadas en multifamiliares, estudios, Airbnb y terrenos en el mercado dominicano.
-        </p>
-      </div>
-      
-      <div class="properties_container">
-        <!-- This will be populated by JavaScript -->
+      <div id="property-detail-container">
+        <div class="loading">
+          <h3>Cargando detalles de la propiedad...</h3>
+        </div>
       </div>
     </div>
   </section>
-
-  <!-- end properties section -->
+  <!-- end property detail section -->
 
   <!-- info section -->
   <section class="info_section ">
@@ -155,32 +273,32 @@
             </h5>
             <ul>
               <li>
-                <a href="">
+                <a href="propiedades.html">
                   Búsqueda de Compradores
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="propiedades.html">
                   Intermediario Inmobiliario
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="propiedades.html">
                   Desarrollo Inmobiliario
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="propiedades.html">
                   Multifamiliares
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="propiedades.html">
                   Estudios y Oficinas
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="contact.html">
                   Contacto
                 </a>
               </li>
@@ -199,17 +317,17 @@
               </button>
             </form>
             <div class="social_box">
-              <a href="">
-                <img src="images/fb.png" alt="">
+              <a href="https://www.facebook.com/lowessrealestate/">
+                <img src="images/fb.png" alt="Facebook">
               </a>
               <a href="">
-                <img src="images/twitter.png" alt="">
+                <img src="images/x-logo.png" alt="X">
+              </a>
+              <a href="https://www.linkedin.com/company/lopez-wessin-inmobiliaria/">
+                <img src="images/linkedin.png" alt="LinkedIn">
               </a>
               <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/youtube.png" alt="">
+                <img src="images/instagram.png" alt="Instagram">
               </a>
             </div>
           </div>
@@ -217,7 +335,6 @@
       </div>
     </div>
   </section>
-
   <!-- end info_section -->
 
   <!-- footer section -->
@@ -229,16 +346,12 @@
       </p>
     </div>
   </section>
-  <!-- end  footer section -->
+  <!-- end footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-  <script>
-    // Set a global flag to force the page type
-    window.FORCE_PAGE_TYPE = 'propiedades';
-  </script>
-  <script type="text/javascript" src="js/page-properties.js"></script>
+  <script type="text/javascript" src="js/property-detail.js"></script>
 
 </body>
 
