@@ -102,70 +102,6 @@
               "features": ["3 dormitorios + servicio", "4.5 baños", "1 área de lavado", "2 sala", "1 comedor", "2 cocinas", "2 balcones", "2 parqueos", "mezzanine"]
             }
           ]
-        },
-        {
-          "id": "prop-001",
-          "title": "Edificio Residencial Bella Vista",
-          "price": 850000,
-          "currency": "USD",
-          "location": "Bella Vista, Santo Domingo",
-          "type": "Multifamiliar",
-          "units": 12,
-          "area": "2,500 m²",
-          "image": "images/s-1.jpg",
-          "description": "Edificio de 12 unidades con excelente ubicación en Bella Vista. Ideal para inversión con alta rentabilidad.",
-          "features": ["12 Apartamentos", "Estacionamiento", "Seguridad 24/7", "Área Común"],
-          "roi": "8-12%",
-          "status": "Disponible",
-          "badge": "Oportunidad de Inversión"
-        },
-        {
-          "id": "prop-002",
-          "title": "Estudios Modernos Piantini",
-          "price": 180000,
-          "currency": "USD",
-          "location": "Piantini, Santo Domingo",
-          "type": "Estudio",
-          "units": 1,
-          "area": "45 m²",
-          "image": "images/s-2.jpg",
-          "description": "Estudio moderno y funcional en una de las zonas más exclusivas de Santo Domingo.",
-          "features": ["1 Habitación", "1 Baño", "Cocina Integral", "Balcón"],
-          "roi": "6-8%",
-          "status": "Disponible",
-          "badge": "Moderno"
-        },
-        {
-          "id": "prop-003",
-          "title": "Casa de Playa Punta Cana",
-          "price": 450000,
-          "currency": "USD",
-          "location": "Punta Cana, Bávaro",
-          "type": "Airbnb",
-          "units": 1,
-          "area": "200 m²",
-          "image": "images/s-3.jpg",
-          "description": "Casa de playa perfecta para Airbnb con acceso directo a la playa.",
-          "features": ["3 Habitaciones", "2 Baños", "Piscina", "Playa Privada"],
-          "roi": "12-18%",
-          "status": "Disponible",
-          "badge": "Turística"
-        },
-        {
-          "id": "prop-004",
-          "title": "Terreno Comercial Sosúa",
-          "price": 125000,
-          "currency": "USD",
-          "location": "Sosúa, Puerto Plata",
-          "type": "Terreno",
-          "units": 1,
-          "area": "1,200 m²",
-          "image": "images/s-4.jpg",
-          "description": "Terreno comercial con gran potencial de desarrollo en zona turística.",
-          "features": ["Zona Turística", "Servicios Disponibles", "Cerca de la Playa", "Desarrollo"],
-          "roi": "20-30%",
-          "status": "Disponible",
-          "badge": "Desarrollo"
         }
       ]
     },
@@ -1263,51 +1199,6 @@
       "roi": "8-10%",
       "status": "En construcción",
       "badge": "Proyecto Exclusivo"
-    },
-    {
-      "id": "feat-001",
-      "title": "Condominio de Lujo Punta Cana",
-      "price": 285000,
-      "currency": "USD",
-      "location": "Punta Cana, Bávaro",
-      "type": "Condominio",
-      "area": "120 m²",
-      "image": "images/s-1.jpg",
-      "description": "Condominio de 2 habitaciones, 2 baños, amueblado.",
-      "features": ["2 Habitaciones", "2 Baños", "Amueblado", "Piscina"],
-      "roi": "8-12% anual",
-      "legal_highlight": "Título libre de gravámenes, CONFOTUR",
-      "badge": "Debajo del Mercado"
-    },
-    {
-      "id": "feat-002",
-      "title": "Villa Ejecutiva Santo Domingo",
-      "price": 450000,
-      "currency": "USD",
-      "location": "Santo Domingo, Naco",
-      "type": "Villa",
-      "area": "250 m²",
-      "image": "images/s-2.jpg",
-      "description": "Villa ejecutiva con acabados de lujo en zona exclusiva.",
-      "features": ["4 Habitaciones", "3 Baños", "Piscina", "Jardín"],
-      "roi": "6-9% anual",
-      "legal_highlight": "Desarrollador verificado, permisos de construcción verificados",
-      "badge": "Debajo del Mercado"
-    },
-    {
-      "id": "feat-003",
-      "title": "Terreno de Desarrollo Puerto Plata",
-      "price": 125000,
-      "currency": "USD",
-      "location": "Puerto Plata, Sosúa",
-      "type": "Terreno",
-      "area": "1,200 m²",
-      "image": "images/s-3.jpg",
-      "description": "Terreno con gran potencial de desarrollo en zona turística.",
-      "features": ["Zona Turística", "Servicios Disponibles", "Cerca de la Playa", "Desarrollo"],
-      "roi": "15-20% potencial",
-      "legal_highlight": "Zonificación verificada, servicios disponibles",
-      "badge": "Debajo del Mercado"
     }
   ]
 }
