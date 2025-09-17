@@ -99,6 +99,126 @@ const CDN_CONFIG = {
             name: 'Torre Anacaona',
             imageCount: 5,
             cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19'
+        },
+        20: {
+            name: 'Elegante Penthouse en La Julia',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20'
+        },
+        21: {
+            name: 'Apartamento Elegante en Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21'
+        },
+        22: {
+            name: 'Penthouse en Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22'
+        },
+        23: {
+            name: 'Loft en Los Cacicazgos',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23'
+        },
+        24: {
+            name: 'Proyecto Apartamentos - Respaldo Los Tres Ojos',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24'
+        },
+        25: {
+            name: 'Proyecto Apartamentos - Ensanche Isabelita',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25'
+        },
+        26: {
+            name: 'Apartamento Nuevo Amueblado - Av. Anacaona',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26'
+        },
+        27: {
+            name: 'Habitación en Alquiler - Los Restauradores',
+            imageCount: 1,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27'
+        },
+        28: {
+            name: 'Apartamento en Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28'
+        },
+        29: {
+            name: 'Apartamento de Oportunidad en La Julia',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29'
+        },
+        30: {
+            name: 'Pent House frente al Parque Mirador Sur',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30'
+        },
+        31: {
+            name: 'Dos Torres de Apartamentos - La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31'
+        },
+        32: {
+            name: 'Apartamento en Zona Universitaria',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32'
+        },
+        33: {
+            name: 'Apartamento en Mirador Norte',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33'
+        },
+        34: {
+            name: 'Hermoso Penthouse de Lujo Amueblado - Mirador Norte',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34'
+        },
+        35: {
+            name: 'Espectacular Apartamento de Oportunidad en La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35'
+        },
+        36: {
+            name: 'Pent-House de Oportunidad en Piantini',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36'
+        },
+        37: {
+            name: 'Apartamento de Oportunidad en Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37'
+        },
+        38: {
+            name: 'Oportunidad Única en Los Cacicazgos - Piso 17',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38'
+        },
+        39: {
+            name: 'Hermosa Villa Amueblada en Jarabacoa',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39'
+        },
+        40: {
+            name: 'Nuevos Apartamentos Lujosos en La Julia',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40'
+        },
+        50: {
+            name: 'Apartamentos desde $157,000 USD en Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50'
+        },
+        51: {
+            name: 'Espaciosos Apartamentos en La Julia - Torre Innovadora',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51'
+        },
+        52: {
+            name: 'Apartamento en Sector Paraíso',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52'
         }
     }
 };
