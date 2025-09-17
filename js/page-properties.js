@@ -711,7 +711,7 @@ class PagePropertiesManager {
                     </a>
                 </div>
                 <div class="detail-box">
-                    <h4 class="price">$${property.price.toLocaleString()} ${property.currency}</h4>
+                    <h4 class="price ${property.showPrice === false ? 'price-request' : ''}">${property.showPrice === false ? 'Solicitar Precio' : `$${property.price.toLocaleString()} ${property.currency}`}</h4>
                     <h5 class="title">${property.title}</h5>
                     <p class="location">${property.location}</p>
                     <p class="area">${property.area}</p>

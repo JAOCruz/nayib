@@ -8,6 +8,7 @@
           "id": "prop-santiago-001",
           "title": "Apartamentos de Alto Estándar en Santiago",
           "price": 230000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Santiago, República Dominicana",
           "type": "Apartamentos",
@@ -55,6 +56,7 @@
           "id": "prop-luxury-001",
           "title": "Apartamentos de Lujo en Playa Nueva Romana",
           "price": 136084,
+          "showPrice": true,
           "currency": "USD",
           "location": "Playa Nueva Romana, La Romana",
           "type": "Apartamentos de Lujo",
@@ -105,6 +107,7 @@
           "id": "prop-santiago-flora-001",
           "title": "Apartamentos de Lujo con Flora y Urbanismo",
           "price": 128997,
+          "showPrice": true,
           "currency": "USD",
           "location": "Santiago de los Caballeros",
           "type": "Apartamentos de Lujo",
@@ -153,6 +156,7 @@
           "id": "prop-cap-cana-001",
           "title": "Apartamentos de Lujo en Cap Cana",
           "price": 288816,
+          "showPrice": true,
           "currency": "USD",
           "location": "Cap Cana",
           "type": "Apartamentos de Lujo",
@@ -213,6 +217,7 @@
           "id": "prop-bavaro-001",
           "title": "Apartamentos en el Corazón de Bávaro",
           "price": 88075,
+          "showPrice": true,
           "currency": "USD",
           "location": "Bávaro",
           "type": "Apartamentos",
@@ -258,6 +263,7 @@
           "id": "prop-la-julia-001",
           "title": "Apartamento de Oportunidad en La Julia",
           "price": 440000,
+          "showPrice": true,
           "currency": "USD",
           "location": "La Julia",
           "type": "Apartamento",
@@ -304,6 +310,7 @@
           "id": "prop-bella-vista-sur-001",
           "title": "Apartamento Remodelado en Bella Vista Sur",
           "price": 270000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Bella Vista Sur",
           "type": "Apartamento",
@@ -355,6 +362,7 @@
           "id": "prop-el-cacique-001",
           "title": "Apartamentos Modernos en Santiago",
           "price": 180000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Santiago, República Dominicana",
           "type": "Apartamentos",
@@ -412,6 +420,7 @@
           "id": "prop-las-terrenas-001",
           "title": "Apartamentos Exclusivos en Santiago",
           "price": 250000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Santiago, República Dominicana",
           "type": "Apartamentos",
@@ -465,6 +474,7 @@
           "id": "prop-juan-dolio-001",
           "title": "Apartamentos en Juan Dolio",
           "price": 245000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Juan Dolio",
           "type": "Apartamentos",
@@ -532,6 +542,7 @@
           "id": "prop-el-millon-001",
           "title": "Proyecto de Oportunidad Única en El Millón",
           "price": 143000,
+          "showPrice": true,
           "currency": "USD",
           "location": "El Millón, Santo Domingo",
           "type": "Apartamentos",
@@ -590,6 +601,7 @@
           "id": "prop-bella-vista-350-001",
           "title": "Apartamento de Oportunidad en Bella Vista",
           "price": 315000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Bella Vista",
           "type": "Apartamento",
@@ -1327,6 +1339,7 @@
           "id": "prop-bella-vista-apto-001",
           "title": "Apartamento en Bella Vista",
           "price": 250000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Bella Vista, Santo Domingo",
           "type": "Apartamento",
@@ -1465,6 +1478,7 @@
           "id": "prop-la-esperilla-torres-001",
           "title": "Dos Torres de Apartamentos - La Esperilla",
           "price": 0,
+          "showPrice": false,
           "currency": "USD",
           "location": "La Esperilla, Santo Domingo",
           "type": "Apartamentos",
@@ -1938,64 +1952,6 @@
           ]
         },
         {
-          "id": "prop-la-julia-lujosos-001",
-          "title": "Nuevos Apartamentos Lujosos en La Julia",
-          "price": 0,
-          "currency": "USD",
-          "location": "La Julia, Santo Domingo",
-          "type": "Apartamentos de Lujo",
-          "units": 0,
-          "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png",
-          "description": "Nuevos apartamentos lujosos a buen precio en el sector La Julia con excelentes amenidades y características modernas.",
-          "features": ["Lobby Doble altura", "Lobby amueblado y climatizado", "Entrada DriveWay", "Gimnasio Equipado", "Social Rooftop", "Picuzzis", "Salón Multiusos", "Área infantil", "Área BBQ", "1 y 2 habitaciones", "1 y 2 parqueos", "1 y 2 baños", "Acceso vehicular automático", "4 niveles de parqueo", "2 ascensores con cabina de lujo", "Planta eléctrica full", "Cocinas Modulares", "Gas común", "Calentadores de línea", "Preinstalación de a/c", "Sistema tubular y pozo", "Gabinetes contra incendio", "Cámaras de seguridad", "Escalera de emergencia"],
-          "status": "En construcción",
-          "badge": "En Construcción",
-          "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/3.png", 
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/5.png"
-          ],
-          "delivery": "Octubre 2025",
-          "payment_plan": {
-            "reservation": "2,000 USD",
-            "contract": "10%",
-            "construction": "30%",
-            "delivery": "60%"
-          },
-          "apartment_types": [
-            {
-              "type": "1 Habitación",
-              "area": "N/A",
-              "price": "Consultar",
-              "features": [
-                "1 habitación",
-                "1 parqueo",
-                "1 baño",
-                "Acceso vehicular automático",
-                "Cocinas Modulares",
-                "Gas común",
-                "Calentadores de línea",
-                "Preinstalación de a/c"
-              ]
-            },
-            {
-              "type": "2 Habitaciones",
-              "area": "N/A",
-              "price": "Consultar",
-              "features": [
-                "2 habitaciones",
-                "2 parqueos",
-                "2 baños",
-                "Acceso vehicular automático",
-                "Cocinas Modulares",
-                "Gas común",
-                "Calentadores de línea",
-                "Preinstalación de a/c"
-              ]
-            }
-          ]
-        },
-        {
           "id": "prop-bella-vista-torre-moderna-001",
           "title": "Apartamentos desde $157,000 USD en Bella Vista",
           "price": 157000,
@@ -2211,6 +2167,2077 @@
                 "1 Locker",
                 "Vistas del ocaso al oeste",
                 "Fresco viento en el balcón tipo terraza por el este"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-esperilla-conarte-viii-001",
+          "title": "Apartamentos Nuevos por el Sector Esperilla - Conarte VIII",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "54 - 137 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png",
+          "description": "Apartamentos nuevos por el sector Esperilla, Conarte VIII, El Vergel con terminaciones de primera calidad.",
+          "features": ["Puertas y Closets en madera preciosa", "Gabinetes de Cocina Modulares", "Pisos en revestimiento de Porcelanato importado", "Disponibilidad de salida de calentador de Gas", "Disponibilidad de salida para secadora de Gas", "Disponibilidad de salida para la ventilación de secadora de ropa", "Disponibilidad de salida para extractor de grasas en Cocina", "Paredes interiores terminadas con yeso (COMPOSE)", "Intercom con Video Portero", "Calentador de Línea Eléctrico", "Viabilidad mecánica para la instalación de Aires Split en Habitación y Sala-Comedor", "Servicios Comunes", "2 Plantas Full", "Ascensor de ultima generación", "Lobby amueblado y climatizado", "Gas común", "Un parqueo techado", "Accesos vehiculares automatizados", "Video portero", "Control de entrada y salida peatonal automatizada", "Sistema de vigilancia por cámaras", "Bomba de agua y pozo automatizados", "Habitación de conserje con baño completo", "Depósitos comunes de utilidades del condominio"],
+          "status": "En construcción",
+          "badge": "Conarte VIII",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Desde",
+              "area": "54-74 m²",
+              "price": "Consultar",
+              "features": [
+                "1-2 habitaciones",
+                "1-2 baños",
+                "Sala, Comedor",
+                "Cocina Modular",
+                "Balcón",
+                "Área de lavado",
+                "Parqueo techado"
+              ]
+            },
+            {
+              "type": "Medio",
+              "area": "94.30-98.50 m²",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "2 baños",
+                "Sala, Comedor",
+                "Cocina Modular",
+                "Balcón",
+                "Área de lavado",
+                "Parqueo techado"
+              ]
+            },
+            {
+              "type": "Hasta",
+              "area": "133-137 m²",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "2-3 baños",
+                "Sala, Comedor",
+                "Cocina Modular",
+                "Balcón",
+                "Área de lavado",
+                "Parqueo techado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-vergel-sector-001",
+          "title": "Proyecto Sector El Vergel",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "El Vergel, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/1.png",
+          "description": "Este proyecto cuenta con aptos de 1 y 2 habitaciones con excelentes características y amenidades.",
+          "features": ["Amplio Lobby", "Ascensor", "Intercom", "Gas Común", "Portón eléctrico", "Pisos en porcelanato importado", "Lockers para cada apartamento", "Estacionamiento para bicicletas", "Planta eléctrica en áreas comunes", "Puertas enchapadas en madera o sustituto", "Cocinas modulares", "Salida para inversores y aires acondicionados", "Cámaras de seguridad"],
+          "status": "En construcción",
+          "badge": "El Vergel",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "1 habitación",
+                "1 baño",
+                "Sala, Comedor",
+                "Cocina modular",
+                "Balcón",
+                "Locker",
+                "Parqueo"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "2 baños",
+                "Sala, Comedor",
+                "Cocina modular",
+                "Balcón",
+                "Locker",
+                "Parqueo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-los-cacicazgos-elegante-001",
+          "title": "Los Cacicazgos - Concepto Elegante y Lujoso",
+          "price": 2996,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "574 - 670 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/1.png",
+          "description": "Concepto elegante, lujoso y al más alto nivel, con espectacular vista al mar.",
+          "features": ["Un apartamento por nivel", "Un pent-house para cada torre", "Apartamentos de 574m² y 670m² distribuidos internamente", "3 y 4 habitaciones por apartamento", "Amplios espacios ventilados: estudio, comedor, cocinas, balcón-terraza, estar familiar, áreas útiles", "5 parqueos por apartamento", "3 amplios ascensores", "Lobby de lujo: amueblado y climatizado", "2 generadores eléctricos de capacidad total", "Piscina para adultos y piscina infantil", "Jacuzzi con solárium", "Sauna masculino y sauna femenino", "Áreas de masaje", "Dos amplios salones multiusos", "Salón de juegos", "Climatización de jacuzzi y piscinas con calentador solar", "Gimnasio totalmente equipado y climatizado", "Controles de seguridad por circuito cerrado de cámaras (CCTV)", "Iluminación profesional de fachadas exteriores y áreas sociales"],
+          "status": "En construcción",
+          "badge": "Vista al Mar",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "20,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Estándar",
+              "area": "574 m²",
+              "price": "Desde $2,996/m²",
+              "features": [
+                "3 habitaciones",
+                "3 baños",
+                "Estudio",
+                "Comedor",
+                "Cocinas",
+                "Balcón-terraza",
+                "Estar familiar",
+                "5 parqueos"
+              ]
+            },
+            {
+              "type": "Apartamento Grande",
+              "area": "670 m²",
+              "price": "Desde $2,996/m²",
+              "features": [
+                "4 habitaciones",
+                "4 baños",
+                "Estudio",
+                "Comedor",
+                "Cocinas",
+                "Balcón-terraza",
+                "Estar familiar",
+                "5 parqueos"
+              ]
+            },
+            {
+              "type": "Pent-House",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Pent-house para cada torre",
+                "Características especiales",
+                "Vista al mar",
+                "Múltiples niveles"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-torre-moderna-001",
+          "title": "Torre Moderna en Naco - Bloque A",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "195 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/1.png",
+          "description": "Esta es una torre moderna, ubicada en el exclusivo sector de Naco en Santo Domingo, República Dominicana, el proyecto está a dos y tres esquinas de los principales centros comerciales de la ciudad.",
+          "features": ["Amplio Lobby, finamente terminado, climatizado y amueblado", "Gimnasio, climatizado y equipado", "Piscina para adultos", "Amplia Terraza con Bar", "Área para BBQ", "Área de Lounge", "Salón Multiuso, climatizado y equipado", "Área de Juegos para Niños, equipada", "Dos (02) Ascensores", "Generador Eléctrico Full", "Generador Eléctrico para Áreas Comunes", "Tratamiento de Agua desde Cisterna", "Sistema de Seguridad (Circuito Cerrado)", "Apartamentos con la Pre-instalación de Aire Acondicionado", "Griferías y Aparatos Sanitario de alta calidad", "Puertas Importadas", "Cocina Modular Importada", "Pisos de Porcelanato", "Fachada Torre Moderna", "Ducto de Basura", "Estar para Choferes"],
+          "status": "En construcción",
+          "badge": "Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Bloque A",
+              "area": "195 m² neto",
+              "price": "Consultar",
+              "features": [
+                "Tres (3) Habitaciones con vestidor y closets",
+                "Tres (3) Baños",
+                "½ Medio Baño para Visitas",
+                "Sala, Comedor, Estudio",
+                "Balcón",
+                "Moderna Cocina Modular Importada",
+                "Habitación de Servicio con Baño",
+                "Área de Lavado",
+                "Dos Parqueos Techados"
+              ]
+            },
+            {
+              "type": "Bloque B",
+              "area": "126 m² neto",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) Habitaciones con vestidor",
+                "Dos (2) Baños",
+                "½ Medio Baño para Visitas",
+                "Sala, Comedor",
+                "Balcón",
+                "Moderna Cocina Modular Importada",
+                "Habitación de Servicio con Baño",
+                "Área de Lavado",
+                "Dos Parqueos Techados"
+              ]
+            },
+            {
+              "type": "Bloque C",
+              "area": "67 m² neto",
+              "price": "Consultar",
+              "features": [
+                "Una (1) Habitación con vestidor",
+                "Un (1) Baño",
+                "½ Medio Baño para Visitas",
+                "Sala, Comedor",
+                "Moderna Cocina Modular Importada",
+                "Área de Lavado",
+                "Un Parqueo Techado"
+              ]
+            },
+            {
+              "type": "Bloque D",
+              "area": "111 m² neto",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) Habitaciones con vestidor y closet",
+                "Dos (2) Baños",
+                "½ medio baño para visitas",
+                "Sala, Comedor",
+                "Balcón",
+                "Moderna Cocina Modular Importada",
+                "Área de Lavado",
+                "Habitación de Servicio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-torre-moderna-002",
+          "title": "Torre Moderna en Naco - Segunda Torre",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/1.png",
+          "description": "Esta es una torre moderna, ubicada en el exclusivo sector de Naco, Santo Domingo, República Dominicana, el proyecto está a dos y tres esquina de los principales centros comerciales de la ciudad de Santo Domingo.",
+          "features": ["Amplio Lobby, finamente terminado, climatizado y amueblado", "Gimnasio, climatizado y equipado", "Piscina", "Amplia Terraza con Bar", "Área para BBQ", "Área de Lounge", "Salón Multiuso, climatizado y equipado", "Área de Juegos para Niños, equipada", "Dos (02) Ascensores", "Generador Eléctrico Full", "Tratamiento de Agua desde Cisterna", "Sistema de Seguridad (Circuito Cerrado)", "Apartamentos con la Pre-instalación de Aire Acondicionado", "Griferías y Aparatos Sanitario de alta calidad", "Puertas Importadas", "Cocina Modular Importada", "Pisos de Porcelanato", "Fachada Torre Moderna", "Ducto de Basura", "Estar para Choferes"],
+          "status": "En construcción",
+          "badge": "Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Consultar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Múltiples tipos de apartamentos",
+                "Amplio Lobby climatizado",
+                "Gimnasio equipado",
+                "Piscina",
+                "Terraza con Bar",
+                "Área para BBQ",
+                "Salón Multiuso",
+                "Área de Juegos para Niños",
+                "Dos Ascensores",
+                "Generador Eléctrico Full"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-torre-moderna-003",
+          "title": "Torre Moderna en Naco - Tercera Torre",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/1.png",
+          "description": "Esta una torre moderna, ubicada en el exclusivo sector de Naco, Santo Domingo, República Dominicana, el proyecto está a dos y tres esquina de los principales centros comerciales de la ciudad de Santo Domingo.",
+          "features": ["Amplio Lobby, doble altura, finamente terminado, climatizado y amueblado", "Gimnasio, climatizado y equipado", "Piscina para adultos y piscina para niños", "Amplia Terraza con Bar", "Área para BBQ", "Área de Lounge", "Salón Multiuso, climatizado y equipado", "Área de Juegos para Niños, equipada", "Tres (03) Ascensores", "Generador Eléctrico Full", "Generador Eléctrico para Áreas Comunes", "Tratamiento de Agua desde Cisterna", "Sistema de Seguridad (Circuito Cerrado)", "Apartamentos con la Pre-instalación de Aire Acondicionado", "Griferías y Aparatos Sanitario de alta calidad", "Puertas Importadas", "Cocina Modular Importada", "Pisos de Porcelanato", "Fachada Torre Moderna", "Ducto de Basura", "Estar para Choferes"],
+          "status": "En construcción",
+          "badge": "Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Consultar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Múltiples tipos de apartamentos",
+                "Amplio Lobby doble altura climatizado",
+                "Gimnasio equipado",
+                "Piscina para adultos y niños",
+                "Terraza con Bar",
+                "Área para BBQ",
+                "Salón Multiuso",
+                "Área de Juegos para Niños",
+                "Tres Ascensores",
+                "Generador Eléctrico Full"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-piantini-penthouse-002",
+          "title": "Penthouse en Piantini - Piso 14",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Piantini, Santo Domingo",
+          "type": "Pent-House",
+          "units": 1,
+          "area": "470 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/1.png",
+          "description": "Este es un Penthouse en un piso 14, ubicado en el exclusivo sector de Piantini, el cual consta de un área Total de construcción de Cuatrocientos Setenta (470) metros cuadrados.",
+          "features": ["Cuatrocientos Veinte (420) Metros Cuadrados de Construcción neta de apartamento en el primer nivel del Pent-house", "Cuatro (4) dormitorios con baño y walk-in-clóset", "Medio baño para visita", "Estar, terraza y closet para ropa blanca", "Segundo Nivel del Pent-house: Vestíbulo, sala, estudio, comedor y comedor informal", "Cocina modular y cocina caliente", "Área de lavado", "Habitación de servicio con baño", "Terraza destechada con jacuzzi", "Medio baño", "Puertas en madera preciosa", "Mármol en pisos y baños", "Ventanas en aluminio y vidrios importadas", "Calentador de agua eléctrico", "Pre-instalación de aire acondicionado tipo Split", "Cincuenta (50) metros cuadrados de construcción consistentes en Cuatro (4) parqueos techados"],
+          "status": "Disponible",
+          "badge": "Piantini",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "20,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Pent-House",
+              "area": "470 m² total (420 m² apartamento + 50 m² parqueos)",
+              "price": "Consultar",
+              "features": [
+                "Piso 14",
+                "4 dormitorios con baño y walk-in-clóset",
+                "Medio baño para visita",
+                "Estar, terraza y closet para ropa blanca",
+                "Sala, estudio, comedor y comedor informal",
+                "Cocina modular y cocina caliente",
+                "Área de lavado",
+                "Habitación de servicio con baño",
+                "Terraza destechada con jacuzzi",
+                "Puertas en madera preciosa",
+                "Mármol en pisos y baños",
+                "Ventanas en aluminio y vidrios importadas",
+                "Calentador de agua eléctrico",
+                "Pre-instalación de aire acondicionado tipo Split",
+                "4 parqueos techados"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-los-cacicazgos-torre-moderna-001",
+          "title": "Torre Moderna de 23 Niveles - Los Cacicazgos",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 42,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/1.png",
+          "description": "Es una Torre Moderna de 23 niveles de apartamentos, proyectados a 2 apartamentos por nivel.",
+          "features": ["Cuatro niveles de estacionamientos", "Un nivel de áreas sociales", "Veintiún (21) niveles de apartamentos", "Con un total de cuarenta y dos (42) apartamentos", "Dos Ascensores de Lujo", "1 Ascensor de Servicio", "Generadores Eléctricos", "Estación de Conserjería", "Seguridad y Monitoreo de Circuito Cerrado", "Área de Estar y comedor para choferes", "Tratamientos de Agua desde la Cisterna", "Ducto de Basura con Cuarto frío en el Depósito", "Gas Común", "Recepción", "Lobby y Sala de Espera", "Salón para Actividades", "Área de lounge con bar integrado", "Área de Juegos para niños", "Gimnasio", "Piscina", "Terraza Cubierta", "Acogedora y confortable área de Spa", "Baños para visitas", "Jardinería y Eco-ambiente", "BBQ"],
+          "status": "En construcción",
+          "badge": "Los Cacicazgos",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "15,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Estándar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Vestíbulo de entrada",
+                "Doble sala",
+                "Estudio",
+                "Estar familiar",
+                "Comedor cerrado",
+                "Amplia Terraza",
+                "Tres habitaciones cada una con baño y walking closet",
+                "Closet de ropa blanca",
+                "Baño para visitas",
+                "Cocina fría",
+                "Cocina caliente",
+                "Área de lavado",
+                "Habitación de servicio",
+                "Lockers en el área de estacionamiento",
+                "4 parqueos techados por apartamento",
+                "Parqueos adicionales opcionales (en venta)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-juan-dolio-beach-001",
+          "title": "Juan Dolio Beach - Torre Moderna de 19 Pisos",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Juan Dolio Beach",
+          "type": "Apartamentos",
+          "units": 144,
+          "area": "83 - 146 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/1.png",
+          "description": "Es una torre moderna de 19 pisos. La cual tendrá 144 apartamentos de 1, 2 y 3 habitaciones, un nivel de área social, dos niveles de parqueos con un total de 189 parqueos.",
+          "features": ["Amplio Lobby, finamente terminado y amueblado", "Drive way", "Oficina Administrativa", "Piscina para Adultos", "Piscina para Niños", "Dos (2) Jacuzzi", "Gimnasio Equipado", "Área de entretenimiento para Adultos", "Área de juegos para Niños", "Dos (2) Gazebos", "Salón para Actividades", "Baños para Damas", "Baños para Caballeros", "Dos (2) Ascensores", "Generadores Eléctricos", "Ducto de Basura", "Aire Acondicionado Instalado", "Puertas Importadas", "Cocina Modular Importada", "Tope de Cocina en Granito o similar", "Pisos de Porcelanato", "Grifería y Aparatos Sanitarios Importados", "Ventanas de Aluminio Importadas"],
+          "status": "En construcción",
+          "badge": "Juan Dolio Beach",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "83 m²",
+              "price": "Consultar",
+              "features": [
+                "Habitación con Baño y Closet",
+                "Baño completo para visitas",
+                "Sala",
+                "Cocina Modular",
+                "Desayunador",
+                "Terraza",
+                "Área para Lavadora",
+                "Secadora"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "124-132 m²",
+              "price": "Consultar",
+              "features": [
+                "Habitación Principal con Baño y Closet",
+                "Habitación Secundaria con Closet",
+                "Baño Común",
+                "Sala, Comedor",
+                "Cocina con Desayunador",
+                "Terraza",
+                "Área para Lavadora – Secadora"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "146 m²",
+              "price": "Consultar",
+              "features": [
+                "Habitación Principal con Baño y Closet",
+                "Dos Habitaciones Secundarias con Closet",
+                "Baño Común",
+                "Sala, Comedor",
+                "Cocina con Desayunador",
+                "Terraza",
+                "Área de Lavado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-torre-moderna-002",
+          "title": "Torre Moderna y Vanguardista en Bella Vista",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "63 - 143 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/1.png",
+          "description": "Es una torre moderna y vanguardista, ubicada en el exclusivo sector de Bella Vista.",
+          "features": ["Drive way", "Amplio lobby climatizado", "Tres ascensores", "Generador eléctrico", "Tratamiento de agua desde la cisterna", "Sistema de seguridad circuito cerrado", "Apartamento con preinstalación de aire acondicionado", "Grifería y aparato sanitario importado", "Puertas en madera preciosa importada", "Cocina modular importada", "Pisos en porcelanato", "Ducto de basura con depósito climatizado", "AREAS SOCIALES ROOFTOP: Piscina, Jacuzzi, Gimnasio, Salón Multiuso, Salón de Juegos para niños, Terraza techada, Terraza destechada, Gazebo con bar integrado, Área para BBQ"],
+          "status": "En construcción",
+          "badge": "Bella Vista",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Bloques A y D",
+              "area": "143 m²",
+              "price": "Consultar",
+              "features": [
+                "Tres (3) habitaciones",
+                "Tres (3) baños",
+                "½ baño para visitas",
+                "Sala, Comedor",
+                "Balcón",
+                "Cocina Modular",
+                "Habitación de servicio con baño",
+                "Área de lavado",
+                "Dos (2) parqueos"
+              ]
+            },
+            {
+              "type": "Bloques B y C",
+              "area": "107 m²",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) habitaciones",
+                "Dos (2) baños",
+                "½ baño para visitas",
+                "Sala, Comedor",
+                "Balcón/estudio integrado",
+                "Cocina modular",
+                "Habitación de servicio con baño",
+                "Área de lavado",
+                "Dos parqueos uno atrás del otro"
+              ]
+            },
+            {
+              "type": "Bloques E y F",
+              "area": "122-125 m²",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) habitaciones",
+                "Dos (2) baños",
+                "½ baño de visita",
+                "Sala, Comedor",
+                "Balcón-estudio integrado",
+                "Cocina modular",
+                "Habitación de servicio con baño",
+                "Área de lavado",
+                "Dos (2) parqueos"
+              ]
+            },
+            {
+              "type": "Bloques G y L",
+              "area": "93.50 m²",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) habitaciones",
+                "Dos (2) baños",
+                "½ baño para visitas",
+                "Sala, Comedor",
+                "Balcón",
+                "Cocina modular",
+                "Área de lavado",
+                "Dos (2) parqueos uno atrás del otro"
+              ]
+            },
+            {
+              "type": "Bloques H y K",
+              "area": "63 m²",
+              "price": "Consultar",
+              "features": [
+                "Una (1) habitación",
+                "Un (1) baño",
+                "½ baño de visita",
+                "Sala, Comedor",
+                "Balcón",
+                "Cocina modular",
+                "Área de lavado",
+                "Un (1) parqueo"
+              ]
+            },
+            {
+              "type": "Bloques I y J",
+              "area": "71 m²",
+              "price": "Consultar",
+              "features": [
+                "Dos (2) habitaciones",
+                "Un (1) baño",
+                "Sala, Comedor",
+                "Balcón",
+                "Cocina Modular",
+                "Área de Lavado",
+                "Un (1) parqueo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-los-cacicazgos-torre-moderna-002",
+          "title": "Torre Moderna de 18 Niveles - Los Cacicazgos",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 30,
+          "area": "282 - 565 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/1.png",
+          "description": "Es una torre moderna de 18 niveles de apartamentos, proyectados a 2 apartamentos por nivel; 28 apartamentos de 282 mt2 netos de construcción y dos Pent House de 2 niveles de 565 mt2 neto de construcción.",
+          "features": ["Cuatro niveles de estacionamientos", "Un nivel de áreas sociales", "Dieciséis niveles de apartamentos", "Dos ascensores de lujo", "1 ascensor de Servicio", "Escalera Principal", "Escalera de Emergencia", "Generadores Eléctricos", "Estación de Conserjería", "Seguridad y Monitoreo de Circuito Cerrado", "Estar de choferes con sistema de intercomunicación", "Tratamientos de Agua desde la Cisterna", "Ducto de Basura con cuarto frío en el depósito", "Gas Común", "Oficina Administrativa", "Recepción", "Lobby y Sala de Espera", "Salón para actividades", "Salón Privado", "Área de Bar/Lounge con Kichennette", "Área de juegos para niños", "Gimnasio", "Acogedora y confortable área de spa", "Baños de visitas", "Piscina", "Área de BBQ"],
+          "status": "En construcción",
+          "badge": "Los Cacicazgos",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "15,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Estándar",
+              "area": "282 m²",
+              "price": "Consultar",
+              "features": [
+                "Imponente Vestíbulo de entrada",
+                "Dos (2) salas",
+                "Comedor principal",
+                "Estudio",
+                "Balcón – Terraza",
+                "Baño para visitas",
+                "Cocina fría con desayunador",
+                "Cocina Caliente",
+                "Área de lavado",
+                "Tres habitaciones con baño y walking closet",
+                "Closet de ropa blanca",
+                "Habitación de Servicio",
+                "Cuarto para depósito",
+                "3 parqueos techados por apartamento"
+              ]
+            },
+            {
+              "type": "Pent-House",
+              "area": "565 m²",
+              "price": "Consultar",
+              "features": [
+                "Pent-House de 2 niveles",
+                "Primer Nivel – Piso 17: Vestíbulo, Estar Familiar, 4 habitaciones con vestidor y baño cada uno, Habitación principal con balcón – terraza, Baño de habitación principal con Jacuzzi, Cuarto para Depósito, 4 parqueos techados por Pent-House",
+                "Segundo Nivel – Piso 18: Vestíbulo, Sala, Estudio, Comedor Principal, Baño para Visitas, Cocina Fría con desayunador y comedor secundario, Cocina Caliente, Área de Lavado, Cuarto de Servicio, Estar de Empleados, Espacio para Cava, Terraza con Jacuzzi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-vista-hermosa-economicos-001",
+          "title": "Apartamentos Nuevos y Económicos en Vista Hermosa",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Vista Hermosa, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/1.png",
+          "description": "Apartamentos nuevos y económicos en Vista Hermosa.",
+          "features": ["Portón eléctrico", "Intercom", "Pisos en porcelanato", "Estacionamiento para bicicletas", "Salidas para inversores y a/c", "Cámaras de seguridad"],
+          "status": "En construcción",
+          "badge": "Vista Hermosa",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "3,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Consultar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Múltiples tipos de apartamentos",
+                "Portón eléctrico",
+                "Intercom",
+                "Pisos en porcelanato",
+                "Estacionamiento para bicicletas",
+                "Salidas para inversores y a/c",
+                "Cámaras de seguridad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-esperilla-proyecto-11-niveles-001",
+          "title": "Proyecto de 11 Niveles en La Esperilla",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "60 - 170 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/1.png",
+          "description": "Es un proyecto de 11 niveles de apartamentos distribuidos de la siguiente manera.",
+          "features": ["Aptos. de 1, 2 y 3 habitaciones con 60 metros, 92 metros y 170 metros cuadrados de área neta respectivamente", "Uno y dos parqueos techados por apartamentos", "Puerta a control remoto", "Dos ascensores de última generación", "Planta eléctrica full con transfer automático", "Intercon", "Equipo contra incendio", "Cisterna", "Gas común", "Poso con planta de tratamiento", "Lobby amueblado", "Cámara de seguridad", "Gimnasio", "Salón multiuso", "Piscina", "Área de actividades", "Área de juego de niños", "Baños en áreas sociales", "Pisos en porcelanato", "Cerámica importada en baños", "Plafones de PVC en baños", "Tope de granito en cocina", "Pre-instalación aire tipo split", "Puertas con jambas y gabinetes serán de madera preciosa", "Ventana en aluminio y vidrio", "Cocina modulares importadas"],
+          "status": "En construcción",
+          "badge": "La Esperilla",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "60 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Un baño y medio",
+                "Área de lavado",
+                "Cocina",
+                "Habitación con closet"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "92 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Habitaciones con Walk in Closet",
+                "Dos baño y medio",
+                "Área de lavado",
+                "Cocina"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "170 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Estudio",
+                "Habitaciones con Walk in Closet",
+                "Tres baños y medio",
+                "Área de lavado",
+                "Cocina",
+                "Habitación de servicio con su baño"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-esperilla-proyecto-15-niveles-001",
+          "title": "Proyecto de 15 Niveles en La Esperilla",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "68 - 143 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/1.png",
+          "description": "Es un proyecto de 15 niveles de apartamentos distribuidos de la siguiente manera.",
+          "features": ["Aptos. de 1 habitación de 68 metros2, de 2 habitaciones de 105 metros2, 112 metros2 y de 115 metros2 y de 3 habitaciones de 143 metros2 de área neta de construcción", "Uno y dos parqueos techados por apartamentos", "Puerta a control remoto", "Tres ascensores de ultima generación", "Planta eléctrica full con transfer automático", "Intercon", "Equipo contra incendio", "Cisterna", "Gas común", "Poso con planta de tratamiento", "Lobby amueblado", "Cámara de seguridad"],
+          "status": "En construcción",
+          "badge": "La Esperilla",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "68 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Un Baño y Medio",
+                "Área de Lavado",
+                "Cocina",
+                "Habitación con Walk In Closet"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "105-115 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Habitación Principal con Walk In Closet",
+                "Dos Baño y Medio",
+                "Área de Lavado",
+                "Cocina",
+                "Habitación de Servicio con su Baño"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "143 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala",
+                "Balcón",
+                "Comedor",
+                "Estar",
+                "Habitación Principal con Walk In Closet",
+                "Tres Baños y Medio",
+                "Área de Lavado",
+                "Cocina",
+                "Habitación de servicio con su baño"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-oficinas-comerciales-001",
+          "title": "Proyecto de Oficinas Comerciales en Bella Vista",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Oficinas",
+          "units": 0,
+          "area": "44.5 - 47.5 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/1.png",
+          "description": "Este es un proyecto de oficinas comerciales en el exclusivo sector BELLA VISTA, Santo Domingo, República Dominicana, de 14 niveles de los cuales, 5 niveles corresponden a parqueos, un nivel en el último piso para el área social y los 8 niveles restantes corresponden a locales de oficinas.",
+          "features": ["Locales de oficinas de 44.5, 45 y 47.5 metros cuadrados", "Magnifica vista panorámica desde todos los locales de oficinas", "Diseño arquitectónico moderno e innovador", "Elegante lobby amueblado con control de acceso", "Vigilancia 24/7 con moderno sistema de cámaras", "Acceso por sistema electrónico de última generación", "Salón ejecutivo de reuniones equipado", "Salón multiuso", "Terraza al aire libre", "Gimnasio equipado", "Dos ascensores de última generación", "Comedor para empleados", "Sala de espera por nivel", "Dos baños por nivel", "Escalera de emergencia", "Sistema contra incendio", "Planta eléctrica full"],
+          "status": "En construcción",
+          "badge": "Bella Vista",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Oficina Pequeña",
+              "area": "44.5 m²",
+              "price": "Consultar",
+              "features": [
+                "Local de oficina",
+                "Vista panorámica",
+                "Control de acceso",
+                "Vigilancia 24/7",
+                "Acceso electrónico",
+                "Sala de espera",
+                "Baños por nivel"
+              ]
+            },
+            {
+              "type": "Oficina Mediana",
+              "area": "45 m²",
+              "price": "Consultar",
+              "features": [
+                "Local de oficina",
+                "Vista panorámica",
+                "Control de acceso",
+                "Vigilancia 24/7",
+                "Acceso electrónico",
+                "Sala de espera",
+                "Baños por nivel"
+              ]
+            },
+            {
+              "type": "Oficina Grande",
+              "area": "47.5 m²",
+              "price": "Consultar",
+              "features": [
+                "Local de oficina",
+                "Vista panorámica",
+                "Control de acceso",
+                "Vigilancia 24/7",
+                "Acceso electrónico",
+                "Sala de espera",
+                "Baños por nivel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-esperilla-torre-apartamentos-001",
+          "title": "Torre de Apartamentos en La Esperilla",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "90 - 132 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/1.png",
+          "description": "Esta es una torre ubicada en el sector La Esperilla, los apartamentos constan con las siguientes características.",
+          "features": ["2 Habs.: Aptos. tipo A – F 100 mts2 (Vista hacia el norte) / tipo B 90 mts2 (Vista hacia el este)", "3 Habs.: Aptos. tipo C 127 mts2 / Aptos. tipo D 132 mts2 (Vista al sur, hacia el mar)", "Todos los apartamentos incluyen linea blanca (Aire acondicionado, lavadora y secadora)", "Piscina tipo infinity, desde ahí disfrutaremos de vista al mar", "Gym completamente equipado", "Terrazas con área de BBQ", "Jardines y Parque interior", "Área de juegos infantiles", "Salón de reuniones", "2 Ascensores", "Planta eléctrica de emergencia", "Todos los apartamentos de 1, 2 y 3 habitaciones tienen 2 parqueos", "Lobby tipo hotel, climatizado y con acabados de primera"],
+          "status": "En construcción",
+          "badge": "La Esperilla",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "1,000 USD",
+            "contract": "10%",
+            "construction": "25%",
+            "delivery": "65%"
+          },
+          "apartment_types": [
+            {
+              "type": "Tipo A-F (2 Habitaciones)",
+              "area": "100 m²",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "Vista hacia el norte",
+                "Línea blanca incluida",
+                "Aire acondicionado",
+                "Lavadora y secadora",
+                "2 parqueos",
+                "Acceso a todas las amenidades"
+              ]
+            },
+            {
+              "type": "Tipo B (2 Habitaciones)",
+              "area": "90 m²",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "Vista hacia el este",
+                "Línea blanca incluida",
+                "Aire acondicionado",
+                "Lavadora y secadora",
+                "2 parqueos",
+                "Acceso a todas las amenidades"
+              ]
+            },
+            {
+              "type": "Tipo C (3 Habitaciones)",
+              "area": "127 m²",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "Vista al sur, hacia el mar",
+                "Línea blanca incluida",
+                "Aire acondicionado",
+                "Lavadora y secadora",
+                "2 parqueos",
+                "Acceso a todas las amenidades"
+              ]
+            },
+            {
+              "type": "Tipo D (3 Habitaciones)",
+              "area": "132 m²",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "Vista al sur, hacia el mar",
+                "Línea blanca incluida",
+                "Aire acondicionado",
+                "Lavadora y secadora",
+                "2 parqueos",
+                "Acceso a todas las amenidades"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-vergel-apartamentos-001",
+          "title": "Apartamentos en El Vergel",
+          "price": 70000,
+          "currency": "USD",
+          "location": "El Vergel, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "50 - 245 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/1.png",
+          "description": "Apartamentos de 1, 2 y 3 habitaciones. Precios desde US$70,000.00 hasta US$350,000.00 desde 50 Mts2 hasta 245 Mts2.",
+          "features": ["8vo nivel con 4 habitaciones y 110 Mts2 de terraza", "Los demás apartamentos tienen 1, 2 y 3 habitaciones 100 Mts2 y 135 Mts2", "Baño propio en cada habitación", "Elegante lobby", "Gimnasio equipado", "Área social", "Planta full", "Exterior", "Balcón Terraza", "Ascensor", "Portero Seguridad las 24 Horas", "Gimnasio", "Mascotas permitidas"],
+          "status": "Disponible",
+          "badge": "El Vergel",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "50 m²",
+              "price": "Desde 70,000 USD",
+              "features": [
+                "1 habitación",
+                "Baño propio",
+                "Balcón terraza",
+                "Acceso a amenidades"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "100 m²",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "Baño propio en cada habitación",
+                "Balcón terraza",
+                "Acceso a amenidades"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "135 m²",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "Baño propio en cada habitación",
+                "Balcón terraza",
+                "Acceso a amenidades"
+              ]
+            },
+            {
+              "type": "4 Habitaciones (8vo nivel)",
+              "area": "245 m²",
+              "price": "Hasta 350,000 USD",
+              "features": [
+                "4 habitaciones",
+                "110 m² de terraza",
+                "Baño propio en cada habitación",
+                "Acceso a amenidades"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-renacimiento-torre-001",
+          "title": "Torre en Renacimiento",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Renacimiento, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/1.png",
+          "description": "Esta es una torre ubicada en el exclusivo sector de Renacimiento.",
+          "features": ["Lobby Amueblado y climatizado", "Gimnasio Equipado", "Terraza Destechada amueblada", "Área de BBQ", "Salón de Amenidades", "Cámaras de Vigilancia", "Video Portero", "Elevador de Lujo", "Cuarto de Conserjería con baño", "Apartamentos de 2 habitaciones + estudio", "Apartamentos de 3 habitaciones - 2.5 baños", "Sala", "Balcón", "Cocina modular", "Topes en Granito y terminación con Backsplash", "Techo en yeso", "Ebanistería en madera preciosa"],
+          "status": "Disponible",
+          "badge": "Renacimiento",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "2 Habitaciones + Estudio",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones + estudio",
+                "Sala",
+                "Balcón",
+                "Cocina modular",
+                "Topes en Granito",
+                "Ebanistería en madera preciosa"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "2.5 baños",
+                "Sala",
+                "Balcón",
+                "Cocina modular",
+                "Topes en Granito",
+                "Ebanistería en madera preciosa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-urbanizacion-real-torre-001",
+          "title": "Torre de Lujo en Urbanización Real",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Urbanización Real, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/1.png",
+          "description": "Esta es una torre de lujo ubicada en el sector de Urbanización Real.",
+          "features": ["Elegante y moderno lobby", "Gimnasio equipado", "Area común de terraza destechada y amueblada", "Área de bbq", "Lobby Amueblado y climatizado", "Salón de Amenidades", "Cámaras de Vigilancia", "Video Portero", "Elevador de Lujo", "Cuarto de Conserjería con baño", "Planta Full", "Gas común", "Proyecto cerrado", "Apartamentos de 1 habitación", "Apartamentos de 3 habitaciones", "½ Baño de Visita", "Sala", "Balcón", "Cocina modular", "Topes en Granito y terminación con Backsplash", "Techo en yeso", "Ebanistería en madera preciosa", "Pisos de Porcelanato"],
+          "status": "Disponible",
+          "badge": "Urbanización Real",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "1 habitación",
+                "½ Baño de Visita",
+                "Sala",
+                "Balcón",
+                "Cocina modular",
+                "Topes en Granito",
+                "Ebanistería en madera preciosa",
+                "Pisos de Porcelanato",
+                "1 Parqueo"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "½ Baño de Visita",
+                "Sala",
+                "Balcón",
+                "Cocina modular",
+                "Topes en Granito",
+                "Ebanistería en madera preciosa",
+                "Pisos de Porcelanato",
+                "2 Parqueos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-esperilla-proyecto-lujo-001",
+          "title": "Proyecto de Lujo en La Esperilla",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "52 - 107 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/1.png",
+          "description": "Es un proyecto de lujo que combina la modernidad, elegancia y el confort distribuidos en 9 niveles y 2 sótanos.",
+          "features": ["Apartamentos de 1 y 2 habitaciones", "Áreas sociales en el segundo nivel", "Piscina", "Terraza", "Gimnasio Equipado", "Salón de Actividades", "Bar y BBQ", "Baños para Damas y Caballeros", "52, 58, 88, 107 mts2", "Línea Blanca Incluida", "1 y 2 Habs.", "Walking Closet", "Sala", "Comedor", "Balcón Integrado", "Cocina", "Closet de Ropa Blanca", "1 y 2 Parqueos"],
+          "status": "Disponible",
+          "badge": "La Esperilla",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "52-58 m²",
+              "price": "Consultar",
+              "features": [
+                "1 habitación",
+                "Walking Closet",
+                "Sala",
+                "Comedor",
+                "Balcón Integrado",
+                "Cocina",
+                "Closet de Ropa Blanca",
+                "1 Parqueo",
+                "Línea Blanca Incluida"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "88-107 m²",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "Walking Closet",
+                "Sala",
+                "Comedor",
+                "Balcón Integrado",
+                "Cocina",
+                "Closet de Ropa Blanca",
+                "2 Parqueos",
+                "Línea Blanca Incluida"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-altos-arroyo-hondo-001",
+          "title": "Altos de Arroyo Hondo",
+          "price": 63500,
+          "currency": "USD",
+          "location": "Altos de Arroyo Hondo, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "90 - 97 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/1.png",
+          "description": "Apartamentos de lujo y modernos a buen precio.",
+          "features": ["Apartamentos de 3 habitaciones de 90mts2 y 97mts2", "Sala", "Comedor", "3 Habitaciones", "2 Baños", "Cocina", "Área de lavado", "2 Parqueos", "Cuarto de Servicio con baño", "Áreas Verdes", "Garita de Entrada", "Piscina", "Gimnasio Equipado", "Gas Común"],
+          "status": "Disponible",
+          "badge": "Desde $63,500",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "3,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "3 Habitaciones",
+              "area": "90-97 m²",
+              "price": "Desde 63,500 USD",
+              "features": [
+                "3 habitaciones",
+                "2 baños",
+                "Sala",
+                "Comedor",
+                "Cocina",
+                "Área de lavado",
+                "Cuarto de Servicio con baño",
+                "2 parqueos",
+                "Acceso a amenidades"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-arroyo-hondo-lujosos-001",
+          "title": "Lujosos Apartamentos en Arroyo Hondo",
+          "price": 70000,
+          "currency": "USD",
+          "location": "Arroyo Hondo, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/1.png",
+          "description": "Lujosos apartamentos de 1, 2 y 3 habitaciones ubicados en el refinado sector de Arroyo Hondo.",
+          "features": ["Lobby Amueblado Climatizado", "Planta Full", "Ascensor de última generación", "Area social con BBQ, gym, jacuzzi y terraza"],
+          "status": "Disponible",
+          "badge": "Desde $70,000",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "N/A",
+              "price": "Desde 70,000 USD",
+              "features": [
+                "1 habitación",
+                "Lobby climatizado",
+                "Ascensor de última generación",
+                "Area social con BBQ, gym, jacuzzi y terraza"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "Lobby climatizado",
+                "Ascensor de última generación",
+                "Area social con BBQ, gym, jacuzzi y terraza"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "3 habitaciones",
+                "Lobby climatizado",
+                "Ascensor de última generación",
+                "Area social con BBQ, gym, jacuzzi y terraza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-apartamento-exclusivo-001",
+          "title": "Apartamento Exclusivo en Naco",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/1.png",
+          "description": "Apartamento exclusivo en Naco con características de lujo.",
+          "features": ["1 apartamento por piso", "2 lobbys o recibidores", "2 salas", "Amplio estudio", "3 habitaciones con su baño c/u y principal con Walking Closet", "Pisos en mármol", "Aire acondicionado central de áreas comunes", "Aires inverter en las habitaciones", "Cocina fría y cocina caliente", "2 balcones", "Sistema de sonido integrado en areas comunes", "Medio baño", "Cuarto de servicio y área de lavado amplias", "Cocinas y puertas en caoba laqueadas en color \"Blanco eggshell\"", "Planta eléctrica full", "Ascensor con llave para acceso al piso", "Pozo de agua", "2 Parqueos", "Locker"],
+          "status": "Disponible",
+          "badge": "Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "1 apartamento por piso",
+                "2 lobbys o recibidores",
+                "2 salas",
+                "Amplio estudio",
+                "3 habitaciones con su baño c/u",
+                "Habitación principal con Walking Closet",
+                "Pisos en mármol",
+                "Aire acondicionado central",
+                "Aires inverter en las habitaciones",
+                "Cocina fría y cocina caliente",
+                "2 balcones",
+                "Sistema de sonido integrado",
+                "Medio baño",
+                "Cuarto de servicio y área de lavado amplias",
+                "Cocinas y puertas en caoba laqueadas",
+                "Planta eléctrica full",
+                "Ascensor con llave para acceso al piso",
+                "Pozo de agua",
+                "2 Parqueos",
+                "Locker"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-julia-vistas-mar-001",
+          "title": "La Julia - Vistas al Mar",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "La Julia, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/1.png",
+          "description": "Proyecto localizado en el sector de La Julia del D.N., en la mejor zona de Santo Domingo por sus espectaculares vistas al mar.",
+          "features": ["Espectaculares vistas al mar", "Cercanía y acceso a Downtown Santo Domingo", "Múltiples vías de acceso", "Vistas ininterrumpidas al mar y la ciudad", "Dos parqueos por apartamento", "Facilidades de valet parking con Unlimited Parking by CVS & Pedralbes", "Dos ascensores de última generación", "Amplio lobby en mármol", "The Aqua Lounge: Jacuzzis para adultos en el nivel 16", "The Oasis: Piscina familiar en el nivel uno", "Gimnasio diseñado completamente climatizado y equipado", "The Yoga Room: Espacio al aire libre para meditación y pilates", "The Clubhouse: Área social espectacular tipo bar and lounge", "The Pet-Station: Área especial al aire libre para mascotas", "The Playground: Área de juego de niños", "Terraza con outdoor cinema", "Sistema de sonido y Wi-Fi en las areas sociales", "Planta eléctrica total cobertura", "Sistema contra incendio y de cámaras de vigilancia", "Sistemas de Intercom, controles de accesos y portones"],
+          "status": "Disponible",
+          "badge": "Vistas al Mar",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "15,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Consultar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Múltiples tipos de apartamentos",
+                "Espectaculares vistas al mar",
+                "Dos parqueos por apartamento",
+                "Facilidades de valet parking",
+                "Dos ascensores de última generación",
+                "Amplio lobby en mármol",
+                "The Aqua Lounge con jacuzzis",
+                "The Oasis: Piscina familiar",
+                "Gimnasio completamente equipado",
+                "The Yoga Room",
+                "The Clubhouse",
+                "The Pet-Station",
+                "The Playground",
+                "Terraza con outdoor cinema"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cap-cana-apartamento-especial-001",
+          "title": "Apartamento Especial en Cap Cana",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Cap Cana",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "245 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/1.png",
+          "description": "Apartamento especial de 245m2 en Cap Cana, es la única unidad de 2 habitaciones disponible con cuarto de servicio.",
+          "features": ["Dos (2) Habitaciones", "Sala", "Comedor", "Cocina", "Terraza con comedor de exterior", "Habitación principal con Walking Closet y Baño con Jacuzzi", "Habitación secundaria con su closet y su baño", "Área de lavado", "Cuarto de Servicio con su baño", "Un (1) parqueo", "Terminaciones en mármol", "Sistemas contra incendio y cámaras de vigilancia", "Sistema de sonido y Wifi", "Aire central en toda la casa", "Calentadores de agua de alta eficiencia", "Club de playa privado con piscina frente al agua", "Lobby privado", "Servicio de conserjería 24 horas disponible", "Todos los beneficios de ser parte del club de propietarios de Cap Cana"],
+          "status": "Disponible",
+          "badge": "Cap Cana",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "20,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "245 m²",
+              "price": "A solicitud",
+              "features": [
+                "2 habitaciones",
+                "Sala, Comedor, Cocina",
+                "Terraza con comedor de exterior",
+                "Habitación principal con Walking Closet y Baño con Jacuzzi",
+                "Habitación secundaria con su closet y su baño",
+                "Área de lavado",
+                "Cuarto de Servicio con su baño",
+                "1 parqueo",
+                "Terminaciones en mármol",
+                "Sistemas contra incendio y cámaras de vigilancia",
+                "Sistema de sonido y Wifi",
+                "Aire central en toda la casa",
+                "Calentadores de agua de alta eficiencia",
+                "Club de playa privado con piscina frente al agua",
+                "Lobby privado",
+                "Servicio de conserjería 24 horas disponible",
+                "Todos los beneficios de ser parte del club de propietarios de Cap Cana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cap-cana-apartamento-especial-002",
+          "title": "Apartamento Especial en Cap Cana - Segunda Unidad",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Cap Cana",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "245 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
+          "description": "Apartamento especial de 245m2 en Cap Cana, es la única unidad de 2 habitaciones disponible con cuarto de servicio.",
+          "features": ["Dos (2) Habitaciones", "Sala", "Comedor", "Cocina", "Terraza con comedor de exterior", "Habitación principal con Walking Closet y Baño con Jacuzzi", "Habitación secundaria con su closet y su baño", "Área de lavado", "Cuarto de Servicio con su baño", "Un (1) parqueo", "Terminaciones en mármol", "Sistemas contra incendio y cámaras de vigilancia", "Sistema de sonido y Wifi", "Aire central en toda la casa", "Calentadores de agua de alta eficiencia", "Club de playa privado con piscina frente al agua", "Lobby privado", "Servicio de conserjería 24 horas disponible", "Todos los beneficios de ser parte del club de propietarios de Cap Cana"],
+          "status": "Disponible",
+          "badge": "Cap Cana",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "20,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "245 m²",
+              "price": "A solicitud",
+              "features": [
+                "2 habitaciones",
+                "Sala, Comedor, Cocina",
+                "Terraza con comedor de exterior",
+                "Habitación principal con Walking Closet y Baño con Jacuzzi",
+                "Habitación secundaria con su closet y su baño",
+                "Área de lavado",
+                "Cuarto de Servicio con su baño",
+                "1 parqueo",
+                "Terminaciones en mármol",
+                "Sistemas contra incendio y cámaras de vigilancia",
+                "Sistema de sonido y Wifi",
+                "Aire central en toda la casa",
+                "Calentadores de agua de alta eficiencia",
+                "Club de playa privado con piscina frente al agua",
+                "Lobby privado",
+                "Servicio de conserjería 24 horas disponible",
+                "Todos los beneficios de ser parte del club de propietarios de Cap Cana"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-vergel-alquiler-001",
+          "title": "Apartamento en Alquiler - El Vergel",
+          "price": 875,
+          "currency": "USD",
+          "location": "El Vergel, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "54 m² + 24 m² terraza",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
+          "description": "Apartamento totalmente NUEVO de 54 metros cuadrados + terraza de 24 metros cuadrados en el sector del Vergel, en alquiler por tan solo 875 USD$/mes.",
+          "features": ["54 metros cuadrados", "Terraza de 24 metros cuadrados", "Apartamento totalmente nuevo", "Sector del Vergel"],
+          "status": "Disponible",
+          "badge": "Alquiler $875",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "875 USD/mes",
+            "contract": "Alquiler",
+            "construction": "N/A",
+            "delivery": "N/A"
+          },
+          "apartment_types": [
+            {
+              "type": "Alquiler",
+              "area": "54 m² + 24 m² terraza",
+              "price": "875 USD/mes",
+              "features": [
+                "54 metros cuadrados",
+                "Terraza de 24 metros cuadrados",
+                "Apartamento totalmente nuevo",
+                "Sector del Vergel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-esperilla-alquiler-amueblado-001",
+          "title": "Apartamento Amueblado en Alquiler - La Esperilla",
+          "price": 1300,
+          "currency": "USD",
+          "location": "La Esperilla, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "165 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/1.png",
+          "description": "OFERTA DE APARTAMENTO AMUEBLADO EN ALQUILER NEGOCIABLE EN LA ESPERILLA.",
+          "features": ["3 habitaciones", "2 baños y medio", "1 habitación de servicio", "165 metros2 de Apto.", "3 parqueos", "Área común con gym, área de juegos", "Lobby con portero 24/7"],
+          "status": "Disponible",
+          "badge": "Alquiler $1,300",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "1,300 USD/mes",
+            "contract": "Alquiler",
+            "construction": "N/A",
+            "delivery": "N/A"
+          },
+          "apartment_types": [
+            {
+              "type": "Alquiler Amueblado",
+              "area": "165 m²",
+              "price": "1,300 USD/mes NEGOCIABLE",
+              "features": [
+                "3 habitaciones",
+                "2 baños y medio",
+                "1 habitación de servicio",
+                "165 metros2 de Apto.",
+                "3 parqueos",
+                "Área común con gym, área de juegos",
+                "Lobby con portero 24/7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-vistas-ciudad-mar-001",
+          "title": "Bella Vista - Vistas a la Ciudad y al Mar",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "103 - 292 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/1.png",
+          "description": "Este es un proyecto totalmente nuevo localizado en el sector de Bella Vista con las más atractivas vistas a la ciudad y al mar.",
+          "features": ["Dos, tres o cuatros parqueos por apartamento, según la unidad", "Dos ascensores de última generación", "Amplio lobby amueblado en mármol", "Sistemas de cámara de vigilancia", "Piscina en el nivel 16", "Gimnasio diseñado", "Área de juegos de niños", "Unidades de apartamentos de 103, 123 y 146 metros cuadrados de construcción netos", "Sala", "Comedor", "Cocina", "Cada habitación con su baño para los Aptos. de 2 habitaciones", "Walking closet en las Habs. principales", "Cuarto de servicio con su baño", "Área de lavado", "Pre-instalación de aires acondicionados", "Pre-instalación de Automatización en todas las áreas", "Loft y dúplex disponibles de 200 y 292 metros cuadrados de construcción", "Excelente terminación en los materiales utilizados"],
+          "status": "Disponible",
+          "badge": "Bella Vista",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Estándar",
+              "area": "103-146 m²",
+              "price": "Consultar",
+              "features": [
+                "Sala, Comedor, Cocina",
+                "Cada habitación con su baño",
+                "Walking closet en las habitaciones principales",
+                "Cuarto de servicio con su baño",
+                "Área de lavado",
+                "Pre-instalación de aires acondicionados",
+                "Pre-instalación de Automatización"
+              ]
+            },
+            {
+              "type": "Loft y Dúplex",
+              "area": "200-292 m²",
+              "price": "Consultar",
+              "features": [
+                "Estudio",
+                "Balcón-terraza",
+                "Estar familiar",
+                "Baños en cada habitación",
+                "Excelente terminación en los materiales utilizados"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-precio-oportunidad-001",
+          "title": "Bella Vista - Precio de Oportunidad",
+          "price": 129500,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 2,
+          "area": "52 - 140 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/1.png",
+          "description": "Precio de oportunidad. En venta dos apartamentos totalmente nuevos en el Sector Bella Vista.",
+          "features": ["1 de 1 habitación, 52m2 de Apto. y 50m2 de terraza. 129,500 $US", "1 de 3 Habs. y 140m2. 186,500 $US", "Localizado en un punto privilegiado de la zona metropolitana", "Parqueos soterrados", "Amplio lobby decorado y amueblado", "Dos ascensores", "Sistemas de cámaras de vigilancia en áreas seleccionadas", "Área Social con jacuzzi, lounge abierto, parcialmente techado, área BBQ y baños", "Salón multiuso", "Gimnasio completamente equipado", "Área infantil cerrada", "Casilleros en parqueos disponibles para la venta", "Cuarto para empleados", "Planta eléctrica", "Sistema contra incendio", "Pre-Instalación de Aires Acondicionados", "Intercom"],
+          "status": "Disponible",
+          "badge": "Precio Oportunidad",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "52 m² + 50 m² terraza",
+              "price": "129,500 USD",
+              "features": [
+                "1 habitación",
+                "52m2 de Apto.",
+                "50m2 de terraza",
+                "Parqueos soterrados",
+                "Amplio lobby decorado y amueblado",
+                "Dos ascensores",
+                "Área Social con jacuzzi",
+                "Gimnasio completamente equipado"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "140 m²",
+              "price": "186,500 USD",
+              "features": [
+                "3 habitaciones",
+                "140m2",
+                "Parqueos soterrados",
+                "Amplio lobby decorado y amueblado",
+                "Dos ascensores",
+                "Área Social con jacuzzi",
+                "Gimnasio completamente equipado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cacique-vista-mar-001",
+          "title": "Apartamento en El Cacique - Vista al Mar",
+          "price": 165000,
+          "currency": "USD",
+          "location": "El Cacique, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "130 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/1.png",
+          "description": "Apartamento de 130m2 a US$ 165,000 con hermosa vista al mar, balcón tipo terraza, terminación de primera y excelente distribución.",
+          "features": ["3 habitaciones", "Habitación principal con walk-in closet, baño y, balcón", "Baño para visitas", "Sala", "Estudio", "Comedor separado", "Cocina para estufa, horno, lavaplatos empotrados y campana", "Balcón tipo terraza con vista al mar", "Closet para ropa blanca", "Habitación de servicio con su baño", "Área de lavado", "2 parqueos techados", "Pisos en porcelanato importado", "Puertas en madera preciosa", "Techos en yeso y sheetrock", "Baños revestidos en cerámica importada"],
+          "status": "Disponible",
+          "badge": "Vista al Mar",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "8,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "130 m²",
+              "price": "165,000 USD",
+              "features": [
+                "3 habitaciones",
+                "Habitación principal con walk-in closet, baño y balcón",
+                "Baño para visitas",
+                "Sala, Estudio, Comedor separado",
+                "Cocina para estufa, horno, lavaplatos empotrados y campana",
+                "Balcón tipo terraza con vista al mar",
+                "Closet para ropa blanca",
+                "Habitación de servicio con su baño",
+                "Área de lavado",
+                "2 parqueos techados",
+                "Pisos en porcelanato importado",
+                "Puertas en madera preciosa",
+                "Techos en yeso y sheetrock",
+                "Baños revestidos en cerámica importada"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-alquiler-oportunidad-001",
+          "title": "Alquiler de Oportunidad en Naco",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/1.png",
+          "description": "ALQUILER DE OPORTUNIDAD EN NACO.",
+          "features": ["2 Habitaciones", "2 Baños", "Línea Blanca", "1 Parqueo", "Ascensor", "Seguridad", "6to piso", "Planta Full"],
+          "status": "Disponible",
+          "badge": "Alquiler Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Alquiler",
+            "construction": "N/A",
+            "delivery": "N/A"
+          },
+          "apartment_types": [
+            {
+              "type": "Alquiler",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "2 habitaciones",
+                "2 baños",
+                "Línea blanca",
+                "1 parqueo",
+                "Ascensor",
+                "Seguridad",
+                "6to piso",
+                "Planta full"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-torre-23-niveles-001",
+          "title": "Torre Moderna de 23 Niveles - Bella Vista",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 0,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/1.png",
+          "description": "APARTAMENTOS NUEVOS EN VENTA EN TORRE MODERNA DE 23 NIVELES.",
+          "features": ["Dos Ascensores de Lujo", "1 Ascensor de Servicio", "Generadores Eléctricos", "Estación de Conserjería", "Seguridad y Monitoreo de Circuito Cerrado", "Área de Estar y comedor para choferes", "Tratamientos de Agua desde la Cisterna", "Ducto de Basura con Cuarto frío en el Depósito", "Gas Común"],
+          "status": "En construcción",
+          "badge": "Bella Vista",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/5.png"
+          ],
+          "delivery": "2025",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Consultar",
+              "area": "N/A",
+              "price": "Consultar",
+              "features": [
+                "Múltiples tipos de apartamentos",
+                "Dos Ascensores de Lujo",
+                "1 Ascensor de Servicio",
+                "Generadores Eléctricos",
+                "Estación de Conserjería",
+                "Seguridad y Monitoreo de Circuito Cerrado",
+                "Área de Estar y comedor para choferes",
+                "Tratamientos de Agua desde la Cisterna",
+                "Ducto de Basura con Cuarto frío en el Depósito",
+                "Gas Común"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-apartamento-oportunidad-001",
+          "title": "Apartamento de Oportunidad en Naco",
+          "price": 320000,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "150 m² + 50 m² parqueos",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/1.png",
+          "description": "APARTAMENTO DE OPORTUNIDAD EN VENTA, EN NACO. Piso alto en el corazón de Naco con 3 habitaciones.",
+          "features": ["Hermoso apartamento en el corazón de NACO", "3 habitaciones con baño completo (una de estas convertidas en estudio)", "PISO ALTO", "150m2 + 3 Parqueos y Locker", "200m2 en total de títulos", "3 Habitaciones", "3 Baños y Medio", "Amplia Terraza", "Habitación de servicio con baño", "Area Social con Jacuzzi, Gimnasio, Area Común para actividades", "3 Parqueos", "Amplio Locker", "Lobby Climatizado y moderno"],
+          "status": "Disponible",
+          "badge": "Naco",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "15,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "150 m² + 50 m² parqueos (200 m² total)",
+              "price": "320,000 USD",
+              "features": [
+                "3 habitaciones con baño completo",
+                "Una habitación convertida en estudio",
+                "PISO ALTO",
+                "3 Baños y Medio",
+                "Amplia Terraza",
+                "Habitación de servicio con baño",
+                "Area Social con Jacuzzi, Gimnasio",
+                "Area Común para actividades",
+                "3 Parqueos",
+                "Amplio Locker",
+                "Lobby Climatizado y moderno"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sector-paraiso-apartamento-001",
+          "title": "Apartamento en Sector Paraíso",
+          "price": 345000,
+          "currency": "USD",
+          "location": "Sector Paraíso, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "172.5 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/1.png",
+          "description": "APARTAMENTO EN VENTA EN SECTOR PARAÍSO. Lujo, Naturaleza y Espacios Grandes.",
+          "features": ["3 Hab + Estudio", "Espacioso apartamento en el corazón de la ciudad Santo Domingo en el sector PARAÍSO", "Vistas del ocaso al oeste desde las habitaciones", "Fresco viento en el balcón tipo terraza por el este", "172.5m2 neto de apartamento", "2 Parqueos", "1 Locker", "3 Habitaciones con baños completos", "Walk in Closets", "1 Baño de Visitas", "Habitación de Servicio con baño"],
+          "status": "Disponible",
+          "badge": "Sector Paraíso",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "15,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "172.5 m² neto",
+              "price": "345,000 USD",
+              "features": [
+                "3 Habitaciones + Estudio",
+                "Espacioso apartamento en el corazón de la ciudad",
+                "Vistas del ocaso al oeste desde las habitaciones",
+                "Fresco viento en el balcón tipo terraza por el este",
+                "3 Habitaciones con baños completos",
+                "Walk in Closets",
+                "1 Baño de Visitas",
+                "Habitación de Servicio con baño",
+                "2 Parqueos",
+                "1 Locker"
               ]
             }
           ]

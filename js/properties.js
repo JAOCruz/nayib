@@ -62,7 +62,7 @@ class PropertiesManager {
                 </div>
             </div>
             <div class="detail-box">
-                <h4 class="price">$${property.price.toLocaleString()} ${property.currency}</h4>
+                <h4 class="price ${property.showPrice === false ? 'price-request' : ''}">${property.showPrice === false ? 'Solicitar Precio' : `$${property.price.toLocaleString()} ${property.currency}`}</h4>
                 <p class="location">${property.location}</p>
                 <p class="area">${property.area}</p>
                 <div class="btn-box">

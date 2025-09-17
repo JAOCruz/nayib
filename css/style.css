@@ -860,6 +860,14 @@ a:focus {
   margin-bottom: 10px;
 }
 
+/* Style for "Solicitar Precio" text */
+.property_item .detail-box .price.price-request,
+.featured_properties_section .property_card .detail-box .price.price-request {
+  color: #0a3d62; 
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .property_item .detail-box .title {
   color: #0a3d62;
   font-size: 18px;

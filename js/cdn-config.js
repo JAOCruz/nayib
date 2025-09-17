@@ -219,6 +219,176 @@ const CDN_CONFIG = {
             name: 'Apartamento en Sector Paraíso',
             imageCount: 5,
             cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52'
+        },
+        40: {
+            name: 'Apartamentos Nuevos por el Sector Esperilla - Conarte VIII',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40'
+        },
+        42: {
+            name: 'Proyecto Sector El Vergel',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42'
+        },
+        43: {
+            name: 'Los Cacicazgos - Concepto Elegante y Lujoso',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43'
+        },
+        44: {
+            name: 'Torre Moderna en Naco - Bloque A',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44'
+        },
+        45: {
+            name: 'Torre Moderna en Naco - Segunda Torre',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45'
+        },
+        46: {
+            name: 'Torre Moderna en Naco - Tercera Torre',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46'
+        },
+        47: {
+            name: 'Penthouse en Piantini - Piso 14',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47'
+        },
+        48: {
+            name: 'Torre Moderna de 23 Niveles - Los Cacicazgos',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48'
+        },
+        53: {
+            name: 'Juan Dolio Beach - Torre Moderna de 19 Pisos',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53'
+        },
+        54: {
+            name: 'Torre Moderna y Vanguardista en Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54'
+        },
+        55: {
+            name: 'Torre Moderna de 18 Niveles - Los Cacicazgos',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55'
+        },
+        56: {
+            name: 'Apartamentos Nuevos y Económicos en Vista Hermosa',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56'
+        },
+        57: {
+            name: 'Proyecto de 11 Niveles en La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57'
+        },
+        58: {
+            name: 'Proyecto de 15 Niveles en La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58'
+        },
+        59: {
+            name: 'Proyecto de Oficinas Comerciales en Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59'
+        },
+        60: {
+            name: 'Torre de Apartamentos en La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60'
+        },
+        61: {
+            name: 'Apartamentos en El Vergel',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61'
+        },
+        62: {
+            name: 'Torre en Renacimiento',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62'
+        },
+        63: {
+            name: 'Torre de Lujo en Urbanización Real',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63'
+        },
+        64: {
+            name: 'Proyecto de Lujo en La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64'
+        },
+        65: {
+            name: 'Altos de Arroyo Hondo',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65'
+        },
+        66: {
+            name: 'Lujosos Apartamentos en Arroyo Hondo',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66'
+        },
+        67: {
+            name: 'Apartamento Exclusivo en Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67'
+        },
+        68: {
+            name: 'La Julia - Vistas al Mar',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68'
+        },
+        69: {
+            name: 'Apartamento Especial en Cap Cana',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69'
+        },
+        70: {
+            name: 'Apartamento Especial en Cap Cana - Segunda Unidad',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70'
+        },
+        71: {
+            name: 'Apartamento Amueblado en Alquiler - La Esperilla',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71'
+        },
+        72: {
+            name: 'Bella Vista - Vistas a la Ciudad y al Mar',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72'
+        },
+        73: {
+            name: 'Bella Vista - Precio de Oportunidad',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73'
+        },
+        74: {
+            name: 'Apartamento en El Cacique - Vista al Mar',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74'
+        },
+        75: {
+            name: 'Alquiler de Oportunidad en Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75'
+        },
+        76: {
+            name: 'Torre Moderna de 23 Niveles - Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76'
+        },
+        77: {
+            name: 'Apartamento de Oportunidad en Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77'
+        },
+        78: {
+            name: 'Apartamento en Sector Paraíso',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78'
         }
     }
 };
