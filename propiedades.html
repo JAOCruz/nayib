@@ -89,6 +89,82 @@
         </p>
       </div>
       
+      <!-- Search and Filter Section -->
+      <div class="search_filter_section">
+        <div class="search_container">
+          <div class="search_input">
+            <input type="text" id="propertySearch" placeholder="Buscar por título o ubicación...">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        
+        <div class="filters_container">
+          <div class="filter_group">
+            <label for="priceMin">Precio Mínimo (USD):</label>
+            <input type="number" id="priceMin" placeholder="Min">
+          </div>
+          <div class="filter_group">
+            <label for="priceMax">Precio Máximo (USD):</label>
+            <input type="number" id="priceMax" placeholder="Max">
+          </div>
+          <div class="filter_group">
+            <label for="areaMin">Área Mínima (m²):</label>
+            <input type="number" id="areaMin" placeholder="Min">
+          </div>
+          <div class="filter_group">
+            <label for="areaMax">Área Máxima (m²):</label>
+            <input type="number" id="areaMax" placeholder="Max">
+          </div>
+          <div class="filter_group">
+            <label for="propertyType">Tipo de Propiedad:</label>
+            <select id="propertyType">
+              <option value="">Todos</option>
+              <option value="Apartamentos">Apartamentos</option>
+              <option value="Apartamentos de Lujo">Apartamentos de Lujo</option>
+              <option value="Apartamento">Apartamento</option>
+              <option value="Villa">Villa</option>
+              <option value="Loft">Loft</option>
+              <option value="Pent-House">Pent-House</option>
+              <option value="Proyecto">Proyecto</option>
+            </select>
+          </div>
+          <div class="filter_group">
+            <label for="propertyStatus">Estado:</label>
+            <select id="propertyStatus">
+              <option value="">Todos</option>
+              <option value="Disponible">Disponible</option>
+              <option value="En construcción">En construcción</option>
+              <option value="Listo para entrega">Listo para entrega</option>
+              <option value="Proyecto Aprobado">Proyecto Aprobado</option>
+            </select>
+          </div>
+          <div class="filter_group">
+            <label for="locationFilter">Ubicación:</label>
+            <select id="locationFilter">
+              <option value="">Todas</option>
+              <option value="Santiago">Santiago</option>
+              <option value="Santo Domingo">Santo Domingo</option>
+              <option value="Cap Cana">Cap Cana</option>
+              <option value="Samaná">Samaná</option>
+              <option value="Juan Dolio">Juan Dolio</option>
+              <option value="Bella Vista">Bella Vista</option>
+              <option value="Naco">Naco</option>
+              <option value="Renacimiento">Renacimiento</option>
+              <option value="Casa de Campo">Casa de Campo</option>
+              <option value="Los Cacicazgos">Los Cacicazgos</option>
+            </select>
+          </div>
+          <div class="filter_actions">
+            <button id="applyFilters" class="btn_filter">Aplicar Filtros</button>
+            <button id="clearFilters" class="btn_clear">Limpiar</button>
+          </div>
+        </div>
+        
+        <div class="results_info">
+          <span id="resultsCount">Mostrando todas las propiedades</span>
+        </div>
+      </div>
+      
       <div class="properties_container">
         <!-- This will be populated by JavaScript -->
       </div>

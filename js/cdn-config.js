@@ -69,6 +69,36 @@ const CDN_CONFIG = {
             name: 'Samaná',
             imageCount: 1,
             cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13'
+        },
+        14: {
+            name: 'Bella Vista',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14'
+        },
+        15: {
+            name: 'Naco',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15'
+        },
+        16: {
+            name: 'Samaná Vista Mare',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16'
+        },
+        17: {
+            name: 'Renacimiento',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17'
+        },
+        18: {
+            name: 'Casa de Campo',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18'
+        },
+        19: {
+            name: 'Torre Anacaona',
+            imageCount: 5,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19'
         }
     }
 };

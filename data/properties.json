@@ -678,6 +678,275 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-bella-vista-14-001",
+          "title": "Apartamento en Bella Vista - Nivel 8",
+          "price": 397000,
+          "currency": "USD",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "231 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/1.png",
+          "description": "Apartamento en Bella Vista nivel 8 con vistas inigualables al Parque Mirador Sur y al majestuoso Mar Caribe. Edificio clásico con mantenimiento accesible, ubicado en el corazón de Bella Vista, una de las mejores ubicaciones de Santo Domingo.",
+          "features": ["231 m² perfectamente distribuidos", "3 habitaciones amplias", "2 ½ baños", "3 parqueos techados", "Balcón con vista al parque", "Vista al Parque Mirador Sur", "Vista al Mar Caribe", "Mantenimiento RD$13,000/mes", "Incluye gas", "Título al día"],
+          "status": "Disponible",
+          "badge": "Vista al Parque",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "231 m²",
+              "price": "397,000 USD",
+              "features": [
+                "3 habitaciones amplias",
+                "2 ½ baños",
+                "3 parqueos techados",
+                "Balcón con vista al parque",
+                "Vista al Parque Mirador Sur",
+                "Vista al Mar Caribe",
+                "Mantenimiento RD$13,000/mes",
+                "Incluye gas",
+                "Título al día"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-naco-loft-001",
+          "title": "Loft en Naco - Último Piso",
+          "price": 189000,
+          "currency": "USD",
+          "location": "Naco, Distrito Nacional",
+          "type": "Loft",
+          "units": 1,
+          "area": "103.63 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/1.png",
+          "description": "Se vende apartamento TIPO LOFT a precio de oportunidad única en el corazón del Distrito Nacional, NACO. Nivel 11 (último piso), 2 niveles, completamente amueblado. Torre NO permite AirBnb.",
+          "features": ["Nivel 11 (último piso)", "2 Niveles", "2 Habitaciones", "2 Baños", "2 Parqueos", "Área social", "Torre NO permite AirBnb", "Mantenimiento 7,500 DOP", "Locker", "103.63 M²", "Completamente amueblado"],
+          "status": "Disponible",
+          "badge": "Precio de Oportunidad",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Loft",
+              "area": "103.63 m²",
+              "price": "189,000 USD",
+              "features": [
+                "2 Niveles",
+                "2 Habitaciones",
+                "2 Baños",
+                "2 Parqueos",
+                "Área social",
+                "Locker",
+                "Completamente amueblado",
+                "Mantenimiento 7,500 DOP"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-samana-vista-mare-001",
+          "title": "Apartamento Frente al Mar - Vista Mare",
+          "price": 200000,
+          "currency": "USD",
+          "location": "Samaná",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "145 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/1.png",
+          "description": "Apartamento frente al mar en Condominio Vista Mare, Samaná. Con amplio balcón con jacuzzi frente al mar, área común con piscinas, restaurante, área de juegos de mesa, gimnasio, servicios de conserjería. Posee playa de uso exclusivo para sus propietarios.",
+          "features": ["2 habitaciones cada una con baño y closets", "Sala - comedor - cocina", "Amplio Balcón con jacuzzi frente al mar", "Área lavado", "145 m²", "Parqueo", "Piscinas", "Restaurante", "Área de juegos de mesa", "Gimnasio", "Servicios de conserjería", "Playa de uso exclusivo", "Precio incluye muebles y línea blanca"],
+          "status": "Disponible",
+          "badge": "Frente al Mar",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "145 m²",
+              "price": "200,000 USD",
+              "features": [
+                "2 habitaciones con baño y closets",
+                "Sala - comedor - cocina",
+                "Amplio Balcón con jacuzzi frente al mar",
+                "Área lavado",
+                "Parqueo",
+                "Piscinas",
+                "Restaurante",
+                "Gimnasio",
+                "Playa de uso exclusivo",
+                "Precio incluye muebles y línea blanca"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-renacimiento-penthouse-001",
+          "title": "Pent-House de 3 Niveles en Renacimiento",
+          "price": 395000,
+          "currency": "USD",
+          "location": "Urbanización Real, Renacimiento",
+          "type": "Pent-House",
+          "units": 1,
+          "area": "410 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/1.png",
+          "description": "Se vende gran apartamento Pent-House de 3 niveles a precio de oportunidad en Urbanización Real, Renacimiento. El metraje es 410 M² en título pero el techo está en contrato que sería casi 600 M² con el metraje del techo.",
+          "features": ["3 niveles", "1er nivel: Sala, comedor, cocina caliente y fría, área de lavado, 3 habitaciones con walking closet y baños, cuarto de servicio", "2do nivel: Family súper amplio, terraza destechada, picuzzi súper grande, habitación principal gigante con baño amplio y walking closet", "3er nivel: Gazebo con BBQ en ladrillo y terraza súper amplia", "2 parqueos más espacio extra", "Locker en área de parqueo", "410 M² en título", "Casi 600 M² con techo"],
+          "status": "Disponible",
+          "badge": "Pent-House",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Pent-House",
+              "area": "410 m² (casi 600 m² con techo)",
+              "price": "395,000 USD",
+              "features": [
+                "3 niveles",
+                "3 habitaciones con walking closet",
+                "Family súper amplio",
+                "Terraza destechada",
+                "Picuzzi súper grande",
+                "Gazebo con BBQ",
+                "2 parqueos más espacio extra",
+                "Locker",
+                "Casi 600 M² con techo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-casa-campo-villa-001",
+          "title": "Villa de Lujo en Casa de Campo",
+          "price": 4900000,
+          "currency": "USD",
+          "location": "Casa de Campo",
+          "type": "Villa",
+          "units": 1,
+          "area": "1,470.32 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/1.png",
+          "description": "Villa de lujo de 2 niveles en Casa de Campo con 6 habitaciones, salón grande, sala, bar, terraza espaciosa, recibidor, cocinas caliente y fría, habitación máster en planta baja y segunda nivel, piscina, jacuzzi, techo en madera, gazebo cerca de la piscina, pérgola dentro de la piscina, escalera en cristal, madera preciosa.",
+          "features": ["Villa de 2 niveles", "6 habitaciones con sus baños y Walking Closets", "Salón grande", "Sala", "Bar", "Terraza espaciosa", "Recibidor", "Cocina caliente", "Cocina fría", "Habitación máster en planta baja y segunda nivel", "1 piscina y 1 jacuzzi", "Techo en madera", "Gazebo cerca de la piscina", "Pérgola dentro de la piscina", "1 escalera en cristal", "Madera preciosa", "1 baño de visitas", "1 baño en el gazebo"],
+          "status": "Disponible",
+          "badge": "Villa de Lujo",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "50,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Villa Completa",
+              "area": "1,470.32 m² construcción / 2,898.70 m² terreno",
+              "price": "4,900,000 USD",
+              "features": [
+                "6 habitaciones con baños y Walking Closets",
+                "Salón grande",
+                "Sala",
+                "Bar",
+                "Terraza espaciosa",
+                "Cocina caliente y fría",
+                "Habitación máster en planta baja y segunda nivel",
+                "Piscina y jacuzzi",
+                "Gazebo cerca de la piscina",
+                "Pérgola dentro de la piscina",
+                "Escalera en cristal",
+                "Madera preciosa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-torre-anacaona-001",
+          "title": "Apartamento en Torre Anacaona 27 - Piso 25",
+          "price": 2500000,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamento de Lujo",
+          "units": 1,
+          "area": "602 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png",
+          "description": "Se vende apartamento de 602 metros cuadrados en el Piso 25 de la torre Anacaona 27. Esta majestuosa torre de 41 niveles y 180 metros de altura, es el rascacielos más alto de la República Dominicana y a su vez el más alto de las Antillas. Vista impresionante de la ciudad, del Parque Mirador Sur y casi toda la costa del Caribe.",
+          "features": ["602 metros cuadrados", "Piso 25 Oeste", "Torre de 41 niveles", "180 metros de altura", "Rascacielos más alto de República Dominicana", "Paredes en cristal anti-impacto y anti-ruido", "Vista impresionante de la ciudad", "Vista al Parque Mirador Sur", "Vista a casi toda la costa del Caribe", "Lobby de triple altura", "Piscina infinity con jacuzzi integrado", "Terraza y áreas para compartir", "Salón de fiestas para 150 personas", "Sala de cine VIP para 21 personas", "Sistema Smart Home", "Ubicado en Av. Anacaona"],
+          "status": "Disponible",
+          "badge": "Torre Más Alta",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/5.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "25,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "602 m²",
+              "price": "2,500,000 USD",
+              "features": [
+                "Piso 25 Oeste",
+                "Torre de 41 niveles",
+                "180 metros de altura",
+                "Rascacielos más alto de República Dominicana",
+                "Vista impresionante de la ciudad",
+                "Vista al Parque Mirador Sur",
+                "Vista a casi toda la costa del Caribe",
+                "Piscina infinity con jacuzzi",
+                "Salón de fiestas para 150 personas",
+                "Sala de cine VIP para 21 personas",
+                "Sistema Smart Home"
+              ]
+            }
+          ]
         }
       ]
     },

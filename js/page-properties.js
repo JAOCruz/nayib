@@ -151,17 +151,132 @@ class PagePropertiesManager {
         const propiedadesCategory = this.propertiesData.categories.propiedades;
         if (!propiedadesCategory) return;
 
+        // Store original data for filtering
+        this.originalPropiedadesData = propiedadesCategory.properties;
+        this.filteredPropiedadesData = [...propiedadesCategory.properties];
+
+        this.renderPropiedades();
+        this.setupPropiedadesFilters();
+    }
+
+    renderPropiedades() {
+        const propertiesContainer = document.querySelector('.properties_container');
+        if (!propertiesContainer) return;
+
         propertiesContainer.innerHTML = `
             <div class="category_section">
                 <div class="category_header">
-                    <h3>${propiedadesCategory.name}</h3>
-                    <p>${propiedadesCategory.description}</p>
+                    <h3>Propiedades Disponibles</h3>
+                    <p>Oportunidades de inversión verificadas en multifamiliares, estudios, Airbnb y terrenos en el mercado dominicano.</p>
                 </div>
                 <div class="properties_grid">
-                    ${propiedadesCategory.properties.map(property => this.createPropertyItem(property)).join('')}
+                    ${this.filteredPropiedadesData.map(property => this.createPropertyItem(property)).join('')}
                 </div>
             </div>
         `;
+
+        this.updatePropiedadesResultsCount();
+    }
+
+    setupPropiedadesFilters() {
+        const applyButton = document.getElementById('applyFilters');
+        const clearButton = document.getElementById('clearFilters');
+        const searchInput = document.getElementById('propertySearch');
+
+        if (applyButton) {
+            applyButton.addEventListener('click', () => this.applyPropiedadesFilters());
+        }
+
+        if (clearButton) {
+            clearButton.addEventListener('click', () => this.clearPropiedadesFilters());
+        }
+
+        if (searchInput) {
+            searchInput.addEventListener('input', () => this.applyPropiedadesFilters());
+        }
+    }
+
+    applyPropiedadesFilters() {
+        const searchTerm = document.getElementById('propertySearch')?.value.toLowerCase() || '';
+        const priceMin = parseFloat(document.getElementById('priceMin')?.value) || 0;
+        const priceMax = parseFloat(document.getElementById('priceMax')?.value) || Infinity;
+        const areaMin = parseFloat(document.getElementById('areaMin')?.value) || 0;
+        const areaMax = parseFloat(document.getElementById('areaMax')?.value) || Infinity;
+        const propertyType = document.getElementById('propertyType')?.value || '';
+        const propertyStatus = document.getElementById('propertyStatus')?.value || '';
+        const locationFilter = document.getElementById('locationFilter')?.value || '';
+
+        this.filteredPropiedadesData = this.originalPropiedadesData.filter(property => {
+            // Search filter
+            if (searchTerm && !property.title.toLowerCase().includes(searchTerm) && 
+                !property.location.toLowerCase().includes(searchTerm)) {
+                return false;
+            }
+
+            // Price filter
+            if (property.price < priceMin || property.price > priceMax) {
+                return false;
+            }
+
+            // Area filter
+            const area = this.extractAreaNumber(property.area);
+            if (area < areaMin || area > areaMax) {
+                return false;
+            }
+
+            // Type filter
+            if (propertyType && property.type !== propertyType) {
+                return false;
+            }
+
+            // Status filter
+            if (propertyStatus && property.status !== propertyStatus) {
+                return false;
+            }
+
+            // Location filter
+            if (locationFilter && !property.location.toLowerCase().includes(locationFilter.toLowerCase())) {
+                return false;
+            }
+
+            return true;
+        });
+
+        this.renderPropiedades();
+    }
+
+    clearPropiedadesFilters() {
+        document.getElementById('propertySearch').value = '';
+        document.getElementById('priceMin').value = '';
+        document.getElementById('priceMax').value = '';
+        document.getElementById('areaMin').value = '';
+        document.getElementById('areaMax').value = '';
+        document.getElementById('propertyType').value = '';
+        document.getElementById('propertyStatus').value = '';
+        document.getElementById('locationFilter').value = '';
+
+        this.filteredPropiedadesData = [...this.originalPropiedadesData];
+        this.renderPropiedades();
+    }
+
+    extractAreaNumber(areaString) {
+        if (!areaString) return 0;
+        const match = areaString.match(/(\d+(?:\.\d+)?)/);
+        return match ? parseFloat(match[1]) : 0;
+    }
+
+    updatePropiedadesResultsCount() {
+        const resultsCount = document.getElementById('resultsCount');
+        if (resultsCount) {
+            const total = this.originalPropiedadesData.length;
+            const filtered = this.filteredPropiedadesData.length;
+            
+            if (filtered === total) {
+                resultsCount.textContent = `Mostrando todas las propiedades (${total})`;
+            } else {
+                resultsCount.textContent = `Mostrando ${filtered} de ${total} propiedades`;
+            }
+        }
     }
 
     loadSolares() {
