@@ -600,7 +600,6 @@ class PagePropertiesManager {
                     <h5 class="title">${property.title}</h5>
                     <p class="location">${property.location}</p>
                     <p class="area">${property.area}</p>
-                    <p class="roi"><strong>ROI:</strong> ${property.roi}</p>
                     <div class="features">
                         ${property.features.map(feature => `<span class="feature">${feature}</span>`).join('')}
                     </div>

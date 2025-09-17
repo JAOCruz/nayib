@@ -13,20 +13,19 @@
           "type": "Apartamentos",
           "units": 2,
           "area": "98.27 m²",
-          "image": "images/properties/2/1.png",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png",
           "description": "Se venden 2 Apartamentos que quedan disponibles en un proyecto residencial de alto estándar dentro del corazón de Santiago, con diseño moderno, vistas a la ciudad, áreas verdes y acceso rápido a servicios, comercios y espacios recreativos.",
           "features": ["Azotea", "Gimnasio", "Spa", "Piscina", "Terraza exterior", "Vistas panorámicas de Santiago"],
-          "roi": "7-9%",
           "status": "Listo para entrega",
           "badge": "Entrega Inmediata",
           "gallery": [
-            "images/properties/2/1.png", "images/properties/2/2.png", "images/properties/2/3.png", 
-            "images/properties/2/4.png", "images/properties/2/5.png", "images/properties/2/6.png", 
-            "images/properties/2/7.png", "images/properties/2/8.png", "images/properties/2/9.png", 
-            "images/properties/2/10.png", "images/properties/2/11.png", "images/properties/2/12.png",
-            "images/properties/2/13.png", "images/properties/2/14.png", "images/properties/2/15.png",
-            "images/properties/2/16.png", "images/properties/2/17.png", "images/properties/2/18.png",
-            "images/properties/2/19.png", "images/properties/2/20.png"
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/15.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/16.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/17.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/18.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/19.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/20.png"
           ],
           "payment_plan": {
             "reservation": "5,000 USD",
@@ -61,13 +60,12 @@
           "type": "Apartamentos de Lujo",
           "units": 5,
           "area": "51.43 - 238.27 m²",
-          "image": "images/properties/1/1.png",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png",
           "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort. Ofrece acceso a playa privada, campos de golf, hoteles 5 estrellas, club de playa, zona comercial y seguridad 24/7, ideal para una experiencia vacacional única.",
           "features": ["Lobby de lujo", "Cafetería", "Gimnasio", "Salón de juegos", "Área de piscina", "Salón de reuniones", "Locales comerciales", "Playa privada", "Campos de golf"],
-          "roi": "8-10%",
           "status": "En construcción",
           "badge": "Proyecto Exclusivo",
-          "gallery": ["images/properties/1/1.png", "images/properties/1/2.png", "images/properties/1/3.png", "images/properties/1/4.png", "images/properties/1/5.png", "images/properties/1/6.png", "images/properties/1/7.png", "images/properties/1/8.png", "images/properties/1/9.png", "images/properties/1/10.png", "images/properties/1/11.png"],
+          "gallery": ["https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/3.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/6.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/9.png"],
           "delivery": "Febrero 2027",
           "payment_plan": {
             "reservation": "5,000 USD",
@@ -102,6 +100,584 @@
               "features": ["3 dormitorios + servicio", "4.5 baños", "1 área de lavado", "2 sala", "1 comedor", "2 cocinas", "2 balcones", "2 parqueos", "mezzanine"]
             }
           ]
+        },
+        {
+          "id": "prop-santiago-flora-001",
+          "title": "Apartamentos de Lujo con Flora y Urbanismo",
+          "price": 128997,
+          "currency": "USD",
+          "location": "Santiago de los Caballeros",
+          "type": "Apartamentos de Lujo",
+          "units": 1,
+          "area": "111.85 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/1.png",
+          "description": "Se venden apartamentos de lujo en innovador proyecto dentro de Santiago de los Caballeros, que combina flora y urbanismo para ofrecer un espacio habitable único. Integra vivienda, recreación, deporte y naturaleza en ambientes armónicos y funcionales para todas las edades, brindando un estilo de vida distinto, rodeado de naturaleza y excelentes amenidades.",
+          "features": ["Área común", "Piscina", "Área infantil", "Área de yoga", "Recreación", "Parque Central", "Área de Lockers", "Plaza comercial / Oficinas"],
+          "status": "En construcción",
+          "badge": "Proyecto Innovador",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/15.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/16.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/17.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/18.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/19.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/20.png"
+          ],
+          "delivery": "Diciembre 2027",
+          "payment_plan": {
+            "reservation": "500 USD",
+            "contract": "10%",
+            "construction": "20%",
+            "delivery": "70%"
+          },
+          "apartment_types": [
+            {
+              "type": "A",
+              "area": "111.85 m²",
+              "price": "128,997 USD",
+              "features": [
+                "3 Habitaciones",
+                "2 Baños",
+                "1 Cocina",
+                "1 Área de lavado",
+                "1 Sala/Comedor",
+                "1 Walking closet",
+                "1 Parqueo",
+                "1 Balcón"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cap-cana-001",
+          "title": "Apartamentos de Lujo en Cap Cana",
+          "price": 288816,
+          "currency": "USD",
+          "location": "Cap Cana",
+          "type": "Apartamentos de Lujo",
+          "units": 1,
+          "area": "83 - 231 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png",
+          "description": "Se venden apartamentos de lujo en nuevo proyecto de Cap Cana, con un entorno exclusivo que combina la comodidad, privacidad y alta rentabilidad. A pasos del aeropuerto, con acceso a playas paradisíacas, marina, golf, clubes privados y amenidades de primer nivel. Una inversión segura en el destino más exclusivo del Caribe.",
+          "features": ["Piscina semi-olímpica", "Rooftop con área de yoga", "Cancha de Volleyball de Playa", "Gimnasio equipado", "Área social", "Zona de BBQ", "Área infantil", "Lobby de lujo", "Seguridad 24/7", "Conexión directa con Cap Cana", "Parqueos techados"],
+          "status": "En construcción",
+          "badge": "Destino Exclusivo",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/11.png"
+          ],
+          "delivery": "Septiembre 2027",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "10% - 70%",
+            "construction": "20% - 50%",
+            "delivery": "30% - 40%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "83 - 95 m²",
+              "features": ["Con jacuzzi (primer nivel)", "Sin jacuzzi (niveles 2 y 3)", "Ideal para escapadas románticas"]
+            },
+            {
+              "type": "1 Habitación + Lock-off",
+              "area": "136 - 153 m²",
+              "features": ["Con jacuzzi (primer nivel)", "Sin jacuzzi (niveles 2, 3 y 4)", "Versátil: alquila una parte y vive en la otra"]
+            },
+            {
+              "type": "Loft 1 Habitación + Lock-off + Servicio",
+              "area": "231 m²",
+              "features": ["Solo en nivel 4", "Diseño moderno en dos niveles", "Gran terraza"]
+            },
+            {
+              "type": "Loft 2 Habitaciones",
+              "area": "134 m²",
+              "features": ["Niveles 4 y 5", "Ambientes abiertos", "Doble altura"]
+            },
+            {
+              "type": "2 Habitaciones + Lock-off + Servicio",
+              "area": "197 - 212 m²",
+              "features": ["Con jacuzzi (primer nivel)", "Sin jacuzzi (niveles 2, 3 y 4)", "Ideal para familias"]
+            },
+            {
+              "type": "3 Habitaciones + Servicio",
+              "area": "192 - 207 m²",
+              "features": ["Con jacuzzi (primer nivel)", "Sin jacuzzi (niveles 2, 3 y 4)", "Pensado para familias grandes"]
+            }
+          ]
+        },
+        {
+          "id": "prop-bavaro-001",
+          "title": "Apartamentos en el Corazón de Bávaro",
+          "price": 88075,
+          "currency": "USD",
+          "location": "Bávaro",
+          "type": "Apartamentos",
+          "units": 3,
+          "area": "49 - 105 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/1.png",
+          "description": "Apartamentos en venta en el corazón de Bávaro, diseñado para ofrecer comodidad, placer y todo lo que necesitas en un solo lugar.",
+          "features": ["Piscina", "Plaza Comercial", "Cancha Deportiva", "Casa Club", "Área Infantil"],
+          "status": "Listo para entrega",
+          "badge": "Entrega Inmediata",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/12.png"
+          ],
+          "delivery": "Listo para entrega",
+          "payment_plan": {
+            "reservation": "500 USD",
+            "contract": "10%",
+            "construction": "20%",
+            "delivery": "70%"
+          },
+          "apartment_types": [
+            {
+              "type": "A",
+              "area": "69 m²",
+              "features": ["2 Habitaciones", "2 Baños", "1 Walking Closet", "Cocina", "Sala - Comedor", "Balcón", "Área de lavado", "1 Parqueo"]
+            },
+            {
+              "type": "B",
+              "area": "49 m²",
+              "features": ["1 Habitación", "1 Walking closet", "1 Baño", "Cocina", "Sala - Comedor", "Balcón", "Area de lavado"]
+            },
+            {
+              "type": "C",
+              "area": "105 m²",
+              "features": ["3 Habitaciones", "1 Walking closet", "2 Baños", "Cocina con despensa", "Sala", "Comedor", "Balcón", "Área de lavado"]
+            }
+          ]
+        },
+        {
+          "id": "prop-la-julia-001",
+          "title": "Apartamento de Oportunidad en La Julia",
+          "price": 440000,
+          "currency": "USD",
+          "location": "La Julia",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "341 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/1.png",
+          "description": "Apartamento con precio de oportunidad en venta en el sector de La Julia. 2do piso, 1 apartamento por piso, 341 metros cuadrados, 4 parqueos, 4 habitaciones con sus baños y closets, balcón tipo terraza, 2 salas, estudio, comedor amplio, área de lavado, cuarto de servicio, ascensor que te deja directamente en el apartamento, ascensor de carga.",
+          "features": ["4 Habitaciones", "4 Baños", "4 Parqueos", "Balcón tipo terraza", "2 Salas", "Estudio", "Comedor amplio", "Área de lavado", "Cuarto de servicio", "Ascensor directo", "Ascensor de carga"],
+          "status": "Disponible",
+          "badge": "Oportunidad",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/9.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "20%",
+            "construction": "30%",
+            "delivery": "50%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "341 m²",
+              "price": "440,000 USD",
+              "features": [
+                "4 Habitaciones con baños y closets",
+                "Balcón tipo terraza",
+                "2 Salas",
+                "Estudio",
+                "Comedor amplio",
+                "Área de lavado",
+                "Cuarto de servicio",
+                "Ascensor directo",
+                "Ascensor de carga",
+                "4 Parqueos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-sur-001",
+          "title": "Apartamento Remodelado en Bella Vista Sur",
+          "price": 270000,
+          "currency": "USD",
+          "location": "Bella Vista Sur",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "N/A",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/1.png",
+          "description": "Se vende apartamento de oportunidad única en Bella Vista Sur, con las siguientes características: 3 Habitaciones, cada una con sus Baños, Baño de visita, Área de Cocina, Área de Lavado, Sala y Comedor Independientes, Estudio Adaptado, Apartamento recién Remodelado, Ascensor Nuevo en la Torre, 2 Parqueos Techados.",
+          "features": ["3 Habitaciones con baños", "Baño de visita", "Área de Cocina", "Área de Lavado", "Sala y Comedor Independientes", "Estudio Adaptado", "Apartamento recién Remodelado", "Ascensor Nuevo", "2 Parqueos Techados"],
+          "status": "Disponible",
+          "badge": "Recién Remodelado",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/15.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/16.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/17.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/18.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/19.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/20.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/21.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/22.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/23.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "N/A",
+              "price": "270,000 USD",
+              "maintenance": "8,000.00 DOP",
+              "features": [
+                "3 Habitaciones con baños",
+                "Baño de visita",
+                "Área de Cocina",
+                "Área de Lavado",
+                "Sala y Comedor Independientes",
+                "Estudio Adaptado",
+                "Apartamento recién Remodelado",
+                "Ascensor Nuevo",
+                "2 Parqueos Techados"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-cacique-001",
+          "title": "Apartamentos Modernos en Santiago",
+          "price": 180000,
+          "currency": "USD",
+          "location": "Santiago, República Dominicana",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "74.6 - 110 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/1.png",
+          "description": "Se venden apartamentos modernos en Santiago, con un diseño vanguardista y acabados de primera. Ubicados en una zona de alta plusvalía, estos apartamentos ofrecen comodidad y estilo de vida urbano. Cuentan con amplios espacios, iluminación natural y amenidades exclusivas para sus residentes.",
+          "features": ["1 y 2 Habitaciones", "Sala / Comedor", "Cocina", "1 y 2 ½ Baños", "Área de lavado", "Piscina o Picuzzi", "Jardín trasero y frontal", "2 Aptos. con Terrazas"],
+          "status": "En construcción",
+          "badge": "Entrega Diciembre 2026",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/12.png"
+          ],
+          "delivery": "Diciembre 2026",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "20%",
+            "construction": "30%",
+            "delivery": "50%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "74.6 m²",
+              "features": [
+                "1 Habitación",
+                "Sala / Comedor",
+                "Cocina",
+                "1 Baño",
+                "Área de lavado",
+                "Piscina o Picuzzi",
+                "Jardín trasero y frontal"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "110 m²",
+              "features": [
+                "2 Habitaciones",
+                "Sala / Comedor",
+                "Cocina",
+                "2 ½ Baños",
+                "Área de lavado",
+                "Piscina o Picuzzi",
+                "Jardín trasero y frontal",
+                "Terraza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-las-terrenas-001",
+          "title": "Apartamentos Exclusivos en Santiago",
+          "price": 250000,
+          "currency": "USD",
+          "location": "Santiago, República Dominicana",
+          "type": "Apartamentos",
+          "units": 0,
+          "area": "150 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/1.png",
+          "description": "Exclusivos apartamentos en Santiago, diseñados para ofrecer el máximo confort y lujo. Con una ubicación privilegiada, estos apartamentos cuentan con vistas panorámicas, acabados de alta calidad y una distribución inteligente de los espacios. Disfruta de un estilo de vida sofisticado con acceso a todas las comodidades.",
+          "features": ["2 Habitaciones", "Sala / Comedor", "Cocina interior y exterior", "½ Baño de visita en el 1er nivel", "Área de lavado", "Piscina", "Cuarto de máquinas", "Jardín trasero y frontal", "Área de parqueos", "8 espacios de parqueo"],
+          "status": "En construcción",
+          "badge": "Entrega Junio 2027",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/15.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/16.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/17.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/18.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/19.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/20.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/21.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/22.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/23.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/24.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/25.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/26.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/27.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/28.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/29.png"
+          ],
+          "delivery": "Junio 2027",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "20%",
+            "construction": "30%",
+            "delivery": "50%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "150 m²",
+              "price": "250,000 USD",
+              "features": [
+                "2 Habitaciones",
+                "Sala / Comedor",
+                "Cocina interior y exterior",
+                "½ Baño de visita en el 1er nivel",
+                "Área de lavado",
+                "Piscina",
+                "Cuarto de máquinas",
+                "Jardín trasero y frontal",
+                "Área de parqueos",
+                "8 espacios de parqueo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-juan-dolio-001",
+          "title": "Apartamentos en Juan Dolio",
+          "price": 245000,
+          "currency": "USD",
+          "location": "Juan Dolio",
+          "type": "Apartamentos",
+          "units": 2,
+          "area": "57 - 81 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/1.png",
+          "description": "Vendo 2 apartamentos en Juan Dolio. Apartamentos completamente amueblados a 3 minutos de la playa Hemingway, con área común que incluye piscina, gimnasio y área infantil.",
+          "features": ["Apartamentos completamente amueblados", "A 3 minutos de la playa Hemingway", "Área común con piscina", "Gimnasio", "Área infantil", "2 Ascensores", "50 parqueos de invitados"],
+          "status": "Disponible",
+          "badge": "Cerca de la Playa",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/15.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "20%",
+            "construction": "30%",
+            "delivery": "50%"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento 1",
+              "area": "81 m²",
+              "price": "245,000 USD",
+              "maintenance": "12,800.00 DOP",
+              "features": [
+                "2 habitaciones",
+                "2 baños completos",
+                "Apartamento completamente amueblado",
+                "A 3 minutos de la playa Hemingway",
+                "Piso 7",
+                "Balcón",
+                "2 parqueos en el título",
+                "50 parqueos de invitados",
+                "Área común con piscina, gimnasio y área infantil",
+                "2 Ascensores"
+              ]
+            },
+            {
+              "type": "Apartamento 2",
+              "area": "57 m²",
+              "price": "150,000 USD",
+              "maintenance": "8,800.00 DOP",
+              "features": [
+                "1 habitación",
+                "2 baños completos",
+                "Apartamento completamente amueblado",
+                "A 3 minutos de la playa Hemingway",
+                "Piso 10",
+                "Balcón",
+                "2 parqueos en el título",
+                "50 parqueos de invitados",
+                "Área común con piscina, gimnasio y área infantil",
+                "2 Ascensores"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-millon-001",
+          "title": "Proyecto de Oportunidad Única en El Millón",
+          "price": 143000,
+          "currency": "USD",
+          "location": "El Millón, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "47 - 100 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/1.png",
+          "description": "Aprovecha los precios de inversión en apartamentos para este proyecto de oportunidad ÚNICA en el centro del D.N. Torre de 12 niveles con apartamentos de 1 y 2 habitaciones, lobby de doble altura climatizado y amenidades de lujo.",
+          "features": ["Sector EL MILLÓN", "Lobby de doble altura climatizado", "Apartamentos de 1 y 2 habitaciones", "Sala / Comedor", "Balcón", "1 y 2 Parqueos", "Cocina", "Área de lavado", "2 Ascensores", "Torre de 12 niveles", "6 apartamentos por nivel", "Área social", "Infinity pool", "Bar lounge", "Gym"],
+          "status": "En construcción",
+          "badge": "Oportunidad Única",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/12.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/13.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/14.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/15.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/16.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/17.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/18.png"
+          ],
+          "delivery": "En construcción",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "20%",
+            "construction": "30%",
+            "delivery": "50%"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "47 m²",
+              "price": "143,000 USD",
+              "features": [
+                "1 habitación",
+                "Sala / Comedor",
+                "Balcón",
+                "1 Parqueo",
+                "Cocina",
+                "Área de lavado"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "100 m²",
+              "price": "283,000 USD",
+              "features": [
+                "2 habitaciones",
+                "Sala / Comedor",
+                "Balcón",
+                "2 Parqueos",
+                "Cocina",
+                "Área de lavado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-350-001",
+          "title": "Apartamento de Oportunidad en Bella Vista",
+          "price": 315000,
+          "currency": "USD",
+          "location": "Bella Vista",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "350 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/1.png",
+          "description": "Apartamento de oportunidad en Bella Vista de 350 m² con acabados de lujo. Todos los pisos en mármol, techo con cornisa de yeso y altura de 3 metros entrepiso.",
+          "features": ["2 parqueos techados", "3 habitaciones con wall-in clóset forrados con sabina", "Baños con ducha y bañera", "Clóset de ropa blanca", "Sala de lujo", "Sala-comedor", "Cocina fría y caliente", "Cuarto de visita", "Área de lavado", "Todos los pisos en mármol", "Techo con cornisa de yeso", "Altura de 3 metros entrepiso"],
+          "status": "Disponible",
+          "badge": "Precio de Oportunidad",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/1.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/2.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/3.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/4.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/5.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/6.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/7.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/8.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/9.png", 
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/10.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/11.png", "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/12.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "10,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "350 m²",
+              "price": "315,000 USD (Negociable)",
+              "features": [
+                "2 parqueos techados",
+                "3 habitaciones c/u con wall-in clóset forrados con sabina",
+                "Baños con ducha y bañera",
+                "Clóset de ropa blanca",
+                "Sala de lujo",
+                "Sala-comedor",
+                "Cocina fría y caliente",
+                "Cuarto de visita",
+                "Área de lavado",
+                "Todos los pisos en mármol",
+                "Techo con cornisa de yeso",
+                "Altura de 3 metros entrepiso"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-samana-001",
+          "title": "Apartamento en Samaná",
+          "price": 225000,
+          "currency": "USD",
+          "location": "Samaná",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "154 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/1.png",
+          "description": "Vendo apartamento en Samaná con vista al mar. 2do nivel, que es una 1ra para la entrada por el diseño del complejo. El complejo tiene 2 playas, área social con 2 piscinas, 2 restaurantes, gimnasio, entre otros. Todos los documentos al día.",
+          "features": ["2 habitaciones con sus baños y vista al mar", "2do nivel", "154 metros cuadrados", "Sala, comedor y cocina", "Terraza super amplia con vista al mar", "Complejo con 2 playas", "Área social con 2 piscinas", "2 restaurantes", "Gimnasio", "Todos los documentos al día"],
+          "status": "Disponible",
+          "badge": "Vista al Mar",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/1.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "154 m²",
+              "price": "225,000 USD",
+              "features": [
+                "2 habitaciones con sus baños y vista al mar",
+                "2do nivel",
+                "154 metros cuadrados",
+                "Sala, comedor y cocina",
+                "Terraza super amplia con vista al mar",
+                "Complejo con 2 playas",
+                "Área social con 2 piscinas",
+                "2 restaurantes",
+                "Gimnasio",
+                "Todos los documentos al día"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -121,7 +697,6 @@
           "image": "images/s-5.jpg",
           "description": "Oficina ejecutiva en torre corporativa con vista panorámica de la ciudad.",
           "features": ["120 m²", "Vista Panorámica", "Estacionamiento", "Seguridad"],
-          "roi": "5-7%",
           "status": "Disponible",
           "badge": "Ejecutiva"
         },
@@ -137,7 +712,6 @@
           "image": "images/s-6.jpg",
           "description": "Suite comercial en ubicación estratégica con alta visibilidad.",
           "features": ["95 m²", "Alta Visibilidad", "Acceso Fácil", "Moderno"],
-          "roi": "6-8%",
           "status": "Disponible",
           "badge": "Comercial"
         },
@@ -153,7 +727,6 @@
           "image": "images/s-1.jpg",
           "description": "Oficina corporativa en zona empresarial de alto prestigio.",
           "features": ["150 m²", "Zona Empresarial", "Prestigio", "Acceso VIP"],
-          "roi": "4-6%",
           "status": "Disponible",
           "badge": "Corporativa"
         }
@@ -1178,10 +1751,9 @@
       "location": "Santiago, República Dominicana",
       "type": "Apartamentos",
       "area": "98.27 m²",
-      "image": "images/properties/2/1.png",
+      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png",
       "description": "Proyecto residencial de alto estándar en el corazón de Santiago, con diseño moderno y vistas panorámicas.",
       "features": ["1 Habitación", "Balcón", "Cocina-comedor", "Gimnasio", "Piscina", "Spa"],
-      "roi": "7-9%",
       "badge": "Entrega Inmediata"
     },
     {
@@ -1193,12 +1765,25 @@
       "type": "Apartamentos de Lujo",
       "units": 5,
       "area": "51.43 - 238.27 m²",
-      "image": "images/properties/1/1.png",
+      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png",
       "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort.",
       "features": ["Lobby de lujo", "Cafetería", "Gimnasio", "Piscina", "Playa privada"],
-      "roi": "8-10%",
       "status": "En construcción",
       "badge": "Proyecto Exclusivo"
+    },
+    {
+      "id": "prop-cap-cana-001",
+      "title": "Apartamentos de Lujo en Cap Cana",
+      "price": 288816,
+      "currency": "USD",
+      "location": "Cap Cana",
+      "type": "Apartamentos de Lujo",
+      "area": "83 - 231 m²",
+      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png",
+      "description": "Apartamentos de lujo en nuevo proyecto de Cap Cana, con entorno exclusivo que combina comodidad, privacidad y alta rentabilidad.",
+      "features": ["Piscina semi-olímpica", "Rooftop con área de yoga", "Gimnasio equipado", "Seguridad 24/7", "Conexión directa con Cap Cana"],
+      "status": "En construcción",
+      "badge": "Destino Exclusivo"
     }
   ]
 }

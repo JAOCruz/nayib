@@ -22,7 +22,7 @@ class PropertiesManager {
     }
 
     loadFeaturedProperties() {
-        const featuredContainer = document.querySelector('.featured_properties_container');
+        const featuredContainer = document.getElementById('featuredPropertiesContainer');
         if (!featuredContainer || !this.propertiesData) return;
 
         const featured = this.propertiesData.featured;
@@ -64,10 +64,9 @@ class PropertiesManager {
             <div class="detail-box">
                 <h4 class="price">$${property.price.toLocaleString()} ${property.currency}</h4>
                 <p class="location">${property.location}</p>
-                <p class="roi"><strong>ROI Estimado:</strong> ${property.roi} rendimiento anual</p>
-                <p class="legal"><strong>Destacado Legal:</strong> ${property.legal}</p>
+                <p class="area">${property.area}</p>
                 <div class="btn-box">
-                    <a href="#" class="btn-property">Solicitar Reporte Completo</a>
+                    <a href="property-detail.html?id=${property.id}" class="btn-property">Ver Detalles</a>
                 </div>
             </div>
         `;
@@ -137,7 +136,6 @@ class PropertiesManager {
                     <h5 class="title">${property.title}</h5>
                     <p class="location">${property.location}</p>
                     <p class="area">${property.area}</p>
-                    <p class="roi"><strong>ROI:</strong> ${property.roi}</p>
                     <div class="features">
                         ${property.features.map(feature => `<span class="feature">${feature}</span>`).join('')}
                     </div>
