@@ -1203,6 +1203,19 @@ a:focus {
   border-top: 1px solid #e0e0e0;
 }
 
+/* Bottom Pagination Styles */
+.bottom_pagination_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 25px 0;
+  border-top: 2px solid #e0e0e0;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .pagination_info {
   font-size: 14px;
   color: #666;
@@ -1315,6 +1328,14 @@ a:focus {
   .pagination_controls {
     justify-content: center;
     flex-wrap: wrap;
+  }
+  
+  .bottom_pagination_container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
   }
   
   .page_numbers {

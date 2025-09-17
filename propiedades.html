@@ -185,10 +185,46 @@
         <div class="results_info">
           <span id="resultsCount">Mostrando todas las propiedades</span>
         </div>
+        
+        <!-- Pagination Controls -->
+        <div class="pagination_container">
+          <div class="pagination_info">
+            <span id="pagination_info">Página 1 de 1</span>
+          </div>
+          <div class="pagination_controls">
+            <button id="prev_page" class="btn_pagination" disabled>
+              <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <div id="page_numbers" class="page_numbers">
+              <!-- Page numbers will be generated here -->
+            </div>
+            <button id="next_page" class="btn_pagination" disabled>
+              Siguiente <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
       </div>
       
       <div class="properties_container">
         <!-- This will be populated by JavaScript -->
+      </div>
+      
+      <!-- Bottom Pagination Controls -->
+      <div class="bottom_pagination_container">
+        <div class="pagination_info">
+          <span id="bottom_pagination_info">Página 1 de 1</span>
+        </div>
+        <div class="pagination_controls">
+          <button id="bottom_prev_page" class="btn_pagination" disabled>
+            <i class="fas fa-chevron-left"></i> Anterior
+          </button>
+          <div id="bottom_page_numbers" class="page_numbers">
+            <!-- Page numbers will be generated here -->
+          </div>
+          <button id="bottom_next_page" class="btn_pagination" disabled>
+            Siguiente <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
       </div>
     </div>
   </section>

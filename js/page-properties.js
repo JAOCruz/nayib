@@ -163,6 +163,23 @@ class PagePropertiesManager {
         const propertiesContainer = document.querySelector('.properties_container');
         if (!propertiesContainer) return;
 
+        // Calculate pagination
+        const totalItems = this.filteredPropiedadesData.length;
+        const totalPages = Math.ceil(totalItems / this.itemsPerPage);
+        
+        // Ensure current page is within bounds
+        if (this.currentPageNumber > totalPages && totalPages > 0) {
+            this.currentPageNumber = totalPages;
+        }
+        if (this.currentPageNumber < 1) {
+            this.currentPageNumber = 1;
+        }
+
+        // Get items for current page
+        const startIndex = (this.currentPageNumber - 1) * this.itemsPerPage;
+        const endIndex = startIndex + this.itemsPerPage;
+        const currentPageData = this.filteredPropiedadesData.slice(startIndex, endIndex);
+
         propertiesContainer.innerHTML = `
             <div class="category_section">
                 <div class="category_header">
@@ -170,12 +187,13 @@ class PagePropertiesManager {
                     <p>Oportunidades de inversión verificadas en multifamiliares, estudios, Airbnb y terrenos en el mercado dominicano.</p>
                 </div>
                 <div class="properties_grid">
-                    ${this.filteredPropiedadesData.map(property => this.createPropertyItem(property)).join('')}
+                    ${currentPageData.map(property => this.createPropertyItem(property)).join('')}
                 </div>
             </div>
         `;
 
         this.updatePropiedadesResultsCount();
+        this.updatePropiedadesPagination(totalPages);
     }
 
     setupPropiedadesFilters() {
@@ -208,7 +226,7 @@ class PagePropertiesManager {
 
         this.filteredPropiedadesData = this.originalPropiedadesData.filter(property => {
             // Search filter
-            if (searchTerm && !property.title.toLowerCase().includes(searchTerm) && 
+            if (searchTerm && !property.title.toLowerCase().includes(searchTerm) &&
                 !property.location.toLowerCase().includes(searchTerm)) {
                 return false;
             }
@@ -242,6 +260,8 @@ class PagePropertiesManager {
             return true;
         });
 
+        // Reset to first page when filters are applied
+        this.currentPageNumber = 1;
         this.renderPropiedades();
     }
 
@@ -256,6 +276,7 @@ class PagePropertiesManager {
         document.getElementById('locationFilter').value = '';
 
         this.filteredPropiedadesData = [...this.originalPropiedadesData];
+        this.currentPageNumber = 1;
         this.renderPropiedades();
     }
 
@@ -270,11 +291,90 @@ class PagePropertiesManager {
         if (resultsCount) {
             const total = this.originalPropiedadesData.length;
             const filtered = this.filteredPropiedadesData.length;
-            
-            if (filtered === total) {
-                resultsCount.textContent = `Mostrando todas las propiedades (${total})`;
+            const totalPages = Math.ceil(filtered / this.itemsPerPage);
+
+            if (totalPages > 1) {
+                const startItem = (this.currentPageNumber - 1) * this.itemsPerPage + 1;
+                const endItem = Math.min(this.currentPageNumber * this.itemsPerPage, filtered);
+                resultsCount.textContent = `Mostrando ${startItem}-${endItem} de ${filtered} propiedades`;
             } else {
                 resultsCount.textContent = `Mostrando ${filtered} de ${total} propiedades`;
+            }
+        }
+    }
+
+    updatePropiedadesPagination(totalPages) {
+        // Update top pagination info
+        const paginationInfo = document.getElementById('pagination_info');
+        if (paginationInfo) {
+            paginationInfo.textContent = `Página ${this.currentPageNumber} de ${totalPages}`;
+        }
+
+        // Update bottom pagination info
+        const bottomPaginationInfo = document.getElementById('bottom_pagination_info');
+        if (bottomPaginationInfo) {
+            bottomPaginationInfo.textContent = `Página ${this.currentPageNumber} de ${totalPages}`;
+        }
+
+        // Update pagination controls
+        this.updatePropiedadesPaginationControls(totalPages);
+    }
+
+    updatePropiedadesPaginationControls(totalPages) {
+        // Update top pagination
+        this.updatePaginationSection('', totalPages);
+        
+        // Update bottom pagination
+        this.updatePaginationSection('bottom_', totalPages);
+    }
+
+    updatePaginationSection(prefix, totalPages) {
+        const prevButton = document.getElementById(`${prefix}prev_page`);
+        const nextButton = document.getElementById(`${prefix}next_page`);
+        const pageNumbersContainer = document.getElementById(`${prefix}page_numbers`);
+
+        if (prevButton) {
+            prevButton.disabled = this.currentPageNumber <= 1;
+            prevButton.onclick = () => {
+                if (this.currentPageNumber > 1) {
+                    this.currentPageNumber--;
+                    this.renderPropiedades();
+                }
+            };
+        }
+
+        if (nextButton) {
+            nextButton.disabled = this.currentPageNumber >= totalPages;
+            nextButton.onclick = () => {
+                if (this.currentPageNumber < totalPages) {
+                    this.currentPageNumber++;
+                    this.renderPropiedades();
+                }
+            };
+        }
+
+        if (pageNumbersContainer) {
+            pageNumbersContainer.innerHTML = '';
+            
+            // Show page numbers (max 5 visible)
+            const maxVisible = 5;
+            let startPage = Math.max(1, this.currentPageNumber - Math.floor(maxVisible / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+            
+            // Adjust start if we're near the end
+            if (endPage - startPage + 1 < maxVisible) {
+                startPage = Math.max(1, endPage - maxVisible + 1);
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                const pageButton = document.createElement('button');
+                pageButton.className = `btn_page ${i === this.currentPageNumber ? 'active' : ''}`;
+                pageButton.textContent = i;
+                pageButton.onclick = () => {
+                    this.currentPageNumber = i;
+                    this.renderPropiedades();
+                };
+                pageNumbersContainer.appendChild(pageButton);
             }
         }
     }
@@ -467,10 +567,16 @@ class PagePropertiesManager {
             resultsCount.textContent = `Mostrando ${startItem}-${endItem} de ${totalItems} solares`;
         }
 
-        // Update pagination info
+        // Update top pagination info
         const paginationInfo = document.getElementById('pagination_info');
         if (paginationInfo) {
             paginationInfo.textContent = `Página ${this.currentPageNumber} de ${totalPages}`;
+        }
+
+        // Update bottom pagination info
+        const bottomPaginationInfo = document.getElementById('bottom_pagination_info');
+        if (bottomPaginationInfo) {
+            bottomPaginationInfo.textContent = `Página ${this.currentPageNumber} de ${totalPages}`;
         }
 
         // Update pagination controls
@@ -478,9 +584,17 @@ class PagePropertiesManager {
     }
 
     updatePaginationControls(totalPages) {
-        const prevButton = document.getElementById('prev_page');
-        const nextButton = document.getElementById('next_page');
-        const pageNumbers = document.getElementById('page_numbers');
+        // Update top pagination
+        this.updateSolaresPaginationSection('', totalPages);
+        
+        // Update bottom pagination
+        this.updateSolaresPaginationSection('bottom_', totalPages);
+    }
+
+    updateSolaresPaginationSection(prefix, totalPages) {
+        const prevButton = document.getElementById(`${prefix}prev_page`);
+        const nextButton = document.getElementById(`${prefix}next_page`);
+        const pageNumbers = document.getElementById(`${prefix}page_numbers`);
 
         if (prevButton) {
             prevButton.disabled = this.currentPageNumber === 1;
@@ -491,12 +605,12 @@ class PagePropertiesManager {
         }
 
         if (pageNumbers) {
-            this.renderPageNumbers(totalPages);
+            this.renderPageNumbers(totalPages, prefix);
         }
     }
 
-    renderPageNumbers(totalPages) {
-        const pageNumbers = document.getElementById('page_numbers');
+    renderPageNumbers(totalPages, prefix = '') {
+        const pageNumbers = document.getElementById(`${prefix}page_numbers`);
         if (!pageNumbers) return;
 
         let html = '';
