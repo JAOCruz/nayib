@@ -3,7 +3,7 @@ class PagePropertiesManager {
     constructor() {
         this.propertiesData = null;
         this.currentPage = this.getCurrentPage();
-        this.itemsPerPage = 10;
+        this.itemsPerPage = 9;
         this.currentPageNumber = 1;
         this.filteredData = [];
         this.currentLocation = '';
