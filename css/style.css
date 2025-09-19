@@ -1216,6 +1216,161 @@ a:focus {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Motivational Message Styles */
+.motivational_section {
+  background: linear-gradient(135deg, #0a3d62 0%, #1e5f8a 100%);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.motivational_box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.motivational_text {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.motivational_text .highlight {
+  color: #f97616;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Desarrollo Inmobiliario Coming Soon Section Styles */
+.desarrollo_coming_soon_section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.desarrollo_coming_soon_section .detail-box {
+  padding: 40px 0;
+}
+
+.desarrollo_coming_soon_section .heading_container h2 {
+  color: #0a3d62;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.coming_soon_badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #f97616 0%, #ff8c42 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(249, 118, 22, 0.3);
+}
+
+.desarrollo_coming_soon_section .detail-box p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.features_list ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.features_list li {
+  color: #0a3d62;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.features_list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #f97616;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn_desarrollo {
+  display: inline-block;
+  background: linear-gradient(135deg, #0a3d62 0%, #1e5f8a 100%);
+  color: white;
+  padding: 15px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(10, 61, 98, 0.3);
+}
+
+.btn_desarrollo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(10, 61, 98, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.desarrollo_coming_soon_section .img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.image_gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.main_image {
+  width: 100%;
+}
+
+.main_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.main_image img:hover {
+  transform: scale(1.02);
+}
+
+.secondary_image {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.secondary_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.secondary_image img:hover {
+  transform: scale(1.02);
+}
+
 .pagination_info {
   font-size: 14px;
   color: #666;
@@ -1336,6 +1491,46 @@ a:focus {
     text-align: center;
     margin-top: 30px;
     padding: 20px 0;
+  }
+  
+  /* Motivational Message Responsive */
+  .motivational_text {
+    font-size: 1.8rem;
+  }
+  
+  .motivational_text .highlight {
+    font-size: 1.6rem;
+  }
+  
+  /* Desarrollo Inmobiliario Responsive */
+  .desarrollo_coming_soon_section .heading_container h2 {
+    font-size: 2rem;
+  }
+  
+  .desarrollo_coming_soon_section .detail-box p {
+    font-size: 1rem;
+  }
+  
+  .features_list li {
+    font-size: 0.9rem;
+  }
+  
+  .btn_desarrollo {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+  
+  .desarrollo_coming_soon_section .img-box {
+    padding: 20px 0;
+  }
+  
+  .image_gallery {
+    gap: 15px;
+  }
+  
+  .main_image img,
+  .secondary_image img {
+    border-radius: 10px;
   }
   
   .page_numbers {

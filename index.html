@@ -67,6 +67,7 @@
                 <a href="about.html">ACERCA DE</a>
                 <a href="propiedades.html">INMUEBLES EDIFICADOS</a>
                 <a href="solares.html">SOLARES</a>
+                <a href="#" onclick="scrollToDesarrollo(); return false;">DESARROLLO INMOBILIARIO</a>
                 <a href="contact.html">CONTACTO</a>
               </div>
             </div>
@@ -101,6 +102,18 @@
     </section>
     <!-- end slider section -->
   </div>
+
+  <!-- motivational message section -->
+  <section class="motivational_section">
+    <div class="container">
+      <div class="motivational_box">
+        <h2 class="motivational_text">
+          Haz de cada día tu obra maestra.<br>
+          <span class="highlight">Invierte con Lowest-Wessin Inmobiliaria.</span> 🌇
+        </h2>
+      </div>
+    </div>
+  </section>
 
   <!-- find section -->
   <section class="find_section ">
@@ -491,6 +504,53 @@
 
   <!-- end us section -->
 
+  <!-- desarrollo inmobiliario coming soon section -->
+  <section id="desarrollo-inmobiliario" class="desarrollo_coming_soon_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Desarrollo Inmobiliario
+              </h2>
+              <div class="coming_soon_badge">
+                <span>Coming Soon</span>
+              </div>
+            </div>
+            <p>
+              Próximamente ofreceremos servicios completos de desarrollo inmobiliario, incluyendo planificación, financiamiento, construcción y venta de proyectos inmobiliarios innovadores en el mercado dominicano. Nuestro equipo de expertos trabajará contigo para materializar tu visión de desarrollo.
+            </p>
+            <div class="features_list">
+              <ul>
+                <li>Planificación y diseño de proyectos</li>
+                <li>Financiamiento especializado</li>
+                <li>Construcción y supervisión</li>
+                <li>Venta y comercialización</li>
+                <li>Gestión integral del proyecto</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="btn_desarrollo">
+              Más Información
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="image_gallery">
+              <div class="main_image">
+                <img src="images/desarrollo.png" alt="Desarrollo Inmobiliario - Planificación">
+              </div>
+              <div class="secondary_image">
+                <img src="images/desarrollo2.png" alt="Desarrollo Inmobiliario - Construcción">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- client section -->
   <section class="client_section layout_padding">
     <div class="container-fluid">
@@ -743,6 +803,25 @@
   <script type="text/javascript" src="js/cdn-config.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/properties.js"></script>
+  
+  <script>
+    function scrollToDesarrollo() {
+      // Close the mobile menu first
+      document.getElementById("myNav").classList.remove("menu_width");
+      document.querySelector(".custom_menu-btn").classList.remove("menu_btn-style");
+      
+      // Wait a moment for the menu to close, then scroll
+      setTimeout(function() {
+        const desarrolloSection = document.getElementById('desarrollo-inmobiliario');
+        if (desarrolloSection) {
+          desarrolloSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }, 300); // Wait 300ms for menu animation to complete
+    }
+  </script>
 
 </body>
 
