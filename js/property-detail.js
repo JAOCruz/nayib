@@ -273,7 +273,7 @@ class PropertyDetailManager {
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-envelope"></i>
-                            <span>info@lowestwessin.com</span>
+                            <span>lowestwessin@realestatewl.com</span>
                         </div>
                     </div>
                 </div>
