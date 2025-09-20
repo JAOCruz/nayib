@@ -1537,6 +1537,34 @@ a:focus {
     justify-content: center;
     flex-wrap: wrap;
   }
+  
+  /* Featured Properties Mobile Layout */
+  .featured_properties_section .properties_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .featured_properties_section .property_card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0;
+  }
+  
+  /* General Properties Grid Mobile Layout */
+  .properties_grid {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .property_item {
+    flex-basis: 100%;
+    min-width: auto;
+    width: 100%;
+    max-width: 350px;
+  }
 }
 
 /* Responsive design for solares table */
