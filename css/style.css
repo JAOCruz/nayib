@@ -1584,7 +1584,7 @@ a:focus {
   
   /* Mobile Header Styles */
   .header_section {
-    background-color: white !important;
+    background-color: #0a3d62 !important;
   }
   
   .header_section .navbar-brand img {
@@ -1596,7 +1596,7 @@ a:focus {
   }
   
   .custom_menu-btn button span {
-    background-color: #0a3d62 !important;
+    background-color: #ffffff !important;
   }
   
   /* General Properties Grid Mobile Layout */
