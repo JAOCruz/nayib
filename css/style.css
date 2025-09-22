@@ -193,6 +193,8 @@ a:focus {
   z-index: 99999;
   padding: 0;
   height: 80px;
+  overflow: hidden;
+  position: relative;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -1537,6 +1539,22 @@ a:focus {
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+
+/* Tablet breakpoint for logo */
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 200px;
+    height: auto;
+    max-width: 200px;
+  }
+  
+  .custom_nav-container {
+    height: 75px;
+  }
+}
+
+@media (max-width: 768px) {
   
   /* Featured Properties Mobile Layout */
   .featured_properties_section .properties_grid {
@@ -1597,6 +1615,22 @@ a:focus {
   
   .custom_menu-btn button span {
     background-color: #ffffff !important;
+  }
+  
+  /* Mobile Logo Responsive */
+  .navbar-brand img {
+    width: 150px !important;
+    height: auto;
+    max-width: 150px;
+  }
+  
+  .navbar-brand {
+    display: block !important;
+    flex: 0 0 auto;
+  }
+  
+  .custom_nav-container {
+    height: 70px;
   }
   
   /* General Properties Grid Mobile Layout */
