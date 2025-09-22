@@ -1540,18 +1540,27 @@ a:focus {
   
   /* Featured Properties Mobile Layout */
   .featured_properties_section .properties_grid {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     gap: 25px;
     align-items: center;
     padding: 0 15px;
   }
   
   .featured_properties_section .property_card {
-    width: 100%;
+    width: 100% !important;
     max-width: 350px;
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
+    flex: none !important;
+  }
+  
+  .featured_properties_container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 25px;
+    align-items: center;
+    padding: 0 15px;
   }
   
   .featured_properties_section .container {
@@ -1571,6 +1580,23 @@ a:focus {
   .featured_properties_section .heading_container p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+  
+  /* Mobile Header Styles */
+  .header_section {
+    background-color: white !important;
+  }
+  
+  .header_section .navbar-brand img {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(1000%) hue-rotate(200deg) brightness(0.3);
+  }
+  
+  .header_section .user_option a {
+    color: #0a3d62 !important;
+  }
+  
+  .custom_menu-btn button span {
+    background-color: #0a3d62 !important;
   }
   
   /* General Properties Grid Mobile Layout */
