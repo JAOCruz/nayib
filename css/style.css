@@ -281,7 +281,7 @@ a:focus {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.95); 
+  background-color: rgba(10, 61, 98, 0.9); 
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -298,7 +298,7 @@ a:focus {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
-  color: #0a3d62;
+  color: #ffffff;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
