@@ -659,21 +659,21 @@
         </div>
         <div class="col-lg-4 col-md-5 ">
           <div class="form_container">
-            <form action="">
+            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
               <div>
-                <input type="text" placeholder="Nombre" />
+                <input type="text" name="name" placeholder="Nombre" required />
               </div>
               <div>
-                <input type="email" placeholder="Correo Electrónico" />
+                <input type="email" name="email" placeholder="Correo Electrónico" required />
               </div>
               <div>
-                <input type="text" placeholder="Número de Teléfono" />
+                <input type="text" name="phone" placeholder="Número de Teléfono" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Mensaje" />
+                <textarea name="message" class="message-box" placeholder="Mensaje" required></textarea>
               </div>
               <div class="d-flex ">
-                <button>
+                <button type="submit">
                   Enviar
                 </button>
               </div>
@@ -774,9 +774,10 @@
             <h5>
               Newsletter
             </h5>
-            <form action="">
-              <input type="email" placeholder="Ingresa tu correo electrónico">
-              <button>
+            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+              <input type="hidden" name="form_type" value="newsletter">
+              <button type="submit">
                 Suscribirse
               </button>
             </form>
