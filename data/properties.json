@@ -5992,6 +5992,140 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-la-julia-oportunidad-002",
+          "title": "Apartamento de Oportunidad en La Julia",
+          "price": 400000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "La Julia, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "341 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/1.png",
+          "description": "Apartamento con precio de oportunidad en venta en el sector de La Julia. Ubicado en 2do piso con 1 apartamento por piso, 341 metros cuadrados, 4 parqueos, 4 habitaciones con sus baños y closets, balcón tipo terraza, 2 salas, estudio, comedor amplio, área de lavado, cuarto de servicio, ascensor que te deja directamente en el apartamento y ascensor de carga.",
+          "features": [
+            "2do piso",
+            "1 apartamento por piso",
+            "341 metros cuadrados",
+            "4 parqueos",
+            "4 habitaciones con sus baños y closets",
+            "Balcón tipo terraza",
+            "2 salas",
+            "Estudio",
+            "Comedor amplio",
+            "Área de lavado",
+            "Cuarto de servicio",
+            "Ascensor que te deja directamente en el apartamento",
+            "Ascensor de carga"
+          ],
+          "status": "Disponible",
+          "badge": "Precio de Oportunidad",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/1.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/2.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/3.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/4.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/5.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/6.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/7.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/8.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/9.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "20,000 USD",
+            "contract": "30%",
+            "construction": "40%",
+            "delivery": "30%"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "341 m²",
+              "price": "400,000 USD",
+              "features": [
+                "4 habitaciones con sus baños y closets",
+                "Balcón tipo terraza",
+                "2 salas",
+                "Estudio",
+                "Comedor amplio",
+                "Área de lavado",
+                "Cuarto de servicio",
+                "4 parqueos",
+                "Ascensor directo al apartamento",
+                "Ascensor de carga"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-piantini-amueblado-001",
+          "title": "Apartamento Amueblado en Piantini",
+          "price": 0,
+          "showPrice": false,
+          "currency": "USD",
+          "location": "Piantini, Santo Domingo",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "95 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/1.png",
+          "description": "Apartamento Amueblado en Piantini ubicado en un 6to nivel, en torre con lobby elegante, 2 ascensores, planta eléctrica, seguridad 24/7. 95 m² con 1 habitación, 1 parqueo, 1 baño y 2 balcones. Antes alquilado en USD$ 1,100, ahora disponible desde USD$ 1,000. Opción a venta en DOP$ 9,000,000. Ideal para ejecutivos o parejas que buscan comodidad y ubicación premium en el corazón de Piantini.",
+          "features": [
+            "6to nivel",
+            "Lobby elegante",
+            "2 ascensores",
+            "Planta eléctrica",
+            "Seguridad 24/7",
+            "95 m²",
+            "1 habitación",
+            "1 parqueo",
+            "1 baño",
+            "2 balcones",
+            "Apartamento amueblado",
+            "Ubicación premium en Piantini"
+          ],
+          "status": "Disponible",
+          "badge": "Piantini Premium",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/1.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/2.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/3.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/4.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/5.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/6.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/7.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/8.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/9.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/10.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/11.png",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/12.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "rental": "1,000 USD/mes",
+            "sale": "9,000,000 DOP"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "95 m²",
+              "price": "Solicitar Precio",
+              "features": [
+                "1 habitación",
+                "1 baño",
+                "1 parqueo",
+                "2 balcones",
+                "Apartamento amueblado",
+                "Lobby elegante",
+                "2 ascensores",
+                "Planta eléctrica",
+                "Seguridad 24/7",
+                "Ubicación premium en Piantini"
+              ]
+            }
+          ]
         }
       ]
     },

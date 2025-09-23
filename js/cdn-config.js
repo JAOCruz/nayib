@@ -387,8 +387,18 @@ const CDN_CONFIG = {
         },
         78: {
             name: 'Apartamento en Sector Paraíso',
-            imageCount: 5,
+            imageCount: 4,
             cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78'
+        },
+        79: {
+            name: 'Apartamento de Oportunidad en La Julia',
+            imageCount: 9,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79'
+        },
+        80: {
+            name: 'Apartamento Amueblado en Piantini',
+            imageCount: 12,
+            cdnBase: 'https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80'
         }
     }
 };
