@@ -191,11 +191,27 @@ class PropertyDetailManager {
             <div class="row">
                 <div class="col-lg-8">
                     <div class="property-gallery">
-                        <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
-                        <div class="thumbnail-container">
-                            ${galleryImages.map((img, index) => `
-                                <img src="${img.src}" alt="${img.alt}" class="thumbnail" onclick="document.getElementById('main-image').src='${img.src}'">
-                            `).join('')}
+                        <div class="property-gallery-container">
+                            <div class="main-image-container">
+                                <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
+                                ${galleryImages.length > 1 ? `
+                                    <button class="carousel-nav prev" id="prev-btn" onclick="propertyCarousel.previousImage()">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </button>
+                                    <button class="carousel-nav next" id="next-btn" onclick="propertyCarousel.nextImage()">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                    <div class="image-counter" id="image-counter">
+                                        1 / ${galleryImages.length}
+                                    </div>
+                                ` : ''}
+                            </div>
+                            <div class="thumbnail-container">
+                                ${galleryImages.map((img, index) => `
+                                    <img src="${img.src}" alt="${img.alt}" class="thumbnail ${index === 0 ? 'active' : ''}" 
+                                         onclick="propertyCarousel.goToImage(${index})" data-index="${index}">
+                                `).join('')}
+                            </div>
                         </div>
                     </div>
                     
@@ -450,7 +466,153 @@ class PropertyDetailManager {
     }
 }
 
+// Property Carousel Manager
+class PropertyCarousel {
+    constructor() {
+        this.currentIndex = 0;
+        this.images = [];
+        this.init();
+    }
+
+    init() {
+        // Get all thumbnail images to determine the total count
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        this.images = Array.from(thumbnails).map(thumb => ({
+            src: thumb.src,
+            alt: thumb.alt
+        }));
+        
+        if (this.images.length > 0) {
+            this.updateNavigation();
+            this.addKeyboardSupport();
+        }
+    }
+
+    addKeyboardSupport() {
+        document.addEventListener('keydown', (e) => {
+            // Only handle keyboard navigation when the gallery is visible
+            if (!document.getElementById('main-image')) return;
+            
+            switch(e.key) {
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    this.previousImage();
+                    break;
+                case 'ArrowRight':
+                    e.preventDefault();
+                    this.nextImage();
+                    break;
+                case 'Escape':
+                    e.preventDefault();
+                    // Optional: Close any modal or return to first image
+                    this.goToImage(0);
+                    break;
+            }
+        });
+        
+        // Add touch/swipe support for mobile
+        this.addTouchSupport();
+    }
+
+    addTouchSupport() {
+        const mainImageContainer = document.querySelector('.main-image-container');
+        if (!mainImageContainer) return;
+
+        let startX = 0;
+        let endX = 0;
+
+        mainImageContainer.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        mainImageContainer.addEventListener('touchend', (e) => {
+            endX = e.changedTouches[0].clientX;
+            this.handleSwipe(startX, endX);
+        });
+    }
+
+    handleSwipe(startX, endX) {
+        const threshold = 50; // Minimum distance for a swipe
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                // Swipe left - next image
+                this.nextImage();
+            } else {
+                // Swipe right - previous image
+                this.previousImage();
+            }
+        }
+    }
+
+    goToImage(index) {
+        if (index < 0 || index >= this.images.length) return;
+        
+        this.currentIndex = index;
+        this.updateMainImage();
+        this.updateThumbnails();
+        this.updateCounter();
+        this.updateNavigation();
+    }
+
+    nextImage() {
+        if (this.currentIndex < this.images.length - 1) {
+            this.goToImage(this.currentIndex + 1);
+        }
+    }
+
+    previousImage() {
+        if (this.currentIndex > 0) {
+            this.goToImage(this.currentIndex - 1);
+        }
+    }
+
+    updateMainImage() {
+        const mainImage = document.getElementById('main-image');
+        if (mainImage && this.images[this.currentIndex]) {
+            mainImage.src = this.images[this.currentIndex].src;
+            mainImage.alt = this.images[this.currentIndex].alt;
+        }
+    }
+
+    updateThumbnails() {
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        thumbnails.forEach((thumb, index) => {
+            thumb.classList.toggle('active', index === this.currentIndex);
+        });
+    }
+
+    updateCounter() {
+        const counter = document.getElementById('image-counter');
+        if (counter) {
+            counter.textContent = `${this.currentIndex + 1} / ${this.images.length}`;
+        }
+    }
+
+    updateNavigation() {
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        
+        if (prevBtn) {
+            prevBtn.disabled = this.currentIndex === 0;
+        }
+        
+        if (nextBtn) {
+            nextBtn.disabled = this.currentIndex === this.images.length - 1;
+        }
+    }
+}
+
+// Global carousel instance
+let propertyCarousel;
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     new PropertyDetailManager();
+    
+    // Initialize carousel after a short delay to ensure DOM is ready
+    setTimeout(() => {
+        propertyCarousel = new PropertyCarousel();
+    }, 100);
 });
