@@ -67,6 +67,39 @@
         font-size: 14px;
       }
     }
+    
+    /* Success message styles */
+    .success-message {
+      background: linear-gradient(135deg, #0a3d62, #1e5f8a);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 20px;
+      box-shadow: 0 4px 15px rgba(10, 61, 98, 0.3);
+    }
+    
+    .success-content h4 {
+      color: white;
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    
+    .success-content p {
+      color: #e8f4f8;
+      font-size: 16px;
+      margin: 0;
+      line-height: 1.5;
+    }
+    
+    .success-message::before {
+      content: "✓";
+      display: block;
+      font-size: 48px;
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 
@@ -659,7 +692,7 @@
         </div>
         <div class="col-lg-4 col-md-5 ">
           <div class="form_container">
-            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+            <form id="contactForm" action="https://submit-form.com/BFgZ45QHC" method="POST">
               <div>
                 <input type="text" name="name" placeholder="Nombre" required />
               </div>
@@ -678,6 +711,14 @@
                 </button>
               </div>
             </form>
+            
+            <!-- Success Message -->
+            <div id="successMessage" class="success-message" style="display: none;">
+              <div class="success-content">
+                <h4>¡Gracias por contactarnos!</h4>
+                <p>Pronto estaremos en contacto con usted.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -837,6 +878,43 @@
         }
       }, 300); // Wait 300ms for menu animation to complete
     }
+    
+    // Handle contact form submission
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      const formData = new FormData(form);
+      const successMessage = document.getElementById('successMessage');
+      
+      // Show loading state
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = 'Enviando...';
+      submitBtn.disabled = true;
+      
+      fetch(form.action, {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (response.ok) {
+          // Hide form and show success message
+          form.style.display = 'none';
+          successMessage.style.display = 'block';
+          
+          // Scroll to success message
+          successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          throw new Error('Error en el envío');
+        }
+      })
+      .catch(error => {
+        alert('Hubo un error al enviar el mensaje. Por favor, inténtelo de nuevo.');
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+      });
+    });
   </script>
 
 </body>
