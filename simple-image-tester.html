@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image URL Tester</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0a3d62;
+            text-align: center;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .url-test {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            background: white;
+        }
+        .url-test a {
+            color: #007bff;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 12px;
+            word-break: break-all;
+        }
+        .url-test a:hover {
+            text-decoration: underline;
+        }
+        .status {
+            margin-left: 10px;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .status.exists {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.missing {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .status.unknown {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .instructions {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .instructions h3 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        .btn {
+            background: #0a3d62;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .btn:hover {
+            background: #0d4a7a;
+        }
+        .results {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .property-summary {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+        }
+        .property-title {
+            font-weight: bold;
+            color: #0a3d62;
+            margin-bottom: 10px;
+        }
+        .count-display {
+            font-size: 18px;
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Simple Image URL Tester</h1>
+        <p style="text-align: center; color: #666;">Test individual image URLs to see which ones exist. Click each link to check.</p>
+        
+        <div class="instructions">
+            <h3>📋 How to use this tool:</h3>
+            <ol>
+                <li>Click each URL below to test if the image exists</li>
+                <li>If the image loads, it exists ✅</li>
+                <li>If you get a 404 error, it doesn't exist ❌</li>
+                <li>Count how many images load successfully</li>
+                <li>Share the results so we can update the configuration</li>
+            </ol>
+        </div>
+        
+        <div class="test-section">
+            <h3>🏠 Property 19 - Torre Anacaona</h3>
+            <p>Testing images 1-25 to see how many actually exist:</p>
+            
+            <div id="urlTests"></div>
+            
+            <button onclick="generateAllTests()" class="btn">Generate All Test URLs</button>
+            <button onclick="testProperty19()" class="btn">Test Property 19 Only</button>
+            <button onclick="clearResults()" class="btn">Clear Results</button>
+        </div>
+        
+        <div class="results" id="results" style="display: none;">
+            <h3>📊 Test Results</h3>
+            <div id="resultsContent"></div>
+        </div>
+        
+        <div class="test-section">
+            <h3>🔧 Quick Test for Other Properties</h3>
+            <p>Test a few images from other properties:</p>
+            
+            <div class="url-test">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png" target="_blank">Property 1 - Image 1</a>
+                <span class="status unknown">Click to test</span>
+            </div>
+            
+            <div class="url-test">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png" target="_blank">Property 2 - Image 1</a>
+                <span class="status unknown">Click to test</span>
+            </div>
+            
+            <div class="url-test">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/1.png" target="_blank">Property 7 - Image 1</a>
+                <span class="status unknown">Click to test</span>
+            </div>
+            
+            <div class="url-test">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/1.png" target="_blank">Property 9 - Image 1</a>
+                <span class="status unknown">Click to test</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let testResults = {};
+        
+        function generateAllTests() {
+            const container = document.getElementById('urlTests');
+            container.innerHTML = '';
+            
+            for (let i = 1; i <= 25; i++) {
+                const urlDiv = document.createElement('div');
+                urlDiv.className = 'url-test';
+                urlDiv.innerHTML = `
+                    <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/${i}.png" target="_blank" onclick="markAsTested(${i}, this)">
+                        Property 19 - Image ${i}
+                    </a>
+                    <span class="status unknown" id="status-${i}">Click to test</span>
+                `;
+                container.appendChild(urlDiv);
+            }
+        }
+        
+        function testProperty19() {
+            generateAllTests();
+            document.getElementById('results').style.display = 'block';
+        }
+        
+        function markAsTested(imageNumber, linkElement) {
+            // This function will be called when user clicks a link
+            // We can't actually detect if the image loaded, but we can provide instructions
+            
+            const statusElement = document.getElementById(`status-${imageNumber}`);
+            if (statusElement) {
+                statusElement.textContent = 'Check result manually';
+                statusElement.className = 'status unknown';
+            }
+            
+            // Store that this image was tested
+            testResults[imageNumber] = 'tested';
+            updateResults();
+        }
+        
+        function updateResults() {
+            const resultsContent = document.getElementById('resultsContent');
+            const testedCount = Object.keys(testResults).length;
+            
+            resultsContent.innerHTML = `
+                <div class="property-summary">
+                    <div class="property-title">Property 19 - Torre Anacaona</div>
+                    <div class="count-display">${testedCount} URLs tested</div>
+                    <p>Manual testing required: Click each URL above and note which ones load successfully.</p>
+                </div>
+            `;
+        }
+        
+        function clearResults() {
+            testResults = {};
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('resultsContent').innerHTML = '';
+            
+            // Reset all status indicators
+            for (let i = 1; i <= 25; i++) {
+                const statusElement = document.getElementById(`status-${i}`);
+                if (statusElement) {
+                    statusElement.textContent = 'Click to test';
+                    statusElement.className = 'status unknown';
+                }
+            }
+        }
+        
+        // Generate initial tests
+        window.onload = function() {
+            generateAllTests();
+        };
+        
+        // Add some helpful instructions
+        function showInstructions() {
+            alert(`How to use this tool:
+            
+1. Click each URL to test if the image exists
+2. If the image loads in a new tab, it exists ✅
+3. If you get a 404 error, it doesn't exist ❌
+4. Count how many images load successfully
+5. Share the count with us to update the configuration
+
+For Property 19, we expect to find more than 5 images based on your report.`);
+        }
+        
+        // Show instructions on page load
+        setTimeout(showInstructions, 1000);
+    </script>
+</body>
+</html>

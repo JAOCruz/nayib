@@ -1,0 +1,17 @@
+{
+  "name": "digital-ocean-images-updater",
+  "version": "1.0.0",
+  "description": "Update Digital Ocean Spaces image counts and galleries",
+  "main": "update-images.js",
+  "scripts": {
+    "start": "node update-images.js",
+    "update-images": "node update-images.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1490.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["digital-ocean", "spaces", "images", "aws-sdk"],
+  "author": "Lowest Wessin",
+  "license": "MIT"
+}

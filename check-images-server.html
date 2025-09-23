@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Ocean Images Checker - Server Method</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0a3d62;
+            text-align: center;
+        }
+        .method-box {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .method-title {
+            font-weight: bold;
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        .url-list {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .url-item {
+            margin: 5px 0;
+            padding: 5px;
+            background: white;
+            border-radius: 3px;
+        }
+        .url-item:hover {
+            background: #e9ecef;
+        }
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .copy-btn:hover {
+            background: #218838;
+        }
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .instructions h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .instructions ol {
+            color: #856404;
+        }
+        .property-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .property-title {
+            font-weight: bold;
+            color: #0a3d62;
+            margin-bottom: 10px;
+        }
+        .manual-check {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .manual-check h4 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        .test-url {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 3px;
+            padding: 10px;
+            margin: 5px 0;
+            font-family: monospace;
+            font-size: 12px;
+            word-break: break-all;
+        }
+        .test-url a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .test-url a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Digital Ocean Images Checker - Alternative Methods</h1>
+        <p style="text-align: center; color: #666;">Since CORS is blocking direct access, here are alternative ways to check your images.</p>
+        
+        <div class="method-box">
+            <div class="method-title">Method 1: Manual URL Testing</div>
+            <p>Test individual image URLs directly in your browser to see which ones exist.</p>
+            
+            <div class="manual-check">
+                <h4>Quick Test for Property 19:</h4>
+                <p>Click these links to test if images exist (they should load or show 404):</p>
+                
+                <div id="testUrls"></div>
+                
+                <button onclick="generateTestUrls()" class="copy-btn">Generate Test URLs</button>
+            </div>
+        </div>
+
+        <div class="method-box">
+            <div class="method-title">Method 2: Browser Developer Tools</div>
+            <div class="instructions">
+                <h3>How to check images using browser dev tools:</h3>
+                <ol>
+                    <li>Open your browser's Developer Tools (F12)</li>
+                    <li>Go to the Network tab</li>
+                    <li>Clear the network log</li>
+                    <li>Visit your property detail page</li>
+                    <li>Look for failed image requests (they'll show as red)</li>
+                    <li>Count successful vs failed requests</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="method-box">
+            <div class="method-title">Method 3: Server-Side Check (Recommended)</div>
+            <div class="instructions">
+                <h3>Create a simple PHP script to check images:</h3>
+                <ol>
+                    <li>Create a file called <code>check-images.php</code></li>
+                    <li>Use the code provided below</li>
+                    <li>Run it on your server</li>
+                </ol>
+            </div>
+            
+            <div class="url-list">
+                <strong>PHP Script Code:</strong><br>
+                <textarea readonly style="width: 100%; height: 200px; font-family: monospace; font-size: 11px;">
+<?php
+// Digital Ocean Images Checker - PHP Version
+function checkImageExists($url) {
+    $headers = @get_headers($url);
+    return $headers && strpos($headers[0], '200') !== false;
+}
+
+function checkPropertyImages($propertyId, $maxImages = 30) {
+    $baseUrl = "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/{$propertyId}";
+    $foundImages = [];
+    $extensions = ['png', 'jpg', 'jpeg'];
+    
+    for ($i = 1; $i <= $maxImages; $i++) {
+        $found = false;
+        foreach ($extensions as $ext) {
+            $url = "{$baseUrl}/{$i}.{$ext}";
+            if (checkImageExists($url)) {
+                $foundImages[] = $url;
+                $found = true;
+                break;
+            }
+        }
+        if (!$found) {
+            // Check a few more to be sure we haven't missed any
+            $consecutiveNotFound = 0;
+            for ($j = $i + 1; $j <= min($i + 5, $maxImages); $j++) {
+                $foundNext = false;
+                foreach ($extensions as $ext) {
+                    $url = "{$baseUrl}/{$j}.{$ext}";
+                    if (checkImageExists($url)) {
+                        $foundNext = true;
+                        break;
+                    }
+                }
+                if (!$foundNext) {
+                    $consecutiveNotFound++;
+                }
+            }
+            if ($consecutiveNotFound >= 3) {
+                break;
+            }
+        }
+    }
+    
+    return $foundImages;
+}
+
+// Check Property 19
+echo "<h2>Property 19 - Torre Anacaona</h2>";
+$images = checkPropertyImages(19);
+echo "<p><strong>Found " . count($images) . " images:</strong></p>";
+echo "<ul>";
+foreach ($images as $image) {
+    echo "<li><a href='{$image}' target='_blank'>{$image}</a></li>";
+}
+echo "</ul>";
+
+// Check all properties
+echo "<h2>All Properties Summary</h2>";
+$properties = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,50,51,52,42,43,44,45,46,47,48,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78];
+
+echo "<table border='1' style='border-collapse: collapse; width: 100%;'>";
+echo "<tr><th>Property ID</th><th>Image Count</th><th>Status</th></tr>";
+
+foreach ($properties as $propId) {
+    $images = checkPropertyImages($propId);
+    $count = count($images);
+    $status = $count > 0 ? "✅ {$count} images" : "❌ No images";
+    echo "<tr><td>{$propId}</td><td>{$count}</td><td>{$status}</td></tr>";
+}
+echo "</table>";
+?>
+                </textarea>
+            </div>
+        </div>
+
+        <div class="method-box">
+            <div class="method-title">Method 4: Direct Digital Ocean Spaces Access</div>
+            <div class="instructions">
+                <h3>If you have access to Digital Ocean Spaces:</h3>
+                <ol>
+                    <li>Log into your Digital Ocean account</li>
+                    <li>Go to Spaces</li>
+                    <li>Navigate to your bucket</li>
+                    <li>Check the "Propiedades" folder</li>
+                    <li>Count images in each numbered folder</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="property-section">
+            <div class="property-title">Quick Manual Check for Property 19</div>
+            <p>Since Property 19 might have 16 images instead of 5, let's test a few URLs manually:</p>
+            
+            <div class="test-url">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png</a>
+            </div>
+            <div class="test-url">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/5.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/5.png</a>
+            </div>
+            <div class="test-url">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/10.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/10.png</a>
+            </div>
+            <div class="test-url">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/15.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/15.png</a>
+            </div>
+            <div class="test-url">
+                <a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/20.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/20.png</a>
+            </div>
+            
+            <p><strong>Instructions:</strong> Click each link above. If it loads an image, that image exists. If it shows a 404 error, that image doesn't exist. Count how many load successfully.</p>
+        </div>
+    </div>
+
+    <script>
+        function generateTestUrls() {
+            const container = document.getElementById('testUrls');
+            container.innerHTML = '';
+            
+            for (let i = 1; i <= 25; i++) {
+                const urlDiv = document.createElement('div');
+                urlDiv.className = 'test-url';
+                urlDiv.innerHTML = `<a href="https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/${i}.png" target="_blank">https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/${i}.png</a>`;
+                container.appendChild(urlDiv);
+            }
+        }
+        
+        // Generate initial test URLs
+        generateTestUrls();
+    </script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Ocean Images Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0a3d62;
+            text-align: center;
+        }
+        .property-check {
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .property-title {
+            font-weight: bold;
+            color: #0a3d62;
+            margin-bottom: 10px;
+        }
+        .image-count {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .image-list {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+        .status {
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .controls {
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            background: #0a3d62;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        button:hover {
+            background: #0d4a7a;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .progress {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .progress-bar {
+            height: 100%;
+            background: #0a3d62;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Digital Ocean Images Checker</h1>
+        <p style="text-align: center; color: #666;">This tool will check how many images are actually available in each property folder on Digital Ocean Spaces.</p>
+        
+        <div class="controls">
+            <button onclick="checkAllImages()" id="checkBtn">Check All Properties</button>
+            <button onclick="checkSpecificProperty()" id="specificBtn">Check Property 19</button>
+            <button onclick="clearResults()" id="clearBtn">Clear Results</button>
+        </div>
+        
+        <div class="progress" id="progressContainer" style="display: none;">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div id="results"></div>
+    </div>
+
+    <script>
+        // Digital Ocean Spaces CDN Configuration
+        const CDN_CONFIG = {
+            BASE_URL: 'https://lowest.nyc3.cdn.digitaloceanspaces.com',
+            PROPERTIES_FOLDER: 'Propiedades',
+            
+            PROPERTIES: {
+                1: { name: 'Playa Nueva Romana', imageCount: 9 },
+                2: { name: 'Santiago', imageCount: 20 },
+                3: { name: 'Santiago Flora y Urbanismo', imageCount: 20 },
+                4: { name: 'Cap Cana', imageCount: 11 },
+                5: { name: 'Bávaro', imageCount: 12 },
+                6: { name: 'La Julia', imageCount: 9 },
+                7: { name: 'Bella Vista Sur', imageCount: 23 },
+                8: { name: 'El Cacique', imageCount: 12 },
+                9: { name: 'Las Terrenas', imageCount: 29 },
+                10: { name: 'Juan Dolio', imageCount: 15 },
+                11: { name: 'El Millón', imageCount: 18 },
+                12: { name: 'Bella Vista', imageCount: 12 },
+                13: { name: 'Samaná', imageCount: 1 },
+                14: { name: 'Bella Vista', imageCount: 5 },
+                15: { name: 'Naco', imageCount: 5 },
+                16: { name: 'Samaná Vista Mare', imageCount: 5 },
+                17: { name: 'Renacimiento', imageCount: 5 },
+                18: { name: 'Casa de Campo', imageCount: 5 },
+                19: { name: 'Torre Anacaona', imageCount: 5 },
+                20: { name: 'Elegante Penthouse en La Julia', imageCount: 5 },
+                21: { name: 'Apartamento Elegante en Naco', imageCount: 5 },
+                22: { name: 'Penthouse en Bella Vista', imageCount: 5 },
+                23: { name: 'Loft en Los Cacicazgos', imageCount: 5 },
+                24: { name: 'Proyecto Apartamentos - Respaldo Los Tres Ojos', imageCount: 5 },
+                25: { name: 'Proyecto Apartamentos - Ensanche Isabelita', imageCount: 5 },
+                26: { name: 'Apartamento Nuevo Amueblado - Av. Anacaona', imageCount: 5 },
+                27: { name: 'Habitación en Alquiler - Los Restauradores', imageCount: 1 },
+                28: { name: 'Apartamento en Bella Vista', imageCount: 5 },
+                29: { name: 'Apartamento de Oportunidad en La Julia', imageCount: 5 },
+                30: { name: 'Pent House frente al Parque Mirador Sur', imageCount: 5 },
+                31: { name: 'Dos Torres de Apartamentos - La Esperilla', imageCount: 5 },
+                32: { name: 'Apartamento en Zona Universitaria', imageCount: 5 },
+                33: { name: 'Apartamento en Mirador Norte', imageCount: 5 },
+                34: { name: 'Hermoso Penthouse de Lujo Amueblado - Mirador Norte', imageCount: 5 },
+                35: { name: 'Espectacular Apartamento de Oportunidad en La Esperilla', imageCount: 5 },
+                36: { name: 'Pent-House de Oportunidad en Piantini', imageCount: 5 },
+                37: { name: 'Apartamento de Oportunidad en Naco', imageCount: 5 },
+                38: { name: 'Oportunidad Única en Los Cacicazgos - Piso 17', imageCount: 5 },
+                39: { name: 'Hermosa Villa Amueblada en Jarabacoa', imageCount: 5 },
+                40: { name: 'Nuevos Apartamentos Lujosos en La Julia', imageCount: 5 },
+                50: { name: 'Apartamentos desde $157,000 USD en Bella Vista', imageCount: 5 },
+                51: { name: 'Espaciosos Apartamentos en La Julia - Torre Innovadora', imageCount: 5 },
+                52: { name: 'Apartamento en Sector Paraíso', imageCount: 5 },
+                42: { name: 'Proyecto Sector El Vergel', imageCount: 5 },
+                43: { name: 'Los Cacicazgos - Concepto Elegante y Lujoso', imageCount: 5 },
+                44: { name: 'Torre Moderna en Naco - Bloque A', imageCount: 5 },
+                45: { name: 'Torre Moderna en Naco - Segunda Torre', imageCount: 5 },
+                46: { name: 'Torre Moderna en Naco - Tercera Torre', imageCount: 5 },
+                47: { name: 'Penthouse en Piantini - Piso 14', imageCount: 5 },
+                48: { name: 'Torre Moderna de 23 Niveles - Los Cacicazgos', imageCount: 5 },
+                53: { name: 'Juan Dolio Beach - Torre Moderna de 19 Pisos', imageCount: 5 },
+                54: { name: 'Torre Moderna y Vanguardista en Bella Vista', imageCount: 5 },
+                55: { name: 'Torre Moderna de 18 Niveles - Los Cacicazgos', imageCount: 5 },
+                56: { name: 'Apartamentos Nuevos y Económicos en Vista Hermosa', imageCount: 5 },
+                57: { name: 'Proyecto de 11 Niveles en La Esperilla', imageCount: 5 },
+                58: { name: 'Proyecto de 15 Niveles en La Esperilla', imageCount: 5 },
+                59: { name: 'Proyecto de Oficinas Comerciales en Bella Vista', imageCount: 5 },
+                60: { name: 'Torre de Apartamentos en La Esperilla', imageCount: 5 },
+                61: { name: 'Apartamentos en El Vergel', imageCount: 5 },
+                62: { name: 'Torre en Renacimiento', imageCount: 5 },
+                63: { name: 'Torre de Lujo en Urbanización Real', imageCount: 5 },
+                64: { name: 'Proyecto de Lujo en La Esperilla', imageCount: 5 },
+                65: { name: 'Altos de Arroyo Hondo', imageCount: 5 },
+                66: { name: 'Lujosos Apartamentos en Arroyo Hondo', imageCount: 5 },
+                67: { name: 'Apartamento Exclusivo en Naco', imageCount: 5 },
+                68: { name: 'La Julia - Vistas al Mar', imageCount: 5 },
+                69: { name: 'Apartamento Especial en Cap Cana', imageCount: 5 },
+                70: { name: 'Apartamento Especial en Cap Cana - Segunda Unidad', imageCount: 5 },
+                71: { name: 'Apartamento Amueblado en Alquiler - La Esperilla', imageCount: 5 },
+                72: { name: 'Bella Vista - Vistas a la Ciudad y al Mar', imageCount: 5 },
+                73: { name: 'Bella Vista - Precio de Oportunidad', imageCount: 5 },
+                74: { name: 'Apartamento en El Cacique - Vista al Mar', imageCount: 5 },
+                75: { name: 'Alquiler de Oportunidad en Naco', imageCount: 5 },
+                76: { name: 'Torre Moderna de 23 Niveles - Bella Vista', imageCount: 5 },
+                77: { name: 'Apartamento de Oportunidad en Naco', imageCount: 5 },
+                78: { name: 'Apartamento en Sector Paraíso', imageCount: 5 }
+            }
+        };
+
+        async function checkImageExists(url) {
+            try {
+                const response = await fetch(url, { method: 'HEAD' });
+                return response.ok;
+            } catch (error) {
+                return false;
+            }
+        }
+
+        async function checkPropertyImages(propertyId, maxImages = 50) {
+            const property = CDN_CONFIG.PROPERTIES[propertyId];
+            if (!property) return null;
+
+            const baseUrl = `https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/${propertyId}`;
+            const foundImages = [];
+            
+            // Check images with different extensions
+            const extensions = ['png', 'jpg', 'jpeg'];
+            
+            for (let i = 1; i <= maxImages; i++) {
+                let found = false;
+                for (const ext of extensions) {
+                    const url = `${baseUrl}/${i}.${ext}`;
+                    if (await checkImageExists(url)) {
+                        foundImages.push(url);
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    // If we don't find an image, check a few more to be sure
+                    let consecutiveNotFound = 0;
+                    for (let j = i + 1; j <= Math.min(i + 5, maxImages); j++) {
+                        let foundNext = false;
+                        for (const ext of extensions) {
+                            const url = `${baseUrl}/${j}.${ext}`;
+                            if (await checkImageExists(url)) {
+                                foundNext = true;
+                                break;
+                            }
+                        }
+                        if (!foundNext) {
+                            consecutiveNotFound++;
+                        }
+                    }
+                    // If we don't find images in the next 5 positions, we're probably done
+                    if (consecutiveNotFound >= 3) {
+                        break;
+                    }
+                }
+            }
+            
+            return {
+                propertyId,
+                name: property.name,
+                configuredCount: property.imageCount,
+                actualCount: foundImages.length,
+                images: foundImages
+            };
+        }
+
+        async function checkAllImages() {
+            const resultsDiv = document.getElementById('results');
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            const checkBtn = document.getElementById('checkBtn');
+            
+            checkBtn.disabled = true;
+            progressContainer.style.display = 'block';
+            resultsDiv.innerHTML = '<h2>Checking all properties...</h2>';
+            
+            const propertyIds = Object.keys(CDN_CONFIG.PROPERTIES).map(Number).sort((a, b) => a - b);
+            const totalProperties = propertyIds.length;
+            let completed = 0;
+            
+            for (const propertyId of propertyIds) {
+                const result = await checkPropertyImages(propertyId);
+                if (result) {
+                    displayPropertyResult(result);
+                }
+                
+                completed++;
+                const progress = (completed / totalProperties) * 100;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            checkBtn.disabled = false;
+            progressContainer.style.display = 'none';
+        }
+
+        async function checkSpecificProperty() {
+            const resultsDiv = document.getElementById('results');
+            const specificBtn = document.getElementById('specificBtn');
+            
+            specificBtn.disabled = true;
+            resultsDiv.innerHTML = '<h2>Checking Property 19...</h2>';
+            
+            const result = await checkPropertyImages(19, 30); // Check up to 30 images
+            if (result) {
+                displayPropertyResult(result);
+            }
+            
+            specificBtn.disabled = false;
+        }
+
+        function displayPropertyResult(result) {
+            const resultsDiv = document.getElementById('results');
+            
+            const statusClass = result.actualCount > result.configuredCount ? 'success' : 
+                               result.actualCount < result.configuredCount ? 'error' : 'success';
+            
+            const statusText = result.actualCount > result.configuredCount ? 'MORE THAN CONFIGURED' :
+                              result.actualCount < result.configuredCount ? 'LESS THAN CONFIGURED' : 'CORRECT';
+            
+            const propertyDiv = document.createElement('div');
+            propertyDiv.className = 'property-check';
+            propertyDiv.innerHTML = `
+                <div class="property-title">
+                    Property ${result.propertyId}: ${result.name}
+                    <span class="status ${statusClass}">${statusText}</span>
+                </div>
+                <div>
+                    <strong>Configured:</strong> ${result.configuredCount} images | 
+                    <strong>Actual:</strong> <span class="image-count">${result.actualCount} images</span>
+                </div>
+                <div class="image-list">
+                    <strong>Found images:</strong><br>
+                    ${result.images.slice(0, 10).map(img => img.split('/').pop()).join(', ')}
+                    ${result.images.length > 10 ? `... and ${result.images.length - 10} more` : ''}
+                </div>
+            `;
+            
+            resultsDiv.appendChild(propertyDiv);
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+
+        // Auto-check Property 19 on page load
+        window.onload = function() {
+            checkSpecificProperty();
+        };
+    </script>
+</body>
+</html>
