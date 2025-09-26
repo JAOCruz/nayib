@@ -182,10 +182,6 @@ class PagePropertiesManager {
 
         propertiesContainer.innerHTML = `
             <div class="category_section">
-                <div class="category_header">
-                    <h3>Propiedades Disponibles</h3>
-                    <p>Oportunidades de inversión verificadas en multifamiliares, estudios, Airbnb y terrenos en el mercado dominicano.</p>
-                </div>
                 <div class="properties_grid">
                     ${currentPageData.map(property => this.createPropertyItem(property)).join('')}
                 </div>

@@ -1,0 +1,54 @@
+/* Compact filter styles */
+.compact-filters .search_filter_section {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.compact-filters .search_container {
+  margin-bottom: 15px;
+}
+
+.compact-filters .search_input input {
+  padding: 10px 40px 10px 15px;
+  font-size: 14px;
+}
+
+.compact-filters .filters_container {
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.compact-filters .filter_group label {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.compact-filters .filter_group input,
+.compact-filters .filter_group select {
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.compact-filters .btn_filter,
+.compact-filters .btn_clear {
+  padding: 8px 15px;
+  height: 36px;
+  min-width: 100px;
+  font-size: 13px;
+}
+
+.compact-filters .results_info {
+  padding: 8px;
+  font-size: 13px;
+}
+
+.compact-filters .pagination_container {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+/* Hide the redundant title sections */
+.redundant-title,
+.category_header {
+  display: none;
+}
