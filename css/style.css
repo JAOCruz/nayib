@@ -282,7 +282,7 @@ a:focus {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0; /* Changed from left to right */
   background-color: rgba(10, 61, 98, 0.9); 
   overflow-x: hidden;
   -webkit-transition: 0.5s;
@@ -292,7 +292,7 @@ a:focus {
 .overlay .closebtn {
   position: absolute;
   top: 0;
-  right: 30px;
+  left: 30px; /* Changed from right to left since menu now opens from right */
   font-size: 60px;
 }
 
