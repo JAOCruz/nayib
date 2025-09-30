@@ -96,16 +96,15 @@
 
   .client_section .client_container .carousel-control-prev,
   .client_section .client_container .carousel-control-next {
-    top: calc(100% - 45px);
+    top: calc(100% - 30px);
   }
 
   .client_section .client_container .carousel-control-prev {
-    left: calc(50% - 50px);
+    left: calc(50% - 60px);
   }
 
   .client_section .client_container .carousel-control-next {
-    right: calc(50% - 50px);
-
+    right: calc(50% - 60px);
   }
 
   .info_contact {
@@ -151,18 +150,22 @@
   .client_section .client_container .box {
     flex-direction: column;
     align-items: center;
-
+    margin: 25px 2%;
+    padding-bottom: 25px;
   }
 
   .client_section .client_container .box .detail-box {
     margin-top: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .client_section .client_container .box .detail-box h5 {
+    justify-content: center;
   }
 
   .client_section .client_container div#carouselExampleControls::before {
-    height: 165px;
-    left: 30%;
-    top: 43px;
-
+    display: none; /* Remove the decorative element that's causing overlap */
   }
 
   .footer_section p {
