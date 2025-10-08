@@ -72,6 +72,189 @@
       }
     }
     
+    /* Animation Styles */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes scaleIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    
+    @keyframes slideInFromTop {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Apply animations to elements */
+    .animate-on-scroll {
+      opacity: 0;
+      transition: all 0.6s ease-out;
+    }
+    
+    .animate-on-scroll.animated {
+      opacity: 1;
+    }
+    
+    .fade-in-up {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    
+    .fade-in-left {
+      animation: fadeInLeft 0.8s ease-out forwards;
+    }
+    
+    .fade-in-right {
+      animation: fadeInRight 0.8s ease-out forwards;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+    
+    .scale-in {
+      animation: scaleIn 0.8s ease-out forwards;
+    }
+    
+    .slide-in-top {
+      animation: slideInFromTop 0.8s ease-out forwards;
+    }
+    
+    /* Stagger animations */
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+    .delay-5 { animation-delay: 0.5s; }
+    .delay-6 { animation-delay: 0.6s; }
+    
+    /* Hover animations */
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .hover-lift:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Image hover effects */
+    .image-zoom-container {
+      overflow: hidden;
+    }
+    
+    .image-zoom-container img {
+      transition: transform 0.5s ease;
+    }
+    
+    .image-zoom-container:hover img {
+      transform: scale(1.1);
+    }
+    
+    /* Heading animations */
+    .heading_container h2 {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .heading_container h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: #f97616;
+      transition: width 0.6s ease;
+    }
+    
+    .heading_container.animated h2::after {
+      width: 100%;
+    }
+    
+    /* Button pulse effect */
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(10, 61, 98, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 10px rgba(10, 61, 98, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(10, 61, 98, 0);
+      }
+    }
+    
+    .btn-box a:hover,
+    .btn-property:hover {
+      animation: pulse 1.5s infinite;
+    }
+    
+    /* Partner logos animation */
+    .partner_logo_box {
+      transition: transform 0.4s ease;
+    }
+    
+    .partner_logo_box:hover {
+      transform: translateY(-5px) scale(1.05);
+    }
+    
+    /* Make COHESA logo bigger */
+    .partner_logo_box img[alt="COHESA"] {
+      max-height: 150px !important;
+    }
+    
     /* Success modal styles */
     .success-modal {
       position: fixed;
@@ -212,15 +395,15 @@
         <div class="row">
           <div class="col-md-4 offset-md-1">
             <div class="detail-box">
-              <h1>
+              <h1 class="fade-in-left">
                 <span>Soluciones Integrales</span> <br>
                 en el Sector <br>
                 Inmobiliario
               </h1>
-              <p>
+              <p class="fade-in-left delay-2">
                 LOWEST-WESSIN INMOBILIARIA, E.I.R.L. (LOWESS) - Operando desde 2020 en Santo Domingo, República Dominicana. Ofrecemos servicios especializados con responsabilidad, creatividad e innovación.
               </p>
-              <div class="btn-box">
+              <div class="btn-box fade-in-left delay-3">
                 <a href="#" onclick="scrollToAbout(); return false;" class="">
                   Conocer Más
                 </a>
@@ -237,7 +420,7 @@
   <section class="motivational_section">
     <div class="container">
       <div class="motivational_box">
-        <h2 class="motivational_text">
+        <h2 class="motivational_text animate-on-scroll">
           Haz de cada día tu obra maestra<br>
           <span class="highlight">Invierte con LOWESS</span>
         </h2>
@@ -254,18 +437,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="img-box">
+          <div class="img-box image-zoom-container animate-on-scroll">
             <img src="images/about-img.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
-            <div class="heading_container">
+            <div class="heading_container animate-on-scroll">
               <h2>
                 Acerca de LOWESS
               </h2>
             </div>
-            <p>
+            <p class="animate-on-scroll">
               LOWESS es una empresa dedicada a ofrecer soluciones integrales en el ámbito del sector inmobiliario y el desarrollo mismo de este. Opera desde el año 2020 en la provincia de Santo Domingo, Distrito Nacional, República Dominicana, encabezada por el <strong>Ing. Nayib Wessin Hazim</strong>, quien gracias a su responsabilidad, creatividad e innovación han contado con la confianza de un gran número de clientes, tanto nacionales como internacionales.
             </p>
           </div>
@@ -279,7 +462,7 @@
   <!-- sale section -->
   <section class="sale_section layout_padding-bottom">
     <div class="container-fluid">
-      <div class="heading_container">
+      <div class="heading_container animate-on-scroll">
         <h2>
           Nuestras Especialidades
         </h2>
@@ -288,8 +471,8 @@
         </p>
       </div>
       <div class="sale_container">
-        <div class="box">
-          <div class="img-box">
+        <div class="box hover-lift animate-on-scroll">
+          <div class="img-box image-zoom-container">
             <a href="propiedades.html">
               <img src="images/s-1.jpg" alt="Propiedades">
             </a>
@@ -303,8 +486,8 @@
             </p>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
+        <div class="box hover-lift animate-on-scroll">
+          <div class="img-box image-zoom-container">
             <a href="solares.html">
               <img src="images/s-2.jpg" alt="Solares y Terrenos">
             </a>
@@ -333,7 +516,7 @@
   <!-- featured properties section -->
   <section class="featured_properties_section layout_padding-bottom">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container animate-on-scroll">
         <h2>
           Propiedades Destacadas
         </h2>
@@ -358,7 +541,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="detail-box">
-            <div class="heading_container">
+            <div class="heading_container animate-on-scroll">
               <h2>
                 Desarrollo Inmobiliario
               </h2>
@@ -366,10 +549,10 @@
                 <span>Próximamente</span>
               </div>
             </div>
-            <p>
+            <p class="animate-on-scroll">
               Próximamente ofreceremos servicios completos de desarrollo inmobiliario, incluyendo planificación, financiamiento, construcción y venta de proyectos inmobiliarios innovadores en el mercado dominicano. Nuestro equipo de expertos trabajará contigo para materializar tu visión de desarrollo.
             </p>
-            <div class="features_list">
+            <div class="features_list animate-on-scroll">
               <ul>
                 <li>Planificación y diseño de proyectos</li>
                 <li>Financiamiento especializado</li>
@@ -386,10 +569,10 @@
         <div class="col-md-6">
           <div class="img-box">
             <div class="image_gallery">
-              <div class="main_image">
+              <div class="main_image image-zoom-container animate-on-scroll">
                 <img src="images/desarrollo.png" alt="Desarrollo Inmobiliario - Planificación">
               </div>
-              <div class="secondary_image">
+              <div class="secondary_image image-zoom-container animate-on-scroll">
                 <img src="images/desarrollo2.png" alt="Desarrollo Inmobiliario - Construcción">
               </div>
             </div>
@@ -728,19 +911,24 @@
       </div>
       <div class="partners_container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 col-7">
+          <div class="col-md-6 col-6">
             <div class="partner_logo_box">
               <img src="images/conarte.jpeg" alt="CONARTE - Construcción Arquitectura y Técnica" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6 col-7">
+          <div class="col-md-6 col-6">
             <div class="partner_logo_box">
               <img src="images/logo-hageco.png" alt="HAGECO - Ingenieros & Arquitectos" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-4 col-4"> 
+          <div class="col-md-4 col-6 offset-md-2"> 
             <div class="partner_logo_box">
               <img src="images/therrestra-azul.png" alt="Therrestra" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <div class="partner_logo_box">
+              <img src="images/cohesa.png" alt="COHESA" class="img-fluid">
             </div>
           </div>
         </div>
@@ -1002,6 +1190,82 @@
       if (e.key === 'Escape') {
         closeSuccessModal();
       }
+    });
+    
+    // Scroll Animation Observer
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+          // For heading containers, trigger the underline animation
+          if (entry.target.classList.contains('heading_container')) {
+            entry.target.classList.add('animated');
+          }
+        }
+      });
+    }, observerOptions);
+    
+    // Observe all elements with animate-on-scroll class
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElements = document.querySelectorAll('.animate-on-scroll');
+      animatedElements.forEach(el => observer.observe(el));
+      
+      // Add animation classes to dynamically loaded property cards
+      const propertyObserver = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1 && node.classList && node.classList.contains('property_card')) {
+              node.classList.add('hover-lift', 'animate-on-scroll');
+              observer.observe(node);
+              
+              // Add image zoom to property images
+              const imgBox = node.querySelector('.img-box');
+              if (imgBox) {
+                imgBox.classList.add('image-zoom-container');
+              }
+            }
+          });
+        });
+      });
+      
+      // Observe the featured properties container
+      const featuredContainer = document.getElementById('featuredPropertiesContainer');
+      if (featuredContainer) {
+        propertyObserver.observe(featuredContainer, {
+          childList: true,
+          subtree: true
+        });
+      }
+    });
+    
+    // Add stagger effect to service boxes
+    window.addEventListener('load', function() {
+      const serviceBoxes = document.querySelectorAll('.price_section .box');
+      serviceBoxes.forEach((box, index) => {
+        box.classList.add('animate-on-scroll');
+        box.style.animationDelay = (index * 0.2) + 's';
+        observer.observe(box);
+      });
+      
+      // Add animation to stats boxes
+      const statsBoxes = document.querySelectorAll('.us_section .box');
+      statsBoxes.forEach((box, index) => {
+        box.classList.add('scale-in', 'delay-' + (index + 1));
+      });
+      
+      // Add animation to partner logos
+      const partnerLogos = document.querySelectorAll('.partner_logo_box');
+      partnerLogos.forEach((logo, index) => {
+        logo.classList.add('animate-on-scroll');
+        logo.parentElement.style.animationDelay = (index * 0.15) + 's';
+        observer.observe(logo);
+      });
     });
   </script>
 
