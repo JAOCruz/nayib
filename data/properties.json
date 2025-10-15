@@ -7552,6 +7552,54 @@
               "estatus_legal": "DESLINDADO"
             }
           ]
+        },
+        {
+          "ubicacion": "El Millón",
+          "solares": [
+            {
+              "area_m2": 545,
+              "frente_m": 24,
+              "fondo_m": null,
+              "precio_usd_m2": 1294,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Naco",
+          "solares": [
+            {
+              "area_m2": 864.8,
+              "frente_m": 19.25,
+              "fondo_m": 43.56,
+              "precio_usd_m2": 2100,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Nigua",
+          "solares": [
+            {
+              "area_m2": 12000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 750,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Américas",
+          "solares": [
+            {
+              "area_m2": 1604,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 18,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
         }
       ]
     }
