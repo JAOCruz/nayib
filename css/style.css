@@ -1220,7 +1220,7 @@ a:focus {
 
 /* Motivational Message Styles */
 .motivational_section {
-  background: linear-gradient(135deg, #0a3d62 0%, #1e5f8a 100%);
+  background: linear-gradient(135deg, #0a3d62 100%, #1e5f8a 0%);
   padding: 60px 0;
   text-align: center;
 }
