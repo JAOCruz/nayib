@@ -2536,7 +2536,7 @@
             "11 Piso, 2 niveles",
             "PRIMER NIVEL: 3 Habitaciones con walk-in closet y baño privado, Sala-Comedor con Aire Central, Baño de visitas, Balcón amplio integrado, Cocina moderna equipada con Lavaplatos, Habitación de servicio con su baño, Dos Escritorios",
             "SEGUNDO NIVEL: Loft con projector y pantalla de cine, Bar con todo accesorios, Aire Acondicionado, 1 Baño completo, Área de lavado, Terraza con PICUZZI calentado, Área social y BBQ",
-            "2 parqueos techado con cargador de carro eléctrico",
+            "2 parqueos techados con cargador de carro eléctrico",
             "Torre con Lobby, 2 Ascensores, Planta full, Gas común, Seguridad 24 horas"
           ],
           "status": "Disponible",
@@ -2575,7 +2575,7 @@
                 "Bar con todo accesorios",
                 "Terraza con PICUZZI calentado",
                 "Área social y BBQ",
-                "2 parqueos techado con cargador de carro eléctrico",
+                "2 parqueos techados con cargador de carro eléctrico",
                 "Torre con Lobby, 2 Ascensores, Planta full, Gas común, Seguridad 24 horas"
               ]
             }
@@ -3070,99 +3070,6 @@
                 "Cocina Modular",
                 "Área de Lavado",
                 "Un (1) parqueo"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "prop-la-julia-torre-innovadora-001",
-          "title": "Espaciosos Apartamentos en La Julia - Torre Innovadora",
-          "price": 132600,
-          "currency": "USD",
-          "location": "La Julia, Santo Domingo",
-          "type": "Apartamentos",
-          "units": 0,
-          "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/1.png",
-          "description": "Espaciosos apartamentos en venta para inversión. Esta será una innovadora torre ubicada en el sector la Julia con apartamentos para rentar o vivir, de 1 y 2 habitaciones.",
-          "features": [
-            "Opción Smart Home ready",
-            "Lobby tipo hotel con Drop off",
-            "3 Ascensores y 1 Ascensor de Servicio",
-            "Parqueos para visitantes",
-            "Ducto de basura con cuarto de basura",
-            "Sistema contraincendios",
-            "Escaleras de emergencia",
-            "Plantas Eléctricas",
-            "Gas con medidores",
-            "Lavanderías",
-            "Mascotas hasta 25 Lbs.",
-            "Piscina",
-            "Jacuzzi",
-            "Solárium",
-            "Gimnasio Equipado",
-            "Sauna",
-            "Terraza Techada",
-            "Terraza Destechada",
-            "Salón Multiusos",
-            "Área de Lounge",
-            "Área para BBQ",
-            "Co-working",
-            "Área para niños",
-            "Cancha de Basket",
-            "Oficina Administrativa",
-            "Spa para mascotas",
-            "Lavandería",
-            "Cada nivel cuenta con 7 apartamentos",
-            "Cada apartamento con su balcón para disfrutar de las vistas"
-          ],
-          "status": "En construcción",
-          "badge": "Desde $132,600",
-          "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/51/9.png"
-          ],
-          "delivery": "2025",
-          "payment_plan": {
-            "reservation": "5,000 USD",
-            "contract": "30%",
-            "construction": "40%",
-            "delivery": "30%"
-          },
-          "apartment_types": [
-            {
-              "type": "1 Habitación",
-              "area": "N/A",
-              "price": "Desde 132,600 USD",
-              "features": [
-                "1 habitación",
-                "Balcón con vistas",
-                "Opción Smart Home ready",
-                "Cocina modular",
-                "Área de lavado",
-                "Parqueo",
-                "Acceso a todas las amenidades"
-              ]
-            },
-            {
-              "type": "2 Habitaciones",
-              "area": "N/A",
-              "price": "Consultar",
-              "features": [
-                "2 habitaciones",
-                "Balcón con vistas",
-                "Opción Smart Home ready",
-                "Cocina modular",
-                "Área de lavado",
-                "Parqueo",
-                "Acceso a todas las amenidades"
               ]
             }
           ]
@@ -5565,87 +5472,6 @@
           ]
         },
         {
-          "id": "prop-bella-vista-vistas-ciudad-mar-001",
-          "title": "Bella Vista - Vistas a la Ciudad y al Mar",
-          "price": 0,
-          "showPrice": false,
-          "currency": "USD",
-          "location": "Bella Vista, Santo Domingo",
-          "type": "Apartamentos de Lujo",
-          "units": 0,
-          "area": "103 - 292 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/1.png",
-          "description": "Este es un proyecto totalmente nuevo localizado en el sector de Bella Vista con las más atractivas vistas a la ciudad y al mar.",
-          "features": [
-            "Dos, tres o cuatros parqueos por apartamento, según la unidad",
-            "Dos ascensores de última generación",
-            "Amplio lobby amueblado en mármol",
-            "Sistemas de cámara de vigilancia",
-            "Piscina en el nivel 16",
-            "Gimnasio diseñado",
-            "Área de juegos de niños",
-            "Unidades de apartamentos de 103, 123 y 146 metros cuadrados de construcción netos",
-            "Sala",
-            "Comedor",
-            "Cocina",
-            "Cada habitación con su baño para los Aptos. de 2 habitaciones",
-            "Walking closet en las Habs. principales",
-            "Cuarto de servicio con su baño",
-            "Área de lavado",
-            "Pre-instalación de aires acondicionados",
-            "Pre-instalación de Automatización en todas las áreas",
-            "Loft y dúplex disponibles de 200 y 292 metros cuadrados de construcción",
-            "Excelente terminación en los materiales utilizados"
-          ],
-          "status": "Disponible",
-          "badge": "Bella Vista",
-          "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/72/8.png"
-          ],
-          "delivery": "Disponible",
-          "payment_plan": {
-            "reservation": "10,000 USD",
-            "contract": "30%",
-            "construction": "40%",
-            "delivery": "30%"
-          },
-          "apartment_types": [
-            {
-              "type": "Apartamento Estándar",
-              "area": "103-146 m²",
-              "price": "Consultar",
-              "features": [
-                "Sala, Comedor, Cocina",
-                "Cada habitación con su baño",
-                "Walking closet en las habitaciones principales",
-                "Cuarto de servicio con su baño",
-                "Área de lavado",
-                "Pre-instalación de aires acondicionados",
-                "Pre-instalación de Automatización"
-              ]
-            },
-            {
-              "type": "Loft y Dúplex",
-              "area": "200-292 m²",
-              "price": "Consultar",
-              "features": [
-                "Estudio",
-                "Balcón-terraza",
-                "Estar familiar",
-                "Baños en cada habitación",
-                "Excelente terminación en los materiales utilizados"
-              ]
-            }
-          ]
-        },
-        {
           "id": "prop-bella-vista-precio-oportunidad-001",
           "title": "Bella Vista - Precio de Oportunidad",
           "price": 129500,
@@ -6240,6 +6066,32 @@
               "fondo_m": null,
               "precio_usd_m2": 1000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2516,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 860,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 460000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Gazcue",
+          "solares": [
+            {
+              "area_m2": 1320,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1450,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -6251,6 +6103,18 @@
               "frente_m": 20,
               "fondo_m": 42,
               "precio_usd_m2": 1350,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Las Américas km.22",
+          "solares": [
+            {
+              "area_m2": 20000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -6283,6 +6147,18 @@
               "fondo_m": 79.72,
               "precio_usd_m2": 4000,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Circunvalación (Duarte - Peaje La Cuaba)",
+          "solares": [
+            {
+              "area_m2": 600000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2500,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         },
@@ -6330,6 +6206,53 @@
               "fondo_m": 910,
               "precio_usd_m2": 68,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 44000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1980,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 54000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5500,
+              "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 125000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 50,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 53000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 50,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 600000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 45,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "El Higüero, Av. Joaquín Balaguer",
+          "solares": [
+            {
+              "area_m2": 30000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4500,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -6353,6 +6276,18 @@
               "frente_m": 30,
               "fondo_m": 40,
               "precio_usd_m2": 4000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Calle Emma Balaguer",
+          "solares": [
+            {
+              "area_m2": 1409.76,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 75000000,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -6463,6 +6398,18 @@
           ]
         },
         {
+          "ubicacion": "Bavaro (Hotel Sirenis)",
+          "solares": [
+            {
+              "area_m2": 30000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 55,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Bella Vista Norte",
           "solares": [
             {
@@ -6516,6 +6463,37 @@
               "fondo_m": null,
               "precio_usd_m2": 27,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 715000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 43,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Carretera Mella-Boca Chica",
+          "solares": [
+            {
+              "area_m2": 1900000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 19,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Cabrera",
+          "solares": [
+            {
+              "area_m2": 3008,
+              "frente_m": 31,
+              "fondo_m": null,
+              "precio_usd_m2": 155,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         },
@@ -6626,6 +6604,20 @@
               "fondo_m": null,
               "precio_usd_m2": 100,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 463,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1200,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -6675,6 +6667,42 @@
           ]
         },
         {
+          "ubicacion": "El Gala",
+          "solares": [
+            {
+              "area_m2": 926.50,
+              "frente_m": 19.50,
+              "fondo_m": 17.00,
+              "precio_usd_m2": 900,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Herrera",
+          "solares": [
+            {
+              "area_m2": 1991,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 122000000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Gaspar Hernández",
+          "solares": [
+            {
+              "area_m2": 549509,
+              "frente_m": 301,
+              "fondo_m": null,
+              "precio_usd_m2": 11600000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Juan Dolio",
           "solares": [
             {
@@ -6697,12 +6725,47 @@
               "fondo_m": null,
               "precio_usd_m2": 350,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1691,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1700000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4797.43,
+              "frente_m": 59,
+              "fondo_m": null,
+              "precio_usd_m2": 850,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2400,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2600000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 17000,
+              "frente_m": 425,
+              "fondo_m": null,
+              "precio_usd_m2": 16000000,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
         {
           "ubicacion": "Juan Dolio (Metro Country Club)",
           "solares": [
+            {
+              "area_m2": 769.99,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TÍTULO"
+            },
             {
               "area_m2": 31443.37,
               "frente_m": null,
@@ -6790,6 +6853,56 @@
               "fondo_m": null,
               "precio_usd_m2": 68,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3100,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 13500000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Galeras",
+          "solares": [
+            {
+              "area_m2": 202000,
+              "frente_m": 265,
+              "fondo_m": null,
+              "precio_usd_m2": 60,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 71000,
+              "frente_m": 125,
+              "fondo_m": null,
+              "precio_usd_m2": 69,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Luperón",
+          "solares": [
+            {
+              "area_m2": 4416,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 22000000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Lagunas, El 22",
+          "solares": [
+            {
+              "area_m2": 31443.37,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 16000000,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         },
@@ -6823,6 +6936,13 @@
               "fondo_m": null,
               "precio_usd_m2": 230,
               "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2019,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 90,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -6894,6 +7014,25 @@
               "fondo_m": 1212,
               "precio_usd_m2": 130,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 63000,
+              "frente_m": 160,
+              "fondo_m": null,
+              "precio_usd_m2": 220,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Marginal de las Américas",
+          "solares": [
+            {
+              "area_m2": 430000,
+              "frente_m": 100,
+              "fondo_m": null,
+              "precio_usd_m2": 160,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         },
@@ -6949,7 +7088,7 @@
             },
             {
               "area_m2": 1014,
-              "frente_m": 33.3,
+              "frente_m": 19.54,
               "fondo_m": 43.92,
               "precio_usd_m2": 2500,
               "estatus_legal": "CON TÍTULO"
@@ -6966,6 +7105,20 @@
               "frente_m": 18,
               "fondo_m": 25,
               "precio_usd_m2": 2200,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3648.6,
+              "frente_m": 42,
+              "fondo_m": null,
+              "precio_usd_m2": 10540000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 856,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2750000,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7082,6 +7235,30 @@
           ]
         },
         {
+          "ubicacion": "Av. Rómulo Betancourt",
+          "solares": [
+            {
+              "area_m2": 1296.68,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2890000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Res. Sueño Caribeño",
+          "solares": [
+            {
+              "area_m2": 453000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 45,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Residencial Gala",
           "solares": [
             {
@@ -7128,6 +7305,25 @@
               "fondo_m": null,
               "precio_usd_m2": 5,
               "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Bella Vista Sur",
+          "solares": [
+            {
+              "area_m2": 590,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 1050000,
+              "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 750,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2800000,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7192,6 +7388,75 @@
               "fondo_m": null,
               "precio_usd_m2": 16,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 27566.64,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Miches",
+          "solares": [
+            {
+              "area_m2": 1400000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Mirador Sur",
+          "solares": [
+            {
+              "area_m2": 452.34,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60000000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Nuñez de Cáceres",
+          "solares": [
+            {
+              "area_m2": 2189.31,
+              "frente_m": 86.27,
+              "fondo_m": 25.71,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 725,
+              "frente_m": 20.52,
+              "fondo_m": 35.36,
+              "precio_usd_m2": 2700000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 571,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 1250000,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Uvero Alto",
+          "solares": [
+            {
+              "area_m2": 250000,
+              "frente_m": 50,
+              "fondo_m": null,
+              "precio_usd_m2": 145,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7222,6 +7487,30 @@
           ]
         },
         {
+          "ubicacion": "Av. Winston Churchill",
+          "solares": [
+            {
+              "area_m2": 671,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1300000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "White Sand, Bavaro",
+          "solares": [
+            {
+              "area_m2": 18621,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 150,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Villa Marina",
           "solares": [
             {
@@ -7229,6 +7518,85 @@
               "frente_m": 19,
               "fondo_m": 34,
               "precio_usd_m2": 538,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 595.38,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 20500000,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Oviedo - Pedernales (1ra línea de playa)",
+          "solares": [
+            {
+              "area_m2": 10000000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 7.5,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Parque Industrial de Haina",
+          "solares": [
+            {
+              "area_m2": 26000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 70,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "El Millón",
+          "solares": [
+            {
+              "area_m2": 545,
+              "frente_m": 24,
+              "fondo_m": null,
+              "precio_usd_m2": 1294,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Naco",
+          "solares": [
+            {
+              "area_m2": 864.8,
+              "frente_m": 19.25,
+              "fondo_m": 43.56,
+              "precio_usd_m2": 2100,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Nigua",
+          "solares": [
+            {
+              "area_m2": 12000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 750,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Américas",
+          "solares": [
+            {
+              "area_m2": 1604,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 18,
               "estatus_legal": "CON TÍTULO"
             }
           ]
