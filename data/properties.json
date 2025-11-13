@@ -5472,6 +5472,60 @@
           ]
         },
         {
+          "id": "prop-el-vergel-alquiler-002",
+          "title": "Apartamento Amueblado en Alquiler - El Vergel",
+          "price": 950,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "El Vergel, Distrito Nacional",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "95 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/placeholder.png",
+          "description": "Renta este elegante apartamento de oportunidad única en el centro del Distrito Nacional. Apartamento amueblado en El Vergel con todas las comodidades necesarias para una vida cómoda y segura.",
+          "features": [
+            "1 Habitación",
+            "1.5 Baño",
+            "Cocina",
+            "Área de lavado equipada",
+            "Terraza y BBQ",
+            "1 Parqueo",
+            "Amueblado (2 TV)",
+            "Ascensor",
+            "Seguridad 24/7"
+          ],
+          "status": "Disponible",
+          "badge": "Alquiler $950",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/placeholder.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "950 USD/mes",
+            "contract": "Alquiler",
+            "construction": "N/A",
+            "delivery": "N/A"
+          },
+          "apartment_types": [
+            {
+              "type": "Alquiler Amueblado",
+              "area": "95 m²",
+              "price": "950 USD/mes",
+              "features": [
+                "1 Habitación",
+                "1.5 Baño",
+                "Cocina",
+                "Área de lavado equipada",
+                "Terraza y BBQ",
+                "1 Parqueo",
+                "Amueblado (2 TV)",
+                "Ascensor",
+                "Seguridad 24/7"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-bella-vista-precio-oportunidad-001",
           "title": "Bella Vista - Precio de Oportunidad",
           "price": 129500,
@@ -6183,7 +6237,7 @@
               "area_m2": 44000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 37,
+              "precio_usd_m2": 42.37,
               "estatus_legal": "CON TITULO"
             },
             {
@@ -6218,7 +6272,7 @@
               "area_m2": 54000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 5500,
+              "precio_usd_m2": 110,
               "estatus_legal": "DESLINDADO"
             },
             {
@@ -7120,6 +7174,13 @@
               "fondo_m": null,
               "precio_usd_m2": 2750000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 750,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 2750,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7190,6 +7251,13 @@
               "frente_m": 50,
               "fondo_m": 48,
               "precio_usd_m2": 3300,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2300,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3500,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7598,6 +7666,30 @@
               "fondo_m": null,
               "precio_usd_m2": 18,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "San José de Ocoa",
+          "solares": [
+            {
+              "area_m2": 2104796,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 42.75,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Circunvalación Sur (entre Duarte y Haina)",
+          "solares": [
+            {
+              "area_m2": 160000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         }
