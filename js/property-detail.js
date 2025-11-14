@@ -324,6 +324,10 @@ class PropertyDetailManager {
             return '';
         }
         
+        // Check if this is a Dominican Peso property
+        const isDominicanPeso = property.location === 'Bella Vista Sur' && 
+                               (property.precio_usd_m2 === 1050000 || property.precio_usd_m2 === 2800000);
+        
         return `
             <div class="property-solar-details">
                 <h4>Detalles del Terreno</h4>
@@ -343,8 +347,10 @@ class PropertyDetailManager {
                                 <td>${property.fondo_m ? property.fondo_m.toLocaleString() : '-'}</td>
                             </tr>
                             <tr>
-                                <th>Precio USD/m²</th>
-                                <td>${property.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : '$' + property.precio_usd_m2.toLocaleString()}</td>
+                                <th>Precio por m²</th>
+                                <td>${property.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                                    (isDominicanPeso ? 'RD$' + property.precio_usd_m2.toLocaleString() + ' DOP/m²' : 
+                                                      '$' + property.precio_usd_m2.toLocaleString() + ' USD/m²')}</td>
                             </tr>
                             <tr>
                                 <th>Estatus Legal</th>
@@ -438,7 +444,14 @@ class PropertyDetailManager {
         if (property.precio_usd_m2 === 'CONSULTAR') return 'CONSULTAR';
         
         const totalPrice = property.area_m2 * property.precio_usd_m2;
-        return '$' + totalPrice.toLocaleString();
+        
+        // Special case for Bella Vista Sur solares which are in DOP (Dominican Peso)
+        if (property.location === 'Bella Vista Sur' && 
+           (property.precio_usd_m2 === 1050000 || property.precio_usd_m2 === 2800000)) {
+            return 'RD$' + totalPrice.toLocaleString() + ' DOP';
+        } else {
+            return '$' + totalPrice.toLocaleString() + ' USD';
+        }
     }
     
     formatPrice(property) {
@@ -448,7 +461,13 @@ class PropertyDetailManager {
             if (property.precio_usd_m2 === 'CONSULTAR') {
                 return 'Precio: CONSULTAR';
             } else {
-                return `$${property.precio_usd_m2.toLocaleString()} USD/m²`;
+                // Special case for Bella Vista Sur solares which are in DOP (Dominican Peso)
+                if (property.location === 'Bella Vista Sur' && 
+                   (property.precio_usd_m2 === 1050000 || property.precio_usd_m2 === 2800000)) {
+                    return `RD$${property.precio_usd_m2.toLocaleString()} DOP/m²`;
+                } else {
+                    return `$${property.precio_usd_m2.toLocaleString()} USD/m²`;
+                }
             }
         }
         return 'Precio: CONSULTAR';
