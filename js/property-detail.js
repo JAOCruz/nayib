@@ -456,13 +456,67 @@ class PropertyDetailManager {
 
     showErrorMessage(message) {
         const container = document.getElementById('property-detail-container');
-        container.innerHTML = `
-            <div class="property-not-found">
-                <h3>Lo sentimos</h3>
-                <p>${message}</p>
-                <a href="propiedades.html" class="btn-contact">Ver todas las propiedades</a>
-            </div>
-        `;
+        
+        // For solares, show contact form instead of error message
+        if (this.propertyType === 'solares') {
+            const solarId = this.propertyId;
+            let locationName = '';
+            let solarDetails = '';
+            
+            // Try to extract location from the ID (format: location-index)
+            if (solarId && solarId.includes('-')) {
+                const locationSlug = solarId.split('-')[0];
+                // Convert slug back to readable format
+                locationName = locationSlug.split('-').map(word => 
+                    word.charAt(0).toUpperCase() + word.slice(1)
+                ).join(' ');
+            }
+            
+            container.innerHTML = `
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="contact-form">
+                            <h3>Solicitar Información sobre Solar en ${locationName}</h3>
+                            <p>Complete el formulario a continuación para recibir más información sobre este solar.</p>
+                            
+                            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+                                <input type="hidden" name="form_type" value="solar_inquiry">
+                                <input type="hidden" name="solar_id" value="${solarId}">
+                                <input type="hidden" name="solar_location" value="${locationName}">
+                                
+                                <div class="form-group">
+                                    <label for="name">Nombre*</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Su nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo Electrónico*</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Su correo electrónico" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Teléfono*</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Su número de teléfono" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Mensaje</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4" 
+                                    placeholder="Estoy interesado en obtener más información sobre este solar en ${locationName}"></textarea>
+                                </div>
+                                <button type="submit" class="btn-contact">Enviar Solicitud</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else {
+            // Regular error message for other property types
+            container.innerHTML = `
+                <div class="property-not-found">
+                    <h3>Lo sentimos</h3>
+                    <p>${message}</p>
+                    <a href="propiedades.html" class="btn-contact">Ver todas las propiedades</a>
+                </div>
+            `;
+        }
     }
 }
 
