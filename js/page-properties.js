@@ -886,9 +886,23 @@ class PagePropertiesManager {
         const isDominicanPeso = this.currentLocation === 'Bella Vista Sur' && 
                                (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
         
-        const totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
-                          (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
-                           (solar.area_m2 * solar.precio_usd_m2).toLocaleString());
+        let pricePerM2, totalPrice;
+        
+        if (isDominicanPeso) {
+            // For Dominican Peso properties, the stored value is the total price
+            // We need to calculate the price per m²
+            totalPrice = solar.precio_usd_m2;
+            pricePerM2 = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
+                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                         Math.round(solar.precio_usd_m2 / solar.area_m2));
+        } else {
+            // For USD properties, the stored value is the price per m²
+            // We need to calculate the total price
+            pricePerM2 = solar.precio_usd_m2;
+            totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
+                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                         (solar.area_m2 * solar.precio_usd_m2));
+        }
         
         // Create a slug from the location name
         const locationSlug = this.slugify(this.currentLocation);
@@ -896,14 +910,14 @@ class PagePropertiesManager {
         const solarId = `${locationSlug}-${index}`;
         
         // Format price display based on currency
-        const priceDisplay = solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
-                            (isDominicanPeso ? 'RD$' + solar.precio_usd_m2.toLocaleString() + ' DOP/m²' : 
-                                              '$' + solar.precio_usd_m2.toLocaleString() + ' USD/m²');
+        const priceDisplay = pricePerM2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                            (isDominicanPeso ? 'RD$' + pricePerM2.toLocaleString() + ' DOP/m²' : 
+                                              '$' + pricePerM2.toLocaleString() + ' USD/m²');
         
         // Format total price display based on currency
         const totalPriceDisplay = totalPrice === 'CONSULTAR' ? 'CONSULTAR' : 
-                                 (isDominicanPeso ? 'RD$' + totalPrice + ' DOP' : 
-                                                   '$' + totalPrice + ' USD');
+                                 (isDominicanPeso ? 'RD$' + totalPrice.toLocaleString() + ' DOP' : 
+                                                   '$' + totalPrice.toLocaleString() + ' USD');
         
         return `
             <div class="solar_row" onclick="window.location.href='property-detail.html?id=${solarId}&type=solares'" style="cursor: pointer;">
