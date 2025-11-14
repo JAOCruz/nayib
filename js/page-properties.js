@@ -886,28 +886,33 @@ class PagePropertiesManager {
         const isDominicanPeso = this.currentLocation === 'Bella Vista Sur' && 
                                (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
         
+        // Check if the value is likely a total price rather than a price per m²
+        // Values over 10,000 are likely total prices, not price per m²
+        const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
+        
         let pricePerM2, totalPrice;
         
-        if (isDominicanPeso) {
-            // For Dominican Peso properties, the stored value is the total price
+        if (isDominicanPeso || isLikelyTotalPrice) {
+            // For Dominican Peso properties or properties with total prices,
+            // the stored value is the total price
             // We need to calculate the price per m²
             totalPrice = solar.precio_usd_m2;
             pricePerM2 = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
                         (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
                          Math.round(solar.precio_usd_m2 / solar.area_m2));
         } else {
-            // For USD properties, the stored value is the price per m²
-            // We need to calculate the total price
+            // For properties with price per m², we need to calculate the total price
             pricePerM2 = solar.precio_usd_m2;
             totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
                         (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
                          (solar.area_m2 * solar.precio_usd_m2));
         }
         
-        // Create a slug from the location name
-        const locationSlug = this.slugify(this.currentLocation);
-        // Create a unique ID for this solar
-        const solarId = `${locationSlug}-${index}`;
+        // Create a custom ID that encodes both the location and the index
+        // We'll use a special separator '___' that's unlikely to appear in location names
+        // This will allow us to correctly parse complex location names like "Av. 27 de Febrero"
+        const encodedLocationName = encodeURIComponent(this.currentLocation);
+        const solarId = `loc___${encodedLocationName}___idx___${index}`;
         
         // Format price display based on currency
         const priceDisplay = pricePerM2 === 'CONSULTAR' ? 'CONSULTAR' : 

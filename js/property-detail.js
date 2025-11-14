@@ -19,6 +19,10 @@ class PropertyDetailManager {
 
     async init() {
         try {
+            console.log('PropertyDetailManager.init() started');
+            console.log('Property ID from URL:', this.propertyId);
+            console.log('Property Type from URL:', this.propertyType);
+            
             // Get the base URL of the current page
             const baseUrl = window.location.origin;
             
@@ -64,9 +68,36 @@ class PropertyDetailManager {
                     }
                     
                     console.log('Properties data loaded successfully from:', path);
-                    this.loadPropertyDetail();
-                    loaded = true;
-                    break; // Success, exit the loop
+                    
+                    // Add a timeout to ensure we don't get stuck
+                    const timeoutPromise = new Promise((resolve, reject) => {
+                        setTimeout(() => {
+                            reject(new Error('Timeout loading property details'));
+                        }, 5000); // 5 second timeout
+                    });
+                    
+                    try {
+                        // Race between the property loading and the timeout
+                        await Promise.race([
+                            new Promise(resolve => {
+                                try {
+                                    this.loadPropertyDetail();
+                                    resolve();
+                                } catch (err) {
+                                    console.error('Error in loadPropertyDetail:', err);
+                                    resolve();
+                                }
+                            }),
+                            timeoutPromise
+                        ]);
+                        
+                        loaded = true;
+                        break; // Success, exit the loop
+                    } catch (timeoutError) {
+                        console.error('Timeout loading property details:', timeoutError);
+                        this.showErrorMessage('La carga de detalles tomó demasiado tiempo. Por favor, inténtelo de nuevo.');
+                        return;
+                    }
                 } catch (error) {
                     console.error(`Error loading from ${path}:`, error);
                     continue; // Try next path
@@ -85,6 +116,7 @@ class PropertyDetailManager {
 
     loadPropertyDetail() {
         if (!this.propertyId || !this.propertiesData) {
+            console.error('Property ID or data not available:', { id: this.propertyId, dataAvailable: !!this.propertiesData });
             this.showErrorMessage('No se encontró la propiedad solicitada.');
             return;
         }
@@ -109,34 +141,110 @@ class PropertyDetailManager {
             
             // Check in solares (different structure)
             if (!property && this.propertyType === 'solares' && this.propertiesData.categories.solares) {
+                console.log('Checking solares for ID:', this.propertyId);
+                
                 // For solares, we need to handle the different data structure
-                // The ID format would be location-index, like "bella-vista-0"
-                if (this.propertyId.includes('-')) {
-                    const [locationSlug, indexStr] = this.propertyId.split('-');
-                    const index = parseInt(indexStr);
+                // The ID format is now loc___[encodedLocationName]___idx___[index]
+                var location = null;
+                var index = 0;
+                var locationName = '';
+                
+                // Try the new format first
+                if (this.propertyId.includes('loc___') && this.propertyId.includes('___idx___')) {
+                    // Parse the new ID format
+                    const parts = this.propertyId.split('___');
+                    if (parts.length >= 4) {
+                        const encodedLocationName = parts[1];
+                        locationName = decodeURIComponent(encodedLocationName);
+                        const indexStr = parts[3];
+                        index = parseInt(indexStr);
+                        
+                        console.log('Looking for location name:', locationName, 'index:', index);
+                        
+                        // Log all available locations for debugging
+                        if (this.propertiesData.categories.solares.data) {
+                            console.log('Available locations:', 
+                                this.propertiesData.categories.solares.data.map(loc => ({
+                                    name: loc.ubicacion,
+                                    solaresCount: loc.solares ? loc.solares.length : 0
+                                }))
+                            );
+                        }
+                        
+                        // Find the location by exact name match
+                        location = this.propertiesData.categories.solares.data.find(loc => 
+                            loc.ubicacion === locationName
+                        );
+                    }
+                } else if (this.propertyId.includes('-')) {
+                    // Fallback for the old format (location-index)
+                    console.log('Using fallback for old ID format');
+                    const parts = this.propertyId.split('-');
+                    const locationSlug = parts[0];
+                    const indexStr = parts[parts.length - 1]; // Get the last part as the index
+                    index = parseInt(indexStr);
+                    
+                    console.log('Looking for location slug:', locationSlug, 'index:', index);
+                    
+                    // Log all available locations for debugging
+                    if (this.propertiesData.categories.solares.data) {
+                        console.log('Available locations:', 
+                            this.propertiesData.categories.solares.data.map(loc => ({
+                                name: loc.ubicacion,
+                                slug: this.slugify(loc.ubicacion),
+                                solaresCount: loc.solares ? loc.solares.length : 0
+                            }))
+                        );
+                    }
                     
                     // Find the location
-                    const location = this.propertiesData.categories.solares.data.find(loc => 
+                    location = this.propertiesData.categories.solares.data.find(loc => 
                         this.slugify(loc.ubicacion) === locationSlug
                     );
                     
-                    if (location && location.solares && location.solares[index]) {
-                        property = {
-                            ...location.solares[index],
-                            id: this.propertyId,
-                            title: `Solar en ${location.ubicacion}`,
-                            location: location.ubicacion,
-                            type: 'Solar',
-                            image: 'images/s-4.jpg', // Default image for solares
-                            description: `Solar ubicado en ${location.ubicacion} con ${location.solares[index].area_m2} m².`
-                        };
+                    if (location) {
+                        locationName = location.ubicacion;
                     }
                 }
-            }
+                    
+                    console.log('Found location:', location ? location.ubicacion : 'Not found');
+                    
+                    if (location && location.solares) {
+                        console.log('Solares in location:', location.solares.length);
+                        console.log('Looking for index:', index);
+                        
+                        if (location.solares[index]) {
+                            console.log('Found solar at index:', index, location.solares[index]);
+                            
+                            property = {
+                                ...location.solares[index],
+                                id: this.propertyId,
+                                title: `Solar en ${location.ubicacion}`,
+                                location: location.ubicacion,
+                                type: 'Solar',
+                                image: 'images/s-4.jpg', // Default image for solares
+                                description: `Solar ubicado en ${location.ubicacion} con ${location.solares[index].area_m2} m².`
+                            };
+                        } else {
+                            console.error('Solar not found at index:', index);
+                        }
+                    } else {
+                        console.error('Location has no solares or location not found');
+                    }
+                } else {
+                    console.error('Invalid property ID format for solares:', this.propertyId);
+                }
             
-            if (property) {
+            
+            // For solares, always show the contact form instead of property details
+            if (this.propertyType === 'solares') {
+                console.log('Solar found, showing contact form instead of details');
+                this.showErrorMessage('No se encontró la propiedad solicitada.');
+            } else if (property) {
+                console.log('Found property:', property);
                 this.renderPropertyDetail(property);
             } else {
+                console.error('Property not found with ID:', this.propertyId);
                 this.showErrorMessage('No se encontró la propiedad solicitada.');
             }
         } catch (error) {
@@ -328,16 +436,21 @@ class PropertyDetailManager {
         const isDominicanPeso = property.location === 'Bella Vista Sur' && 
                                (property.precio_usd_m2 === 1050000 || property.precio_usd_m2 === 2800000);
         
-        // Calculate price per m² for Dominican Peso properties
+        // Check if the value is likely a total price rather than a price per m²
+        // Values over 10,000 are likely total prices, not price per m²
+        const isLikelyTotalPrice = typeof property.precio_usd_m2 === 'number' && property.precio_usd_m2 > 10000;
+        
+        // Calculate price per m² for properties with total price stored
         let pricePerM2;
-        if (isDominicanPeso) {
-            // For Dominican Peso properties, the stored value is the total price
+        if (isDominicanPeso || isLikelyTotalPrice) {
+            // For Dominican Peso properties or properties with total prices,
+            // the stored value is the total price
             // We need to calculate the price per m²
             pricePerM2 = typeof property.area_m2 === 'string' ? 'CONSULTAR' : 
                         (property.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
                          Math.round(property.precio_usd_m2 / property.area_m2));
         } else {
-            // For USD properties, the stored value is the price per m²
+            // For properties with price per m², use the stored value
             pricePerM2 = property.precio_usd_m2;
         }
         
@@ -463,11 +576,18 @@ class PropertyDetailManager {
         const isDominicanPeso = property.location === 'Bella Vista Sur' && 
                                (property.precio_usd_m2 === 1050000 || property.precio_usd_m2 === 2800000);
         
+        // Check if the value is likely a total price rather than a price per m²
+        // Values over 10,000 are likely total prices, not price per m²
+        const isLikelyTotalPrice = typeof property.precio_usd_m2 === 'number' && property.precio_usd_m2 > 10000;
+        
         if (isDominicanPeso) {
             // For Dominican Peso properties, the stored value is the total price
             return 'RD$' + property.precio_usd_m2.toLocaleString() + ' DOP';
+        } else if (isLikelyTotalPrice) {
+            // For properties with total price stored in precio_usd_m2
+            return '$' + property.precio_usd_m2.toLocaleString() + ' USD';
         } else {
-            // For USD properties, calculate the total price
+            // For properties with price per m², calculate the total price
             const totalPrice = property.area_m2 * property.precio_usd_m2;
             return '$' + totalPrice.toLocaleString() + ' USD';
         }
@@ -495,56 +615,310 @@ class PropertyDetailManager {
     showErrorMessage(message) {
         const container = document.getElementById('property-detail-container');
         
-        // For solares, show contact form instead of error message
+            // For solares, show contact form instead of error message
         if (this.propertyType === 'solares') {
             const solarId = this.propertyId;
             let locationName = '';
             let solarDetails = '';
+            let area = '';
+            let priceInfo = '';
+            let solar = null; // Define solar variable at this scope
+            let index = 0;
             
-            // Try to extract location from the ID (format: location-index)
-            if (solarId && solarId.includes('-')) {
+            console.log('Showing contact form for solar ID:', solarId);
+            
+            // Try to extract location from the ID using the new format first
+            if (solarId && solarId.includes('loc___') && solarId.includes('___idx___')) {
+                // Parse the new ID format
+                const parts = solarId.split('___');
+                if (parts.length >= 4) {
+                    const encodedLocationName = parts[1];
+                    locationName = decodeURIComponent(encodedLocationName);
+                    const indexStr = parts[3];
+                    index = parseInt(indexStr);
+                    
+                    console.log('Contact form: Using new ID format. Location:', locationName, 'Index:', index);
+                    
+                    // Try to get additional details from the data
+                    try {
+                        if (this.propertiesData && this.propertiesData.categories && this.propertiesData.categories.solares) {
+                            console.log('Available locations for contact form:', 
+                                this.propertiesData.categories.solares.data.map(loc => ({
+                                    name: loc.ubicacion,
+                                    solaresCount: loc.solares ? loc.solares.length : 0
+                                }))
+                            );
+                            
+                            const location = this.propertiesData.categories.solares.data.find(loc => 
+                                loc.ubicacion === locationName
+                            );
+                            
+                            console.log('Found location for contact form:', location ? location.ubicacion : 'Not found');
+                            
+                            if (location && location.solares && location.solares[index]) {
+                                solar = location.solares[index]; // Assign to the outer scope variable
+                                console.log('Found solar for contact form:', solar);
+                                area = solar.area_m2 ? `${solar.area_m2.toLocaleString()} m²` : '';
+                                
+                                // Check if this is a Dominican Peso property
+                                const isDominicanPeso = locationName === 'Bella Vista Sur' && 
+                                                      (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
+                                
+                                // Check if the value is likely a total price rather than a price per m²
+                                const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
+                                
+                                if (isDominicanPeso) {
+                                    priceInfo = `RD$${solar.precio_usd_m2.toLocaleString()} DOP`;
+                                } else if (isLikelyTotalPrice) {
+                                    priceInfo = `$${solar.precio_usd_m2.toLocaleString()} USD`;
+                                } else if (typeof solar.precio_usd_m2 === 'number') {
+                                    priceInfo = `$${solar.precio_usd_m2.toLocaleString()} USD/m²`;
+                                }
+                            }
+                        }
+                    } catch (error) {
+                        console.error('Error getting solar details for contact form:', error);
+                    }
+                }
+            } 
+            // Fall back to the old format if needed
+            else if (solarId && solarId.includes('-')) {
                 const locationSlug = solarId.split('-')[0];
-                // Convert slug back to readable format
-                locationName = locationSlug.split('-').map(word => 
-                    word.charAt(0).toUpperCase() + word.slice(1)
-                ).join(' ');
+                const indexStr = solarId.split('-')[1];
+                index = parseInt(indexStr);
+                
+                console.log('Contact form: Using old ID format. Location slug:', locationSlug, 'Index:', index);
+                
+                // First, try to get the actual location name from the data
+                try {
+                    if (this.propertiesData && this.propertiesData.categories && this.propertiesData.categories.solares) {
+                        const location = this.propertiesData.categories.solares.data.find(loc => 
+                            this.slugify(loc.ubicacion) === locationSlug
+                        );
+                        
+                        if (location) {
+                            // Use the actual location name from the data
+                            locationName = location.ubicacion;
+                            
+                            if (location.solares && location.solares[index]) {
+                                solar = location.solares[index]; // Assign to the outer scope variable
+                                console.log('Found solar for contact form (old format):', solar);
+                                area = solar.area_m2 ? `${solar.area_m2.toLocaleString()} m²` : '';
+                                
+                                // Check if this is a Dominican Peso property
+                                const isDominicanPeso = locationName === 'Bella Vista Sur' && 
+                                                      (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
+                                
+                                // Check if the value is likely a total price rather than a price per m²
+                                const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
+                                
+                                if (isDominicanPeso) {
+                                    priceInfo = `RD$${solar.precio_usd_m2.toLocaleString()} DOP`;
+                                } else if (isLikelyTotalPrice) {
+                                    priceInfo = `$${solar.precio_usd_m2.toLocaleString()} USD`;
+                                } else if (typeof solar.precio_usd_m2 === 'number') {
+                                    priceInfo = `$${solar.precio_usd_m2.toLocaleString()} USD/m²`;
+                                }
+                            }
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error getting location name for contact form:', error);
+                }
+                
+                // If we couldn't get the name from data, fall back to reconstructing from slug
+                if (!locationName) {
+                    locationName = locationSlug.split('-').map(word => 
+                        word.charAt(0).toUpperCase() + word.slice(1)
+                    ).join(' ');
+                }
             }
             
-            container.innerHTML = `
+            // Debug information
+            console.log('Solar ID:', solarId);
+            console.log('Location Name:', locationName);
+            console.log('Solar Object:', solar);
+            
+            // Create the pre-filled message with available details in the format requested
+            let prefilledMessage = `Me interesa el solar en ${locationName || 'esta ubicación'}`;
+            
+            // Make sure we have the solar data
+            if (!solar) {
+                console.warn('Solar data not available for message generation');
+                // Try to get solar data directly from the properties data
+                try {
+                    if (this.propertiesData && this.propertiesData.categories && this.propertiesData.categories.solares) {
+                        // Log all available locations to help with debugging
+                        console.log('All available locations:', 
+                            this.propertiesData.categories.solares.data.map(loc => loc.ubicacion)
+                        );
+                        
+                        // Try to find the location by name
+                        const location = this.propertiesData.categories.solares.data.find(loc => 
+                            loc.ubicacion === locationName
+                        );
+                        
+                        if (location && location.solares && location.solares[index]) {
+                            solar = location.solares[index];
+                            console.log('Found solar data in fallback code:', solar);
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error in fallback solar data retrieval:', error);
+                }
+                
+                if (!solar) {
+                    prefilledMessage += `. Por favor, contáctenme para obtener más información sobre este solar.`;
+                }
+            }
+            
+            if (solar) {
+                // Add area information if available
+                if (solar.area_m2) {
+                    console.log('Area:', solar.area_m2);
+                    prefilledMessage += `, del tamaño de ${solar.area_m2.toLocaleString()} m²`;
+                } else {
+                    console.warn('Area not available');
+                }
+                
+                // Add price information
+                if (solar.precio_usd_m2) {
+                    console.log('Price:', solar.precio_usd_m2);
+                    // Check if this is a Dominican Peso property
+                    const isDominicanPeso = locationName === 'Bella Vista Sur' && 
+                                         (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
+                    
+                    // Check if the value is likely a total price rather than a price per m²
+                    const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
+                    
+                    if (isDominicanPeso || isLikelyTotalPrice) {
+                        // For properties with total price stored
+                        prefilledMessage += ` por ${isDominicanPeso ? 'RD$' : '$'}${solar.precio_usd_m2.toLocaleString()} ${isDominicanPeso ? 'DOP' : 'USD'}`;
+                    } else {
+                        // For properties with price per m² stored
+                        const totalPrice = solar.area_m2 * solar.precio_usd_m2;
+                        prefilledMessage += ` por $${totalPrice.toLocaleString()} USD`;
+                    }
+                } else {
+                    console.warn('Price not available');
+                }
+                
+                // Add additional details if available
+                if (solar.frente_m) {
+                    prefilledMessage += `, con frente de ${solar.frente_m} m`;
+                }
+                
+                if (solar.fondo_m) {
+                    prefilledMessage += `, fondo de ${solar.fondo_m} m`;
+                }
+                
+                if (solar.estatus_legal) {
+                    prefilledMessage += `, estatus legal: ${solar.estatus_legal}`;
+                }
+                
+                prefilledMessage += `. Por favor, contáctenme para obtener más información sobre este solar.`;
+            }
+            
+            // Log the final message
+            console.log('Final message:', prefilledMessage);
+            
+            // Create the form HTML without jQuery
+            const formHtml = `
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="contact-form">
-                            <h3>Solicitar Información sobre Solar en ${locationName}</h3>
-                            <p>Complete el formulario a continuación para recibir más información sobre este solar.</p>
+                            <h3>¿Desea contactarnos sobre este solar?</h3>
+                            <p>Complete el formulario a continuación para recibir más información sobre este solar en ${locationName}.</p>
                             
-                            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
-                                <input type="hidden" name="form_type" value="solar_inquiry">
-                                <input type="hidden" name="solar_id" value="${solarId}">
-                                <input type="hidden" name="solar_location" value="${locationName}">
-                                
+                            <div id="form-container">
                                 <div class="form-group">
                                     <label for="name">Nombre*</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Su nombre" required>
+                                    <input type="text" class="form-control" id="name" placeholder="Su nombre" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Correo Electrónico*</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Su correo electrónico" required>
+                                    <input type="email" class="form-control" id="email" placeholder="Su correo electrónico" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Teléfono*</label>
-                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Su número de teléfono" required>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Su número de teléfono" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Mensaje</label>
-                                    <textarea class="form-control" id="message" name="message" rows="4" 
-                                    placeholder="Estoy interesado en obtener más información sobre este solar en ${locationName}"></textarea>
+                                    <textarea class="form-control" id="message" rows="4">${prefilledMessage}</textarea>
                                 </div>
-                                <button type="submit" class="btn-contact">Enviar Solicitud</button>
-                            </form>
+                                <button type="button" id="submit-button" class="btn-contact">Enviar Solicitud</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             `;
+            
+            container.innerHTML = formHtml;
+            
+            // Add event listener to the submit button after the DOM is updated
+            setTimeout(() => {
+                try {
+                    const submitButton = document.getElementById('submit-button');
+                    if (submitButton) {
+                        submitButton.addEventListener('click', function() {
+                            // Get form values
+                            const name = document.getElementById('name').value;
+                            const email = document.getElementById('email').value;
+                            const phone = document.getElementById('phone').value;
+                            const message = document.getElementById('message').value;
+                            
+                            // Validate form
+                            if (!name || !email || !phone) {
+                                alert('Por favor complete todos los campos requeridos.');
+                                return;
+                            }
+                            
+                            // Create form data
+                            const formData = {
+                                form_type: 'solar_inquiry',
+                                solar_id: solarId,
+                                solar_location: locationName,
+                                name: name,
+                                email: email,
+                                phone: phone,
+                                message: message
+                            };
+                            
+                            console.log('Submitting form with data:', formData);
+                            
+                            // Use fetch API instead of jQuery AJAX
+                            fetch('https://submit-form.com/BFgZ45QHC', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify(formData)
+                            })
+                            .then(response => {
+                                console.log('Form submission response:', response);
+                                if (response.ok) {
+                                    // Show success message
+                                    document.getElementById('form-container').innerHTML = `
+                                        <div class="alert alert-success">
+                                            <h4>¡Gracias por su interés!</h4>
+                                            <p>Hemos recibido su solicitud y nos pondremos en contacto con usted a la brevedad.</p>
+                                        </div>
+                                    `;
+                                } else {
+                                    throw new Error('Error en el envío del formulario');
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Error submitting form:', error);
+                                alert('Ocurrió un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.');
+                            });
+                        });
+                    }
+                } catch (error) {
+                    console.error('Error setting up form submission:', error);
+                }
+            }, 100);
         } else {
             // Regular error message for other property types
             container.innerHTML = `
@@ -699,8 +1073,38 @@ class PropertyCarousel {
 // Global carousel instance
 let propertyCarousel;
 
+// Disable jQuery AJAX globally to prevent the unshiftHeader error
+if (window.jQuery) {
+    // Save original jQuery ajax function
+    const originalAjax = jQuery.ajax;
+    
+    // Override jQuery's ajax function
+    jQuery.ajax = function(url, options) {
+        console.log('jQuery AJAX intercepted and blocked');
+        // Return a dummy promise that never resolves
+        return {
+            done: function() { return this; },
+            fail: function() { return this; },
+            always: function() { return this; }
+        };
+    };
+    
+    // Also disable ajaxSetup
+    jQuery.ajaxSetup = function() {
+        console.log('jQuery ajaxSetup intercepted and blocked');
+    };
+    
+    console.log('jQuery AJAX has been disabled');
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Ensure jQuery AJAX is disabled
+    if (window.jQuery) {
+        jQuery(document).off('submit', 'form');
+        jQuery(document).off('click', '[type="submit"]');
+    }
+    
     new PropertyDetailManager();
     
     // Initialize carousel after a short delay to ensure DOM is ready
