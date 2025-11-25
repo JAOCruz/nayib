@@ -861,6 +861,13 @@ class PagePropertiesManager {
             // Set current location for use in createSolarRow
             this.currentLocation = location.ubicacion;
             
+            // We need to handle mixed currencies in the same location
+            // For Bella Vista Sur, we need to check if there are any DOP prices
+            const hasDOPPrices = location.ubicacion === 'Bella Vista Sur' && 
+                                location.solares.some(solar => 
+                                    solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
+            
+            // If there are mixed currencies, we need to handle them individually in each row
             return `
                 <div class="location_group">
                     <h4 class="location_title">${location.ubicacion}</h4>
@@ -869,9 +876,9 @@ class PagePropertiesManager {
                             <div class="col_area">Área (m²)</div>
                             <div class="col_frente">Frente (m)</div>
                             <div class="col_fondo">Fondo (m)</div>
-                            <div class="col_precio">Precio USD/m²</div>
+                            <div class="col_precio">Precio por m²</div>
                             <div class="col_estatus">Estatus Legal</div>
-                            <div class="col_total">Total USD</div>
+                            <div class="col_total">Precio Total</div>
                         </div>
                         ${location.solares.map((solar, index) => this.createSolarRow(solar, index)).join('')}
                     </div>
@@ -884,25 +891,58 @@ class PagePropertiesManager {
     }
 
     createSolarRow(solar, index) {
-        const totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
-                          (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
-                           (solar.area_m2 * solar.precio_usd_m2).toLocaleString());
+        // Check if this is a special case for Bella Vista Sur solares which are in DOP
+        const isDominicanPeso = this.currentLocation === 'Bella Vista Sur' && 
+                               (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);
         
-        // Create a slug from the location name
-        const locationSlug = this.slugify(this.currentLocation);
-        // Create a unique ID for this solar
-        const solarId = `${locationSlug}-${index}`;
+        // Check if the value is likely a total price rather than a price per m²
+        // Values over 10,000 are likely total prices, not price per m²
+        const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
+        
+        let pricePerM2, totalPrice;
+        
+        if (isDominicanPeso || isLikelyTotalPrice) {
+            // For Dominican Peso properties or properties with total prices,
+            // the stored value is the total price
+            // We need to calculate the price per m²
+            totalPrice = solar.precio_usd_m2;
+            pricePerM2 = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
+                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                         Math.round(solar.precio_usd_m2 / solar.area_m2));
+        } else {
+            // For properties with price per m², we need to calculate the total price
+            pricePerM2 = solar.precio_usd_m2;
+            totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
+                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                         (solar.area_m2 * solar.precio_usd_m2));
+        }
+        
+        // Create a custom ID that encodes both the location and the index
+        // We'll use a special separator '___' that's unlikely to appear in location names
+        // This will allow us to correctly parse complex location names like "Av. 27 de Febrero"
+        const encodedLocationName = encodeURIComponent(this.currentLocation);
+        const solarId = `loc___${encodedLocationName}___idx___${index}`;
+        
+        // Format price display based on currency
+        const priceDisplay = pricePerM2 === 'CONSULTAR' ? 'CONSULTAR' : 
+                            (isDominicanPeso ? 'RD$' + pricePerM2.toLocaleString() + ' DOP/m²' : 
+                                              '$' + pricePerM2.toLocaleString() + ' USD/m²');
+        
+        // Format total price display based on currency
+        const totalPriceDisplay = totalPrice === 'CONSULTAR' ? 'CONSULTAR' : 
+                                 (isDominicanPeso ? 'RD$' + totalPrice.toLocaleString() + ' DOP' : 
+                                                   '$' + totalPrice.toLocaleString() + ' USD');
         
         return `
             <div class="solar_row" onclick="window.location.href='property-detail.html?id=${solarId}&type=solares'" style="cursor: pointer;">
                 <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
-                <div class="col_precio">${solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>
+                <div class="col_precio">${priceDisplay}</div>
                 <div class="col_estatus">
                     <span class="estatus_badge ${solar.estatus_legal.toLowerCase().replace(/\s+/g, '_')}">${solar.estatus_legal}</span>
                 </div>
-                <div class="col_total">${totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice}</div>
+                <div class="col_total">${totalPriceDisplay}</div>
             </div>
         `;
     }
