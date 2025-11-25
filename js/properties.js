@@ -53,14 +53,23 @@ class PropertiesManager {
     createPropertyCard(property, type = 'featured') {
         const card = document.createElement('div');
         card.className = 'property_card';
+        const hasImage = property.image && property.image.trim() !== '';
         
         card.innerHTML = `
+            ${hasImage ? `
             <div class="img-box">
                 <img src="${property.image}" alt="${property.title}">
                 <div class="badge">
                     <span>${property.badge}</span>
                 </div>
             </div>
+            ` : `
+            <div class="badge-container" style="text-align: center; padding: 20px 0;">
+                <div class="badge">
+                    <span>${property.badge}</span>
+                </div>
+            </div>
+            `}
             <div class="detail-box">
                 <h4 class="price ${property.showPrice === false ? 'price-request' : ''}">${property.showPrice === false ? 'Solicitar Precio' : `$${property.price.toLocaleString()} ${property.currency}`}</h4>
                 <p class="location">${property.location}</p>

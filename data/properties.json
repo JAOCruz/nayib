@@ -5481,7 +5481,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "95 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/placeholder.png",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/1.jpeg",
           "description": "Renta este elegante apartamento de oportunidad única en el centro del Distrito Nacional. Apartamento amueblado en El Vergel con todas las comodidades necesarias para una vida cómoda y segura.",
           "features": [
             "1 Habitación",
@@ -5497,7 +5497,17 @@
           "status": "Disponible",
           "badge": "Alquiler $950",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/placeholder.png"
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/1.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/2.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/3.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/4.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/5.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/6.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/7.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/8.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/9.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/10.jpeg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/11.jpeg"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5521,6 +5531,87 @@
                 "Amueblado (2 TV)",
                 "Ascensor",
                 "Seguridad 24/7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-multifamiliar-comercial-001",
+          "title": "Multifamiliar Comercial - 7 Apartamentos y Locales Comerciales",
+          "price": 10000000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Bayahibe, República Dominicana",
+          "type": "Multifamiliar Comercial",
+          "units": 7,
+          "area": "20,100 m²",
+          "image": "",
+          "description": "Excelente oportunidad de inversión. Propiedad multifamiliar de 6 niveles con 7 apartamentos totalmente equipados, 2 locales comerciales en el primer nivel, restaurante totalmente equipado y área común amueblada. Ideal para inversión con alta rentabilidad.",
+          "features": [
+            "26 Habitaciones",
+            "7 Apartamentos",
+            "6 Niveles de Propiedad",
+            "20,100 m² de propiedad",
+            "2 Locales comerciales en primer nivel",
+            "Restaurante totalmente equipado",
+            "Área común completamente amueblada",
+            "Todas las unidades totalmente equipadas",
+            "Aire acondicionado en todas las unidades",
+            "Televisión en todas las unidades",
+            "Nevera en todas las unidades",
+            "Estufa en todas las unidades",
+            "Extractor en todas las unidades",
+            "Caja fuerte en todas las unidades",
+            "Cámaras de vigilancia en áreas comunes",
+            "Ascensor y escaleras",
+            "Restaurante con televisión, mesas, sillas y aire acondicionado",
+            "Área común con chaise longue, mesas y sillas"
+          ],
+          "status": "Disponible",
+          "badge": "Inversión Premium",
+          "gallery": [],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Consultar",
+            "construction": "N/A",
+            "delivery": "N/A"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamentos",
+              "area": "Variable",
+              "price": "Consultar",
+              "features": [
+                "26 Habitaciones totales",
+                "7 Apartamentos",
+                "Todas las unidades totalmente equipadas",
+                "Aire acondicionado",
+                "Televisión",
+                "Nevera",
+                "Estufa",
+                "Extractor",
+                "Caja fuerte"
+              ]
+            },
+            {
+              "type": "Locales Comerciales",
+              "area": "Variable",
+              "price": "Consultar",
+              "features": [
+                "2 Locales comerciales en primer nivel",
+                "Ubicación estratégica"
+              ]
+            },
+            {
+              "type": "Restaurante",
+              "area": "Variable",
+              "price": "Consultar",
+              "features": [
+                "Restaurante totalmente equipado",
+                "Televisión",
+                "Mesas y sillas",
+                "Aire acondicionado"
               ]
             }
           ]
@@ -6389,8 +6480,8 @@
               "area_m2": 571,
               "frente_m": 20,
               "fondo_m": 29,
-              "precio_usd_m2": 2180,
-              "estatus_legal": "CON TÍTULO"
+              "precio_usd_m2": 2189.15,
+              "estatus_legal": "DESLINDADO"
             },
             {
               "area_m2": 651,
@@ -6739,8 +6830,8 @@
               "area_m2": 1991,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 122000000,
-              "estatus_legal": "CON TÍTULO"
+              "precio_usd_m2": 1039.79,
+              "estatus_legal": "CON TÍTULO (Dueño mantiene alquiler RD$900k/mes)"
             }
           ]
         },
@@ -6895,6 +6986,13 @@
               "fondo_m": 48,
               "precio_usd_m2": 2601.91,
               "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 837,
+              "frente_m": 34,
+              "fondo_m": null,
+              "precio_usd_m2": 1830.94,
+              "estatus_legal": "CON TÍTULO (Zonificación mixta, acceso doble)"
             }
           ]
         },
@@ -7172,7 +7270,7 @@
               "area_m2": 856,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 2750000,
+              "precio_usd_m2": 3212.15,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -7258,6 +7356,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 3500,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 900,
+              "frente_m": 30,
+              "fondo_m": 30,
+              "precio_usd_m2": 3700,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7383,14 +7488,21 @@
               "area_m2": 590,
               "frente_m": 20,
               "fondo_m": null,
-              "precio_usd_m2": 1050000,
-              "estatus_legal": "DESLINDADO"
+              "precio_usd_m2": 1779.66,
+              "estatus_legal": "DESLINDADO (Uso de suelo 10+2)"
             },
             {
               "area_m2": 750,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 2800000,
+              "precio_usd_m2": 3733.33,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1771,
+              "frente_m": 39,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7561,7 +7673,7 @@
               "area_m2": 671,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 1300000,
+              "precio_usd_m2": 1938.28,
               "estatus_legal": "CON TÍTULO"
             }
           ]

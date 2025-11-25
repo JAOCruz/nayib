@@ -810,8 +810,10 @@ class PagePropertiesManager {
     }
 
     createPropertyItem(property) {
+        const hasImage = property.image && property.image.trim() !== '';
         return `
             <div class="property_item">
+                ${hasImage ? `
                 <div class="img-box">
                     <a href="property-detail.html?id=${property.id}&type=${this.currentPage}">
                         <img src="${property.image}" alt="${property.title}">
@@ -820,6 +822,13 @@ class PagePropertiesManager {
                         </div>
                     </a>
                 </div>
+                ` : `
+                <div class="badge-container" style="text-align: center; padding: 20px 0;">
+                    <div class="badge">
+                        <span>${property.badge}</span>
+                    </div>
+                </div>
+                `}
                 <div class="detail-box">
                     <h4 class="price ${property.showPrice === false ? 'price-request' : ''}">${property.showPrice === false ? 'Solicitar Precio' : `$${property.price.toLocaleString()} ${property.currency}`}</h4>
                     <h5 class="title">${property.title}</h5>

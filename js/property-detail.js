@@ -177,20 +177,28 @@ class PropertyDetailManager {
                 src: src, 
                 alt: `${property.title} - Vista` 
             }));
-        } else {
-            // For regular properties without gallery, use the property image and some defaults
+        } else if (property.image && property.image.trim() !== '') {
+            // For regular properties without gallery but with image, use the property image and some defaults
             galleryImages = [
                 { src: property.image, alt: property.title },
                 { src: 'images/s-1.jpg', alt: 'Vista interior' },
                 { src: 'images/s-2.jpg', alt: 'Vista adicional' }
             ];
         }
+        // If no images at all, galleryImages will be empty
         
         // Create HTML for property details
+        const hasImages = galleryImages.length > 0;
         let html = `
             <div class="row">
+                ${hasImages ? `
                 <div class="col-lg-8">
                     <div class="property-gallery">
+                ` : `
+                <div class="col-lg-12">
+                    <!-- No images to display -->
+                `}
+                        ${hasImages ? `
                         <div class="property-gallery-container">
                             <div class="main-image-container">
                                 <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
@@ -214,6 +222,7 @@ class PropertyDetailManager {
                             </div>
                         </div>
                     </div>
+                    ` : ''}
                     
                     <div class="property-info">
                         <h2 class="property-title">${property.title}</h2>
