@@ -1,0 +1,290 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lowest.com/schemas/properties.schema.json",
+  "title": "Properties Data Schema",
+  "description": "JSON Schema for real estate properties data structure",
+  "type": "object",
+  "required": ["categories", "featured"],
+  "properties": {
+    "categories": {
+      "type": "object",
+      "required": ["propiedades", "oficinas", "solares"],
+      "properties": {
+        "propiedades": {
+          "$ref": "#/definitions/propertyCategory"
+        },
+        "oficinas": {
+          "$ref": "#/definitions/propertyCategory"
+        },
+        "solares": {
+          "$ref": "#/definitions/solarCategory"
+        }
+      }
+    },
+    "featured": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/property"
+      },
+      "minItems": 0,
+      "maxItems": 10
+    }
+  },
+  "definitions": {
+    "property": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "price",
+        "currency",
+        "location",
+        "type",
+        "area",
+        "image",
+        "description",
+        "features",
+        "status",
+        "badge"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier for the property"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 200
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "showPrice": {
+          "type": "boolean",
+          "default": true
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["USD", "DOP"]
+        },
+        "location": {
+          "type": "string",
+          "minLength": 3
+        },
+        "type": {
+          "type": "string",
+          "minLength": 3
+        },
+        "units": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "area": {
+          "type": "string",
+          "pattern": "^[0-9.]+ ?[-] ?[0-9.]+ ?m²$|^[0-9.]+ ?m²$"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 2000
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "status": {
+          "type": "string",
+          "minLength": 3
+        },
+        "badge": {
+          "type": "string",
+          "minLength": 3
+        },
+        "gallery": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1
+        },
+        "payment_plan": {
+          "type": "object",
+          "properties": {
+            "reservation": {
+              "type": "string"
+            },
+            "contract": {
+              "type": "string"
+            },
+            "construction": {
+              "type": "string"
+            },
+            "delivery": {
+              "type": "string"
+            }
+          }
+        },
+        "apartment_types": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/apartmentType"
+          }
+        },
+        "delivery": {
+          "type": "string"
+        }
+      }
+    },
+    "apartmentType": {
+      "type": "object",
+      "required": ["type", "area", "price", "features"],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "area": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "propertyCategory": {
+      "type": "object",
+      "required": ["name", "description", "properties"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10
+        },
+        "properties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/property"
+          }
+        }
+      }
+    },
+    "solarCategory": {
+      "type": "object",
+      "required": ["name", "description", "isListFormat", "data"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10
+        },
+        "isListFormat": {
+          "type": "boolean",
+          "const": true
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/solarLocation"
+          }
+        }
+      }
+    },
+    "solarLocation": {
+      "type": "object",
+      "required": ["ubicacion", "solares"],
+      "properties": {
+        "ubicacion": {
+          "type": "string",
+          "minLength": 3
+        },
+        "solares": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/solar"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "solar": {
+      "type": "object",
+      "required": ["area_m2", "frente_m", "fondo_m", "precio_usd_m2", "estatus_legal"],
+      "properties": {
+        "area_m2": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "enum": ["CONSULTAR"]
+            }
+          ]
+        },
+        "frente_m": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fondo_m": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "precio_usd_m2": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "string",
+              "enum": ["CONSULTAR"]
+            }
+          ]
+        },
+        "estatus_legal": {
+          "type": "string",
+          "enum": ["CON TÍTULO", "DESLINDADO", "SIN DESLINDAR", "EN PROCESO"]
+        }
+      }
+    }
+  }
+}

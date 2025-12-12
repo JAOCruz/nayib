@@ -1603,14 +1603,33 @@ a:focus {
   }
   
   /* Mobile Header Styles */
-  .header_section {
-    background-color: #0a3d62 !important;
+  @media (max-width: 768px) {
+    /* Mobile Header Styles */
+    .header_section {
+      background-color: #0a3d62 !important;
+      position: relative;
+      z-index: 10;              /* Make header sit above hero */
+    }
+
+    @media (max-width: 768px) {
+      .header_section {
+        background-color: #0a3d62 !important; /* You already use this */
+        position: relative;
+        z-index: 10;              /* Make header sit above hero */
+      }
+    
+      .hero_area {
+        overflow: hidden;         /* Prevent background bleeding upward */
+      }
+    }
+    
+    
+    .header_section .navbar-brand img {
+      filter: none !important;
+      opacity: 1 !important;
+    }
   }
   
-  .header_section .navbar-brand img {
-    filter: none !important;
-    opacity: 1 !important;
-  }
   
   .header_section .user_option a {
     color: #0a3d62 !important;
@@ -1621,21 +1640,24 @@ a:focus {
   }
   
   /* Mobile Logo Responsive */
-  .navbar-brand {
-    display: block !important;
-    flex: 0 0 auto;
-    order: 1;
+  @media (max-width: 768px) {
+    .navbar-brand {
+      display: block !important;
+      flex: 0 0 auto;
+      order: 1;
+    }
+  
+    .navbar-brand img {
+      width: 150px !important;
+      height: auto !important;
+      max-width: 150px !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      filter: none !important;
+    }
   }
   
-  .navbar-brand img {
-    width: 150px !important;
-    height: auto !important;
-    max-width: 150px !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    filter: none !important;
-  }
   
   .custom_menu-btn {
     order: 2;

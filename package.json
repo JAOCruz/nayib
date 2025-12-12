@@ -5,7 +5,17 @@
   "main": "update-images.js",
   "scripts": {
     "start": "node update-images.js",
-    "update-images": "node update-images.js"
+    "update-images": "node update-images.js",
+    "validate": "node scripts/validate-properties.js",
+    "migrate": "node scripts/migrate-properties.js --validate --backup",
+    "migrate:dry-run": "node scripts/migrate-properties.js --dry-run --validate",
+    "migrate:optimize": "node scripts/migrate-properties.js --validate --backup --optimize",
+    "build:full": "node scripts/build-full-properties.js",
+    "standardize-addresses": "node scripts/standardize-addresses.js --backup",
+    "standardize-addresses:dry-run": "node scripts/standardize-addresses.js --dry-run",
+    "fix-solares": "node scripts/fix-solares-pricing.js --backup",
+    "fix-solares:dry-run": "node scripts/fix-solares-pricing.js --dry-run",
+    "optimize-all": "npm run fix-solares && npm run standardize-addresses && npm run validate"
   },
   "dependencies": {
     "aws-sdk": "^2.1490.0",

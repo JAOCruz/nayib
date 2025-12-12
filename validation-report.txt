@@ -1,0 +1,429 @@
+🔍 Properties Validation
+========================
+File: properties.json
+
+📂 Loading data...
+📋 Loading schema...
+✅ Running validations...
+
+1️⃣  Validating structure...
+   ✓ Structure check complete
+2️⃣  Validating properties...
+   ✓ Checked 82 properties
+3️⃣  Validating solares...
+   ✓ Checked 84 locations with 169 lots
+4️⃣  Validating featured properties...
+   ✓ Checked 3 featured properties
+5️⃣  Validating URLs...
+   ✓ Checked 762 URLs
+6️⃣  Checking for duplicates...
+   ✓ Checked for duplicate IDs
+7️⃣  Checking for inconsistencies...
+   ✓ Inconsistency check complete
+8️⃣  Checking for similar property names...
+   ✓ Found 17 pairs of similar names
+9️⃣  Checking for fields to standardize...
+   ✓ Found 3 fields to standardize
+🔟 Analyzing pricing and currency issues...
+   ✓ Found 3 DOP properties, 4 suspicious prices, 15 solares pricing issues
+1️⃣1️⃣  Generating best practices recommendations...
+   ✓ Generated 7 best practice categories
+
+═══════════════════════════════════════════
+📊 VALIDATION RESULTS
+═══════════════════════════════════════════
+
+⚠️  WARNINGS (34):
+   No críticos pero deberían revisarse
+
+   • propiedades[6] (prop-bella-vista-sur-001): area format may be incorrect "N/A"
+   • propiedades[7] (prop-el-cacique-001): area format may be incorrect "Proyecto Aprobado"
+   • propiedades[24] (prop-ensanche-isabelita-001): area format may be incorrect "N/A"
+   • propiedades[26] (prop-los-restauradores-alquiler-001): area format may be incorrect "N/A"
+   • propiedades[31] (prop-zona-universitaria-001): area format may be incorrect "N/A"
+   • propiedades[42] (prop-el-vergel-sector-001): area format may be incorrect "N/A"
+   • propiedades[45] (prop-naco-torre-moderna-002): area format may be incorrect "N/A"
+   • propiedades[46] (prop-naco-torre-moderna-003): area format may be incorrect "N/A"
+   • propiedades[48] (prop-los-cacicazgos-torre-moderna-001): area format may be incorrect "N/A"
+   • propiedades[52] (prop-vista-hermosa-economicos-001): area format may be incorrect "N/A"
+   ... y 24 más
+
+═══════════════════════════════════════════
+🔍 NOMBRES SIMILARES ENCONTRADOS (17 pares)
+═══════════════════════════════════════════
+Estas propiedades tienen nombres muy parecidos.
+Revisar si son duplicados o propiedades diferentes.
+
+1. Similitud: 83% 
+   A) propiedades[5] "Apartamento de Oportunidad en La Julia" (prop-la-julia-001)
+   B) propiedades[11] "Apartamento de Oportunidad en Bella Vista" (prop-bella-vista-350-001)
+
+2. Similitud: 82% 
+   A) propiedades[5] "Apartamento de Oportunidad en La Julia" (prop-la-julia-001)
+   B) propiedades[36] "Apartamento de Oportunidad en Naco" (prop-naco-oportunidad-001)
+
+3. Similitud: 82% 
+   A) propiedades[5] "Apartamento de Oportunidad en La Julia" (prop-la-julia-001)
+   B) propiedades[75] "Apartamento de Oportunidad en Naco" (prop-naco-apartamento-oportunidad-001)
+
+4. Similitud: 83% 
+   A) propiedades[11] "Apartamento de Oportunidad en Bella Vista" (prop-bella-vista-350-001)
+   B) propiedades[28] "Apartamento de Oportunidad en La Julia" (prop-la-julia-oportunidad-001)
+
+5. Similitud: 76% 
+   A) propiedades[11] "Apartamento de Oportunidad en Bella Vista" (prop-bella-vista-350-001)
+   B) propiedades[36] "Apartamento de Oportunidad en Naco" (prop-naco-oportunidad-001)
+
+6. Similitud: 76% 
+   A) propiedades[11] "Apartamento de Oportunidad en Bella Vista" (prop-bella-vista-350-001)
+   B) propiedades[75] "Apartamento de Oportunidad en Naco" (prop-naco-apartamento-oportunidad-001)
+
+7. Similitud: 83% 
+   A) propiedades[11] "Apartamento de Oportunidad en Bella Vista" (prop-bella-vista-350-001)
+   B) propiedades[77] "Apartamento de Oportunidad en La Julia" (prop-la-julia-oportunidad-002)
+
+8. Similitud: 82% 
+   A) propiedades[28] "Apartamento de Oportunidad en La Julia" (prop-la-julia-oportunidad-001)
+   B) propiedades[36] "Apartamento de Oportunidad en Naco" (prop-naco-oportunidad-001)
+
+9. Similitud: 82% 
+   A) propiedades[28] "Apartamento de Oportunidad en La Julia" (prop-la-julia-oportunidad-001)
+   B) propiedades[75] "Apartamento de Oportunidad en Naco" (prop-naco-apartamento-oportunidad-001)
+
+10. Similitud: 83% 
+   A) propiedades[30] "Dos Torres de Apartamentos - La Esperilla" (prop-la-esperilla-torres-001)
+   B) propiedades[56] "Torre de Apartamentos en La Esperilla" (prop-la-esperilla-torre-apartamentos-001)
+
+   ... y 7 pares más
+
+═══════════════════════════════════════════
+📋 CAMPOS A ESTANDARIZAR (3)
+═══════════════════════════════════════════
+Estos campos tienen múltiples variaciones.
+Estandarizarlos mejora la consistencia.
+
+1. Campo: "badge"
+   Valores únicos: 55
+   Ejemplos de inconsistencias:
+      - "Entrega Inmediata"
+      - "Proyecto Exclusivo"
+      - "Proyecto Innovador"
+      ... y 7 más
+   💡 Sugerencia: Considerar estandarizar a badges consistentes (ej: "Destacado", "Nuevo", "Entrega Inmediata", "Oportunidad")
+
+2. Campo: "type"
+   Valores únicos: 12
+   Todos los valores:
+      - "Apartamento"
+      - "Apartamento de Lujo"
+      - "Apartamentos"
+      - "Apartamentos de Lujo"
+      - "Habitación"
+      - "Loft"
+      - "Multifamiliar Comercial"
+      - "Oficina"
+      - "Oficinas"
+      - "Pent-House"
+      - "Proyecto"
+      - "Villa"
+   💡 Sugerencia: Revisar si todos los tipos son necesarios o se pueden consolidar
+
+3. Campo: "estatus_legal (solares)"
+   Ejemplos de inconsistencias:
+      - Av. Circunvalación: "CON TITULO" → "CON TÍTULO"
+      - Av. Circunvalación: "CON TITULO" → "(Revisar - no está en valores estándar)"
+      - Bella Vista Sur: "CON TITULO" → "CON TÍTULO"
+      ... y 2 más
+   💡 Sugerencia: Usar solo: "CON TÍTULO", "DESLINDADO", "SIN DESLINDAR", "EN PROCESO"
+
+═══════════════════════════════════════════
+❓ PREGUNTAS PARA CONFIRMAR CON DUEÑOS (25)
+═══════════════════════════════════════════
+Estos datos deben confirmarse con los propietarios.
+
+1. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-cap-cana-001: "Apartamentos de Lujo en Cap Cana"
+   • Propiedad 2: prop-cap-cana-apartamento-especial-001: "Apartamento Especial en Cap Cana"
+   • Ubicación: Cap Cana
+
+2. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-bella-vista-14-001: "Apartamento en Bella Vista - Nivel 8"
+   • Propiedad 2: prop-bella-vista-apto-001: "Apartamento en Bella Vista"
+   • Ubicación: Bella Vista, Santo Domingo
+
+3. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-elegante-001: "Apartamento Elegante en Naco"
+   • Propiedad 2: prop-naco-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+4. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-elegante-001: "Apartamento Elegante en Naco"
+   • Propiedad 2: prop-naco-apartamento-exclusivo-001: "Apartamento Exclusivo en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+5. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-elegante-001: "Apartamento Elegante en Naco"
+   • Propiedad 2: prop-naco-apartamento-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+6. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-bella-vista-penthouse-001: "Penthouse en Bella Vista"
+   • Propiedad 2: prop-bella-vista-apto-001: "Apartamento en Bella Vista"
+   • Ubicación: Bella Vista, Santo Domingo
+
+7. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-la-esperilla-torres-001: "Dos Torres de Apartamentos - La Esperilla"
+   • Propiedad 2: prop-la-esperilla-torre-apartamentos-001: "Torre de Apartamentos en La Esperilla"
+   • Ubicación: La Esperilla, Santo Domingo
+
+8. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Propiedad 2: prop-naco-apartamento-exclusivo-001: "Apartamento Exclusivo en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+9. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Propiedad 2: prop-naco-alquiler-oportunidad-001: "Alquiler de Oportunidad en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+10. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-torre-moderna-001: "Torre Moderna en Naco - Bloque A"
+   • Propiedad 2: prop-naco-torre-moderna-002: "Torre Moderna en Naco - Segunda Torre"
+   • Ubicación: Naco, Santo Domingo
+
+11. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-torre-moderna-001: "Torre Moderna en Naco - Bloque A"
+   • Propiedad 2: prop-naco-torre-moderna-003: "Torre Moderna en Naco - Tercera Torre"
+   • Ubicación: Naco, Santo Domingo
+
+12. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-torre-moderna-002: "Torre Moderna en Naco - Segunda Torre"
+   • Propiedad 2: prop-naco-torre-moderna-003: "Torre Moderna en Naco - Tercera Torre"
+   • Ubicación: Naco, Santo Domingo
+
+13. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-los-cacicazgos-torre-moderna-001: "Torre Moderna de 23 Niveles - Los Cacicazgos"
+   • Propiedad 2: prop-los-cacicazgos-torre-moderna-002: "Torre Moderna de 18 Niveles - Los Cacicazgos"
+   • Ubicación: Los Cacicazgos, Santo Domingo
+
+14. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-bella-vista-torre-moderna-002: "Torre Moderna y Vanguardista en Bella Vista"
+   • Propiedad 2: prop-bella-vista-torre-23-niveles-001: "Torre Moderna de 23 Niveles - Bella Vista"
+   • Ubicación: Bella Vista, Santo Domingo
+
+15. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-la-esperilla-proyecto-11-niveles-001: "Proyecto de 11 Niveles en La Esperilla"
+   • Propiedad 2: prop-la-esperilla-proyecto-15-niveles-001: "Proyecto de 15 Niveles en La Esperilla"
+   • Ubicación: La Esperilla, Santo Domingo
+
+16. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-la-esperilla-proyecto-11-niveles-001: "Proyecto de 11 Niveles en La Esperilla"
+   • Propiedad 2: prop-la-esperilla-proyecto-lujo-001: "Proyecto de Lujo en La Esperilla"
+   • Ubicación: La Esperilla, Santo Domingo
+
+17. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-la-esperilla-proyecto-15-niveles-001: "Proyecto de 15 Niveles en La Esperilla"
+   • Propiedad 2: prop-la-esperilla-proyecto-lujo-001: "Proyecto de Lujo en La Esperilla"
+   • Ubicación: La Esperilla, Santo Domingo
+
+18. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-el-vergel-apartamentos-001: "Apartamentos en El Vergel"
+   • Propiedad 2: prop-el-vergel-alquiler-001: "Apartamento en Alquiler - El Vergel"
+   • Ubicación: El Vergel, Santo Domingo
+
+19. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-apartamento-exclusivo-001: "Apartamento Exclusivo en Naco"
+   • Propiedad 2: prop-naco-apartamento-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+20. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-cap-cana-apartamento-especial-001: "Apartamento Especial en Cap Cana"
+   • Propiedad 2: prop-cap-cana-apartamento-especial-002: "Apartamento Especial en Cap Cana - Segunda Unidad"
+   • Ubicación: Cap Cana
+
+21. ¿Son la misma propiedad o dos diferentes?
+   • Propiedad 1: prop-naco-alquiler-oportunidad-001: "Alquiler de Oportunidad en Naco"
+   • Propiedad 2: prop-naco-apartamento-oportunidad-001: "Apartamento de Oportunidad en Naco"
+   • Ubicación: Naco, Santo Domingo
+
+22. ¿Cuál es el área de estas propiedades? Actualmente está como "N/A" o "Proyecto Aprobado"
+   Total: 17 propiedades sin área definida
+   Mostrando primeras 5:
+
+   • propiedades[6] "Apartamento Remodelado en Bella Vista Sur" (prop-bella-vista-sur-001)
+     Valor actual: "N/A"
+   • propiedades[7] "Proyecto Inmobiliario Aprobado en El Cacique" (prop-el-cacique-001)
+     Valor actual: "Proyecto Aprobado"
+   • propiedades[24] "Proyecto Apartamentos - Ensanche Isabelita" (prop-ensanche-isabelita-001)
+     Valor actual: "N/A"
+   • propiedades[26] "Habitación en Alquiler - Los Restauradores" (prop-los-restauradores-alquiler-001)
+     Valor actual: "N/A"
+   • propiedades[31] "Apartamento en Zona Universitaria" (prop-zona-universitaria-001)
+     Valor actual: "N/A"
+
+23. Estas propiedades están en DOP (no USD). ¿Es correcto? La mayoría están en USD.
+   Total: 3 propiedades en DOP
+   ℹ️  Si son excepciones válidas, está bien. Solo confirmar.
+
+   • propiedades[7] "Proyecto Inmobiliario Aprobado en El Cacique" (prop-el-cacique-001)
+     Precio: 21,000,000 DOP
+     Ubicación: El Cacique, Santo Domingo
+   • propiedades[26] "Habitación en Alquiler - Los Restauradores" (prop-los-restauradores-alquiler-001)
+     Precio: 20,000 DOP
+     Ubicación: Los Restauradores, Santo Domingo
+   • propiedades[37] "Oportunidad Única en Los Cacicazgos - Piso 17" (prop-los-cacicazgos-oportunidad-001)
+     Precio: 10,850,000 DOP
+     Ubicación: Los Cacicazgos, Santo Domingo
+
+24. Revisar estos precios que parecen inusuales
+   Total: 4 precios sospechosos
+
+   • propiedades[43] "Los Cacicazgos - Concepto Elegante y Lujoso" (prop-los-cacicazgos-elegante-001)
+     Precio muy bajo para USD: $2,996 USD
+     ❓ ¿El precio es correcto o debería estar en DOP?
+   • propiedades[67] "Apartamento en Alquiler - El Vergel" (prop-el-vergel-alquiler-001)
+     Precio muy bajo para USD: $875 USD
+     ❓ ¿El precio es correcto o debería estar en DOP?
+   • propiedades[68] "Apartamento Amueblado en Alquiler - La Esperilla" (prop-la-esperilla-alquiler-amueblado-001)
+     Precio muy bajo para USD: $1,300 USD
+     ❓ ¿El precio es correcto o debería estar en DOP?
+   • propiedades[69] "Apartamento Amueblado en Alquiler - El Vergel" (prop-el-vergel-alquiler-002)
+     Precio muy bajo para USD: $950 USD
+     ❓ ¿El precio es correcto o debería estar en DOP?
+
+25. Estos solares tienen precios muy altos por m² - probablemente sea el precio total
+   Total: 15 solares con precios posiblemente incorrectos
+   💡 Dividir el valor entre el área para obtener el precio real por m²
+   Mostrando primeros 10:
+
+   • Altos de Arroyo Hondo II [2]
+     Precio actual por m²: $460,000
+     Área: 2,000 m²
+     ¿Debería ser $230/m²?
+   • Calle Emma Balaguer [0]
+     Precio actual por m²: $75,000,000
+     Área: 1,409.76 m²
+     ¿Debería ser $53,201/m²?
+   • Gaspar Hernández [0]
+     Precio actual por m²: $11,600,000
+     Área: 549,509 m²
+     ¿Debería ser $21/m²?
+   • Juan Dolio [3]
+     Precio actual por m²: $1,700,000
+     Área: 1,691 m²
+     ¿Debería ser $1,005/m²?
+   • Juan Dolio [5]
+     Precio actual por m²: $2,600,000
+     Área: 2,400 m²
+     ¿Debería ser $1,083/m²?
+   • Juan Dolio [6]
+     Precio actual por m²: $16,000,000
+     Área: 17,000 m²
+     ¿Debería ser $941/m²?
+   • La Romana [1]
+     Precio actual por m²: $13,500,000
+     Área: 3,100 m²
+     ¿Debería ser $4,355/m²?
+   • Av. Luperón [0]
+     Precio actual por m²: $22,000,000
+     Área: 4,416 m²
+     ¿Debería ser $4,982/m²?
+   • Las Lagunas, El 22 [0]
+     Precio actual por m²: $16,000,000
+     Área: 31,443.37 m²
+     ¿Debería ser $509/m²?
+   • Naco [8]
+     Precio actual por m²: $10,540,000
+     Área: 3,648.6 m²
+     ¿Debería ser $2,889/m²?
+
+═══════════════════════════════════════════
+💡 MEJORES PRÁCTICAS RECOMENDADAS
+═══════════════════════════════════════════
+Guía para mantener calidad de datos consistente.
+
+1. Campos Requeridos
+   ────────────────────────────────────────
+   ✅ Siempre incluir: id, title, price, currency, location, type, area, image, description, features, status, badge
+   ✅ Si no quieres mostrar el precio, usa: "showPrice": false
+   ✅ Usa "N/A" solo temporalmente, obtén el dato real lo antes posible
+
+2. Imágenes
+   ────────────────────────────────────────
+   ✅ 78 de 82 propiedades tienen galería (95%)
+   ✅ Recomendado: Mínimo 5-10 imágenes por propiedad
+   ✅ Orden sugerido: Fachada, sala, cocina, habitaciones, baños, extras
+   ✅ Formato recomendado: JPG/PNG, máximo 2MB por imagen
+
+3. Precios
+   ────────────────────────────────────────
+   ✅ Por defecto usar USD (es el estándar del mercado)
+   ✅ Solo usar DOP para propiedades que explícitamente lo requieran
+   ✅ Para solares: Guardar precio por m² (no precio total)
+   ✅ Si el precio está por confirmar, usar "showPrice": false
+   ⚠️  Evitar redondear demasiado (ej: 500,000 vs 487,500)
+
+4. Campos de Texto
+   ────────────────────────────────────────
+   ✅ Status: Usar valores estándar ("Disponible", "En construcción", "Entregado")
+   ✅ Badge: Usar categorías claras ("Destacado", "Nuevo", "Oportunidad")
+   ✅ Area: Siempre incluir "m²" (ej: "120 m²" o "120 - 150 m²")
+   ✅ Description: Mínimo 50 caracteres, describir lo más atractivo primero
+
+5. Solares
+   ────────────────────────────────────────
+   ✅ ubicacion: Nombre claro y consistente
+   ✅ area_m2: Área en metros cuadrados (número)
+   ✅ precio_usd_m2: PRECIO POR M² (no precio total)
+   ✅ estatus_legal: Solo usar: "CON TÍTULO", "DESLINDADO", "SIN DESLINDAR", "EN PROCESO"
+   ✅ frente_m y fondo_m: null si no aplica
+
+6. Nuevas Propiedades
+   ────────────────────────────────────────
+   1️⃣ Copiar una propiedad existente similar como plantilla
+   2️⃣ Cambiar el ID (formato: prop-[ubicacion]-[numero], ej: prop-piantini-001)
+   3️⃣ Rellenar todos los campos requeridos
+   4️⃣ Subir imágenes al CDN primero
+   5️⃣ Ejecutar: npm run validate
+   6️⃣ Corregir errores si hay
+   7️⃣ Hacer commit con mensaje claro: "Add new property: [nombre]"
+
+7. Mantenimiento
+   ────────────────────────────────────────
+   ✅ Ejecutar npm run validate antes de cada commit
+   ✅ Revisar warnings aunque no sean errores críticos
+   ✅ Actualizar propiedades vendidas: cambiar status a "Vendido" (no eliminar)
+   ✅ Mantener archivo ordenado por categoría
+   ✅ Hacer backups periódicos del archivo
+
+═══════════════════════════════════════════
+ℹ️  INFORMACIÓN ADICIONAL (16)
+═══════════════════════════════════════════
+   • Solares Calle Emma Balaguer[0]: very high price $75,000,000 (likely total price, not per m²)
+   • Solares Gaspar Hernández[0]: very high price $11,600,000 (likely total price, not per m²)
+   • Solares Juan Dolio[3]: very high price $1,700,000 (likely total price, not per m²)
+   • Solares Juan Dolio[5]: very high price $2,600,000 (likely total price, not per m²)
+   • Solares Juan Dolio[6]: very high price $16,000,000 (likely total price, not per m²)
+   • Solares La Romana[1]: very high price $13,500,000 (likely total price, not per m²)
+   • Solares Av. Luperón[0]: very high price $22,000,000 (likely total price, not per m²)
+   • Solares Las Lagunas, El 22[0]: very high price $16,000,000 (likely total price, not per m²)
+   • Solares Naco[8]: very high price $10,540,000 (likely total price, not per m²)
+   • Solares Av. Rómulo Betancourt[0]: very high price $2,890,000 (likely total price, not per m²)
+   • Solares Mirador Sur[0]: very high price $60,000,000 (likely total price, not per m²)
+   • Solares Av. Nuñez de Cáceres[1]: very high price $2,700,000 (likely total price, not per m²)
+   • Solares Av. Nuñez de Cáceres[2]: very high price $1,250,000 (likely total price, not per m²)
+   • Solares Villa Marina[1]: very high price $20,500,000 (likely total price, not per m²)
+   • Multiple currencies in use: USD (79), DOP (3)
+   • 40 properties missing "showPrice" field (will default to true)
+
+═══════════════════════════════════════════
+📊 RESUMEN
+═══════════════════════════════════════════
+❌ Errores críticos: 0
+⚠️  Warnings: 34
+🔍 Nombres similares: 17 pares
+📋 Campos a estandarizar: 3
+❓ Preguntas para dueños: 25
+
+✅ Sin errores críticos - OK para commit
+
