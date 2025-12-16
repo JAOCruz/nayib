@@ -6396,7 +6396,7 @@
               "area_m2": 30000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 4500,
+              "precio_usd_m2": 70.31,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -6432,7 +6432,7 @@
               "area_m2": 1409.76,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 75000000,
+              "precio_usd_m2": 844,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -6698,18 +6698,6 @@
               "frente_m": 20,
               "fondo_m": 19.9,
               "precio_usd_m2": 850,
-              "estatus_legal": "CON TÍTULO"
-            }
-          ]
-        },
-        {
-          "ubicacion": "El Higüero",
-          "solares": [
-            {
-              "area_m2": 30000,
-              "frente_m": null,
-              "fondo_m": null,
-              "precio_usd_m2": 70.31,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7004,13 +6992,6 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 68,
-              "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 3100,
-              "frente_m": null,
-              "fondo_m": null,
-              "precio_usd_m2": 13500000,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7568,13 +7549,6 @@
               "fondo_m": null,
               "precio_usd_m2": 16,
               "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 27566.64,
-              "frente_m": null,
-              "fondo_m": null,
-              "precio_usd_m2": 1000,
-              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7597,7 +7571,7 @@
               "area_m2": 452.34,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 60000000,
+              "precio_usd_m2": 2079,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7699,13 +7673,6 @@
               "fondo_m": 34,
               "precio_usd_m2": 538,
               "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 595.38,
-              "frente_m": null,
-              "fondo_m": null,
-              "precio_usd_m2": 20500000,
-              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7764,7 +7731,7 @@
               "area_m2": 12000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 750,
+              "precio_usd_m2": 12,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7801,6 +7768,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 95,
+              "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 44000,
+              "frente_m": 230,
+              "fondo_m": null,
+              "precio_usd_m2": 110,
               "estatus_legal": "DESLINDADO"
             }
           ]
