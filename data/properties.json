@@ -590,9 +590,9 @@
         {
           "id": "prop-el-cacique-001",
           "title": "Proyecto Inmobiliario Aprobado en El Cacique",
-          "price": 21000000,
+          "price": 329150,
           "showPrice": true,
-          "currency": "DOP",
+          "currency": "USD",
           "location": "El Cacique, Santo Domingo",
           "type": "Proyecto",
           "units": 8,
@@ -639,7 +639,7 @@
             {
               "type": "Proyecto Completo",
               "area": "Proyecto Aprobado",
-              "price": "21,000,000 DOP",
+              "price": "329,150 USD",
               "features": [
                 "8 apartamentos pequeños",
                 "Área social atractiva",
@@ -1716,6 +1716,153 @@
           ]
         },
         {
+          "id": "prop-las-terrenas-punta-popi-solar-001",
+          "title": "Terreno en Proyecto Las Arenas - Playa Punta Popi",
+          "price": 79000,
+          "currency": "USD",
+          "location": "Las Terrenas, Samaná",
+          "type": "Solar",
+          "units": 1,
+          "area": "384.28 m²",
+          "image": "https://lasterrenas-playapuntapopi.s3.amazonaws.com/1.png",
+          "description": "Terreno disponible en Las Terrenas – Playa Punta Popí. Ubicado en el exclusivo Proyecto Las Arenas, rodeado de villas modernas y a minutos de la playa. Ideal para villa privada, renta tipo Airbnb o dúplex.",
+          "features": [
+            "384.28 m² de terreno",
+            "Terreno llano y listo para construir",
+            "Agua y luz disponibles",
+            "Acceso en calle amplia",
+            "Zona residencial tranquila",
+            "Alta plusvalía garantizada",
+            "A minutos de la playa",
+            "Ubicado en Proyecto Las Arenas"
+          ],
+          "status": "Disponible",
+          "badge": "Oportunidad",
+          "gallery": [
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/1.png",
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/2.png",
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/3.png",
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/4.png",
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/5.png",
+            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/6.png"
+          ],
+          "delivery": "Listo para construir",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Separación inmediata",
+            "construction": "N/A",
+            "delivery": "Contra entrega de títulos"
+          },
+          "apartment_types": [
+            {
+              "type": "Solar Residencial",
+              "area": "384.28 m²",
+              "price": "79,000 USD",
+              "features": [
+                "Uso de suelo residencial",
+                "Servicios a pie de lote",
+                "Entorno de villas modernas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-veron-higuey-macrolote-001",
+          "title": "Gran Oportunidad de Inversión - Verón, Higüey",
+          "price": 32067609,
+          "currency": "USD",
+          "location": "Verón, Higüey, La Altagracia",
+          "type": "Terreno / Macrolote",
+          "units": 1,
+          "area": "1,603,380.45 m²",
+          "image": "https://veron-higuey.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Terreno de más de 1.6 millones de m² (más de 160 tareas) con deslinde y subdivisión aprobados. Ubicación estratégica a solo metros de la carretera Higüey–Verón. Ideal para desarrollos de viviendas económicas, proyectos mixtos o urbanizaciones de gran escala con excelente retorno de inversión.",
+          "features": [
+            "1,603,380.45 m² totales",
+            "Precio: US$20 por m²",
+            "Deslinde y subdivisión aprobados",
+            "Documentación al día (Mensuras y más)",
+            "A solo metros de la carretera Higüey–Verón",
+            "Vocación: Residencial / Viviendas económicas / Urbanización",
+            "Zona en crecimiento acelerado",
+            "Aceptamos planes de pago"
+          ],
+          "status": "Disponible",
+          "badge": "Inversión",
+          "gallery": [
+            "https://veron-higuey.s3.us-east-1.amazonaws.com/1.png",
+            "https://veron-higuey.s3.us-east-1.amazonaws.com/2.png"
+          ],
+          "delivery": "Listo para desarrollo",
+          "payment_plan": {
+            "reservation": "A consultar",
+            "contract": "Planes de pago disponibles",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Macrolote / Terreno",
+              "area": "1,603,380.45 m²",
+              "price": "US$20 por m²",
+              "features": [
+                "Ideal para urbanización",
+                "Proyecto de viviendas",
+                "Uso mixto / Inversión"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bayahibe-turistico-001",
+          "title": "Terreno Turístico - Eco-Residencial en Bayahibe",
+          "price": 0,
+          "currency": "USD",
+          "location": "Bayahibe, La Altagracia",
+          "type": "Terreno Turístico",
+          "units": 1,
+          "area": "269,588.28 m²",
+          "image": "https://bayahibe.s3.us-east-1.amazonaws.com/1.png",
+          "description": "OPORTUNIDAD ÚNICA EN BAYAHIBE. Terreno de 269,588.28 m² a solo 1 km de la costa, ideal para un desarrollo turístico–ecológico, residencial o un masterplan de gran escala en una de las zonas de mayor crecimiento del país.",
+          "features": [
+            "269,588.28 m² totales",
+            "A solo 1 km de la costa",
+            "Acceso por carretera",
+            "Energía eléctrica disponible",
+            "Entorno ecológico premium",
+            "Potencial para Masterplan de gran escala",
+            "Ideal para inversión turística o residencial",
+            "Alta plusvalía garantizada"
+          ],
+          "status": "Disponible",
+          "badge": "Eco-Friendly",
+          "gallery": [
+            "https://bayahibe.s3.us-east-1.amazonaws.com/1.png",
+            "https://bayahibe.s3.us-east-1.amazonaws.com/2.png",
+            "https://bayahibe.s3.us-east-1.amazonaws.com/3.png",
+            "https://bayahibe.s3.us-east-1.amazonaws.com/4.png"
+          ],
+          "delivery": "Listo para desarrollo",
+          "payment_plan": {
+            "reservation": "A consultar",
+            "contract": "Presentación privada disponible",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Terreno / Macrolote",
+              "area": "269,588.28 m²",
+              "price": "Solicitar Precio",
+              "features": [
+                "Vocación Turística",
+                "Desarrollo Ecológico",
+                "Inversión de gran escala"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-los-cacicazgos-loft-001",
           "title": "Loft en Los Cacicazgos - Av. Enriquillo",
           "price": 280000,
@@ -1997,8 +2144,8 @@
         {
           "id": "prop-los-restauradores-alquiler-001",
           "title": "Habitación en Alquiler - Los Restauradores",
-          "price": 20000,
-          "currency": "DOP",
+          "price": 313,
+          "currency": "USD",
           "location": "Los Restauradores, Santo Domingo",
           "type": "Habitación",
           "units": 1,
@@ -2044,7 +2191,7 @@
             {
               "type": "Habitación",
               "area": "N/A",
-              "price": "20,000 DOP mensual",
+              "price": "313 USD mensual",
               "features": [
                 "Habitación semi-amueblada",
                 "Amplia y con W/C",
@@ -2818,8 +2965,8 @@
         {
           "id": "prop-los-cacicazgos-oportunidad-001",
           "title": "Oportunidad Única en Los Cacicazgos - Piso 17",
-          "price": 10850000,
-          "currency": "DOP",
+          "price": 170063,
+          "currency": "USD",
           "location": "Los Cacicazgos, Santo Domingo",
           "type": "Apartamento",
           "units": 1,
@@ -2856,7 +3003,7 @@
           ],
           "delivery": "Disponible",
           "payment_plan": {
-            "reservation": "500,000 DOP",
+            "reservation": "7,837 USD",
             "contract": "30%",
             "construction": "40%",
             "delivery": "30%"
@@ -2865,7 +3012,7 @@
             {
               "type": "Único",
               "area": "204 m²",
-              "price": "10,850,000 DOP",
+              "price": "170,063 USD",
               "features": [
                 "Vista al mar",
                 "Balcón tipo terraza",
@@ -5937,6 +6084,299 @@
           ]
         },
         {
+          "id": "prop-villa-mar-lasterrenas-001",
+          "title": "Villa Mar - Townhouse en Las Terrenas",
+          "price": 298500,
+          "currency": "USD",
+          "location": "Las Terrenas, Samaná (A 600m de Playa Las Ballenas)",
+          "type": "Villa / Townhouse",
+          "units": 1,
+          "area": "135 m²",
+          "image": "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Hermosa villa de 2 niveles a solo 600 metros de Playa Las Ballenas. Incluye piscina privada y un bungaló adicional de 15 m², ideal para visitas o renta. Totalmente equipada y con terminaciones en roble y granito.",
+          "features": [
+            "135 m² de construcción / 256 m² de terreno",
+            "Piscina privada",
+            "2 habitaciones + Bungaló independiente",
+            "3.5 baños en total",
+            "Cocina equipada (Nevera incluida)",
+            "Terraza con techo de pino tratado",
+            "Inversor 5.5 kW con baterías",
+            "2 parqueos privados",
+            "Portón eléctrico e intercom",
+            "Aire acondicionado y abanicos",
+            "Terminaciones en Roble y Porcelanato"
+          ],
+          "status": "Disponible",
+          "badge": "Piscina Privada",
+          "gallery": [
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/1.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/2.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/3.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/4.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/5.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/6.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/7.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/8.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/9.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/10.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/11.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/12.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/13.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/14.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/15.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/16.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/17.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/18.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/19.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/20.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/21.png",
+            "https://villadelmar-lasterrenas.s3.us-east-1.amazonaws.com/22.png"
+          ],
+          "delivery": "Listo para disfrutar",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Inmediato",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Villa + Bungaló",
+              "area": "150 m² totales",
+              "price": "298,500 USD",
+              "features": [
+                "2 niveles",
+                "Piscina privada",
+                "Bungaló con baño privado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cap-cana-vista-mar-001",
+          "title": "Apartamento con Vista al Mar - Cap Cana",
+          "price": 400000,
+          "currency": "USD",
+          "location": "Cap Cana, Punta Cana",
+          "type": "Apartamento",
+          "units": 1,
+          "area": "199 m² totales",
+          "image": "https://capcana.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Exclusivo apartamento en Cap Cana con vista directa al mar y frente al campo de golf. Cuenta con 70 m² interiores más una impresionante terraza y jardín de 129 m². Totalmente equipado y ubicado en un residencial cerrado con máxima seguridad.",
+          "features": [
+            "1 habitación / 1 baño",
+            "199 m² totales (Terraza + Jardín de 129 m²)",
+            "Vista directa al mar y frente al Campo de Golf",
+            "Primer nivel con acceso cómodo",
+            "Cocina totalmente equipada",
+            "Aire acondicionado y lavadora",
+            "Piscina y áreas verdes arborizadas",
+            "Seguridad 24h y estacionamiento techado",
+            "Disponible para Venta o Alquiler"
+          ],
+          "status": "Venta / Alquiler",
+          "badge": "Vista al Mar",
+          "gallery": [
+            "https://capcana.s3.us-east-1.amazonaws.com/1.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/2.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/3.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/4.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/5.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/6.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/7.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/8.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/9.png",
+            "https://capcana.s3.us-east-1.amazonaws.com/10.png"
+          ],
+          "delivery": "Listo para ocupar",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "rent_price": "US$2,000 / mes",
+            "sale_price": "US$400,000",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento + Jardín",
+              "area": "199 m²",
+              "price": "US$400,000 (Venta) / US$2,000 (Alquiler)",
+              "features": [
+                "Frente al campo de golf",
+                "Terraza privada",
+                "Completamente amueblado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-el-cacique-exclusivo-001",
+          "title": "Apartamentos de Lujo en El Cacique",
+          "price": 98000,
+          "currency": "USD",
+          "location": "El Cacique, Distrito Nacional",
+          "type": "Apartamento",
+          "units": 4,
+          "area": "72.00 m² hasta 151.00 m²",
+          "image": "https://elcacique.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Compra en este elegante y lujoso proyecto de oportunidad única en el centro del Distrito Nacional. Edificio familiar y exclusivo con apartamentos modernos desde 72 m² hasta 151 m², diseñados para ofrecer confort y elegancia.",
+          "features": [
+            "Apartamentos desde 72.00 m² hasta 151.00 m²",
+            "Precios desde USD$ 98,000.00 hasta USD$ 195,000.00",
+            "1 y 2 Habitaciones",
+            "Sala, Comedor y Cocina moderna",
+            "Baños con finas terminaciones",
+            "Opciones con Terraza privada",
+            "Área Social de lujo",
+            "BBQ y Picuzzy",
+            "Terraza Panorámica con vista al mar"
+          ],
+          "status": "Últimas Unidades",
+          "badge": "Oportunidad Única",
+          "gallery": [
+            "https://elcacique.s3.us-east-1.amazonaws.com/1.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/2.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/3.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/4.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/5.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/6.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/7.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/8.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/9.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/10.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/11.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/12.png",
+            "https://elcacique.s3.us-east-1.amazonaws.com/13.png"
+          ],
+          "delivery": "Listo para entrega / En construcción",
+          "payment_plan": {
+            "reservation": "Desde USD$ 98,000",
+            "contract": "Solicitar plan de pago",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Tipo A",
+              "area": "72.00 m²",
+              "price": "Desde USD$ 98,000",
+              "features": [
+                "1 Habitación",
+                "Área Social",
+                "Picuzzy"
+              ]
+            },
+            {
+              "type": "Apartamento Tipo B",
+              "area": "151.00 m²",
+              "price": "Hasta USD$ 195,000",
+              "features": [
+                "2 Habitaciones",
+                "Terraza amplia",
+                "Vista panorámica"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-las-americas-km22-001",
+          "title": "Terreno para Desarrollar - KM 22 Marginal Las Américas",
+          "price": 452540,
+          "currency": "USD",
+          "location": "KM 22 Marginal Las Américas, Santo Domingo Este",
+          "type": "Terreno / Industrial",
+          "units": 1,
+          "area": "1,604 m² (Título) / 1,736.03 m² (Mensura)",
+          "image": "https://km22-marginal-las-americas.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Excelente terreno llano frente a la vía principal en una zona de alto crecimiento. Ideal para desarrollo inmobiliario, uso industrial o logístico (naves y almacenes). Ubicación estratégica con acceso directo a la Marginal de Las Américas.",
+          "features": [
+            "Metraje de 1,604 m2 según Título",
+            "1,736.03 m² según Mensura",
+            "Precio: USD$ 282 por m²",
+            "Terreno completamente llano y aprovechable",
+            "Título al día y documentos en orden",
+            "Tasación al día disponible para consulta",
+            "Perfecto para desarrollo inmobiliario",
+            "Ideal para uso industrial y logístico",
+            "Posibilidad de permuta y facilidades de pago",
+            "ALTO potencial de plusvalía"
+          ],
+          "status": "Disponible",
+          "badge": "Frente a Marginal",
+          "gallery": [
+            "https://km22-marginal-las-americas.s3.us-east-1.amazonaws.com/1.png",
+            "https://km22-marginal-las-americas.s3.us-east-1.amazonaws.com/2.png"
+          ],
+          "delivery": "Listo para transferir",
+          "payment_plan": {
+            "price_per_m2": "282 USD",
+            "total_price": "452,540 USD (basado en título)",
+            "facilities": "Facilidades de pago y permuta disponibles",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Lote Industrial / Residencial",
+              "area": "1,604 m2",
+              "price": "282 USD/m²",
+              "features": [
+                "Frente a vía principal",
+                "Uso logístico",
+                "Terreno llano"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-hato-nuevo-desarrollo-001",
+          "title": "Terreno para Desarrollar - Hato Nuevo",
+          "price": 141066,
+          "currency": "USD",
+          "location": "Hato Nuevo, Santo Domingo Oeste",
+          "type": "Terreno / Proyecto",
+          "units": 1,
+          "area": "12,000.00 m²",
+          "image": "https://hatonuevo.s3.us-east-1.amazonaws.com/1.png",
+          "description": "¡OPORTUNIDAD DE INVERSIÓN EN HATO NUEVO! Terreno de 12,000.00 m² ideal para proyectos de Vivienda Feliz, desarrollo residencial, almacenes o naves. Ubicado estratégicamente cerca de la Prolongación 27 de Febrero y Autopista Duarte, en una zona de alta demanda y plusvalía.",
+          "features": [
+            "Metraje de 12,000.00 m²",
+            "Títulos al día y deslindados",
+            "Tasación al día disponible",
+            "Estudio de suelo y curvas de nivel listos",
+            "Pozo tubular (200 pies) y acueducto privado",
+            "Subestación EDESUR a solo 200 metros",
+            "Proyecto RENINSA da respaldo urbanístico",
+            "Ideal para Vivienda Feliz, almacenes o naves",
+            "Posibilidad de permuta y facilidades de pago",
+            "Alto potencial de plusvalía"
+          ],
+          "status": "Disponible",
+          "badge": "Oportunidad Única",
+          "gallery": [
+            "https://hatonuevo.s3.us-east-1.amazonaws.com/1.png",
+            "https://hatonuevo.s3.us-east-1.amazonaws.com/2.png"
+          ],
+          "delivery": "Listo para desarrollo",
+          "payment_plan": {
+            "reservation": "78,370 USD",
+            "contract": "Cuotas disponibles",
+            "permuta": "Se aceptan permutas",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Lote para Desarrollo",
+              "area": "12,000.00 m²",
+              "price": "141,066 USD",
+              "features": [
+                "Uso residencial o industrial",
+                "Servicios básicos garantizados",
+                "Documentación completa al día"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-sector-paraiso-apartamento-001",
           "title": "Apartamento en Sector Paraíso",
           "price": 345000,
@@ -6073,7 +6513,7 @@
           "units": 1,
           "area": "95 m²",
           "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/1.png",
-          "description": "Apartamento Amueblado en Piantini ubicado en un 6to nivel, en torre con lobby elegante, 2 ascensores, planta eléctrica, seguridad 24/7. 95 m² con 1 habitación, 1 parqueo, 1 baño y 2 balcones. Antes alquilado en USD$ 1,100, ahora disponible desde USD$ 1,000. Opción a venta en DOP$ 9,000,000. Ideal para ejecutivos o parejas que buscan comodidad y ubicación premium en el corazón de Piantini.",
+          "description": "Apartamento Amueblado en Piantini ubicado en un 6to nivel, en torre con lobby elegante, 2 ascensores, planta eléctrica, seguridad 24/7. 95 m² con 1 habitación, 1 parqueo, 1 baño y 2 balcones. Antes alquilado en USD$ 1,100, ahora disponible desde USD$ 1,000. Opción a venta en USD$ 141,066. Ideal para ejecutivos o parejas que buscan comodidad y ubicación premium en el corazón de Piantini.",
           "features": [
             "6to nivel",
             "Lobby elegante",
@@ -6107,7 +6547,7 @@
           "delivery": "Disponible",
           "payment_plan": {
             "rental": "1,000 USD/mes",
-            "sale": "9,000,000 DOP"
+            "sale": "141,066 USD"
           },
           "apartment_types": [
             {
@@ -6428,6 +6868,18 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 70.31,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Terrenas - Playa Punta Popí",
+          "solares": [
+            {
+              "area_m2": 384.28,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 205.57,
               "estatus_legal": "CON TÍTULO"
             }
           ]
