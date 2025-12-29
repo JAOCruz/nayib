@@ -603,6 +603,9 @@ class PropertyDetailManager {
     }
     
     formatPrice(property) {
+        if (property.showPrice === false) {
+            return 'A Consultar';
+        }
         if (property.price) {
             return `$${property.price.toLocaleString()} ${property.currency || 'USD'}`;
         } else if (property.precio_usd_m2) {
@@ -618,7 +621,7 @@ class PropertyDetailManager {
                 }
             }
         }
-        return 'Precio: CONSULTAR';
+        return 'A Consultar';
     }
 
     showErrorMessage(message) {
