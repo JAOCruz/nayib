@@ -395,7 +395,16 @@
       }
     });
   </script>
+<script>
+  function openNav() {
+    console.log("Intentando abrir menú..."); // Esto te avisará si el botón funciona
+    document.getElementById("myNav").style.width = "100%";
+  }
 
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
 </body>
 
 </html>
