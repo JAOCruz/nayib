@@ -368,7 +368,7 @@
               </button>
             </div>
             <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
               <div class="overlay-content">
                 <a href="index.html">INICIO</a>
                 <a href="#" onclick="scrollToAbout(); return false;">ACERCA DE</a>
@@ -377,6 +377,7 @@
                 <a href="#" onclick="scrollToDesarrollo(); return false;">DESARROLLO INMOBILIARIO</a>
                 <a href="contact.html">CONTACTO</a>
               </div>
+            </div>
             </div>
           </div>
         </nav>
@@ -1261,7 +1262,27 @@
       });
     });
   </script>
+<script>
+  function openNav() {
+    console.log("Abriendo menú...");
+    document.getElementById("myNav").style.width = "100%";
+  }
 
+  function closeNav() {
+    console.log("Cerrando menú...");
+    document.getElementById("myNav").style.width = "0%";
+  }
+
+  function scrollToAbout() {
+    closeNav();
+    document.getElementById('about-section').scrollIntoView({behavior: 'smooth'});
+  }
+
+  function scrollToDesarrollo() {
+    closeNav();
+    document.getElementById('desarrollo-inmobiliario').scrollIntoView({behavior: 'smooth'});
+  }
+</script>
 </body>
 
 </html>
