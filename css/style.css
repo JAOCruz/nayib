@@ -288,14 +288,6 @@ a:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
-.overlay .closebtn {
-  position: absolute;
-  top: 0;
-  right: 30px;
-  font-size: 60px;
-}
-
 .overlay a {
   padding: 0px;
   text-decoration: none;
