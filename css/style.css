@@ -193,7 +193,7 @@ a:focus {
   z-index: 99999;
   padding: 0;
   height: 80px;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
@@ -280,7 +280,7 @@ a:focus {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000000;
   top: 0;
   right: 0; /* Changed from left to right */
   background-color: rgba(10, 61, 98, 0.9); 
