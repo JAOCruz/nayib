@@ -2369,3 +2369,71 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 768px) {
+
+  /* 1. ARREGLAR MENÚ INVISIBLE */
+  /* Forzamos que el contenedor desplegable tenga fondo y esté al frente */
+  .navbar-collapse {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-color: #ffffff !important; /* Fondo blanco sólido para que se vea */
+    z-index: 9999 !important; /* Traer al frente de todo */
+    align-items: center;
+    justify-content: center;
+    /* Si usas Bootstrap, esto centra los items cuando se abre */
+    text-align: center; 
+    padding-top: 50px; 
+  }
+
+  /* Asegura que los items del menú se vean */
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent; 
+  }
+
+  .navbar-nav .nav-item {
+    margin: 10px 0;
+  }
+
+  /* 2. ARREGLAR LA "X" Y EL BOTÓN DE MENÚ */
+  /* El botón debe estar encima del menú desplegado (z-index mayor a 9999) */
+  .custom_menu-btn {
+    position: fixed !important; /* Fijarlo a la pantalla */
+    top: 20px; /* Ajusta este valor para alinear verticalmente */
+    right: 20px; /* Ajusta este valor para alinear a la derecha */
+    z-index: 10000 !important; /* El valor más alto de todos */
+    margin: 0 !important; /* Quitar márgenes que lo desalinean */
+  }
+
+  /* Estilizar la X para que sea visible sobre el fondo blanco */
+  .custom_menu-btn button {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* Si el icono cambia de color al abrirse, forzamos color oscuro para verlo sobre blanco */
+  .custom_menu-btn button span {
+    background-color: #000000 !important; 
+    /* O el azul de tu marca: #0a3d62 */
+  }
+
+  /* 3. ARREGLAR LOGO OSCURECIDO */
+  /* Elevamos el header por encima del overlay oscuro */
+  .header_section {
+    z-index: 10001 !important; /* Encima incluso del menú si quieres que el logo se quede */
+    background-color: #0a3d62 !important;
+  }
+  
+  /* Si quieres que el logo esté DENTRO del menú blanco, ignora el paso 3. 
+     Pero si quieres que el logo se quede fijo arriba: */
+  .navbar-brand {
+    position: relative; 
+    z-index: 10001 !important;
+  }
+}
