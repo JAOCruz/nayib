@@ -29,34 +29,6 @@
     overflow: hidden;         /* Prevent background bleeding upward */
   }
 }
-@media (max-width: 768px) {
-  .navbar-brand {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-  }
-
-  .navbar-brand img {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: block !important;
-    height: 40px !important;  /* crop visually by reducing height */
-    width: auto !important;
-    object-fit: cover !important;
-    object-position: center !important;  /* shows perfect center */
-  }
-}
-
-  .custom_nav-container {
-    padding: 0 !important;
-    margin: 0 !important;
-    line-height: 0 !important;
-    height: 70px !important; /* adjust height until logo is centered */
-    min-height: 70px !important;
-    display: flex !important;
-    align-items: center !important;
-  }
 
 
 

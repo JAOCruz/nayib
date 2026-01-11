@@ -189,13 +189,7 @@ a:focus {
   width: 270px;
 }
 
-.custom_nav-container {
-  z-index: 99999;
-  padding: 0;
-  height: 80px;
-  overflow: visible;
-  position: relative;
-}
+
 
 .custom_nav-container .navbar-toggler {
   outline: none;
@@ -1594,33 +1588,7 @@ a:focus {
     line-height: 1.5;
   }
   
-  /* Mobile Header Styles */
-  @media (max-width: 768px) {
-    /* Mobile Header Styles */
-    .header_section {
-      background-color: #0a3d62 !important;
-      position: relative;
-      z-index: 10;              /* Make header sit above hero */
-    }
 
-    @media (max-width: 768px) {
-      .header_section {
-        background-color: #0a3d62 !important; /* You already use this */
-        position: relative;
-        z-index: 10;              /* Make header sit above hero */
-      }
-    
-      .hero_area {
-        overflow: hidden;         /* Prevent background bleeding upward */
-      }
-    }
-    
-    
-    .header_section .navbar-brand img {
-      filter: none !important;
-      opacity: 1 !important;
-    }
-  }
   
   
   .header_section .user_option a {
@@ -1634,7 +1602,7 @@ a:focus {
   /* Mobile Logo Responsive */
   @media (max-width: 768px) {
     .navbar-brand {
-      display: block !important;
+  
       flex: 0 0 auto;
       order: 1;
     }
