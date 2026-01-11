@@ -1602,7 +1602,7 @@ a:focus {
   /* Mobile Logo Responsive */
   @media (max-width: 768px) {
     .navbar-brand {
-  
+        
       flex: 0 0 auto;
       order: 1;
     }
