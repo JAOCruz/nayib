@@ -449,6 +449,301 @@
           ]
         },
         {
+          "id": "prop-sanjuan-felin-001",
+          "title": "Urbanización Don Felin I",
+          "price": 12678,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "San Juan de la Maguana",
+          "type": "Solares y Terrenos",
+          "units": 1,
+          "area": "79,000+ m² totales",
+          "image": "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Urbanización con TÍTULO DESLINDADO. Proyecto cerrado con control de acceso, áreas verdes y zona social. Ofrecemos lotes unifamiliares, multifamiliares y comerciales en la zona de mayor crecimiento de San Juan.",
+          "features": [
+            "Título deslindado",
+            "Proyecto cerrado",
+            "Gimnasio exterior",
+            "Parque infantil",
+            "Control de acceso",
+            "Pre-instalación eléctrica y agua"
+          ],
+          "status": "Venta por lotes",
+          "badge": "Inversión Segura",
+          "gallery": [
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/1.png",
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/2.png",
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/3.png",
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/4.png",
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/5.png",
+            "https://sanjuandelamaguana.s3.us-east-1.amazonaws.com/6.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "117 USD",
+            "contract": "0% Inicial (Oferta hasta Julio 2026)",
+            "construction": "Financiamiento directo 12 meses",
+            "delivery": "3 meses sin intereses"
+          },
+          "apartment_types": [
+            {
+              "type": "Lotes Unifamiliares",
+              "area": "180.31 m²",
+              "features": [
+                "Inversión total desde: 12,678 USD",
+                "Precio por m²: ~70.31 USD",
+                "Ideal para residencia privada"
+              ]
+            },
+            {
+              "type": "Lotes Multifamiliares",
+              "area": "349.53 m²",
+              "features": [
+                "Inversión total desde: 24,575 USD",
+                "Precio por m²: ~70.31 USD",
+                "Apto para edificios o villas"
+              ]
+            },
+            {
+              "type": "Lotes Comerciales / Mixtos",
+              "area": "349.16 m²",
+              "features": [
+                "Inversión total desde: 30,006 USD",
+                "Precio por m²: ~85.94 USD",
+                "Ubicación en vía principal"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-spm-ramonsantana-001",
+          "title": "Terreno Agrícola y Ganadero - Zona Este",
+          "price": 1640625,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Ramón Santana, San Pedro de Macorís",
+          "type": "Solares y Terrenos",
+          "units": 3000,
+          "area": "3,000 Tareas",
+          "image": "https://sanpedreodemacoris-zonaeste.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Gran extensión de terreno ideal para proyectos agrícolas, ganaderos o desarrollo de viviendas de bajo costo. Ubicado estratégicamente en Ramón Santana, a pocos minutos de la Autovía del Este, con documentación completa y recursos hídricos disponibles.",
+          "features": [
+            "3,000 Tareas de terreno",
+            "Título deslindado",
+            "Planos catastrales",
+            "Coordenadas GPS",
+            "Agua mediante pozos",
+            "Aptitud ganadera y agrícola",
+            "Cerca de la Autovía del Este",
+            "Potencial para viviendas de bajo costo"
+          ],
+          "status": "Disponible",
+          "badge": "Gran Extensión",
+          "gallery": [
+            "https://sanpedreodemacoris-zonaeste.s3.us-east-1.amazonaws.com/1.png",
+            "https://sanpedreodemacoris-zonaeste.s3.us-east-1.amazonaws.com/2.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Documentación en regla",
+            "construction": "Precio por tarea: RD$35,000 (~547 USD)",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Venta en Bloque",
+              "area": "3,000 Tareas",
+              "features": [
+                "Inversión total: 1,640,625 USD",
+                "Precio por tarea: ~546.88 USD",
+                "Uso de suelo versátil (Agrícola/Residencial)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sancristobal-residencial-001",
+          "title": "Moderno Proyecto Residencial - Madre Vieja Sur",
+          "price": 117000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Madre Vieja Sur, San Cristóbal",
+          "type": "Apartamentos de Lujo",
+          "units": 9,
+          "area": "88 - 125 m²",
+          "image": "https://sancristobal2.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Exclusivo residencial de 5 niveles con solo 13 unidades, diseñado para ofrecer confort y seguridad. Cuenta con amenidades modernas como ascensor, lobby climatizado y terrazas privadas, ubicado en una de las mejores zonas de San Cristóbal.",
+          "features": [
+            "Ascensor de última generación",
+            "Lobby amueblado y climatizado",
+            "Gas común",
+            "Terrazas privadas",
+            "Parqueos amplios",
+            "Seguridad controlada",
+            "Diseño sismo resistente",
+            "Madera preciosa y pisos en porcelanato"
+          ],
+          "status": "En construcción / Unidades Limitadas",
+          "badge": "Entrega de Primera",
+          "gallery": [
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/1.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/2.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/3.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/4.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/5.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/6.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/7.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/8.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/9.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/10.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/11.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/12.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/13.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/14.png",
+            "https://sancristobal2.s3.us-east-1.amazonaws.com/15.png"
+          ],
+          "delivery": "Próxima Entrega",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "Separación: 20%",
+            "construction": "Preguntar por plan de cuotas",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamentos 2 y 3 Habs",
+              "area": "88, 102 y 125 m²",
+              "features": [
+                "2.5 Baños modernos",
+                "Cocina modular",
+                "Sala y comedor integrados",
+                "Unidades vendidas: 2B, 3B, 3C y 5A"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sancristobal-montones-001",
+          "title": "Finca con Potencial Agrícola y Habitacional",
+          "price": 761719,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Colonia de los Montones, San Cristóbal",
+          "type": "Solares y Terrenos",
+          "units": 1,
+          "area": "65,000 m²",
+          "image": "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Excelente finca de gran metraje con vistas naturales y múltiples mejoras. Ideal para inversión agrícola, recreativa, eco-turística o desarrollo de viviendas de bajo costo. Cuenta con energía solar, vivienda de 3 dormitorios y río subterráneo propio.",
+          "features": [
+            "Título al día",
+            "Río subterráneo propio",
+            "Energía solar e inversor",
+            "Totalmente cercada",
+            "Vivienda de 3 dormitorios",
+            "Gazebo y áreas recreativas",
+            "Equipamiento agrícola incluido",
+            "Planta eléctrica 3.5 kW"
+          ],
+          "status": "Disponible",
+          "badge": "Alto Potencial",
+          "gallery": [
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/1.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/2.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/3.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/4.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/5.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/6.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/7.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/8.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/9.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/10.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/11.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/12.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/13.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/14.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/15.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/16.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/17.png",
+            "https://sancristobal-losmontones.s3.us-east-1.amazonaws.com/18.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Título de propiedad al día",
+            "construction": "Precio por m²: RD$750 (~11.72 USD)",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Inversión Completa",
+              "area": "65,000 m²",
+              "features": [
+                "Vivienda de 3 habitaciones incluida",
+                "Maquinaria y herramientas incluidas",
+                "Apto para desarrollo habitacional",
+                "Entorno eco-turístico"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-piantini-local-001",
+          "title": "Local Corporativo en Piantini",
+          "price": 3000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Piantini, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "91 m²",
+          "image": "https://localpiantini.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Espacio corporativo ideal para empresas que buscan imagen, funcionalidad y ubicación estratégica en el corazón de Piantini. Local ubicado en segundo nivel con terminaciones modernas, excelente iluminación y una distribución lista para operar.",
+          "features": [
+            "Ubicación estratégica",
+            "Segundo nivel",
+            "Terminaciones modernas",
+            "Excelente iluminación",
+            "Mantenimiento incluido",
+            "Sector corporativo premium",
+            "Climatización lista",
+            "Seguridad en la edificación"
+          ],
+          "status": "Disponible para Alquiler",
+          "badge": "Ubicación Premium",
+          "gallery": [
+            "https://localpiantini.s3.us-east-1.amazonaws.com/1.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/2.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/3.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/4.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/5.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/6.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/7.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/8.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/9.png",
+            "https://localpiantini.s3.us-east-1.amazonaws.com/10.png"
+          ],
+          "delivery": "Disponibilidad Inmediata",
+          "payment_plan": {
+            "reservation": "2 Depósitos (Reembolsables)",
+            "contract": "Contrato anual renovable",
+            "construction": "Pago mensual: US$3,000 + ITBIS",
+            "delivery": "Mantenimiento incluido"
+          },
+          "apartment_types": [
+            {
+              "type": "Distribución Interna",
+              "area": "91 m²",
+              "features": [
+                "2 Oficinas gerenciales",
+                "Mínimo 4 cubículos",
+                "Área de trabajo abierta",
+                "Espacio funcional y aprovechado"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-la-julia-001",
           "title": "Apartamento de Oportunidad en La Julia",
           "price": 440000,
