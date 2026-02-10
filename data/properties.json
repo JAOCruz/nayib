@@ -260,6 +260,61 @@
           ]
         },
         {
+          "id": "prop-anacaona-premium-001",
+          "title": "Apartamentos Premium - Av. Anacaona",
+          "price": 1190000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Av. Anacaona, Bella Vista",
+          "type": "Apartamentos de Lujo",
+          "units": 2,
+          "area": "Desde 358 m²",
+          "image": "https://53avanacaona.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Vive o invierte en uno de los desarrollos residenciales más exclusivos de Santo Domingo, ubicado frente al Parque Mirador Sur. Un proyecto que redefine el lujo con vistas despejadas, amplitud excepcional y terminaciones de alto nivel, todo bajo el respaldo de un fideicomiso.",
+          "features": [
+            "Frente al Parque Mirador Sur",
+            "Lobby tipo hotel de lujo",
+            "Piscina infinity",
+            "Áreas sociales equipadas",
+            "Proyecto bajo fideicomiso",
+            "Seguridad 24/7 de alta gama",
+            "Vistas despejadas al mar y parque",
+            "Parqueos techados + Locker"
+          ],
+          "status": "Últimas Unidades",
+          "badge": "Ubicación Ultra-Premium",
+          "gallery": [
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/1.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/2.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/3.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/4.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/5.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/6.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/7.png",
+            "https://53avanacaona.s3.us-east-1.amazonaws.com/8.png"
+          ],
+          "delivery": "En construcción",
+          "payment_plan": {
+            "reservation": "Consultar disponibilidad",
+            "contract": "Plan de pago personalizado",
+            "construction": "Respaldo fiduciario",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Lado Este",
+              "area": "358 m²",
+              "features": [
+                "3 Habitaciones con baño",
+                "3.5 Baños totales",
+                "Amplias áreas sociales",
+                "Cocina fría y caliente",
+                "Habitación de servicio"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-cap-cana-001",
           "title": "Apartamentos de Lujo en Cap Cana",
           "price": 288816,
