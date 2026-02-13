@@ -315,6 +315,61 @@
           ]
         },
         {
+          "id": "prop-piantini-corp-002",
+          "title": "Oficinas Corporativas de Alto Nivel",
+          "price": 280000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Piantini, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "89 - 90 m²",
+          "image": "https://54piantini.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Establece tu empresa o invierte en un edificio corporativo de alto nivel en el corazón financiero de Santo Domingo. Espacios diseñados para la eficiencia, con iluminación natural, amenidades empresariales premium y una ubicación estratégica que garantiza alta rentabilidad y prestigio.",
+          "features": [
+            "Lobby empresarial de lujo",
+            "Salones de conferencias",
+            "Gimnasio equipado",
+            "Cafetería y locales comerciales",
+            "Seguridad 24/7 y CCTV",
+            "2 Parqueos por oficina",
+            "Generadores eléctricos",
+            "Preinstalación de aire VRF"
+          ],
+          "status": "Preventa - Unidades Limitadas",
+          "badge": "Inversión Corporativa",
+          "gallery": [
+            "https://54piantini.s3.us-east-1.amazonaws.com/1.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/2.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/3.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/4.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/5.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/6.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/7.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/8.png",
+            "https://54piantini.s3.us-east-1.amazonaws.com/9.png"
+          ],
+          "delivery": "Julio 2026",
+          "payment_plan": {
+            "reservation": "Consultar monto",
+            "contract": "Plan de pago flexible",
+            "construction": "Durante proceso de obra",
+            "delivery": "Contra entrega 2026"
+          },
+          "apartment_types": [
+            {
+              "type": "Módulos de Oficina",
+              "area": "89 – 90 m² netos",
+              "features": [
+                "2 Parqueos asignados",
+                "Área neta eficiente",
+                "Pisos ejecutivos",
+                "Alta proyección de renta"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-cap-cana-001",
           "title": "Apartamentos de Lujo en Cap Cana",
           "price": 288816,
