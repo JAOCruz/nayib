@@ -7350,7 +7350,7 @@
           "ubicacion": "Arroyo Manzano",
           "solares": [
             {
-              "area_m2": null,
+              "area_m2": 1,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 437500,
@@ -7474,6 +7474,30 @@
               "fondo_m": null,
               "precio_usd_m2": 285,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Colonia Los Montones, San Cristóbal",
+          "solares": [
+            {
+              "area_m2": 65000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 11.71,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Ramón Santana, San Pedro de Macorís (Zona Este)",
+          "solares": [
+            {
+              "area_m2": 1886535,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.87,
+              "estatus_legal": "DESLINDADO"
             }
           ]
         },
@@ -9840,7 +9864,7 @@
           ]
         },
         {
-          "ubicacion": "Juan Dolio (Guayaberry)",
+          "ubicacion": "Juan Dolio (Guavaberry)",
           "solares": [
             {
               "area_m2": 5964.92,
