@@ -7347,18 +7347,6 @@
           ]
         },
         {
-          "ubicacion": "Arroyo Manzano",
-          "solares": [
-            {
-              "area_m2": 1,
-              "frente_m": null,
-              "fondo_m": null,
-              "precio_usd_m2": 437500,
-              "estatus_legal": "CON TÍTULO"
-            }
-          ]
-        },
-        {
           "ubicacion": "Bayaguana",
           "solares": [
             {
@@ -9792,7 +9780,7 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": "CONSULTAR",
-              "estatus_legal": "CON TÍTULO"
+              "estatus_legal": "PROYECTO AL 50% - BUSCANDO INVERSIONISTA"
             }
           ]
         },
