@@ -2917,6 +2917,63 @@
           ]
         },
         {
+          "id": "prop-lajulia-local-001",
+          "title": "Local Comercial en Torre Empresarial - La Julia",
+          "price": 1700,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "La Julia, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "65 m²",
+          "image": "https://55lajulia.s3.us-east-1.amazonaws.com/1.png",
+          "description": "Se alquila local de 65 m² en prestigiosa torre empresarial de La Julia. Espacio ideal para oficinas corporativas o firmas profesionales que buscan una imagen moderna, funcional y lista para operar en una ubicación estratégica.",
+          "features": [
+            "Área de 65 m²",
+            "Divisiones en cristal",
+            "Oficinas privadas",
+            "Área de trabajo abierta",
+            "Sala de reuniones",
+            "Excelente iluminación natural",
+            "Kitchenette privada",
+            "Baño privado",
+            "1 Parqueo asignado",
+            "Ambiente profesional",
+            "Ubicación estratégica"
+          ],
+          "status": "Disponible para Alquiler",
+          "badge": "Torre Empresarial",
+          "gallery": [
+            "https://55lajulia.s3.us-east-1.amazonaws.com/1.png",
+            "https://55lajulia.s3.us-east-1.amazonaws.com/2.png",
+            "https://55lajulia.s3.us-east-1.amazonaws.com/3.png",
+            "https://55lajulia.s3.us-east-1.amazonaws.com/4.png",
+            "https://55lajulia.s3.us-east-1.amazonaws.com/5.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "Consultar depósitos",
+            "contract": "Alquiler Mensual: 1,700 USD",
+            "construction": "Mantenimiento y servicios aparte",
+            "delivery": "Listo para operar"
+          },
+          "apartment_types": [
+            {
+              "type": "Módulo Corporativo",
+              "area": "65 m²",
+              "price": "1,700 USD",
+              "features": [
+                "Divisiones en cristal",
+                "Oficinas privadas",
+                "Sala de reuniones",
+                "Kitchenette",
+                "Baño",
+                "Parqueo"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-zona-universitaria-001",
           "title": "Apartamento en Zona Universitaria",
           "price": 160000,
