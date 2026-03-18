@@ -7201,6 +7201,325 @@
               "estatus_legal": "CON TÍTULO"
             }
           ]
+        },
+        {
+          "ubicacion": "NACO - AV. TIRADENTES",
+          "solares": [
+            {
+              "area_m2": 1029.0,
+              "frente_m": 40.0,
+              "precio_usd_m2": 2450.0,
+              "precio_total_usd": 2521050.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA SUR - AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1123.0,
+              "frente_m": 30.0,
+              "precio_usd_m2": 2537.85,
+              "precio_total_usd": 2850000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1126.0,
+              "frente_m": 30.0,
+              "precio_usd_m2": 2590.0,
+              "precio_total_usd": 2916340.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "RAMÓN SANTANA - SAN PEDRO DE MACORÍS",
+          "solares": [
+            {
+              "area_m2": 1886580.0,
+              "frente_m": null,
+              "precio_usd_m2": 0.9,
+              "precio_total_usd": 1707317.07,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SAN CRISTÓBAL - COLONIA DE LOS MONTONES",
+          "solares": [
+            {
+              "area_m2": 65000.0,
+              "frente_m": null,
+              "precio_usd_m2": 12.2,
+              "precio_total_usd": 793000.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA - AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1251.0,
+              "frente_m": 24.0,
+              "precio_usd_m2": 2600.0,
+              "precio_total_usd": 3252600.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BOCA CHICA (BLOQUE 1)",
+          "solares": [
+            {
+              "area_m2": 250000.0,
+              "frente_m": null,
+              "precio_usd_m2": 25.0,
+              "precio_total_usd": 6250000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BOCA CHICA (BLOQUE 2)",
+          "solares": [
+            {
+              "area_m2": 45000.0,
+              "frente_m": null,
+              "precio_usd_m2": 25.0,
+              "precio_total_usd": 1125000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SERRALLÉS",
+          "solares": [
+            {
+              "area_m2": 720.0,
+              "frente_m": 21.79,
+              "precio_usd_m2": 2083.33,
+              "precio_total_usd": 1500000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "GASPAR HERNÁNDEZ",
+          "solares": [
+            {
+              "area_m2": 1586098.11,
+              "frente_m": 1000.0,
+              "precio_usd_m2": 3.82,
+              "precio_total_usd": 6053232.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BAYAGUANA",
+          "solares": [
+            {
+              "area_m2": 8008318.29,
+              "frente_m": null,
+              "precio_usd_m2": 0.9,
+              "precio_total_usd": 7247367.48,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "ENGOMBE (NAVES)",
+          "solares": [
+            {
+              "area_m2": 600.0,
+              "frente_m": null,
+              "precio_usd_m2": 352.3,
+              "precio_total_usd": 211382.11,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "COLINA CENTRO - JACOBO MAJLUTA",
+          "solares": [
+            {
+              "area_m2": 8000.0,
+              "frente_m": null,
+              "precio_usd_m2": 380.0,
+              "precio_total_usd": 3040000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URBANIZACIÓN ITALIA",
+          "solares": [
+            {
+              "area_m2": 2395.0,
+              "frente_m": null,
+              "precio_usd_m2": 390.24,
+              "precio_total_usd": 934624.8,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. PRIVADA",
+          "solares": [
+            {
+              "area_m2": 724.0,
+              "frente_m": 25.0,
+              "precio_usd_m2": 1643.65,
+              "precio_total_usd": 1190000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URBANIZACIÓN REAL",
+          "solares": [
+            {
+              "area_m2": 731.0,
+              "frente_m": 23.0,
+              "precio_usd_m2": 2068.67,
+              "precio_total_usd": 1512195.12,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "HACIENDA ESTRELLA",
+          "solares": [
+            {
+              "area_m2": 75463.2,
+              "frente_m": null,
+              "precio_usd_m2": 2.11,
+              "precio_total_usd": 159349.59,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "INGENIO CONSUELO",
+          "solares": [
+            {
+              "area_m2": 10700.0,
+              "frente_m": null,
+              "precio_usd_m2": 73.17,
+              "precio_total_usd": 782919.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MICHES - PLAYA ESMERALDA",
+          "solares": [
+            {
+              "area_m2": 1000000.0,
+              "frente_m": 160.0,
+              "precio_usd_m2": 100.0,
+              "precio_total_usd": 100000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MICHES - PLAYA MICHES",
+          "solares": [
+            {
+              "area_m2": 16000.0,
+              "frente_m": 70.0,
+              "precio_usd_m2": 95.0,
+              "precio_total_usd": 1520000.0,
+              "estatus_legal": "A CONSULTAR"
+            },
+            {
+              "area_m2": 3500000.0,
+              "frente_m": 300.0,
+              "precio_usd_m2": 60.0,
+              "precio_total_usd": 210000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "LA VACAMA",
+          "solares": [
+            {
+              "area_m2": 3400000.0,
+              "frente_m": 1000.0,
+              "precio_usd_m2": 40.0,
+              "precio_total_usd": 136000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PLAYA GUACO - MICHES",
+          "solares": [
+            {
+              "area_m2": 231000.0,
+              "frente_m": 300.0,
+              "precio_usd_m2": 80.0,
+              "precio_total_usd": 18480000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "NISIBÓN",
+          "solares": [
+            {
+              "area_m2": 5000.0,
+              "frente_m": 75.0,
+              "precio_usd_m2": 150.0,
+              "precio_total_usd": 750000.0,
+              "estatus_legal": "ACTUALIZACIÓN DE TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MONTE PLATA - DON JUAN (LA NAGUA)",
+          "solares": [
+            {
+              "area_m2": 320718.6,
+              "frente_m": null,
+              "precio_usd_m2": 2.03,
+              "precio_total_usd": 650406.5,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "LA VICTORIA - VILLA MELLA",
+          "solares": [
+            {
+              "area_m2": 6288.0,
+              "frente_m": null,
+              "precio_usd_m2": 27.8,
+              "precio_total_usd": 174796.75,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MONTE PLATA - AUTOVÍA DEL SAMANÁ",
+          "solares": [
+            {
+              "area_m2": 13206.06,
+              "frente_m": null,
+              "precio_usd_m2": 25.86,
+              "precio_total_usd": 341463.41,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
         }
       ]
     }

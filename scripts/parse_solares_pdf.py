@@ -123,16 +123,21 @@ def update_properties_json(json_path, new_solares_data, replace=False):
         data['categories']['solares']['data'] = new_solares_data
         print(f"✅ Replaced all solares with {len(new_solares_data)} locations.")
     else:
-        existing = {e['ubicacion']: e for e in data['categories']['solares']['data']}
+        existing_list = data['categories']['solares']['data']
+        # Case-insensitive index: UPPER → list index
+        existing_map = {e['ubicacion'].upper().strip(): i for i, e in enumerate(existing_list)}
         added, updated = 0, 0
         for entry in new_solares_data:
-            if entry['ubicacion'] in existing:
-                existing[entry['ubicacion']] = entry
+            key = entry['ubicacion'].upper().strip()
+            if key in existing_map:
+                idx = existing_map[key]
+                orig_name = existing_list[idx]['ubicacion']  # preserve original casing
+                existing_list[idx] = {**entry, 'ubicacion': orig_name}
                 updated += 1
             else:
-                existing[entry['ubicacion']] = entry
+                existing_list.append(entry)
                 added += 1
-        data['categories']['solares']['data'] = list(existing.values())
+        data['categories']['solares']['data'] = existing_list
         print(f"✅ Merged: {added} new, {updated} updated.")
 
     with open(json_path, 'w', encoding='utf-8') as f:
