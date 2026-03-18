@@ -7520,6 +7520,30 @@
               "estatus_legal": "CON TITULO"
             }
           ]
+        },
+        {
+          "ubicacion": "Urbanización Don Felin I - San Juan de la Maguana",
+          "solares": [
+            {
+              "area_m2": null,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "San Antonio de Guerra - Mata Gorda (El Toro)",
+          "solares": [
+            {
+              "area_m2": 62886.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4.65,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
         }
       ]
     }
