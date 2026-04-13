@@ -190,13 +190,15 @@ class PropertyDetailManager {
         let html = `
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="property-gallery">
-                        <button class="carousel-arrow prev-arrow" onclick="changeGalleryImage(-1)"><i class="fas fa-chevron-left"></i></button>
+                    <div class="property-gallery" id="gallery-container">
                         <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
-                        <button class="carousel-arrow next-arrow" onclick="changeGalleryImage(1)"><i class="fas fa-chevron-right"></i></button>
+                        <div class="carousel-controls">
+                            <button class="carousel-arrow prev-arrow" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                            <button class="carousel-arrow next-arrow" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
                         <div class="thumbnail-container">
                             ${galleryImages.map((img, index) => `
-                                <img src="${img.src}" alt="${img.alt}" class="thumbnail" onclick="changeGalleryImageByIndex(${index})">
+                                <img src="${img.src}" alt="${img.alt}" class="thumbnail" data-index="${index}">
                             `).join('')}
                         </div>
                     </div>
@@ -283,6 +285,22 @@ class PropertyDetailManager {
         `;
         
         container.innerHTML = html;
+        
+        // Attach event listeners to carousel controls
+        setTimeout(() => {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            
+            if (prevBtn) prevBtn.addEventListener('click', () => changeGalleryImage(-1));
+            if (nextBtn) nextBtn.addEventListener('click', () => changeGalleryImage(1));
+            
+            thumbnails.forEach((thumb, index) => {
+                thumb.addEventListener('click', () => changeGalleryImageByIndex(index));
+            });
+            
+            console.log('✅ Gallery event listeners attached');
+        }, 0);
     }
     
     renderFeatures(property) {
