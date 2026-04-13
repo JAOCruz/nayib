@@ -2,22 +2,41 @@
   publish = "."
   command = ""
 
-# Ensure proper headers for JSON files
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Ensure JSON data files are served with correct content-type
 [[headers]]
   for = "*.json"
   [headers.values]
-    Content-Type = "application/json"
+    Content-Type = "application/json; charset=utf-8"
     Cache-Control = "max-age=0, must-revalidate"
 
-# Handle 404s for SPA routing
+# Multi-page site: static files are served as-is by Netlify
+# This catch-all handles any unknown paths gracefully
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
-  conditions = {Role = ["admin"]}
-  
-# But don't redirect API calls or static files
-[[redirects]]
-  from = "/data/*"
-  to = "/data/:splat"
-  status = 200
+  status = 404

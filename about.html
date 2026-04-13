@@ -14,15 +14,37 @@
 
   <title>Acerca de - LOWEST-WESSIN INMOBILIARIA, E.I.R.L.</title>
 
+  <!-- OpenGraph + Twitter Card -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_DO" />
+  <meta property="og:site_name" content="LOWEST-WESSIN INMOBILIARIA" />
+  <meta property="og:title" content="Acerca de - LOWEST-WESSIN INMOBILIARIA, E.I.R.L." />
+  <meta property="og:description" content="Soluciones integrales en el sector inmobiliario desde 2020. Liderados por el Ing. Nayib Wessin Hazim en Santo Domingo, República Dominicana." />
+  <meta property="og:url" content="https://realestatewl.com/about.html" />
+  <meta property="og:image" content="https://realestatewl.com/images/hero-bg.jpg" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="750" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Acerca de - LOWEST-WESSIN INMOBILIARIA" />
+  <meta name="twitter:description" content="Soluciones integrales en el sector inmobiliario desde 2020 en Santo Domingo, RD." />
+  <meta name="twitter:image" content="https://realestatewl.com/images/hero-bg.jpg" />
+  <link rel="canonical" href="https://realestatewl.com/about.html" />
+
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
+  <!-- Preload critical font for LCP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&family=Poppins:wght@400;700&display=swap" />
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&family=Poppins:wght@400;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Premium Layer -->
+  <link href="css/premium.css" rel="stylesheet" />
 </head>
 
 <body class="sub_page">
@@ -77,6 +99,22 @@
     <!-- end header section -->
   </div>
 
+  <!-- Page Hero Banner -->
+  <section class="lw-page-hero">
+    <div class="lw-page-hero__content">
+      <h1 class="lw-page-hero__title">Acerca de Nosotros</h1>
+      <p class="lw-page-hero__subtitle">Expertos en bienes raíces desde 2020</p>
+      <div class="lw-page-hero__gold-line"></div>
+    </div>
+  </section>
+  <!-- Breadcrumb -->
+  <div class="lw-breadcrumb">
+    <div class="container">
+      <a href="index.html">Inicio</a>
+      <span class="sep">›</span>
+      <span>Acerca de</span>
+    </div>
+  </div>
 
   <!-- about section -->
 
@@ -86,12 +124,15 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
+        <div class="col-md-6 lw-reveal lw-reveal--left">
+          <div class="img-box lw-img-wrap">
+            <picture>
+              <source srcset="images/about-img.webp" type="image/webp">
+              <img src="images/about-img.jpg" alt="LOWEST-WESSIN INMOBILIARIA — Ing. Nayib Wessin Hazim" loading="lazy">
+            </picture>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 lw-reveal lw-reveal--delay-2">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
@@ -105,6 +146,26 @@
               Contáctenos
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Strip -->
+  <section class="lw-stats-strip">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 lw-reveal lw-reveal--delay-1">
+          <span class="stat-num">4+</span>
+          <p class="stat-label">Años de Experiencia</p>
+        </div>
+        <div class="col-md-4 col-sm-4 lw-reveal lw-reveal--delay-2">
+          <span class="stat-num">200+</span>
+          <p class="stat-label">Clientes Atendidos</p>
+        </div>
+        <div class="col-md-4 col-sm-4 lw-reveal lw-reveal--delay-3">
+          <span class="stat-num">100%</span>
+          <p class="stat-label">Satisfacción Garantizada</p>
         </div>
       </div>
     </div>
@@ -251,6 +312,24 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
 
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Premium Layer -->
+  <script src="js/premium.js"></script>
+  <script>
+    // Scroll reveal for lw-reveal elements
+    (function () {
+      const els = document.querySelectorAll('.lw-reveal');
+      if (!els.length) return;
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('lw-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 </body>
 
 </html>
