@@ -190,11 +190,13 @@ class PropertyDetailManager {
         let html = `
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="property-gallery">
+                    <div class="property-gallery" style="position: relative;">
+                        <button class="carousel-arrow prev-arrow" onclick="changeGalleryImage(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 20px; border-radius: 3px;"><i class="fas fa-chevron-left"></i></button>
                         <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
+                        <button class="carousel-arrow next-arrow" onclick="changeGalleryImage(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 20px; border-radius: 3px;"><i class="fas fa-chevron-right"></i></button>
                         <div class="thumbnail-container">
                             ${galleryImages.map((img, index) => `
-                                <img src="${img.src}" alt="${img.alt}" class="thumbnail" onclick="document.getElementById('main-image').src='${img.src}'">
+                                <img src="${img.src}" alt="${img.alt}" class="thumbnail" onclick="changeGalleryImageByIndex(${index})">
                             `).join('')}
                         </div>
                     </div>
@@ -447,6 +449,43 @@ class PropertyDetailManager {
                 <a href="propiedades.html" class="btn-contact">Ver todas las propiedades</a>
             </div>
         `;
+    }
+}
+
+// Gallery carousel navigation functions
+let currentGalleryIndex = 0;
+let galleryImagesArray = [];
+
+function changeGalleryImage(direction) {
+    const mainImage = document.getElementById('main-image');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    
+    if (thumbnails.length === 0) return;
+    
+    currentGalleryIndex = currentGalleryIndex + direction;
+    
+    // Wrap around
+    if (currentGalleryIndex < 0) {
+        currentGalleryIndex = thumbnails.length - 1;
+    } else if (currentGalleryIndex >= thumbnails.length) {
+        currentGalleryIndex = 0;
+    }
+    
+    // Change main image to the new index
+    if (thumbnails[currentGalleryIndex]) {
+        mainImage.src = thumbnails[currentGalleryIndex].src;
+        mainImage.alt = thumbnails[currentGalleryIndex].alt;
+    }
+}
+
+function changeGalleryImageByIndex(index) {
+    const mainImage = document.getElementById('main-image');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    
+    if (thumbnails[index]) {
+        mainImage.src = thumbnails[index].src;
+        mainImage.alt = thumbnails[index].alt;
+        currentGalleryIndex = index;
     }
 }
 

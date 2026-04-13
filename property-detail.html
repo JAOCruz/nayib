@@ -33,6 +33,34 @@
     
     .property-gallery {
       margin-bottom: 30px;
+      position: relative;
+    }
+    
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      background: rgba(0, 0, 0, 0.6) !important;
+      color: white !important;
+      border: none !important;
+      padding: 12px 15px !important;
+      cursor: pointer !important;
+      font-size: 18px !important;
+      border-radius: 3px !important;
+      transition: all 0.3s ease;
+    }
+    
+    .carousel-arrow:hover {
+      background: rgba(0, 0, 0, 0.8) !important;
+    }
+    
+    .prev-arrow {
+      left: 10px;
+    }
+    
+    .next-arrow {
+      right: 10px;
     }
     
     .main-image {
