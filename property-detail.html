@@ -40,19 +40,30 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      z-index: 10;
+      z-index: 1000 !important;
       background: rgba(0, 0, 0, 0.6) !important;
       color: white !important;
       border: none !important;
-      padding: 12px 15px !important;
+      padding: 15px 18px !important;
       cursor: pointer !important;
-      font-size: 18px !important;
-      border-radius: 3px !important;
+      font-size: 20px !important;
+      border-radius: 4px !important;
       transition: all 0.3s ease;
+      pointer-events: auto !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      min-width: 50px !important;
+      min-height: 50px !important;
     }
     
     .carousel-arrow:hover {
-      background: rgba(0, 0, 0, 0.8) !important;
+      background: rgba(0, 0, 0, 0.9) !important;
+      transform: translateY(-50%) scale(1.1);
+    }
+    
+    .carousel-arrow:active {
+      transform: translateY(-50%) scale(0.95);
     }
     
     .prev-arrow {
@@ -69,6 +80,8 @@
       object-fit: cover;
       margin-bottom: 15px;
       border-radius: 5px;
+      display: block;
+      pointer-events: none;
     }
     
     .thumbnail-container {

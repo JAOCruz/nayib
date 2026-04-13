@@ -190,10 +190,10 @@ class PropertyDetailManager {
         let html = `
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="property-gallery" style="position: relative;">
-                        <button class="carousel-arrow prev-arrow" onclick="changeGalleryImage(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 20px; border-radius: 3px;"><i class="fas fa-chevron-left"></i></button>
+                    <div class="property-gallery">
+                        <button class="carousel-arrow prev-arrow" onclick="changeGalleryImage(-1)"><i class="fas fa-chevron-left"></i></button>
                         <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image">
-                        <button class="carousel-arrow next-arrow" onclick="changeGalleryImage(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 20px; border-radius: 3px;"><i class="fas fa-chevron-right"></i></button>
+                        <button class="carousel-arrow next-arrow" onclick="changeGalleryImage(1)"><i class="fas fa-chevron-right"></i></button>
                         <div class="thumbnail-container">
                             ${galleryImages.map((img, index) => `
                                 <img src="${img.src}" alt="${img.alt}" class="thumbnail" onclick="changeGalleryImageByIndex(${index})">
