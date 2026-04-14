@@ -1,85 +1,91 @@
 /**
  * LÓGICA DEL CARRUSEL DE IMÁGENES
- * Se define globalmente (window) para ser accesible desde el HTML generado dinámicamente.
- * Usa el ID único de la propiedad para manipular solo esa galería específica.
+ * Usa event delegation para máxima compatibilidad con HTML generado dinámicamente.
+ * Los botones usan data-attributes en lugar de inline onclick.
  */
 window.propertyCarousel = {
-    // Almacena el índice actual de la foto para CADA propiedad por separado
-    // Ej: { 'prop-santiago-001': 2, 'prop-luxury-002': 0 }
     currentIndices: {},
 
     getThumbnails: function (propertyId) {
-        const container = document.getElementById(`gallery-${propertyId}`);
+        var container = document.getElementById('gallery-' + propertyId);
         if (!container) return [];
         return Array.from(container.querySelectorAll('.thumbnail'));
     },
 
     nextImage: function (propertyId) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
 
-        // Inicializar índice si no existe
         if (this.currentIndices[propertyId] === undefined) {
             this.currentIndices[propertyId] = 0;
         }
 
-        let newIndex = this.currentIndices[propertyId] + 1;
-        // Si llega al final, volver al principio
-        if (newIndex >= thumbnails.length) {
-            newIndex = 0;
-        }
+        var newIndex = this.currentIndices[propertyId] + 1;
+        if (newIndex >= thumbnails.length) newIndex = 0;
 
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
     previousImage: function (propertyId) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
 
         if (this.currentIndices[propertyId] === undefined) {
             this.currentIndices[propertyId] = 0;
         }
 
-        let newIndex = this.currentIndices[propertyId] - 1;
-        // Si está en el primero y da atrás, ir al último
-        if (newIndex < 0) {
-            newIndex = thumbnails.length - 1;
-        }
+        var newIndex = this.currentIndices[propertyId] - 1;
+        if (newIndex < 0) newIndex = thumbnails.length - 1;
 
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
     goToImage: function (propertyId, index) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         this.updateGallery(propertyId, index, thumbnails);
     },
 
     updateGallery: function (propertyId, index, thumbnails) {
-        // 1. Guardar nuevo índice
         this.currentIndices[propertyId] = index;
 
-        // 2. Actualizar imagen principal buscando por ID ÚNICO
-        const mainImage = document.getElementById(`main-image-${propertyId}`);
+        var mainImage = document.getElementById('main-image-' + propertyId);
         if (mainImage && thumbnails[index]) {
             mainImage.src = thumbnails[index].src;
         }
 
-        // 3. Actualizar contador
-        const counter = document.getElementById(`image-counter-${propertyId}`);
+        var counter = document.getElementById('image-counter-' + propertyId);
         if (counter) {
-            counter.innerText = `${index + 1} / ${thumbnails.length}`;
+            counter.innerText = (index + 1) + ' / ' + thumbnails.length;
         }
 
-        // 4. Actualizar clases active en miniaturas
-        thumbnails.forEach((thumb, i) => {
-            if (i === index) {
-                thumb.classList.add('active');
-            } else {
-                thumb.classList.remove('active');
-            }
+        thumbnails.forEach(function (thumb, i) {
+            if (i === index) thumb.classList.add('active');
+            else thumb.classList.remove('active');
         });
     }
 };
+
+// Event delegation for carousel controls
+document.addEventListener('click', function (e) {
+    var button = e.target.closest('[data-action]');
+    if (!button) return;
+
+    var action = button.getAttribute('data-action');
+    var propertyId = button.getAttribute('data-property-id');
+    if (!propertyId) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (action === 'prev') {
+        window.propertyCarousel.previousImage(propertyId);
+    } else if (action === 'next') {
+        window.propertyCarousel.nextImage(propertyId);
+    } else if (action === 'goto') {
+        var index = parseInt(button.getAttribute('data-index'), 10);
+        window.propertyCarousel.goToImage(propertyId, index);
+    }
+});
 
 /**
  * CLASE PRINCIPAL DE GESTIÓN DE PROPIEDADES
@@ -168,10 +174,10 @@ class PropertiesManager {
                     </div>
 
                     ${hasGallery && images.length > 1 ? `
-                        <button class="carousel-nav prev" onclick="window.propertyCarousel.previousImage('${property.id}')">
+                        <button type="button" class="carousel-nav prev" data-action="prev" data-property-id="${property.id}">
                             <i class="fas fa-chevron-left"></i>
                         </button>
-                        <button class="carousel-nav next" onclick="window.propertyCarousel.nextImage('${property.id}')">
+                        <button type="button" class="carousel-nav next" data-action="next" data-property-id="${property.id}">
                             <i class="fas fa-chevron-right"></i>
                         </button>
                         <div class="image-counter" id="image-counter-${property.id}">
@@ -183,9 +189,9 @@ class PropertiesManager {
                 ${hasGallery && images.length > 1 ? `
                     <div class="thumbnail-container">
                         ${images.map((imgSrc, index) => `
-                            <img src="${imgSrc}" 
-                                 class="thumbnail ${index === 0 ? 'active' : ''}" 
-                                 onclick="window.propertyCarousel.goToImage('${property.id}', ${index})" 
+                            <img src="${imgSrc}"
+                                 class="thumbnail ${index === 0 ? 'active' : ''}"
+                                 data-action="goto" data-property-id="${property.id}" data-index="${index}"
                                  alt="thumbnail">
                         `).join('')}
                     </div>

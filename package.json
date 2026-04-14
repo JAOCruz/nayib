@@ -1,27 +1,54 @@
 {
-  "name": "digital-ocean-images-updater",
-  "version": "1.0.0",
-  "description": "Update Digital Ocean Spaces image counts and galleries",
-  "main": "update-images.js",
+  "name": "lowess-real-estate",
+  "version": "2.0.0",
+  "description": "LOWESS Real Estate Website - React + Vite + TypeScript",
+  "type": "module",
   "scripts": {
-    "start": "node update-images.js",
-    "update-images": "node update-images.js",
-    "validate": "node scripts/validate-properties.js",
-    "migrate": "node scripts/migrate-properties.js --validate --backup",
-    "migrate:dry-run": "node scripts/migrate-properties.js --dry-run --validate",
-    "migrate:optimize": "node scripts/migrate-properties.js --validate --backup --optimize",
-    "build:full": "node scripts/build-full-properties.js",
-    "standardize-addresses": "node scripts/standardize-addresses.js --backup",
-    "standardize-addresses:dry-run": "node scripts/standardize-addresses.js --dry-run",
-    "fix-solares": "node scripts/fix-solares-pricing.js --backup",
-    "fix-solares:dry-run": "node scripts/fix-solares-pricing.js --dry-run",
-    "optimize-all": "npm run fix-solares && npm run standardize-addresses && npm run validate"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "legacy:start": "node update-images.js",
+    "legacy:update-images": "node update-images.js",
+    "legacy:validate": "node scripts/validate-properties.js",
+    "legacy:migrate": "node scripts/migrate-properties.js --validate --backup",
+    "legacy:migrate:dry-run": "node scripts/migrate-properties.js --dry-run --validate",
+    "legacy:migrate:optimize": "node scripts/migrate-properties.js --validate --backup --optimize",
+    "legacy:build:full": "node scripts/build-full-properties.js",
+    "legacy:standardize-addresses": "node scripts/standardize-addresses.js --backup",
+    "legacy:standardize-addresses:dry-run": "node scripts/standardize-addresses.js --dry-run",
+    "legacy:fix-solares": "node scripts/fix-solares-pricing.js --backup",
+    "legacy:fix-solares:dry-run": "node scripts/fix-solares-pricing.js --dry-run",
+    "legacy:optimize-all": "npm run legacy:fix-solares && npm run legacy:standardize-addresses && npm run legacy:validate"
   },
   "dependencies": {
     "aws-sdk": "^2.1490.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "gsap": "^3.12.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
+    "react-router-dom": "^6.20.0",
+    "zustand": "^4.4.7"
   },
-  "keywords": ["digital-ocean", "spaces", "images", "aws-sdk"],
+  "keywords": [
+    "real-estate",
+    "react",
+    "vite",
+    "typescript",
+    "lowess",
+    "gsap"
+  ],
   "author": "Lowest Wessin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
 }

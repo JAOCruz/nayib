@@ -197,10 +197,10 @@ class PropertyDetailManager {
                                 <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image-${property.id}">
                                 
                                 ${galleryImages.length > 1 ? `
-                                    <button class="carousel-nav prev" onclick="window.propertyCarousel.previousImage('${property.id}')">
+                                    <button type="button" class="carousel-nav prev" data-action="prev" data-property-id="${property.id}">
                                         <i class="fas fa-chevron-left"></i>
                                     </button>
-                                    <button class="carousel-nav next" onclick="window.propertyCarousel.nextImage('${property.id}')">
+                                    <button type="button" class="carousel-nav next" data-action="next" data-property-id="${property.id}">
                                         <i class="fas fa-chevron-right"></i>
                                     </button>
                                     <div class="image-counter" id="image-counter-${property.id}">
@@ -211,8 +211,8 @@ class PropertyDetailManager {
                             
                             <div class="thumbnail-container">
                                 ${galleryImages.map((img, index) => `
-                                    <img src="${img.src}" alt="${img.alt}" class="thumbnail ${index === 0 ? 'active' : ''}" 
-                                         onclick="window.propertyCarousel.goToImage('${property.id}', ${index})">
+                                    <img src="${img.src}" alt="${img.alt}" class="thumbnail ${index === 0 ? 'active' : ''}"
+                                         data-action="goto" data-property-id="${property.id}" data-index="${index}">
                                 `).join('')}
                             </div>
                         </div>
@@ -376,66 +376,91 @@ class PropertyDetailManager {
 
 /**
  * LOGICA DEL CARRUSEL (GLOBAL)
- * Reemplazamos la clase local anterior por este objeto global 
- * para que coincida con lo usado en properties.js y el HTML generado.
+ * Usa event delegation en document para máxima compatibilidad.
+ * Los botones usan data-attributes en lugar de inline onclick.
  */
 window.propertyCarousel = {
     currentIndices: {},
 
     getThumbnails: function (propertyId) {
-        const container = document.getElementById(`gallery-${propertyId}`);
+        const container = document.getElementById('gallery-' + propertyId);
         if (!container) return [];
         return Array.from(container.querySelectorAll('.thumbnail'));
     },
 
     nextImage: function (propertyId) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
 
         if (this.currentIndices[propertyId] === undefined) this.currentIndices[propertyId] = 0;
 
-        let newIndex = this.currentIndices[propertyId] + 1;
+        var newIndex = this.currentIndices[propertyId] + 1;
         if (newIndex >= thumbnails.length) newIndex = 0;
 
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
     previousImage: function (propertyId) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
 
         if (this.currentIndices[propertyId] === undefined) this.currentIndices[propertyId] = 0;
 
-        let newIndex = this.currentIndices[propertyId] - 1;
+        var newIndex = this.currentIndices[propertyId] - 1;
         if (newIndex < 0) newIndex = thumbnails.length - 1;
 
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
     goToImage: function (propertyId, index) {
-        const thumbnails = this.getThumbnails(propertyId);
+        var thumbnails = this.getThumbnails(propertyId);
         this.updateGallery(propertyId, index, thumbnails);
     },
 
     updateGallery: function (propertyId, index, thumbnails) {
         this.currentIndices[propertyId] = index;
 
-        const mainImage = document.getElementById(`main-image-${propertyId}`);
+        var mainImage = document.getElementById('main-image-' + propertyId);
         if (mainImage && thumbnails[index]) {
             mainImage.src = thumbnails[index].src;
         }
 
-        const counter = document.getElementById(`image-counter-${propertyId}`);
+        var counter = document.getElementById('image-counter-' + propertyId);
         if (counter) {
-            counter.innerText = `${index + 1} / ${thumbnails.length}`;
+            counter.innerText = (index + 1) + ' / ' + thumbnails.length;
         }
 
-        thumbnails.forEach((thumb, i) => {
+        thumbnails.forEach(function (thumb, i) {
             if (i === index) thumb.classList.add('active');
             else thumb.classList.remove('active');
         });
     }
 };
+
+// Event delegation for carousel controls — handles clicks on buttons and thumbnails
+document.addEventListener('click', function (e) {
+    var target = e.target;
+
+    // Handle clicks on child elements (like <i> inside button)
+    var button = target.closest('[data-action]');
+    if (!button) return;
+
+    var action = button.getAttribute('data-action');
+    var propertyId = button.getAttribute('data-property-id');
+    if (!propertyId) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (action === 'prev') {
+        window.propertyCarousel.previousImage(propertyId);
+    } else if (action === 'next') {
+        window.propertyCarousel.nextImage(propertyId);
+    } else if (action === 'goto') {
+        var index = parseInt(button.getAttribute('data-index'), 10);
+        window.propertyCarousel.goToImage(propertyId, index);
+    }
+});
 
 // Inicialización
 document.addEventListener('DOMContentLoaded', function () {
