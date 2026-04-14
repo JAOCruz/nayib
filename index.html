@@ -1,22 +1,1265 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/images/logo-mobile.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="LOWESS - Soluciones Integrales en el Sector Inmobiliario. Propiedades, terrenos y desarrollos inmobiliarios en República Dominicana." />
-    <meta name="keywords" content="inmobiliaria, propiedades, terrenos, República Dominicana, LOWESS, bienes raíces" />
-    <meta name="author" content="LOWESS" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="bienes raíces, apartamentos, casas, venta, alquiler, inmobiliaria, multifamiliares, estudios, oficinas, airbnb, terrenos, desarrollo inmobiliario, intermediario inmobiliario" />
+  <meta name="description" content="LOWESS - Soluciones integrales en el sector inmobiliario desde 2020. Búsqueda de compradores, intermediario inmobiliario y desarrollo inmobiliario." />
+  <meta name="author" content="LOWESS" />
 
-    <title>LOWESS - Soluciones Integrales en el Sector Inmobiliario</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <title>LOWESS - Inicio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo-1.jpeg" type="image/jpeg">
+  <link rel="shortcut icon" href="images/logo-1.jpeg" type="image/jpeg">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  
+  <!-- Custom styles for testimonials -->
+  <style>
+    .client_section .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    
+    .client_section .detail-box {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .client_section .detail-box h5 {
+      margin-bottom: 20px;
+    }
+    
+    .client_section .detail-box hr {
+      width: 60px;
+      height: 3px;
+      background-color: #0a3d62;
+      margin: 15px auto;
+      border: none;
+    }
+    
+    .client_section .detail-box p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #666;
+      margin-top: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .client_section .box {
+        padding: 30px 15px;
+      }
+      
+      .client_section .detail-box p {
+        font-size: 14px;
+      }
+    }
+    
+    /* Animation Styles */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes scaleIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    
+    @keyframes slideInFromTop {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Apply animations to elements */
+    .animate-on-scroll {
+      opacity: 0;
+      transition: all 0.6s ease-out;
+    }
+    
+    .animate-on-scroll.animated {
+      opacity: 1;
+    }
+    
+    .fade-in-up {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    
+    .fade-in-left {
+      animation: fadeInLeft 0.8s ease-out forwards;
+    }
+    
+    .fade-in-right {
+      animation: fadeInRight 0.8s ease-out forwards;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+    
+    .scale-in {
+      animation: scaleIn 0.8s ease-out forwards;
+    }
+    
+    .slide-in-top {
+      animation: slideInFromTop 0.8s ease-out forwards;
+    }
+    
+    /* Stagger animations */
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+    .delay-5 { animation-delay: 0.5s; }
+    .delay-6 { animation-delay: 0.6s; }
+    
+    /* Hover animations */
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .hover-lift:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Image hover effects */
+    .image-zoom-container {
+      overflow: hidden;
+    }
+    
+    .image-zoom-container img {
+      transition: transform 0.5s ease;
+    }
+    
+    .image-zoom-container:hover img {
+      transform: scale(1.1);
+    }
+    
+    /* Heading animations */
+    .heading_container h2 {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .heading_container h2::after {
+      display: none;
+    }
+    
+    .heading_container.animated h2::after {
+      width: 100%;
+    }
+    
+    /* Button pulse effect */
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(10, 61, 98, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 10px rgba(10, 61, 98, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(10, 61, 98, 0);
+      }
+    }
+    
+    .btn-box a:hover,
+    .btn-property:hover {
+      animation: pulse 1.5s infinite;
+    }
+    
+    /* Partner logos animation */
+    .partner_logo_box {
+      transition: transform 0.4s ease;
+    }
+    
+    .partner_logo_box:hover {
+      transform: translateY(-5px) scale(1.05);
+    }
+    
+    /* Make COHESA logo bigger */
+    .partner_logo_box img[alt="COHESA"] {
+      max-height: 150px !important;
+    }
+    
+    /* Success modal styles */
+    .success-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .success-modal-content {
+      background: linear-gradient(135deg, #0a3d62, #1e5f8a);
+      color: white;
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+    
+    .success-content h4 {
+      color: white;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    
+    .success-content p {
+      color: #e8f4f8;
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+    
+    .success-modal-content::before {
+      content: "✓";
+      display: block;
+      font-size: 60px;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+    
+    .close-modal-btn {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .close-modal-btn:hover {
+      background: #45a049;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+    }
+    
+    @media (max-width: 768px) {
+      .success-modal-content {
+        padding: 30px 20px;
+        margin: 20px;
+      }
+      
+      .success-content h4 {
+        font-size: 24px;
+      }
+      
+      .success-content p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-mobile.png" alt="LOWESS" />
+          </a>
+          <div class="navbar-collapse" id="">
+            <ul class="navbar-nav justify-content-between ">
+              <div class="User_option">
+                <li class="">
+                  <a class="mr-4" href="propiedades.html">
+                    Propiedades
+                  </a>
+                  <a class="mr-4" href="solares.html">
+                    Terrenos
+                  </a>
+                </li>
+              </div>
+            </ul>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">INICIO</a>
+                <a href="#" onclick="scrollToAbout(); return false;">ACERCA DE</a>
+                <a href="propiedades.html">PROPIEDADES</a>
+                <a href="solares.html">TERRENOS</a>
+                <a href="#" onclick="scrollToDesarrollo(); return false;">DESARROLLO INMOBILIARIO</a>
+                <a href="contact.html">CONTACTO</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 offset-md-1">
+            <div class="detail-box">
+              <h1 class="fade-in-left">
+                <span>Soluciones Integrales</span> <br>
+                en el Sector <br>
+                Inmobiliario
+              </h1>
+              <p class="fade-in-left delay-2">
+                LOWEST-WESSIN INMOBILIARIA, E.I.R.L. (LOWESS) - Operando desde 2020 en Santo Domingo, República Dominicana. Ofrecemos servicios especializados con responsabilidad, creatividad e innovación.
+              </p>
+              <div class="btn-box fade-in-left delay-3">
+                <a href="#" onclick="scrollToAbout(); return false;" class="">
+                  Conocer Más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- motivational message section -->
+  <section class="motivational_section">
+    <div class="container">
+      <div class="motivational_box">
+        <h2 class="motivational_text animate-on-scroll">
+          Haz de cada día tu obra maestra<br>
+          <span class="highlight">Invierte con LOWESS</span>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about section -->
+  <section id="about-section" class="about_section layout_padding-bottom">
+    <div class="square-box">
+      <img src="images/square.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box image-zoom-container animate-on-scroll">
+            <img src="images/about-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container animate-on-scroll">
+              <h2>
+                Acerca de LOWESS
+              </h2>
+            </div>
+            <p class="animate-on-scroll">
+              LOWESS es una empresa dedicada a ofrecer soluciones integrales en el ámbito del sector inmobiliario y el desarrollo mismo de este. Opera desde el año 2020 en la provincia de Santo Domingo, Distrito Nacional, República Dominicana, encabezada por el <strong>Ing. Nayib Wessin Hazim</strong>, quien gracias a su responsabilidad, creatividad e innovación han contado con la confianza de un gran número de clientes, tanto nacionales como internacionales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- sale section -->
+  <section class="sale_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="heading_container animate-on-scroll">
+        <h2>
+          Nuestras Especialidades
+        </h2>
+        <p>
+          Propiedades, Solares para desarrollo en el mercado inmobiliario dominicano, entre otros.
+        </p>
+      </div>
+      <div class="sale_container">
+        <div class="box hover-lift animate-on-scroll">
+          <div class="img-box image-zoom-container">
+            <a href="propiedades.html">
+              <img src="images/s-1.jpg" alt="Propiedades">
+            </a>
+          </div>
+          <div class="detail-box">
+            <h6>
+              <a href="propiedades.html">Propiedades</a>
+            </h6>
+            <p>
+              Multifamiliares, estudios, Airbnb, etc. Oportunidades de inversión verificadas en el mercado dominicano.
+            </p>
+          </div>
+        </div>
+        <div class="box hover-lift animate-on-scroll">
+          <div class="img-box image-zoom-container">
+            <a href="solares.html">
+              <img src="images/s-2.jpg" alt="Solares y Terrenos">
+            </a>
+          </div>
+          <div class="detail-box">
+            <h6>
+              <a href="solares.html">Solares y Terrenos</a>
+            </h6>
+            <p>
+              Lotes de terreno disponibles en diferentes ubicaciones de República Dominicana con títulos verificados.
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="propiedades.html">
+          Explorar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end sale section -->
+
+  <!-- featured properties section -->
+  <section class="featured_properties_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container animate-on-scroll">
+        <h2>
+          Propiedades Destacadas
+        </h2>
+        <p>
+          Oportunidades exclusivas de inversión con precios por debajo del mercado y estatus legal verificado.
+        </p>
+      </div>
+      <div class="featured_properties_container" id="featuredPropertiesContainer">
+        <!-- Featured properties will be loaded dynamically from JSON -->
+      </div>
+      <div class="btn-box">
+        <a href="propiedades.html" class="btn-main">Ver Todas las Propiedades</a>
+      </div>
+    </div>
+  </section>
+  <!-- end featured properties section -->
+
+
+  <!-- desarrollo inmobiliario Próximamente section -->
+  <section id="desarrollo-inmobiliario" class="desarrollo_coming_soon_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container animate-on-scroll">
+              <h2>
+                Desarrollo Inmobiliario
+              </h2>
+              <div class="coming_soon_badge">
+                <span>Próximamente</span>
+              </div>
+            </div>
+            <p class="animate-on-scroll">
+              Próximamente ofreceremos servicios completos de desarrollo inmobiliario, incluyendo planificación, financiamiento, construcción y venta de proyectos inmobiliarios innovadores en el mercado dominicano. Nuestro equipo de expertos trabajará contigo para materializar tu visión de desarrollo.
+            </p>
+            <div class="features_list animate-on-scroll">
+              <ul>
+                <li>Planificación y diseño de proyectos</li>
+                <li>Financiamiento especializado</li>
+                <li>Construcción y supervisión</li>
+                <li>Venta y comercialización</li>
+                <li>Gestión integral del proyecto</li>
+              </ul>
+            </div>
+            <a href="contact.html" class="btn_desarrollo">
+              Más Información
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="image_gallery">
+              <div class="main_image image-zoom-container animate-on-scroll">
+                <img src="images/desarrollo.png" alt="Desarrollo Inmobiliario - Planificación">
+              </div>
+              <div class="secondary_image image-zoom-container animate-on-scroll">
+                <img src="images/desarrollo2.png" alt="Desarrollo Inmobiliario - Construcción">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- price section -->
+  <section class="price_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Nuestros Servicios Especializados
+        </h2>
+        <p>
+          Servicios profesionales de bienes raíces con experiencia en el mercado dominicano desde 2020.
+        </p>
+      </div>
+      <div class="price_container">
+        <div class="box">
+          <div class="detail-box">
+            <div class="heading-box">
+              <h4>
+                01
+              </h4>
+              <h6>
+                BUSQUEDA DE COMPRADORES PROSPECTOS
+              </h6>
+            </div>
+            <div class="text-box">
+              <h2>
+                Servicio Activo
+              </h2>
+              <ul>
+                <li>
+                  Satisfacer a los clientes
+                </li>
+                <li>
+                  explorando el mercado para
+                </li>
+                <li>
+                  encontrar compradores
+                </li>
+                <li>
+                  prospectos para sus
+                </li>
+                <li>
+                  inmuebles, y viceversa
+                </li>
+                <li>
+                  Servicio bidireccional
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="https://wa.me/18098641996" target="_blank">
+              Solicitar Servicio
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="detail-box">
+            <div class="heading-box">
+              <h4>
+                02
+              </h4>
+              <h6>
+                INTERMEDIARIO INMOBILIARIO
+              </h6>
+            </div>
+            <div class="text-box">
+              <h2>
+                Servicio Activo
+              </h2>
+              <ul>
+                <li>
+                  Servir como intermediario
+                </li>
+                <li>
+                  inmobiliario al referir a dos
+                </li>
+                <li>
+                  empresas inmobiliarias o
+                </li>
+                <li>
+                  agentes de bienes raíces
+                </li>
+                <li>
+                  independientes para el cierre
+                </li>
+                <li>
+                  de un posible negocio
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="https://wa.me/18098641996" target="_blank">
+              Contactar Ahora
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="detail-box">
+            <div class="heading-box">
+              <h4>
+                03
+              </h4>
+              <h6>
+                DESARROLLO INMOBILIARIO
+              </h6>
+            </div>
+            <div class="text-box">
+              <h2>
+                Próximamente
+              </h2>
+              <ul>
+                <li>
+                  Planificar, financiar, construir y
+                </li>
+                <li>
+                  vender o alquilar proyectos
+                </li>
+                <li>
+                  inmobiliarios dentro del
+                </li>
+                <li>
+                  mercado dominicano
+                </li>
+                <li>
+                  Servicio integral
+                </li>
+                <li>
+                  Desarrollo completo
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="#" onclick="scrollToDesarrollo(); return false;">
+              Más Información
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end price section -->
+
+  <!-- deal section -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Nuestro Compromiso
+              </h2>
+            </div>
+            <p>
+              Nuestro compromiso es materializar las ideas de los clientes a través de servicios especializados que abarcan desde la búsqueda de compradores prospectos hasta el desarrollo inmobiliario integral. Con la experiencia de LOWESS y un equipo comprometido, garantizamos soluciones innovadoras y confiables en el sector inmobiliario dominicano.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="images/d-1.jpg" alt="">
+            </div>
+            <div class="box b1">
+              <img src="images/d-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end deal section -->
+
+  <!-- us section -->
+  <section class="us_section layout_padding2">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          ¿Por Qué Elegir LOWESS?
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/u-1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h3 class="price">
+                4+
+              </h3>
+              <h5>
+                Años de Experiencia
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/u-2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h3>
+                200+
+              </h3>
+              <h5>
+                Clientes Atendidos
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/u-3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h3>
+                100%
+              </h3>
+              <h5>
+                Clientes Satisfechos
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/u-4.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h3>
+                24/7
+              </h3>
+              <h5>
+                Atención Personalizada
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="contact.html">
+          Solicitar Cotización
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end us section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Lo Que Dicen Nuestros Clientes
+        </h2>
+      </div>
+      <div class="client_container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="box">
+                <div class="detail-box">
+                  <h5>
+                    <span>María González</span>
+                    <hr>
+                  </h5>
+                  <p>
+                    "Excelente servicio profesional. LOWESS me ayudó a encontrar el comprador perfecto para mi propiedad en Bella Vista. Su conocimiento del mercado local es excepcional."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box">
+                <div class="detail-box">
+                  <h5>
+                    <span>Carlos Rodríguez</span>
+                    <hr>
+                  </h5>
+                  <p>
+                    "Como intermediario inmobiliario, LOWESS conectó perfectamente con otras empresas del sector. El proceso fue transparente y profesional. Recomiendo sus servicios al 100%."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box">
+                <div class="detail-box">
+                  <h5>
+                    <span>Ana Martínez</span>
+                    <hr>
+                  </h5>
+                  <p>
+                    "Su creatividad e innovación en el sector inmobiliario son impresionantes. Compré mi primera propiedad con su ayuda y el proceso fue excelente. Ahora estoy esperando sus servicios de desarrollo inmobiliario."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- partners section -->
+  <section class="partners_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Algunos de Nuestros Clientes
+        </h2>
+      </div>
+      <div class="partners_container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 col-6">
+            <div class="partner_logo_box">
+              <img src="images/conarte.jpeg" alt="CONARTE - Construcción Arquitectura y Técnica" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <div class="partner_logo_box">
+              <img src="images/logo-hageco.png" alt="HAGECO - Ingenieros & Arquitectos" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4 col-6 offset-md-2"> 
+            <div class="partner_logo_box">
+              <img src="images/therrestra-azul.png" alt="Therrestra" class="img-fluid">
+            </div>
+          </div>          <div class="col-md-6 col-6">
+            <div class="partner_logo_box">
+              <img src="images/cohesa.png" alt="COHESA" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end partners section -->
+
+  <!-- contact section -->
+  <section class="contact_section ">
+    <div class="container">
+      <div class="heading_container">
+        
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="map_container">
+            <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.1234567890!2d-69.9386236!3d18.4554803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea5620e603661c5%3A0x98a5eebbc4af5c9c!2sPlaza%20Kury!5e0!3m2!1ses!2sdo!4v1234567890123!5m2!1ses!2sdo" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-5 ">
+          <div class="form_container">
+            <form id="contactForm" action="https://submit-form.com/BFgZ45QHC" method="POST">
+              <input type="hidden" name="_redirect" value="http://127.0.0.1:5500/index.html?success=true">
+              <div>
+                <input type="text" name="name" placeholder="Nombre" required />
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Correo Electrónico" required />
+              </div>
+              <div>
+                <input type="text" name="phone" placeholder="Número de Teléfono" />
+              </div>
+              <div>
+                <input type="text" name="message" class="message-box" placeholder="Mensaje" required />
+              </div>
+              <div class="d-flex ">
+                <button type="submit">
+                  Enviar
+                </button>
+              </div>
+            </form>
+            
+            <!-- Success Modal -->
+            <div id="successModal" class="success-modal" style="display: none;">
+              <div class="success-modal-content">
+                <div class="success-content">
+                  <h4>¡Gracias por contactarnos!</h4>
+                  <p>Pronto estaremos en contacto con usted.</p>
+                  <button class="close-modal-btn" onclick="closeSuccessModal()">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              LOWESS
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location.png" width="18px" alt="">
+              </div>
+              <p>
+                Av. Sarasota, Esq. Francisco Moreno<br>
+                Plaza Comercial Kury, Suite #213<br>
+                Bella Vista, Santo Domingo<br>
+                República Dominicana 10112
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/phone.png" width="12px" alt="">
+              </div>
+              <p>
+                +1 (809) 864-1996
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/mail.png" width="18px" alt="">
+              </div>
+              <p>
+               lowestwessin@realestatewl.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Información
+            </h5>
+            <p>
+              Liderados por <strong>LOWESS</strong>, operamos desde 2020 en Santo Domingo, República Dominicana, ofreciendo soluciones integrales en el sector inmobiliario con responsabilidad, creatividad e innovación.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Nuestros Servicios
+            </h5>
+            <ul>
+              <li>
+                <a href="propiedades.html">
+                  Búsqueda de Compradores
+                </a>
+              </li>
+              <li>
+                <a href="propiedades.html">
+                  Intermediario Inmobiliario
+                </a>
+              </li>
+              <li>
+                <a href="propiedades.html">
+                  Desarrollo Inmobiliario
+                </a>
+              </li>
+              <li>
+                <a href="propiedades.html">
+                  Multifamiliares
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+              <input type="hidden" name="form_type" value="newsletter">
+              <button type="submit">
+                Suscribirse
+              </button>
+            </form>
+            <div class="social_box">
+              <a href="https://www.facebook.com/lowessrealestate/">
+                <img src="images/facebook-icon.svg" alt="Facebook">
+              </a>
+              <a href="https://x.com/lowessrealest">
+                <img src="images/x-icon.svg" alt="X">
+              </a>
+              <a href="https://www.linkedin.com/company/lopez-wessin-inmobiliaria/">
+                <img src="images/linkedin-icon.svg" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/lowessrealestate">
+                <img src="images/instagram-icon.svg" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Todos los Derechos Reservados - 
+        <a href="">LOWESS</a>
+      </p>
+    </div>
+  </section>
+  <!-- end  footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/cdn-config.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/properties.js"></script>
+  
+  <script>
+    function scrollToDesarrollo() {
+      // Close the mobile menu first
+      document.getElementById("myNav").classList.remove("menu_width");
+      document.querySelector(".custom_menu-btn").classList.remove("menu_btn-style");
+      
+      // Wait a moment for the menu to close, then scroll
+      setTimeout(function() {
+        const desarrolloSection = document.getElementById('desarrollo-inmobiliario');
+        if (desarrolloSection) {
+          desarrolloSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }, 300); // Wait 300ms for menu animation to complete
+    }
+    
+    function scrollToAbout() {
+      // Close the mobile menu first (in case it's open)
+      document.getElementById("myNav").classList.remove("menu_width");
+      document.querySelector(".custom_menu-btn").classList.remove("menu_btn-style");
+      
+      // Wait a moment, then scroll
+      setTimeout(function() {
+        const aboutSection = document.getElementById('about-section');
+        if (aboutSection) {
+          aboutSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }, 300); // Wait 300ms for animation to complete
+    }
+    
+    // Check if form was submitted successfully
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === 'true') {
+      // Show success modal
+      document.getElementById('successModal').style.display = 'flex';
+      
+      // Clean up URL
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+    
+    // Function to close the modal
+    function closeSuccessModal() {
+      document.getElementById('successModal').style.display = 'none';
+    }
+    
+    // Close modal when clicking outside
+    document.getElementById('successModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeSuccessModal();
+      }
+    });
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeSuccessModal();
+      }
+    });
+    
+    // Scroll Animation Observer
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+          // For heading containers, trigger the underline animation
+          if (entry.target.classList.contains('heading_container')) {
+            entry.target.classList.add('animated');
+          }
+        }
+      });
+    }, observerOptions);
+    
+    // Observe all elements with animate-on-scroll class
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElements = document.querySelectorAll('.animate-on-scroll');
+      animatedElements.forEach(el => observer.observe(el));
+      
+      // Add animation classes to dynamically loaded property cards
+      const propertyObserver = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1 && node.classList && node.classList.contains('property_card')) {
+              node.classList.add('hover-lift', 'animate-on-scroll');
+              observer.observe(node);
+              
+              // Add image zoom to property images
+              const imgBox = node.querySelector('.img-box');
+              if (imgBox) {
+                imgBox.classList.add('image-zoom-container');
+              }
+            }
+          });
+        });
+      });
+      
+      // Observe the featured properties container
+      const featuredContainer = document.getElementById('featuredPropertiesContainer');
+      if (featuredContainer) {
+        propertyObserver.observe(featuredContainer, {
+          childList: true,
+          subtree: true
+        });
+      }
+    });
+    
+    // Add stagger effect to service boxes
+    window.addEventListener('load', function() {
+      const serviceBoxes = document.querySelectorAll('.price_section .box');
+      serviceBoxes.forEach((box, index) => {
+        box.classList.add('animate-on-scroll');
+        box.style.animationDelay = (index * 0.2) + 's';
+        observer.observe(box);
+      });
+      
+      // Add animation to stats boxes
+      const statsBoxes = document.querySelectorAll('.us_section .box');
+      statsBoxes.forEach((box, index) => {
+        box.classList.add('scale-in', 'delay-' + (index + 1));
+      });
+      
+      // Add animation to partner logos
+      const partnerLogos = document.querySelectorAll('.partner_logo_box');
+      partnerLogos.forEach((logo, index) => {
+        logo.classList.add('animate-on-scroll');
+        logo.parentElement.style.animationDelay = (index * 0.15) + 's';
+        observer.observe(logo);
+      });
+    });
+  </script>
+</body>
+
 </html>
