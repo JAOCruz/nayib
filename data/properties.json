@@ -7204,11 +7204,25 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
-              "area_m2": 706.90,
+              "area_m2": 706.9,
               "frente_m": 35,
               "fondo_m": null,
               "precio_usd_m2": 3324.37,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 14000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5300,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 5000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5200,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7254,6 +7268,13 @@
               "fondo_m": 79.72,
               "precio_usd_m2": 4000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2224,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4500,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7493,6 +7514,13 @@
               "fondo_m": null,
               "precio_usd_m2": 50.24,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 95500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 132,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7550,7 +7578,7 @@
           "ubicacion": "Jamao Al Norte - Moca",
           "solares": [
             {
-              "area_m2": 4339947.30,
+              "area_m2": 4339947.3,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 1.25,
@@ -7565,7 +7593,7 @@
               "area_m2": 137878.74,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 1.50,
+              "precio_usd_m2": 1.5,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7624,6 +7652,13 @@
               "fondo_m": 1025,
               "precio_usd_m2": 350,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 17000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 500,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7726,6 +7761,13 @@
               "fondo_m": null,
               "precio_usd_m2": 43,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 60020,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 50,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7757,6 +7799,13 @@
               "fondo_m": 600,
               "precio_usd_m2": 68,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 200,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7897,6 +7946,13 @@
               "fondo_m": null,
               "precio_usd_m2": 2500,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3568.41,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7934,8 +7990,8 @@
           ]
         },
         {
-        "ubicacion": "Gazcue",
-        "solares": [
+          "ubicacion": "Gazcue",
+          "solares": [
             {
               "area_m2": 832,
               "frente_m": 23,
@@ -7970,9 +8026,9 @@
           "ubicacion": "El Gala",
           "solares": [
             {
-              "area_m2": 926.50,
-              "frente_m": 19.50,
-              "fondo_m": 17.00,
+              "area_m2": 926.5,
+              "frente_m": 19.5,
+              "fondo_m": 17.0,
               "precio_usd_m2": 900,
               "estatus_legal": "CON TÍTULO"
             }
@@ -8081,6 +8137,13 @@
               "fondo_m": null,
               "precio_usd_m2": 550,
               "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 1258,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 954.69,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8190,6 +8253,20 @@
               "fondo_m": null,
               "precio_usd_m2": 3534,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3053,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1995,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1517,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1650,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8292,6 +8369,13 @@
               "fondo_m": null,
               "precio_usd_m2": 22000000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 55000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 960,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8329,7 +8413,7 @@
               "frente_m": 1500,
               "fondo_m": null,
               "precio_usd_m2": 25,
-              "estatus_legal":"CON TÍTULO"
+              "estatus_legal": "CON TÍTULO"
             },
             {
               "area_m2": 90000,
@@ -8555,6 +8639,27 @@
               "fondo_m": null,
               "precio_usd_m2": 180,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1000000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 16000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 231000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 80,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8605,7 +8710,7 @@
           "ubicacion": "Santo Domingo Este",
           "solares": [
             {
-              "area_m2": 560.60,
+              "area_m2": 560.6,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 2675,
@@ -8731,7 +8836,7 @@
             },
             {
               "area_m2": 645.59,
-              "frente_m": 19.90,
+              "frente_m": 19.9,
               "fondo_m": null,
               "precio_usd_m2": 2200,
               "estatus_legal": "CON TÍTULO"
@@ -8764,8 +8869,15 @@
               "area_m2": 15000000,
               "frente_m": 55000,
               "fondo_m": null,
-              "precio_usd_m2": 107.50,
+              "precio_usd_m2": 107.5,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 220000,
+              "frente_m": 1000,
+              "fondo_m": null,
+              "precio_usd_m2": null,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8973,6 +9085,20 @@
               "fondo_m": null,
               "precio_usd_m2": 3308,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4287,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3000,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2040,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3850,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9063,6 +9189,13 @@
               "fondo_m": null,
               "precio_usd_m2": 1700000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 24000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 70,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9073,7 +9206,7 @@
               "area_m2": 628860,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 2.50,
+              "precio_usd_m2": 2.5,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -9166,7 +9299,7 @@
               "area_m2": 832,
               "frente_m": 25,
               "fondo_m": null,
-              "precio_usd_m2": 631.10,
+              "precio_usd_m2": 631.1,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -9585,6 +9718,90 @@
               "fondo_m": null,
               "precio_usd_m2": 90,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4370508,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 509000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 65,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 490000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 200000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 170,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 105000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 175,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 60000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 260,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 35000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 22207,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 19200,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 270,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 14500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 350,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 14000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 300,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 9641,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 270,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9662,7 +9879,7 @@
           "solares": [
             {
               "area_m2": 771,
-              "frente_m": 27.30,
+              "frente_m": 27.3,
               "fondo_m": null,
               "precio_usd_m2": 1426.72,
               "estatus_legal": "CON TÍTULO"
@@ -9795,6 +10012,13 @@
               "fondo_m": null,
               "precio_usd_m2": 18,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 200000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": null,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9972,7 +10196,7 @@
           "ubicacion": "Monte Plata (Los Arroyos)",
           "solares": [
             {
-              "area_m2": 119483.40,
+              "area_m2": 119483.4,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 2.22,
@@ -10106,6 +10330,183 @@
               "fondo_m": null,
               "precio_usd_m2": 0.99,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. 30 de Mayo",
+          "solares": [
+            {
+              "area_m2": 4750,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 590,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Independencia",
+          "solares": [
+            {
+              "area_m2": 1600,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1500,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Bávaro",
+          "solares": [
+            {
+              "area_m2": 724000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 80,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Cabeza de Toro",
+          "solares": [
+            {
+              "area_m2": 87000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 110,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2600000,
+              "frente_m": 1700,
+              "fondo_m": null,
+              "precio_usd_m2": 150,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "El Limón",
+          "solares": [
+            {
+              "area_m2": 271000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 30,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Hipódromo",
+          "solares": [
+            {
+              "area_m2": 50000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 110,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "La Julia",
+          "solares": [
+            {
+              "area_m2": 680,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2352.94,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "La Vacama",
+          "solares": [
+            {
+              "area_m2": 158000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 85,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 450000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 3400000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 40,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Malecón",
+          "solares": [
+            {
+              "area_m2": 4800,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 750,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Nisibón",
+          "solares": [
+            {
+              "area_m2": 300000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Playa Dorada",
+          "solares": [
+            {
+              "area_m2": 65000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 923.08,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Prol. Bolívar",
+          "solares": [
+            {
+              "area_m2": 1296,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 2230.86,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Villa Altagracia",
+          "solares": [
+            {
+              "area_m2": 352161.8,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.51,
+              "estatus_legal": "CON TITULO"
             }
           ]
         }
