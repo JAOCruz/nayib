@@ -1053,6 +1053,11 @@ a:focus {
   color: #856404;
 }
 
+.estatus_badge[class*="proyecto_al_50"] {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
 /* Search and Filter Section */
 .search_filter_section {
   background: #f8f9fa;
