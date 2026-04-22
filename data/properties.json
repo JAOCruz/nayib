@@ -7031,6 +7031,61 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-honduras-moderno-001",
+          "title": "Proyecto de Apartamentos Moderno - Sector Honduras",
+          "price": 110000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Honduras, Distrito Nacional",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "62 - 130 m²",
+          "image": "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/1.png",
+          "description": "Proyecto moderno de apartamentos en el Sector Honduras, diseñado para ofrecer comodidad, funcionalidad y alta valorización. Ideal para vivir o invertir, con excelente distribución, amenidades en rooftop y ubicación estratégica en el Distrito Nacional.",
+          "features": [
+            "Edificio de 6 niveles",
+            "Ascensor",
+            "Lobby de acceso",
+            "19 parqueos disponibles",
+            "Planta eléctrica",
+            "Cisterna y sistema de agua",
+            "Área de basura y servicios",
+            "Terraza social",
+            "Jacuzzi",
+            "Área BBQ",
+            "Gimnasio / área multiuso"
+          ],
+          "status": "Nuevos en venta",
+          "badge": "Proyecto de Oportunidad",
+          "gallery": [
+            "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/1.png",
+            "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/2.png"
+          ],
+          "delivery": "En desarrollo",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Consultar",
+            "construction": "Consultar",
+            "delivery": "Desde USD 110,000 hasta USD 186,750"
+          },
+          "apartment_types": [
+            {
+              "type": "2 Habitaciones",
+              "area": "62 - 130 m²",
+              "price": "110,000 - 186,750 USD",
+              "features": [
+                "2 habitaciones",
+                "2.5 baños",
+                "Sala - comedor",
+                "Cocina moderna",
+                "Área de lavado",
+                "Algunos con habitación de servicio",
+                "Balcón y/o terraza"
+              ]
+            }
+          ]
         }
       ]
     },
