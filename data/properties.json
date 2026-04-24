@@ -7086,6 +7086,127 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-romulo-betancourt-comercial-001",
+          "title": "Propiedad Comercial en Venta y Alquiler - Av. Rómulo Betancourt",
+          "price": 2200000,
+          "currency": "USD",
+          "location": "Av. Rómulo Betancourt, Renacimiento, D.N.",
+          "type": "Oficinas",
+          "units": 1,
+          "area": "1,000 m² construcción | 435 m² solar",
+          "image": "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./1.png",
+          "description": "Oportunidad única en esquina, ideal tanto para uso corporativo como inversión. Edificio-terreno en venta con opción de alquiler de oficina en 3er nivel.",
+          "features": [
+            "Solar: 435 m²",
+            "Construcción: 1,000 m²",
+            "3 niveles construidos (325 m² c/u)",
+            "Preparado para 2 niveles adicionales",
+            "Estructura aporticada (permite rediseño total)",
+            "Ubicación en esquina con doble frente",
+            "Zona de alto flujo y visibilidad",
+            "Ideal para empresas / corporativo",
+            "Ideal para clínicas / consultorios",
+            "Ideal para restaurantes / comercios",
+            "Título limpio - listo para negociación",
+            "Opción de alquiler disponible: oficina de 75 m² en 3er nivel por USD 1,500 mensual"
+          ],
+          "status": "Disponible",
+          "badge": "Venta y Alquiler",
+          "gallery": [
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./1.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./2.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./3.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./4.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./5.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./6.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Negociable",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Edificio - Terreno en venta / Oficina en alquiler",
+              "area": "435 m² solar | 1,000 m² construcción | 75 m² oficina",
+              "price": "Venta: 2,200,000 USD | Alquiler oficina: 1,500 USD/mes",
+              "features": [
+                "3 niveles construidos",
+                "Posibilidad de 2 niveles adicionales",
+                "Oficina en 3er nivel",
+                "Propiedad versátil con potencial de ingresos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-metro-country-club-001",
+          "title": "Proyecto en Venta - Metro Country Club",
+          "price": 1100000,
+          "currency": "USD",
+          "location": "Metro Country Club, Juan Dolio",
+          "type": "Proyecto",
+          "units": 144,
+          "area": "12,000 m²",
+          "image": "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/1.png",
+          "description": "Oportunidad de inversión en Metro Country Club. Proyecto de 12,000 m² con permisología aprobada, planos listos y títulos libres de cargas, listo para iniciar construcción.",
+          "features": [
+            "Terreno total: 12,000 m²",
+            "Permisología aprobada + planos listos",
+            "Títulos libres de cargas",
+            "8 edificios residenciales",
+            "3 niveles por edificio",
+            "6 apartamentos por nivel",
+            "18 unidades por edificio",
+            "Total: 144 apartamentos",
+            "83 m² promedio por unidad",
+            "Aprox. 12,000 m² vendibles",
+            "Incluye membresía a Metro Country Club",
+            "Ideal para preventa y estructuración rápida",
+            "Proyecto listo para iniciar construcción",
+            "Documentos al día, título deslindado y coordenadas GPS"
+          ],
+          "status": "Disponible",
+          "badge": "Oportunidad de Inversión",
+          "gallery": [
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/1.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/2.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/3.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/4.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/5.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/6.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/7.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/8.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/9.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/10.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/11.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/12.png"
+          ],
+          "delivery": "Listo para iniciar construcción",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Consultar",
+            "construction": "Consultar",
+            "delivery": "Objetivo de colocación: 60 días"
+          },
+          "apartment_types": [
+            {
+              "type": "Proyecto completo",
+              "area": "12,000 m² terreno | 83 m² promedio por unidad",
+              "price": "1,100,000 USD (equivalente aprox. 92 USD/m²)",
+              "features": [
+                "144 apartamentos aprobados",
+                "8 edificios de 3 niveles",
+                "Permisología aprobada",
+                "Planos y configuración listos",
+                "Alto potencial de margen"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -8218,6 +8339,13 @@
               "fondo_m": null,
               "precio_usd_m2": 250,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 12000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 91.67,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -9186,6 +9314,13 @@
               "frente_m": 22,
               "fondo_m": 19,
               "precio_usd_m2": 1662,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 435,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5057.47,
               "estatus_legal": "CON TÍTULO"
             },
             {
