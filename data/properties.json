@@ -7775,7 +7775,7 @@
           ]
         },
         {
-          "ubicacion": "Av. Núñez de Caceres",
+          "ubicacion": "Av. Núñez de Cáceres",
           "solares": [
             {
               "area_m2": 571,
@@ -7796,6 +7796,34 @@
               "frente_m": 89,
               "fondo_m": 25,
               "precio_usd_m2": 2200,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2189.31,
+              "frente_m": 86.27,
+              "fondo_m": 25.71,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 725,
+              "frente_m": 20.52,
+              "fondo_m": 35.36,
+              "precio_usd_m2": 2700000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 571,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 1250000,
+              "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 2189.31,
+              "frente_m": 87.5,
+              "fondo_m": null,
+              "precio_usd_m2": 2192.47,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -8381,6 +8409,30 @@
           ]
         },
         {
+          "ubicacion": "Autopista Duarte",
+          "solares": [
+            {
+              "area_m2": 538,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 914.13,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. 27 de Febrero Esq. Alma Mater",
+          "solares": [
+            {
+              "area_m2": 1400,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3178.57,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "KM. 7 De La Prolongación Independencia",
           "solares": [
             {
@@ -8492,7 +8544,7 @@
           ]
         },
         {
-          "ubicacion": "Autopisda Samaná",
+          "ubicacion": "Autopista Samaná",
           "solares": [
             {
               "area_m2": 960000,
@@ -8618,6 +8670,13 @@
               "fondo_m": null,
               "precio_usd_m2": 90,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1313,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4950.5,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -8636,6 +8695,18 @@
               "frente_m": 20,
               "fondo_m": 43,
               "precio_usd_m2": 1200,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Los Guaricanos / Villa Mella",
+          "solares": [
+            {
+              "area_m2": 1000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 295.08,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -8765,6 +8836,13 @@
               "frente_m": 900,
               "fondo_m": 1317,
               "precio_usd_m2": 125,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 95000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8938,6 +9016,18 @@
           ]
         },
         {
+          "ubicacion": "Negocio Industrial en Operación",
+          "solares": [
+            {
+              "area_m2": "CONSULTAR",
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Naco",
           "solares": [
             {
@@ -8946,6 +9036,13 @@
               "fondo_m": 30,
               "precio_usd_m2": 2250,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 952.45,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3450,
+              "estatus_legal": "CON TITULO"
             },
             {
               "area_m2": 3648,
@@ -9205,6 +9302,13 @@
               "fondo_m": 76,
               "precio_usd_m2": 3500,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1450,
+              "frente_m": 44,
+              "fondo_m": null,
+              "precio_usd_m2": 3450,
+              "estatus_legal": "CON TITULO"
             },
             {
               "area_m2": 999,
@@ -9753,6 +9857,13 @@
               "fondo_m": null,
               "precio_usd_m2": "CONSULTAR",
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1600000.00 ,
+              "frente_m": 300.00,
+              "fondo_m": null,
+              "precio_usd_m2": 15.00,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -9859,32 +9970,7 @@
             }
           ]
         },
-        {
-          "ubicacion": "Av. Nuñez de Cáceres",
-          "solares": [
-            {
-              "area_m2": 2189.31,
-              "frente_m": 86.27,
-              "fondo_m": 25.71,
-              "precio_usd_m2": 2600,
-              "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 725,
-              "frente_m": 20.52,
-              "fondo_m": 35.36,
-              "precio_usd_m2": 2700000,
-              "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 571,
-              "frente_m": 20,
-              "fondo_m": null,
-              "precio_usd_m2": 1250000,
-              "estatus_legal": "DESLINDADO"
-            }
-          ]
-        },
+        
         {
           "ubicacion": "Uvero Alto - Punta Cana",
           "solares": [
@@ -10213,6 +10299,31 @@
           ]
         },
         {
+          "ubicacion": "Av. Las Américas Km 7",
+          "solares": [
+            {
+              "area_m2": 1140,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 421.05,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Las Américas Km 8",
+          "solares": [
+            {
+              "area_m2": 932,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1072.96,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        
+        {
           "ubicacion": "San José de Ocoa",
           "solares": [
             {
@@ -10419,6 +10530,73 @@
           ]
         },
         {
+          "ubicacion": "Próx. Embajada Americana",
+          "solares": [
+            {
+              "area_m2": 1136,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 96.83,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Santiago (Detrás del HOMS)",
+          "solares": [
+            {
+              "area_m2": 444.47,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 360.66,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Santo Domingo Este (Complejo)",
+          "solares": [
+            {
+              "area_m2": 84000.62,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Zona Iban / 27 de Febrero",
+          "solares": [
+            {
+              "area_m2": 1392,
+              "frente_m": 32,
+              "fondo_m": null,
+              "precio_usd_m2": 282.65,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Pizarrete",
+          "solares": [
+            {
+              "area_m2": 102000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 44.12,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2350,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 45.34,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Piantini",
           "solares": [
             {
@@ -10543,6 +10721,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 1500,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1600,
+              "frente_m": 40,
+              "fondo_m": null,
+              "precio_usd_m2": 1250,
               "estatus_legal": "CON TITULO"
             }
           ]

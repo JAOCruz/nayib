@@ -7697,7 +7697,7 @@
           ]
         },
         {
-          "ubicacion": "Autopisda Samaná",
+          "ubicacion": "Autopista Samaná",
           "solares": [
             {
               "area_m2": 960000,
@@ -8342,6 +8342,13 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
+              "area_m2": 1450,
+              "frente_m": 44,
+              "fondo_m": null,
+              "precio_usd_m2": 3450,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
               "area_m2": 999,
               "frente_m": 20,
               "fondo_m": 50,
@@ -8824,6 +8831,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1600000.00 ,
+              "frente_m": 300.00,
+              "fondo_m": null,
+              "precio_usd_m2": 15.00,
               "estatus_legal": "CON TÍTULO"
             }
           ]
