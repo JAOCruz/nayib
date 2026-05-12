@@ -195,7 +195,7 @@ class PropertyDetailManager {
                         <div class="property-gallery-container" id="gallery-${property.id}">
                             <div class="main-image-container">
                                 <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image-${property.id}">
-                                
+
                                 ${galleryImages.length > 1 ? `
                                     <button type="button" class="carousel-nav prev" data-action="prev" data-property-id="${property.id}">
                                         <i class="fas fa-chevron-left"></i>
@@ -208,7 +208,7 @@ class PropertyDetailManager {
                                     </div>
                                 ` : ''}
                             </div>
-                            
+
                             <div class="thumbnail-container">
                                 ${galleryImages.map((img, index) => `
                                     <img src="${img.src}" alt="${img.alt}" class="thumbnail ${index === 0 ? 'active' : ''}"
@@ -276,7 +276,6 @@ class PropertyDetailManager {
 
         container.innerHTML = html;
 
-        // Manejo simple del submit
         document.getElementById('contactForm')?.addEventListener('submit', (e) => {
             e.preventDefault();
             alert('Gracias por su mensaje. Nos pondremos en contacto pronto.');
@@ -374,11 +373,6 @@ class PropertyDetailManager {
     }
 }
 
-/**
- * LOGICA DEL CARRUSEL (GLOBAL)
- * Usa event delegation en document para máxima compatibilidad.
- * Los botones usan data-attributes en lugar de inline onclick.
- */
 window.propertyCarousel = {
     currentIndices: {},
 
@@ -391,24 +385,18 @@ window.propertyCarousel = {
     nextImage: function (propertyId) {
         var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
-
         if (this.currentIndices[propertyId] === undefined) this.currentIndices[propertyId] = 0;
-
         var newIndex = this.currentIndices[propertyId] + 1;
         if (newIndex >= thumbnails.length) newIndex = 0;
-
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
     previousImage: function (propertyId) {
         var thumbnails = this.getThumbnails(propertyId);
         if (thumbnails.length === 0) return;
-
         if (this.currentIndices[propertyId] === undefined) this.currentIndices[propertyId] = 0;
-
         var newIndex = this.currentIndices[propertyId] - 1;
         if (newIndex < 0) newIndex = thumbnails.length - 1;
-
         this.updateGallery(propertyId, newIndex, thumbnails);
     },
 
@@ -419,17 +407,10 @@ window.propertyCarousel = {
 
     updateGallery: function (propertyId, index, thumbnails) {
         this.currentIndices[propertyId] = index;
-
         var mainImage = document.getElementById('main-image-' + propertyId);
-        if (mainImage && thumbnails[index]) {
-            mainImage.src = thumbnails[index].src;
-        }
-
+        if (mainImage && thumbnails[index]) mainImage.src = thumbnails[index].src;
         var counter = document.getElementById('image-counter-' + propertyId);
-        if (counter) {
-            counter.innerText = (index + 1) + ' / ' + thumbnails.length;
-        }
-
+        if (counter) counter.innerText = (index + 1) + ' / ' + thumbnails.length;
         thumbnails.forEach(function (thumb, i) {
             if (i === index) thumb.classList.add('active');
             else thumb.classList.remove('active');
@@ -437,29 +418,17 @@ window.propertyCarousel = {
     }
 };
 
-// Event delegation for carousel controls — handles clicks on buttons and thumbnails
 document.addEventListener('click', function (e) {
-    var target = e.target;
-
-    // Handle clicks on child elements (like <i> inside button)
-    var button = target.closest('[data-action]');
+    var button = e.target.closest('[data-action]');
     if (!button) return;
-
     var action = button.getAttribute('data-action');
     var propertyId = button.getAttribute('data-property-id');
     if (!propertyId) return;
-
     e.preventDefault();
     e.stopPropagation();
-
-    if (action === 'prev') {
-        window.propertyCarousel.previousImage(propertyId);
-    } else if (action === 'next') {
-        window.propertyCarousel.nextImage(propertyId);
-    } else if (action === 'goto') {
-        var index = parseInt(button.getAttribute('data-index'), 10);
-        window.propertyCarousel.goToImage(propertyId, index);
-    }
+    if (action === 'prev') window.propertyCarousel.previousImage(propertyId);
+    else if (action === 'next') window.propertyCarousel.nextImage(propertyId);
+    else if (action === 'goto') window.propertyCarousel.goToImage(propertyId, parseInt(button.getAttribute('data-index'), 10));
 });
 
 // Inicialización

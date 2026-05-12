@@ -1,0 +1,627 @@
+/* =============================================================================
+   LOWESS-WESSIN — PREMIUM LAYER
+   Additive only — overrides nothing structurally, enhances everything visually
+   Font stack: Playfair Display (display) | Inter (body) | JetBrains Mono (numbers)
+   Accent: #c9a84c (gold) | Dark: #1a1a2e | Mid: #2d2d44
+   ============================================================================= */
+
+/* --- Google Fonts ---------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* --- CSS Variables --------------------------------------------------------- */
+:root {
+  --gold:       #c9a84c;
+  --gold-light: #e0c06a;
+  --gold-dark:  #a8882e;
+  --dark:       #1a1a2e;
+  --mid:        #2d2d44;
+  --text:       #3d3d55;
+  --easing:     cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* --- Typography Override --------------------------------------------------- */
+body {
+  font-family: 'Inter', 'Poppins', sans-serif !important;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+h1, h2, h3, .heading_container h2, .detail-box h1 {
+  font-family: 'Playfair Display', serif !important;
+  letter-spacing: -0.02em;
+}
+
+/* Stats, prices, phone numbers */
+.price, .counter-num, .count_val, .info_contact p,
+.price_box h3, .price_box .price,
+.stat-number, [data-count] {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.95em;
+}
+
+/* Gold accent on key headings */
+.heading_container h2 span,
+.detail-box h1 span {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* --- Preloader ------------------------------------------------------------- */
+#lw-preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s var(--easing), visibility 0.6s;
+}
+#lw-preloader.lw-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.lw-pre-brand {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+}
+.lw-pre-brand span {
+  color: var(--gold);
+}
+.lw-pre-bar-wrap {
+  width: 200px;
+  height: 2px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.lw-pre-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
+  border-radius: 2px;
+  transition: width 0.05s linear;
+}
+.lw-pre-pct {
+  color: rgba(255,255,255,0.4);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  margin-top: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
+/* --- Custom Cursor --------------------------------------------------------- */
+.lw-cursor-dot,
+.lw-cursor-ring {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  mix-blend-mode: difference;
+  will-change: transform;
+}
+.lw-cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s var(--easing), width 0.2s var(--easing), height 0.2s var(--easing);
+}
+.lw-cursor-ring {
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(255,255,255,0.8);
+  transform: translate(-50%, -50%);
+  transition: width 0.25s var(--easing), height 0.25s var(--easing), border-color 0.2s;
+}
+.lw-cursor-ring.lw-hover {
+  width: 56px;
+  height: 56px;
+  border-color: var(--gold);
+}
+.lw-cursor-dot.lw-hover {
+  width: 10px;
+  height: 10px;
+}
+/* Hide on touch */
+@media (hover: none) {
+  .lw-cursor-dot, .lw-cursor-ring { display: none; }
+}
+
+/* --- Back-to-Top Button ---------------------------------------------------- */
+#lw-back-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  z-index: 9000;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s var(--easing), transform 0.3s var(--easing), background 0.2s;
+  background: var(--dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+#lw-back-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+#lw-back-top:hover {
+  background: var(--gold);
+}
+#lw-back-top svg.progress-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+#lw-back-top svg.progress-ring circle {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 2;
+  stroke-dasharray: 138.23; /* 2π × 22 */
+  stroke-dashoffset: 138.23;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s linear;
+}
+#lw-back-top .arrow-icon {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+}
+#lw-back-top:hover .arrow-icon { color: var(--dark); }
+
+/* --- WhatsApp Float Button ------------------------------------------------- */
+#lw-whatsapp {
+  position: fixed;
+  bottom: 5.5rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  z-index: 9000;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  text-decoration: none;
+  transition: transform 0.2s var(--easing), box-shadow 0.2s;
+  animation: lw-wa-pulse 3s ease-in-out infinite;
+}
+#lw-whatsapp:hover {
+  transform: scale(1.12);
+  box-shadow: 0 6px 28px rgba(37,211,102,0.6);
+  animation: none;
+}
+#lw-whatsapp svg {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+@keyframes lw-wa-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+  50%       { box-shadow: 0 4px 30px rgba(37,211,102,0.7); }
+}
+
+/* --- GSAP Reveal Base Classes ---------------------------------------------- */
+/* These start elements as invisible; GSAP sets them visible via ScrollTrigger */
+.gsap-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  will-change: opacity, transform;
+}
+.gsap-reveal-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  will-change: opacity, transform;
+}
+.gsap-reveal-right {
+  opacity: 0;
+  transform: translateX(50px);
+  will-change: opacity, transform;
+}
+.gsap-stagger > * {
+  opacity: 0;
+  transform: translateY(30px);
+  will-change: opacity, transform;
+}
+
+/* --- Heading Gold Border ---------------------------------------------------- */
+.heading_container h2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  margin-top: 0.5rem;
+  border-radius: 2px;
+  transition: width 0.8s var(--easing);
+}
+.heading_container.lw-animated h2::after {
+  width: 60px;
+}
+
+/* --- Overlay Nav Enhancement ----------------------------------------------- */
+.overlay-content a {
+  transition: color 0.3s, letter-spacing 0.3s var(--easing) !important;
+  display: inline-block;
+}
+.overlay-content a:hover {
+  color: var(--gold) !important;
+  letter-spacing: 0.15em !important;
+}
+
+/* --- Property Cards — Grayscale to Color Hover ----------------------------- */
+.sale_container .box .img-box img,
+.featured_properties_container .property-card img,
+.featured-property-card img {
+  filter: grayscale(35%);
+  transition: filter 0.5s var(--easing), transform 0.5s var(--easing) !important;
+}
+.sale_container .box:hover .img-box img,
+.featured_properties_container .property-card:hover img,
+.featured-property-card:hover img {
+  filter: grayscale(0%) !important;
+  transform: scale(1.04) !important;
+}
+
+/* --- Price Cards Hover Lift ------------------------------------------------- */
+.price_box {
+  transition: transform 0.35s var(--easing), box-shadow 0.35s var(--easing) !important;
+  border-radius: 8px !important;
+}
+.price_box:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important;
+}
+
+/* --- About / Deal Section Slide-In ----------------------------------------- */
+.about_section .img-box,
+.deal_section .img-box {
+  overflow: hidden;
+  border-radius: 4px;
+}
+.about_section .img-box img {
+  transition: transform 0.6s var(--easing);
+}
+.about_section:hover .img-box img {
+  transform: scale(1.03);
+}
+
+/* --- Motivational Section Gradient Enhancement ----------------------------- */
+.motivational_section {
+  background: linear-gradient(135deg, var(--dark) 0%, var(--mid) 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+.motivational_section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(201,168,76,0.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* --- Desarrollo Section Background ----------------------------------------- */
+#desarrollo-inmobiliario {
+  background: linear-gradient(160deg, #f8f5ee 0%, #f0ead6 100%) !important;
+}
+
+/* --- Client Logos: Grayscale + Hover --------------------------------------- */
+.client_section img {
+  filter: grayscale(100%);
+  opacity: 0.55;
+  transition: filter 0.4s, opacity 0.4s;
+}
+.client_section img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* --- Contact Button Enhancement -------------------------------------------- */
+.contact_section .btn,
+.btn-box a,
+.detail-box a,
+.price_box a {
+  transition: all 0.3s var(--easing) !important;
+  position: relative;
+  overflow: hidden;
+}
+.detail-box a:hover,
+.btn-box a:hover {
+  letter-spacing: 0.04em;
+  box-shadow: 0 6px 20px rgba(201,168,76,0.35);
+}
+
+/* --- Header Scroll Shrink -------------------------------------------------- */
+.header_section {
+  transition: padding 0.4s var(--easing), box-shadow 0.4s var(--easing);
+}
+.header_section.lw-scrolled {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  box-shadow: 0 2px 30px rgba(0,0,0,0.25) !important;
+}
+
+/* --- Footer Stagger Columns ------------------------------------------------ */
+.info_section .col-md-3 {
+  opacity: 0;
+  transform: translateY(20px);
+  will-change: opacity, transform;
+}
+.info_section .col-md-3.lw-animated {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s var(--easing), transform 0.6s var(--easing);
+}
+
+/* --- Property Detail Gallery ----------------------------------------------- */
+.property-gallery img,
+.property-images img {
+  cursor: zoom-in;
+  transition: transform 0.4s var(--easing);
+  border-radius: 4px;
+}
+.property-gallery img:hover,
+.property-images img:hover {
+  transform: scale(1.02);
+}
+
+/* Lightbox overlay */
+#lw-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99990;
+  background: rgba(0,0,0,0.92);
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+#lw-lightbox.active {
+  display: flex;
+}
+#lw-lightbox img {
+  max-width: 90vw;
+  max-height: 88vh;
+  border-radius: 4px;
+  object-fit: contain;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+  animation: lw-lb-in 0.3s var(--easing);
+}
+@keyframes lw-lb-in {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+#lw-lightbox-close {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+#lw-lightbox-close:hover { opacity: 1; }
+
+/* --- Scroll-reveal for propiedades/solares filter -------------------------- */
+.search_filter_section {
+  transition: box-shadow 0.3s var(--easing);
+}
+.search_filter_section:focus-within {
+  box-shadow: 0 4px 30px rgba(201,168,76,0.15);
+}
+
+/* --- Page Transition (sub pages) ------------------------------------------- */
+body.sub_page .hero_area {
+  min-height: 0;
+}
+
+/* --- Smooth Scroll ---------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Selection Color ------------------------------------------------------- */
+::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+/* ============================================================
+   SESSION 3 ADDITIONS — March 6, 2026
+   ============================================================ */
+
+/* --- Sub-Page Hero Banner ------------------------------------------- */
+.lw-page-hero {
+  position: relative;
+  height: 320px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lw-page-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/hero-bg.webp'), url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  opacity: 0.22;
+  transition: transform 6s ease;
+}
+
+.lw-page-hero:hover::before {
+  transform: scale(1.04);
+}
+
+.lw-page-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(26,26,46,0.3) 0%, rgba(26,26,46,0.7) 100%);
+}
+
+.lw-page-hero__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 0 1.5rem;
+}
+
+.lw-page-hero__title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  animation: lw-hero-in 0.8s var(--easing, cubic-bezier(.22,.61,.36,1)) both;
+}
+
+.lw-page-hero__subtitle {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin: 0;
+  animation: lw-hero-in 0.8s 0.15s var(--easing, cubic-bezier(.22,.61,.36,1)) both;
+}
+
+.lw-page-hero__gold-line {
+  width: 60px;
+  height: 3px;
+  background: var(--gold, #c9a84c);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+  animation: lw-line-grow 0.6s 0.3s var(--easing, cubic-bezier(.22,.61,.36,1)) both;
+  transform-origin: left;
+}
+
+/* breadcrumb strip below hero */
+.lw-breadcrumb {
+  background: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  padding: 0.65rem 0;
+  font-size: 0.82rem;
+  color: #888;
+}
+.lw-breadcrumb a { color: var(--gold, #c9a84c); text-decoration: none; }
+.lw-breadcrumb a:hover { text-decoration: underline; }
+.lw-breadcrumb .sep { margin: 0 0.4rem; color: #ccc; }
+
+@keyframes lw-hero-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes lw-line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* --- About page: team/stats strip ------------------------------------ */
+.lw-stats-strip {
+  background: linear-gradient(135deg, #1a1a2e, #0f3460);
+  padding: 3rem 0;
+  color: #fff;
+  text-align: center;
+}
+.lw-stats-strip .stat-num {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--gold, #c9a84c);
+  line-height: 1;
+  display: block;
+}
+.lw-stats-strip .stat-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-top: 0.3rem;
+}
+
+/* --- Contact form Netlify -------------------------------------------- */
+.lw-form-success {
+  display: none;
+  background: linear-gradient(135deg, #1a2e1a, #0f3320);
+  border: 1px solid rgba(100, 200, 100, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: #b8f5b8;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.lw-form-success.visible { display: block; animation: lw-hero-in 0.4s both; }
+.form_container form input,
+.form_container form textarea {
+  border-radius: 6px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form_container form input:focus,
+.form_container form textarea:focus {
+  outline: none;
+  border-color: var(--gold, #c9a84c);
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.15);
+}
+
+/* --- WebP picture upgrade helpers ----------------------------------- */
+.lw-img-wrap { overflow: hidden; border-radius: 8px; }
+.lw-img-wrap img { width: 100%; height: auto; display: block; }
+
+/* --- Reveal animation for about section content -------------------- */
+.lw-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s var(--easing, cubic-bezier(.22,.61,.36,1)), transform 0.7s var(--easing);
+}
+.lw-reveal.lw-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.lw-reveal--left {
+  transform: translateX(-30px);
+}
+.lw-reveal--left.lw-visible {
+  transform: translateX(0);
+}
+.lw-reveal--delay-1 { transition-delay: 0.1s; }
+.lw-reveal--delay-2 { transition-delay: 0.2s; }
+.lw-reveal--delay-3 { transition-delay: 0.3s; }
+
+/* --- hero-bg2 WebP upgrade (index page) -------------------------------- */
+@supports (background-image: url('x.webp')) {
+  .hero_area {
+    background-image: url('../images/hero-bg2.webp'), url('../images/hero-bg2.jpg') !important;
+  }
+}
