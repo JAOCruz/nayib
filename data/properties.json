@@ -7273,6 +7273,75 @@
           ],
           "status": "Disponible",
           "badge": "Corporativa"
+        },
+        {
+          "id": "prop-bella-vista-norte-001",
+          "title": "Apartamentos Modernos en Bella Vista Norte",
+          "price": 203000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Bella Vista Norte, Distrito Nacional",
+          "type": "Apartamentos",
+          "area": "56 m² - 106 m² netos",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/1.jpg",
+          "description": "Vive o invierte en un proyecto residencial moderno y exclusivo, ubicado en Bella Vista Norte, una de las zonas más céntricas y demandadas del Distrito Nacional. Edificio de 7 niveles con apartamentos de 1 y 2 habitaciones, balcón, excelente distribución y terminaciones de alta calidad.",
+          "features": [
+            "Lobby climatizado y amueblado",
+            "Piscina / Picuzzi",
+            "Gimnasio equipado",
+            "Salón para actividades",
+            "Área de niños",
+            "Bar y BBQ",
+            "Terrazas techadas y destechadas",
+            "7 niveles"
+          ],
+          "status": "En construcción",
+          "badge": "Preventa",
+          "delivery": "Diciembre 2027",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/1.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/2.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/3.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/4.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/5.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/6.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/7.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/8.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/9.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/10.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "3,000 USD",
+            "contract": "10% en 30 días",
+            "construction": "40%",
+            "delivery": "50% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "Desde 56 m²",
+              "features": [
+                "1 habitación",
+                "1 baño",
+                "Sala-comedor",
+                "Cocina",
+                "Balcón",
+                "Área de lavado"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "Hasta 106 m²",
+              "features": [
+                "2 habitaciones",
+                "2 baños",
+                "Sala-comedor",
+                "Cocina",
+                "Balcón",
+                "Área de lavado"
+              ]
+            }
+          ]
         }
       ]
     },
