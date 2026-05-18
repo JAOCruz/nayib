@@ -7275,6 +7275,47 @@
           "badge": "Corporativa"
         },
         {
+          "id": "prop-el-vergel-alquiler-001",
+          "title": "Apartamento en Alquiler – El Vergel",
+          "price": 825,
+          "showPrice": true,
+          "currency": "USD/mes",
+          "location": "El Vergel, Santo Domingo",
+          "type": "Apartamento en Alquiler",
+          "area": "53 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/1.jpg",
+          "description": "Apartamento nuevo a estrenar con línea blanca en El Vergel. Piso 4, 53 m², con 1 habitación, 1 baño, sala-comedor, cocina, área de lavado y 1 parqueo techado. Precio incluye mantenimiento.",
+          "features": [
+            "Lobby climatizado",
+            "2 ascensores",
+            "Gimnasio",
+            "Piscina + Jacuzzi",
+            "Terrazas comunes",
+            "Salón multiuso",
+            "Área infantil",
+            "Seguridad 24/7",
+            "Línea blanca incluida",
+            "1 parqueo techado"
+          ],
+          "status": "Disponible",
+          "badge": "Alquiler",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/1.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/2.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/3.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/4.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/5.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/6.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/7.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/8.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/9.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/10.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/11.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/12.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/13.jpg"
+          ]
+        },
+        {
           "id": "prop-bella-vista-norte-001",
           "title": "Apartamentos Modernos en Bella Vista Norte",
           "price": 203000,
