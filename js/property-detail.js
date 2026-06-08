@@ -4,6 +4,12 @@ class PropertyDetailManager {
         this.propertiesData = null;
         this.propertyId = this.getPropertyIdFromUrl();
         this.propertyType = this.getPropertyTypeFromUrl();
+        this.galleryImages = [];
+        this.lightboxIndex = 0;
+        this.lightbox = document.getElementById('propertyLightbox');
+        this.lightboxImg = document.getElementById('lightboxImg');
+        this.lightboxCounter = document.getElementById('lightboxCounter');
+        this.touchStartX = 0;
         this.init();
     }
 
@@ -177,14 +183,15 @@ class PropertyDetailManager {
         const container = document.getElementById('property-detail-container');
 
         // Determinar imágenes
-        let galleryImages = [];
+        this.galleryImages = [];
         if (property.gallery && property.gallery.length > 0) {
-            galleryImages = property.gallery.map(src => ({ src: src, alt: property.title }));
+            this.galleryImages = property.gallery.map(src => ({ src: src, alt: property.title }));
         } else if (property.image) {
-            galleryImages = [{ src: property.image, alt: property.title }];
+            this.galleryImages = [{ src: property.image, alt: property.title }];
         }
 
-        const hasImages = galleryImages.length > 0;
+        const hasImages = this.galleryImages.length > 0;
+        const galleryImages = this.galleryImages;
 
         // Renderizado del HTML
         const html = `
@@ -194,7 +201,7 @@ class PropertyDetailManager {
                         ${hasImages ? `
                         <div class="property-gallery-container" id="gallery-${property.id}">
                             <div class="main-image-container">
-                                <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image-${property.id}">
+                                <img src="${galleryImages[0].src}" alt="${galleryImages[0].alt}" class="main-image" id="main-image-${property.id}" onclick="window.propertyDetailManager.openLightbox(window.propertyCarousel.currentIndices['${property.id}'] || 0)" title="Click para ver en tamaño completo">
 
                                 ${galleryImages.length > 1 ? `
                                     <button type="button" class="carousel-nav prev" data-action="prev" data-property-id="${property.id}">
@@ -328,6 +335,40 @@ class PropertyDetailManager {
         return property.price ? `$${property.price.toLocaleString()} ${property.currency || 'USD'}` : 'A Consultar';
     }
 
+    // ===== LIGHTBOX METHODS =====
+    openLightbox(index) {
+        if (!this.galleryImages || this.galleryImages.length === 0) return;
+        this.lightboxIndex = index;
+        this.updateLightbox();
+        this.lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    closeLightbox() {
+        this.lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    updateLightbox() {
+        const img = this.galleryImages[this.lightboxIndex];
+        if (!img) return;
+        this.lightboxImg.src = img.src;
+        this.lightboxImg.alt = img.alt;
+        this.lightboxCounter.innerText = (this.lightboxIndex + 1) + ' / ' + this.galleryImages.length;
+    }
+
+    nextLightbox() {
+        if (this.galleryImages.length <= 1) return;
+        this.lightboxIndex = (this.lightboxIndex + 1) % this.galleryImages.length;
+        this.updateLightbox();
+    }
+
+    prevLightbox() {
+        if (this.galleryImages.length <= 1) return;
+        this.lightboxIndex = (this.lightboxIndex - 1 + this.galleryImages.length) % this.galleryImages.length;
+        this.updateLightbox();
+    }
+
     // Esta función maneja TANTO errores como el formulario especial de SOLARES
     showErrorMessage(message) {
         const container = document.getElementById('property-detail-container');
@@ -433,5 +474,46 @@ document.addEventListener('click', function (e) {
 
 // Inicialización
 document.addEventListener('DOMContentLoaded', function () {
-    new PropertyDetailManager();
+    window.propertyDetailManager = new PropertyDetailManager();
+
+    // Lightbox controls
+    var lb = document.getElementById('propertyLightbox');
+    var lbClose = document.getElementById('lightboxClose');
+    var lbPrev = document.getElementById('lightboxPrev');
+    var lbNext = document.getElementById('lightboxNext');
+
+    if (lbClose) lbClose.addEventListener('click', function () { window.propertyDetailManager.closeLightbox(); });
+    if (lbPrev)  lbPrev.addEventListener('click', function () { window.propertyDetailManager.prevLightbox(); });
+    if (lbNext)  lbNext.addEventListener('click', function () { window.propertyDetailManager.nextLightbox(); });
+
+    // Cerrar al hacer click en el fondo (no en la imagen ni botones)
+    if (lb) {
+        lb.addEventListener('click', function (e) {
+            if (e.target === lb) window.propertyDetailManager.closeLightbox();
+        });
+    }
+
+    // Teclado: ESC cierra, flechas navegan
+    document.addEventListener('keydown', function (e) {
+        if (!lb || !lb.classList.contains('active')) return;
+        if (e.key === 'Escape') window.propertyDetailManager.closeLightbox();
+        if (e.key === 'ArrowRight') window.propertyDetailManager.nextLightbox();
+        if (e.key === 'ArrowLeft') window.propertyDetailManager.prevLightbox();
+    });
+
+    // Touch / Swipe en móvil
+    var touchStartX = 0;
+    if (lb) {
+        lb.addEventListener('touchstart', function (e) {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+        lb.addEventListener('touchend', function (e) {
+            var touchEndX = e.changedTouches[0].screenX;
+            var diff = touchStartX - touchEndX;
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) window.propertyDetailManager.nextLightbox();
+                else window.propertyDetailManager.prevLightbox();
+            }
+        }, { passive: true });
+    }
 });
