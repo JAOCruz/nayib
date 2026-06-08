@@ -260,6 +260,116 @@
           ]
         },
         {
+          "id": "prop-anacaona-premium-001",
+          "title": "Apartamentos Premium - Av. Anacaona",
+          "price": 1190000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Av. Anacaona, Bella Vista",
+          "type": "Apartamentos de Lujo",
+          "units": 2,
+          "area": "Desde 358 m²",
+          "image": "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/1.png",
+          "description": "Vive o invierte en uno de los desarrollos residenciales más exclusivos de Santo Domingo, ubicado frente al Parque Mirador Sur. Un proyecto que redefine el lujo con vistas despejadas, amplitud excepcional y terminaciones de alto nivel, todo bajo el respaldo de un fideicomiso.",
+          "features": [
+            "Frente al Parque Mirador Sur",
+            "Lobby tipo hotel de lujo",
+            "Piscina infinity",
+            "Áreas sociales equipadas",
+            "Proyecto bajo fideicomiso",
+            "Seguridad 24/7 de alta gama",
+            "Vistas despejadas al mar y parque",
+            "Parqueos techados + Locker"
+          ],
+          "status": "Últimas Unidades",
+          "badge": "Ubicación Ultra-Premium",
+          "gallery": [
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/1.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/2.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/3.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/4.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/5.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/6.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/7.png",
+            "https://pub-3e43e9bc818a434087d783e5ba0a0753.r2.dev/53%20av%20ana%20caona/8.png"
+          ],
+          "delivery": "En construcción",
+          "payment_plan": {
+            "reservation": "Consultar disponibilidad",
+            "contract": "Plan de pago personalizado",
+            "construction": "Respaldo fiduciario",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Lado Este",
+              "area": "358 m²",
+              "features": [
+                "3 Habitaciones con baño",
+                "3.5 Baños totales",
+                "Amplias áreas sociales",
+                "Cocina fría y caliente",
+                "Habitación de servicio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-piantini-corp-002",
+          "title": "Oficinas Corporativas de Alto Nivel",
+          "price": 280000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Piantini, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "89 - 90 m²",
+          "image": "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/1.png",
+          "description": "Establece tu empresa o invierte en un edificio corporativo de alto nivel en el corazón financiero de Santo Domingo. Espacios diseñados para la eficiencia, con iluminación natural, amenidades empresariales premium y una ubicación estratégica que garantiza alta rentabilidad y prestigio.",
+          "features": [
+            "Lobby empresarial de lujo",
+            "Salones de conferencias",
+            "Gimnasio equipado",
+            "Cafetería y locales comerciales",
+            "Seguridad 24/7 y CCTV",
+            "2 Parqueos por oficina",
+            "Generadores eléctricos",
+            "Preinstalación de aire VRF"
+          ],
+          "status": "Preventa - Unidades Limitadas",
+          "badge": "Inversión Corporativa",
+          "gallery": [
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/1.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/2.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/3.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/4.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/5.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/6.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/7.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/8.png",
+            "https://pub-b2b54baaa3344e51bed3ec0badcccf9b.r2.dev/54%20piantini/9.png"
+          ],
+          "delivery": "Julio 2026",
+          "payment_plan": {
+            "reservation": "Consultar monto",
+            "contract": "Plan de pago flexible",
+            "construction": "Durante proceso de obra",
+            "delivery": "Contra entrega 2026"
+          },
+          "apartment_types": [
+            {
+              "type": "Módulos de Oficina",
+              "area": "89 – 90 m² netos",
+              "features": [
+                "2 Parqueos asignados",
+                "Área neta eficiente",
+                "Pisos ejecutivos",
+                "Alta proyección de renta"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-cap-cana-001",
           "title": "Apartamentos de Lujo en Cap Cana",
           "price": 288816,
@@ -444,6 +554,301 @@
                 "Comedor",
                 "Balcón",
                 "Área de lavado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sanjuan-felin-001",
+          "title": "Urbanización Don Felin I",
+          "price": 12678,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "San Juan de la Maguana",
+          "type": "Solares y Terrenos",
+          "units": 1,
+          "area": "79,000+ m² totales",
+          "image": "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/1.png",
+          "description": "Urbanización con TÍTULO DESLINDADO. Proyecto cerrado con control de acceso, áreas verdes y zona social. Ofrecemos lotes unifamiliares, multifamiliares y comerciales en la zona de mayor crecimiento de San Juan.",
+          "features": [
+            "Título deslindado",
+            "Proyecto cerrado",
+            "Gimnasio exterior",
+            "Parque infantil",
+            "Control de acceso",
+            "Pre-instalación eléctrica y agua"
+          ],
+          "status": "Venta por lotes",
+          "badge": "Inversión Segura",
+          "gallery": [
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/1.png",
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/2.png",
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/3.png",
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/4.png",
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/5.png",
+            "https://pub-d8019df2d8ac4689887a7cf8755f80d6.r2.dev/48%20don%20flin%20-%20san%20juan%20de%20la%20maguana/6.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "117 USD",
+            "contract": "0% Inicial (Oferta hasta Julio 2026)",
+            "construction": "Financiamiento directo 12 meses",
+            "delivery": "3 meses sin intereses"
+          },
+          "apartment_types": [
+            {
+              "type": "Lotes Unifamiliares",
+              "area": "180.31 m²",
+              "features": [
+                "Inversión total desde: 12,678 USD",
+                "Precio por m²: ~70.31 USD",
+                "Ideal para residencia privada"
+              ]
+            },
+            {
+              "type": "Lotes Multifamiliares",
+              "area": "349.53 m²",
+              "features": [
+                "Inversión total desde: 24,575 USD",
+                "Precio por m²: ~70.31 USD",
+                "Apto para edificios o villas"
+              ]
+            },
+            {
+              "type": "Lotes Comerciales / Mixtos",
+              "area": "349.16 m²",
+              "features": [
+                "Inversión total desde: 30,006 USD",
+                "Precio por m²: ~85.94 USD",
+                "Ubicación en vía principal"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-spm-ramonsantana-001",
+          "title": "Terreno Agrícola y Ganadero - Zona Este",
+          "price": 1640625,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Ramón Santana, San Pedro de Macorís",
+          "type": "Solares y Terrenos",
+          "units": 3000,
+          "area": "3,000 Tareas",
+          "image": "https://pub-593361f756fa461b9e30ac73976638d4.r2.dev/50%20san%20pedreo%20de%20macoris-zona%20este/1.png",
+          "description": "Gran extensión de terreno ideal para proyectos agrícolas, ganaderos o desarrollo de viviendas de bajo costo. Ubicado estratégicamente en Ramón Santana, a pocos minutos de la Autovía del Este, con documentación completa y recursos hídricos disponibles.",
+          "features": [
+            "3,000 Tareas de terreno",
+            "Título deslindado",
+            "Planos catastrales",
+            "Coordenadas GPS",
+            "Agua mediante pozos",
+            "Aptitud ganadera y agrícola",
+            "Cerca de la Autovía del Este",
+            "Potencial para viviendas de bajo costo"
+          ],
+          "status": "Disponible",
+          "badge": "Gran Extensión",
+          "gallery": [
+            "https://pub-593361f756fa461b9e30ac73976638d4.r2.dev/50%20san%20pedreo%20de%20macoris-zona%20este/1.png",
+            "https://pub-593361f756fa461b9e30ac73976638d4.r2.dev/50%20san%20pedreo%20de%20macoris-zona%20este/2.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Documentación en regla",
+            "construction": "Precio por tarea: RD$35,000 (~547 USD)",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Venta en Bloque",
+              "area": "3,000 Tareas",
+              "features": [
+                "Inversión total: 1,640,625 USD",
+                "Precio por tarea: ~546.88 USD",
+                "Uso de suelo versátil (Agrícola/Residencial)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sancristobal-residencial-001",
+          "title": "Moderno Proyecto Residencial - Madre Vieja Sur",
+          "price": 117000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Madre Vieja Sur, San Cristóbal",
+          "type": "Apartamentos de Lujo",
+          "units": 9,
+          "area": "88 - 125 m²",
+          "image": "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/1.png",
+          "description": "Exclusivo residencial de 5 niveles con solo 13 unidades, diseñado para ofrecer confort y seguridad. Cuenta con amenidades modernas como ascensor, lobby climatizado y terrazas privadas, ubicado en una de las mejores zonas de San Cristóbal.",
+          "features": [
+            "Ascensor de última generación",
+            "Lobby amueblado y climatizado",
+            "Gas común",
+            "Terrazas privadas",
+            "Parqueos amplios",
+            "Seguridad controlada",
+            "Diseño sismo resistente",
+            "Madera preciosa y pisos en porcelanato"
+          ],
+          "status": "En construcción / Unidades Limitadas",
+          "badge": "Entrega de Primera",
+          "gallery": [
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/1.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/2.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/3.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/4.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/5.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/6.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/7.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/8.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/9.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/10.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/11.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/12.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/13.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/14.png",
+            "https://pub-8b3d794eaae040d8bd70ce586193df2d.r2.dev/51%20san%20cristobal/15.png"
+          ],
+          "delivery": "Próxima Entrega",
+          "payment_plan": {
+            "reservation": "5,000 USD",
+            "contract": "Separación: 20%",
+            "construction": "Preguntar por plan de cuotas",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamentos 2 y 3 Habs",
+              "area": "88, 102 y 125 m²",
+              "features": [
+                "2.5 Baños modernos",
+                "Cocina modular",
+                "Sala y comedor integrados",
+                "Unidades vendidas: 2B, 3B, 3C y 5A"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-sancristobal-montones-001",
+          "title": "Finca con Potencial Agrícola y Habitacional",
+          "price": 761719,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Colonia de los Montones, San Cristóbal",
+          "type": "Solares y Terrenos",
+          "units": 1,
+          "area": "65,000 m²",
+          "image": "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/1.png",
+          "description": "Excelente finca de gran metraje con vistas naturales y múltiples mejoras. Ideal para inversión agrícola, recreativa, eco-turística o desarrollo de viviendas de bajo costo. Cuenta con energía solar, vivienda de 3 dormitorios y río subterráneo propio.",
+          "features": [
+            "Título al día",
+            "Río subterráneo propio",
+            "Energía solar e inversor",
+            "Totalmente cercada",
+            "Vivienda de 3 dormitorios",
+            "Gazebo y áreas recreativas",
+            "Equipamiento agrícola incluido",
+            "Planta eléctrica 3.5 kW"
+          ],
+          "status": "Disponible",
+          "badge": "Alto Potencial",
+          "gallery": [
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/1.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/2.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/3.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/4.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/5.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/6.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/7.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/8.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/9.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/10.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/11.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/12.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/13.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/14.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/15.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/16.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/17.png",
+            "https://pub-3054b08a408d4807a75076f889cb0217.r2.dev/52%20san%20cristobal-colonias%20los%20montones/18.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Título de propiedad al día",
+            "construction": "Precio por m²: RD$750 (~11.72 USD)",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Inversión Completa",
+              "area": "65,000 m²",
+              "features": [
+                "Vivienda de 3 habitaciones incluida",
+                "Maquinaria y herramientas incluidas",
+                "Apto para desarrollo habitacional",
+                "Entorno eco-turístico"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-piantini-local-001",
+          "title": "Local Corporativo en Piantini",
+          "price": 3000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Piantini, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "91 m²",
+          "image": "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/1.png",
+          "description": "Espacio corporativo ideal para empresas que buscan imagen, funcionalidad y ubicación estratégica en el corazón de Piantini. Local ubicado en segundo nivel con terminaciones modernas, excelente iluminación y una distribución lista para operar.",
+          "features": [
+            "Ubicación estratégica",
+            "Segundo nivel",
+            "Terminaciones modernas",
+            "Excelente iluminación",
+            "Mantenimiento incluido",
+            "Sector corporativo premium",
+            "Climatización lista",
+            "Seguridad en la edificación"
+          ],
+          "status": "Disponible para Alquiler",
+          "badge": "Ubicación Premium",
+          "gallery": [
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/1.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/2.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/3.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/4.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/5.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/6.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/7.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/8.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/9.png",
+            "https://pub-459eda402d6948ab886350f4b2619e0d.r2.dev/49%20local%20piantini/10.png"
+          ],
+          "delivery": "Disponibilidad Inmediata",
+          "payment_plan": {
+            "reservation": "2 Depósitos (Reembolsables)",
+            "contract": "Contrato anual renovable",
+            "construction": "Pago mensual: US$3,000 + ITBIS",
+            "delivery": "Mantenimiento incluido"
+          },
+          "apartment_types": [
+            {
+              "type": "Distribución Interna",
+              "area": "91 m²",
+              "features": [
+                "2 Oficinas gerenciales",
+                "Mínimo 4 cubículos",
+                "Área de trabajo abierta",
+                "Espacio funcional y aprovechado"
               ]
             }
           ]
@@ -1724,7 +2129,7 @@
           "type": "Solar",
           "units": 1,
           "area": "384.28 m²",
-          "image": "https://lasterrenas-playapuntapopi.s3.amazonaws.com/1.png",
+          "image": "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/1.png",
           "description": "Terreno disponible en Las Terrenas – Playa Punta Popí. Ubicado en el exclusivo Proyecto Las Arenas, rodeado de villas modernas y a minutos de la playa. Ideal para villa privada, renta tipo Airbnb o dúplex.",
           "features": [
             "384.28 m² de terreno",
@@ -1739,12 +2144,12 @@
           "status": "Disponible",
           "badge": "Oportunidad",
           "gallery": [
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/1.png",
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/2.png",
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/3.png",
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/4.png",
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/5.png",
-            "https://lasterrenas-playapuntapopi.s3.amazonaws.com/6.png"
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/1.png",
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/2.png",
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/3.png",
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/4.png",
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/5.png",
+            "https://pub-8279551ea95d4ac0a55fd2f6ddb0c81c.r2.dev/40%20Las%20terrenas%20-%20playa%20punta%20pupi%CC%81/6.png"
           ],
           "delivery": "Listo para construir",
           "payment_plan": {
@@ -1775,7 +2180,7 @@
           "type": "Terreno / Macrolote",
           "units": 1,
           "area": "1,603,380.45 m²",
-          "image": "https://veron-higuey.s3.us-east-1.amazonaws.com/1.png",
+          "image": "https://pub-3ffa90dea9d848bf9f7ab9ca77f322e7.r2.dev/41%20veron-higuey/1.png",
           "description": "Terreno de más de 1.6 millones de m² (más de 160 tareas) con deslinde y subdivisión aprobados. Ubicación estratégica a solo metros de la carretera Higüey–Verón. Ideal para desarrollos de viviendas económicas, proyectos mixtos o urbanizaciones de gran escala con excelente retorno de inversión.",
           "features": [
             "1,603,380.45 m² totales",
@@ -1790,8 +2195,8 @@
           "status": "Disponible",
           "badge": "Inversión",
           "gallery": [
-            "https://veron-higuey.s3.us-east-1.amazonaws.com/1.png",
-            "https://veron-higuey.s3.us-east-1.amazonaws.com/2.png"
+            "https://pub-3ffa90dea9d848bf9f7ab9ca77f322e7.r2.dev/41%20veron-higuey/1.png",
+            "https://pub-3ffa90dea9d848bf9f7ab9ca77f322e7.r2.dev/41%20veron-higuey/2.png"
           ],
           "delivery": "Listo para desarrollo",
           "payment_plan": {
@@ -1823,7 +2228,7 @@
           "type": "Terreno Turístico",
           "units": 1,
           "area": "269,588.28 m²",
-          "image": "https://bayahibe.s3.us-east-1.amazonaws.com/1.png",
+          "image": "https://pub-4955dc48ab43433daeb1f6478787e212.r2.dev/42%20Bayahibe/1.png",
           "description": "OPORTUNIDAD ÚNICA EN BAYAHIBE. Terreno de 269,588.28 m² a solo 1 km de la costa, ideal para un desarrollo turístico–ecológico, residencial o un masterplan de gran escala en una de las zonas de mayor crecimiento del país.",
           "features": [
             "269,588.28 m² totales",
@@ -1838,10 +2243,10 @@
           "status": "Disponible",
           "badge": "Eco-Friendly",
           "gallery": [
-            "https://bayahibe.s3.us-east-1.amazonaws.com/1.png",
-            "https://bayahibe.s3.us-east-1.amazonaws.com/2.png",
-            "https://bayahibe.s3.us-east-1.amazonaws.com/3.png",
-            "https://bayahibe.s3.us-east-1.amazonaws.com/4.png"
+            "https://pub-4955dc48ab43433daeb1f6478787e212.r2.dev/42%20Bayahibe/1.png",
+            "https://pub-4955dc48ab43433daeb1f6478787e212.r2.dev/42%20Bayahibe/2.png",
+            "https://pub-4955dc48ab43433daeb1f6478787e212.r2.dev/42%20Bayahibe/3.png",
+            "https://pub-4955dc48ab43433daeb1f6478787e212.r2.dev/42%20Bayahibe/4.png"
           ],
           "delivery": "Listo para desarrollo",
           "payment_plan": {
@@ -2507,6 +2912,63 @@
               "features": [
                 "2 PH DISPONIBLES",
                 "CARACTERÍSTICAS ESPECIALES"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-lajulia-local-001",
+          "title": "Local Comercial en Torre Empresarial - La Julia",
+          "price": 1700,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "La Julia, Distrito Nacional",
+          "type": "Local Comercial / Oficinas",
+          "units": 1,
+          "area": "65 m²",
+          "image": "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/1.png",
+          "description": "Se alquila local de 65 m² en prestigiosa torre empresarial de La Julia. Espacio ideal para oficinas corporativas o firmas profesionales que buscan una imagen moderna, funcional y lista para operar en una ubicación estratégica.",
+          "features": [
+            "Área de 65 m²",
+            "Divisiones en cristal",
+            "Oficinas privadas",
+            "Área de trabajo abierta",
+            "Sala de reuniones",
+            "Excelente iluminación natural",
+            "Kitchenette privada",
+            "Baño privado",
+            "1 Parqueo asignado",
+            "Ambiente profesional",
+            "Ubicación estratégica"
+          ],
+          "status": "Disponible para Alquiler",
+          "badge": "Torre Empresarial",
+          "gallery": [
+            "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/1.png",
+            "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/2.png",
+            "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/3.png",
+            "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/4.png",
+            "https://pub-9254a2732f40486eb54ab4c1efbdeb7f.r2.dev/55%20la%20julia/5.png"
+          ],
+          "delivery": "Inmediata",
+          "payment_plan": {
+            "reservation": "Consultar depósitos",
+            "contract": "Alquiler Mensual: 1,700 USD",
+            "construction": "Mantenimiento y servicios aparte",
+            "delivery": "Listo para operar"
+          },
+          "apartment_types": [
+            {
+              "type": "Módulo Corporativo",
+              "area": "65 m²",
+              "price": "1,700 USD",
+              "features": [
+                "Divisiones en cristal",
+                "Oficinas privadas",
+                "Sala de reuniones",
+                "Kitchenette",
+                "Baño",
+                "Parqueo"
               ]
             }
           ]
@@ -6569,6 +7031,394 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-honduras-moderno-001",
+          "title": "Proyecto de Apartamentos Moderno - Sector Honduras",
+          "price": 110000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Honduras, Distrito Nacional",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "62 - 130 m²",
+          "image": "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/1.png",
+          "description": "Proyecto moderno de apartamentos en el Sector Honduras, diseñado para ofrecer comodidad, funcionalidad y alta valorización. Ideal para vivir o invertir, con excelente distribución, amenidades en rooftop y ubicación estratégica en el Distrito Nacional.",
+          "features": [
+            "Edificio de 6 niveles",
+            "Ascensor",
+            "Lobby de acceso",
+            "19 parqueos disponibles",
+            "Planta eléctrica",
+            "Cisterna y sistema de agua",
+            "Área de basura y servicios",
+            "Terraza social",
+            "Jacuzzi",
+            "Área BBQ",
+            "Gimnasio / área multiuso"
+          ],
+          "status": "Nuevos en venta",
+          "badge": "Proyecto de Oportunidad",
+          "gallery": [
+            "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/1.png",
+            "https://pub-a71121f9a71344cfb06c8acca46af66a.r2.dev/56%20honduras/2.png"
+          ],
+          "delivery": "En desarrollo",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Consultar",
+            "construction": "Consultar",
+            "delivery": "Desde USD 110,000 hasta USD 186,750"
+          },
+          "apartment_types": [
+            {
+              "type": "2 Habitaciones",
+              "area": "62 - 130 m²",
+              "price": "110,000 - 186,750 USD",
+              "features": [
+                "2 habitaciones",
+                "2.5 baños",
+                "Sala - comedor",
+                "Cocina moderna",
+                "Área de lavado",
+                "Algunos con habitación de servicio",
+                "Balcón y/o terraza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-romulo-betancourt-comercial-001",
+          "title": "Propiedad Comercial en Venta y Alquiler - Av. Rómulo Betancourt",
+          "price": 2200000,
+          "currency": "USD",
+          "location": "Av. Rómulo Betancourt, Renacimiento, D.N.",
+          "type": "Oficinas",
+          "units": 1,
+          "area": "1,000 m² construcción | 435 m² solar",
+          "image": "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./1.png",
+          "description": "Oportunidad única en esquina, ideal tanto para uso corporativo como inversión. Edificio-terreno en venta con opción de alquiler de oficina en 3er nivel.",
+          "features": [
+            "Solar: 435 m²",
+            "Construcción: 1,000 m²",
+            "3 niveles construidos (325 m² c/u)",
+            "Preparado para 2 niveles adicionales",
+            "Estructura aporticada (permite rediseño total)",
+            "Ubicación en esquina con doble frente",
+            "Zona de alto flujo y visibilidad",
+            "Ideal para empresas / corporativo",
+            "Ideal para clínicas / consultorios",
+            "Ideal para restaurantes / comercios",
+            "Título limpio - listo para negociación",
+            "Opción de alquiler disponible: oficina de 75 m² en 3er nivel por USD 1,500 mensual"
+          ],
+          "status": "Disponible",
+          "badge": "Venta y Alquiler",
+          "gallery": [
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./1.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./2.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./3.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./4.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./5.png",
+            "https://pub-889e2b829ce74ccd9f236db6ab9165d8.r2.dev/57%20romulo%20ben./6.png"
+          ],
+          "delivery": "Disponible",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Negociable",
+            "construction": "N/A",
+            "delivery": "Inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Edificio - Terreno en venta / Oficina en alquiler",
+              "area": "435 m² solar | 1,000 m² construcción | 75 m² oficina",
+              "price": "Venta: 2,200,000 USD | Alquiler oficina: 1,500 USD/mes",
+              "features": [
+                "3 niveles construidos",
+                "Posibilidad de 2 niveles adicionales",
+                "Oficina en 3er nivel",
+                "Propiedad versátil con potencial de ingresos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-metro-country-club-001",
+          "title": "Proyecto en Venta - Metro Country Club",
+          "price": 1100000,
+          "currency": "USD",
+          "location": "Metro Country Club, Juan Dolio",
+          "type": "Proyecto",
+          "units": 144,
+          "area": "12,000 m²",
+          "image": "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/1.png",
+          "description": "Oportunidad de inversión en Metro Country Club. Proyecto de 12,000 m² con permisología aprobada, planos listos y títulos libres de cargas, listo para iniciar construcción.",
+          "features": [
+            "Terreno total: 12,000 m²",
+            "Permisología aprobada + planos listos",
+            "Títulos libres de cargas",
+            "8 edificios residenciales",
+            "3 niveles por edificio",
+            "6 apartamentos por nivel",
+            "18 unidades por edificio",
+            "Total: 144 apartamentos",
+            "83 m² promedio por unidad",
+            "Aprox. 12,000 m² vendibles",
+            "Incluye membresía a Metro Country Club",
+            "Ideal para preventa y estructuración rápida",
+            "Proyecto listo para iniciar construcción",
+            "Documentos al día, título deslindado y coordenadas GPS"
+          ],
+          "status": "Disponible",
+          "badge": "Oportunidad de Inversión",
+          "gallery": [
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/1.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/2.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/3.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/4.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/5.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/6.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/7.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/8.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/9.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/10.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/11.png",
+            "https://pub-e94e0d3e7fef46ffa0cd99e63f35e40c.r2.dev/58%20metro%20country%20club/12.png"
+          ],
+          "delivery": "Listo para iniciar construcción",
+          "payment_plan": {
+            "reservation": "Consultar",
+            "contract": "Consultar",
+            "construction": "Consultar",
+            "delivery": "Objetivo de colocación: 60 días"
+          },
+          "apartment_types": [
+            {
+              "type": "Proyecto completo",
+              "area": "12,000 m² terreno | 83 m² promedio por unidad",
+              "price": "1,100,000 USD (equivalente aprox. 92 USD/m²)",
+              "features": [
+                "144 apartamentos aprobados",
+                "8 edificios de 3 niveles",
+                "Permisología aprobada",
+                "Planos y configuración listos",
+                "Alto potencial de margen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-bella-vista-alquiler-001",
+          "title": "Apartamento en Alquiler – Bella Vista",
+          "price": 1200,
+          "showPrice": true,
+          "currency": "USD/mes",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamento en Alquiler",
+          "units": 1,
+          "area": "71 m²",
+          "image": "/images/propiedades/84/1.jpg",
+          "description": "Apartamento en alquiler en Bella Vista. 71 m² en Piso 7. Incluye 1 habitación, 1.5 baños, sala/comedor, cocina, área de lavado, balcón, 1 parqueo + locker. Aménities: área social, jacuzzi y gimnasio.",
+          "features": [
+            "71 m² | Piso 7",
+            "1 Habitación",
+            "1.5 Baños",
+            "Sala / Comedor",
+            "Cocina",
+            "Área de lavado",
+            "Balcón",
+            "1 Parqueo + Locker",
+            "Área social",
+            "Jacuzzi",
+            "Gimnasio"
+          ],
+          "status": "Disponible",
+          "badge": "Alquiler",
+          "gallery": [
+            "/images/propiedades/84/1.jpg",
+            "/images/propiedades/84/2.jpg",
+            "/images/propiedades/84/3.jpg",
+            "/images/propiedades/84/4.jpg",
+            "/images/propiedades/84/5.jpg",
+            "/images/propiedades/84/6.jpg",
+            "/images/propiedades/84/7.jpg",
+            "/images/propiedades/84/8.jpg",
+            "/images/propiedades/84/9.jpg",
+            "/images/propiedades/84/10.jpg",
+            "/images/propiedades/84/11.jpg",
+            "/images/propiedades/84/12.jpg",
+            "/images/propiedades/84/13.jpg",
+            "/images/propiedades/84/14.jpg",
+            "/images/propiedades/84/15.jpg",
+            "/images/propiedades/84/16.jpg",
+            "/images/propiedades/84/17.jpg",
+            "/images/propiedades/84/18.jpg",
+            "/images/propiedades/84/19.jpg",
+            "/images/propiedades/84/20.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "1 Mes de alquiler",
+            "contract": "Contrato anual renovable",
+            "construction": "Pago mensual: US$1,200",
+            "delivery": "Disponibilidad inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "71 m²",
+              "price": "US$1,200 mensual",
+              "features": [
+                "1 Habitación",
+                "1.5 Baños",
+                "Sala / Comedor",
+                "Cocina",
+                "Área de lavado",
+                "Balcón",
+                "1 Parqueo + Locker"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-finca-venta-001",
+          "title": "Finca en Venta – 557 Tareas (2 Fincas)",
+          "price": 1150000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Zona Rural (Consultar ubicación exacta)",
+          "type": "Finca / Terreno",
+          "units": 1,
+          "area": "557 Tareas",
+          "image": "/images/propiedades/85/1.jpg",
+          "description": "Finca de 557 tareas compuesta por 2 fincas con abundante agua natural: manantial propio 'Los Berros', piscina natural y conexión directa con el Río Comatillo. Incluye casa de 2 niveles con 5 habitaciones, cuartel para guardianes, cocina + despensa, habitaciones de servicio, almacén, planta eléctrica de 15 kW, 2 enramadas y área de BBQ. Negociable.",
+          "features": [
+            "557 Tareas (2 fincas)",
+            "Manantial propio 'Los Berros'",
+            "Piscina natural",
+            "Conexión con Río Comatillo",
+            "Casa de 2 niveles",
+            "5 Habitaciones",
+            "Cuartel para guardianes",
+            "Cocina + Despensa",
+            "Habitaciones de servicio",
+            "Almacén",
+            "Planta eléctrica 15 kW",
+            "2 Enramadas",
+            "Área de BBQ"
+          ],
+          "status": "Disponible",
+          "badge": "Negociable",
+          "gallery": [
+            "/images/propiedades/85/1.jpg",
+            "/images/propiedades/85/2.jpg",
+            "/images/propiedades/85/3.jpg",
+            "/images/propiedades/85/4.jpg",
+            "/images/propiedades/85/5.jpg",
+            "/images/propiedades/85/6.jpg",
+            "/images/propiedades/85/7.jpg",
+            "/images/propiedades/85/8.jpg",
+            "/images/propiedades/85/9.jpg",
+            "/images/propiedades/85/10.jpg",
+            "/images/propiedades/85/11.jpg",
+            "/images/propiedades/85/12.jpg",
+            "/images/propiedades/85/13.jpg",
+            "/images/propiedades/85/14.jpg",
+            "/images/propiedades/85/15.jpg",
+            "/images/propiedades/85/16.jpg",
+            "/images/propiedades/85/17.jpg",
+            "/images/propiedades/85/18.jpg",
+            "/images/propiedades/85/19.jpg",
+            "/images/propiedades/85/20.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Documentación en regla",
+            "construction": "Precio negociable",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Inversión Completa",
+              "area": "557 Tareas",
+              "features": [
+                "2 Fincas unificadas",
+                "Casa de 2 niveles incluida",
+                "Agua natural abundante",
+                "Maquinaria y mejoras incluidas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cacicazgos-lujo-001",
+          "title": "Exclusivo Proyecto Residencial en Los Cacicazgos",
+          "price": 1010000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 22,
+          "area": "295 - 302 m²",
+          "image": "/images/propiedades/86/1.jpg",
+          "description": "Proyecto moderno de 11 niveles con solo 2 apartamentos por piso, ubicado en Los Cacicazgos, una de las zonas más exclusivas de Santo Domingo. Apartamentos de lujo desde 295 m² hasta 302 m² netos con 3 habitaciones, 3.5 baños, sala + estudio + comedor, amplia terraza, cocina fría y caliente, área de lavado, habitación de servicio, 3 parqueos techados y locker. Entrega estimada: Junio 2029.",
+          "features": [
+            "11 Niveles | 2 aptos por piso",
+            "Lobby de lujo y sala de espera",
+            "Piscina",
+            "Lounge con bar integrado",
+            "Gimnasio equipado",
+            "Área infantil",
+            "Salón de actividades",
+            "BBQ",
+            "2 Ascensores de lujo + ascensor de servicio",
+            "Seguridad 24/7 y circuito cerrado",
+            "Planta eléctrica full",
+            "Gas común",
+            "Parqueos adicionales disponibles",
+            "Pisos en mármol importado",
+            "Cocinas modulares importadas",
+            "Puertas importadas",
+            "Ventanales y puertas corredizas",
+            "Preinstalación de A/C",
+            "Calentador de agua a gas"
+          ],
+          "status": "En construcción",
+          "badge": "Preventa",
+          "gallery": [
+            "/images/propiedades/86/1.jpg",
+            "/images/propiedades/86/2.jpg",
+            "/images/propiedades/86/3.jpg",
+            "/images/propiedades/86/4.jpg",
+            "/images/propiedades/86/5.jpg",
+            "/images/propiedades/86/6.jpg",
+            "/images/propiedades/86/7.jpg"
+          ],
+          "delivery": "Junio 2029",
+          "payment_plan": {
+            "reservation": "Consultar disponibilidad",
+            "contract": "Plan de pago personalizado",
+            "construction": "Respaldo fiduciario",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento de Lujo",
+              "area": "295 - 302 m²",
+              "price": "Desde US$1,010,000",
+              "features": [
+                "3 Habitaciones",
+                "3.5 Baños",
+                "Sala + Estudio + Comedor",
+                "Amplia terraza",
+                "Cocina fría y caliente",
+                "Área de lavado",
+                "Habitación de servicio",
+                "3 Parqueos techados",
+                "Locker incluido"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6635,6 +7485,116 @@
           ],
           "status": "Disponible",
           "badge": "Corporativa"
+        },
+        {
+          "id": "prop-el-vergel-alquiler-003",
+          "title": "Apartamento en Alquiler – El Vergel",
+          "price": 825,
+          "showPrice": true,
+          "currency": "USD/mes",
+          "location": "El Vergel, Santo Domingo",
+          "type": "Apartamento en Alquiler",
+          "area": "53 m²",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/1.jpg",
+          "description": "Apartamento nuevo a estrenar con línea blanca en El Vergel. Piso 4, 53 m², con 1 habitación, 1 baño, sala-comedor, cocina, área de lavado y 1 parqueo techado. Precio incluye mantenimiento.",
+          "features": [
+            "Lobby climatizado",
+            "2 ascensores",
+            "Gimnasio",
+            "Piscina + Jacuzzi",
+            "Terrazas comunes",
+            "Salón multiuso",
+            "Área infantil",
+            "Seguridad 24/7",
+            "Línea blanca incluida",
+            "1 parqueo techado"
+          ],
+          "status": "Disponible",
+          "badge": "Alquiler",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/1.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/2.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/3.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/4.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/5.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/6.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/7.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/8.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/9.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/10.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/11.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/12.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/83/13.jpg"
+          ]
+        },
+        {
+          "id": "prop-bella-vista-norte-001",
+          "title": "Apartamentos Modernos en Bella Vista Norte",
+          "price": 203000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Bella Vista Norte, Distrito Nacional",
+          "type": "Apartamentos",
+          "area": "56 m² - 106 m² netos",
+          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/1.jpg",
+          "description": "Vive o invierte en un proyecto residencial moderno y exclusivo, ubicado en Bella Vista Norte, una de las zonas más céntricas y demandadas del Distrito Nacional. Edificio de 7 niveles con apartamentos de 1 y 2 habitaciones, balcón, excelente distribución y terminaciones de alta calidad.",
+          "features": [
+            "Lobby climatizado y amueblado",
+            "Piscina / Picuzzi",
+            "Gimnasio equipado",
+            "Salón para actividades",
+            "Área de niños",
+            "Bar y BBQ",
+            "Terrazas techadas y destechadas",
+            "7 niveles"
+          ],
+          "status": "En construcción",
+          "badge": "Preventa",
+          "delivery": "Diciembre 2027",
+          "gallery": [
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/1.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/2.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/3.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/4.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/5.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/6.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/7.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/8.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/9.jpg",
+            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/82/10.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "3,000 USD",
+            "contract": "10% en 30 días",
+            "construction": "40%",
+            "delivery": "50% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "Desde 56 m²",
+              "features": [
+                "1 habitación",
+                "1 baño",
+                "Sala-comedor",
+                "Cocina",
+                "Balcón",
+                "Área de lavado"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "Hasta 106 m²",
+              "features": [
+                "2 habitaciones",
+                "2 baños",
+                "Sala-comedor",
+                "Cocina",
+                "Balcón",
+                "Área de lavado"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6742,11 +7702,25 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
-              "area_m2": 706.90,
+              "area_m2": 706.9,
               "frente_m": 35,
               "fondo_m": null,
               "precio_usd_m2": 3324.37,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 14000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5300,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 5000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5200,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -6792,6 +7766,13 @@
               "fondo_m": 79.72,
               "precio_usd_m2": 4000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2224,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4500,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -6892,6 +7873,27 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 45,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 246000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 24.22,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 9000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 9000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 54.69,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7010,6 +8012,13 @@
               "fondo_m": null,
               "precio_usd_m2": 50.24,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 95500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 132,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7040,10 +8049,34 @@
           ]
         },
         {
+          "ubicacion": "Colonia Los Montones, San Cristóbal",
+          "solares": [
+            {
+              "area_m2": 65000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 11.71,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Ramón Santana, San Pedro de Macorís (Zona Este)",
+          "solares": [
+            {
+              "area_m2": 1886535,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.87,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Jamao Al Norte - Moca",
           "solares": [
             {
-              "area_m2": 4339947.30,
+              "area_m2": 4339947.3,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 1.25,
@@ -7058,13 +8091,13 @@
               "area_m2": 137878.74,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 1.50,
+              "precio_usd_m2": 1.5,
               "estatus_legal": "CON TÍTULO"
             }
           ]
         },
         {
-          "ubicacion": "Av. Núñez de Caceres",
+          "ubicacion": "Av. Núñez de Cáceres",
           "solares": [
             {
               "area_m2": 571,
@@ -7085,6 +8118,34 @@
               "frente_m": 89,
               "fondo_m": 25,
               "precio_usd_m2": 2200,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2189.31,
+              "frente_m": 86.27,
+              "fondo_m": 25.71,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 725,
+              "frente_m": 20.52,
+              "fondo_m": 35.36,
+              "precio_usd_m2": 2700000,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 571,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 1250000,
+              "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 2189.31,
+              "frente_m": 87.5,
+              "fondo_m": null,
+              "precio_usd_m2": 2192.47,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7117,6 +8178,13 @@
               "fondo_m": 1025,
               "precio_usd_m2": 350,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 17000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 500,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7219,6 +8287,13 @@
               "fondo_m": null,
               "precio_usd_m2": 43,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 60020,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 50,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7250,6 +8325,13 @@
               "fondo_m": 600,
               "precio_usd_m2": 68,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 200,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7362,6 +8444,41 @@
               "fondo_m": null,
               "precio_usd_m2": 1369,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1500.06,
+              "frente_m": 25,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 568.28,
+              "frente_m": 24.71,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1500.07,
+              "frente_m": 25,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 740,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 2500,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3568.41,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2600,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7399,8 +8516,8 @@
           ]
         },
         {
-        "ubicacion": "Gazcue",
-        "solares": [
+          "ubicacion": "Gazcue",
+          "solares": [
             {
               "area_m2": 832,
               "frente_m": 23,
@@ -7435,9 +8552,9 @@
           "ubicacion": "El Gala",
           "solares": [
             {
-              "area_m2": 926.50,
-              "frente_m": 19.50,
-              "fondo_m": 17.00,
+              "area_m2": 926.5,
+              "frente_m": 19.5,
+              "fondo_m": 17.0,
               "precio_usd_m2": 900,
               "estatus_legal": "CON TÍTULO"
             }
@@ -7546,6 +8663,13 @@
               "fondo_m": null,
               "precio_usd_m2": 550,
               "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 1258,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 954.69,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7564,6 +8688,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 250,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 12000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 91.67,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7596,6 +8727,30 @@
               "fondo_m": null,
               "precio_usd_m2": "CONSULTAR",
               "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Autopista Duarte",
+          "solares": [
+            {
+              "area_m2": 538,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 914.13,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. 27 de Febrero Esq. Alma Mater",
+          "solares": [
+            {
+              "area_m2": 1400,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3178.57,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7655,6 +8810,20 @@
               "fondo_m": null,
               "precio_usd_m2": 3534,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 3053,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1995,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1517,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1650,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7757,6 +8926,13 @@
               "fondo_m": null,
               "precio_usd_m2": 22000000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 55000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 960,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7794,7 +8970,7 @@
               "frente_m": 1500,
               "fondo_m": null,
               "precio_usd_m2": 25,
-              "estatus_legal":"CON TÍTULO"
+              "estatus_legal": "CON TÍTULO"
             },
             {
               "area_m2": 90000,
@@ -7816,6 +8992,13 @@
               "fondo_m": null,
               "precio_usd_m2": 90,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1313,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4950.5,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -7834,6 +9017,18 @@
               "frente_m": 20,
               "fondo_m": 43,
               "precio_usd_m2": 1200,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Los Guaricanos / Villa Mella",
+          "solares": [
+            {
+              "area_m2": 1000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 295.08,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -7966,6 +9161,13 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
+              "area_m2": 95000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
               "area_m2": 3500000,
               "frente_m": 1500,
               "fondo_m": null,
@@ -7999,6 +9201,48 @@
               "fondo_m": null,
               "precio_usd_m2": 220,
               "estatus_legal": "DESLINDADO"
+            },
+            {
+              "area_m2": 63000,
+              "frente_m": 300,
+              "fondo_m": null,
+              "precio_usd_m2": 225,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 63000,
+              "frente_m": 250,
+              "fondo_m": null,
+              "precio_usd_m2": 220,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1197841,
+              "frente_m": 300,
+              "fondo_m": null,
+              "precio_usd_m2": 180,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1000000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 16000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 231000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 80,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8049,7 +9293,7 @@
           "ubicacion": "Santo Domingo Este",
           "solares": [
             {
-              "area_m2": 560.60,
+              "area_m2": 560.6,
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 2675,
@@ -8094,6 +9338,18 @@
           ]
         },
         {
+          "ubicacion": "Negocio Industrial en Operación",
+          "solares": [
+            {
+              "area_m2": "CONSULTAR",
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
           "ubicacion": "Naco",
           "solares": [
             {
@@ -8102,6 +9358,13 @@
               "fondo_m": 30,
               "precio_usd_m2": 2250,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 952.45,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3450,
+              "estatus_legal": "CON TITULO"
             },
             {
               "area_m2": 3648,
@@ -8172,6 +9435,20 @@
               "fondo_m": null,
               "precio_usd_m2": 2750,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 645.59,
+              "frente_m": 19.9,
+              "fondo_m": null,
+              "precio_usd_m2": 2200,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2413,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2279.32,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -8194,8 +9471,15 @@
               "area_m2": 15000000,
               "frente_m": 55000,
               "fondo_m": null,
-              "precio_usd_m2": 107.50,
+              "precio_usd_m2": 107.5,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 220000,
+              "frente_m": 1000,
+              "fondo_m": null,
+              "precio_usd_m2": null,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8342,6 +9626,13 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
+              "area_m2": 1450,
+              "frente_m": 44,
+              "fondo_m": null,
+              "precio_usd_m2": 3450,
+              "estatus_legal": "CON TITULO"
+            },
+            {
               "area_m2": 999,
               "frente_m": 20,
               "fondo_m": 50,
@@ -8403,6 +9694,20 @@
               "fondo_m": null,
               "precio_usd_m2": 3308,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4287,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3000,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2040,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3850,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8435,6 +9740,13 @@
               "frente_m": 22,
               "fondo_m": 19,
               "precio_usd_m2": 1662,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 435,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5057.47,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8493,6 +9805,13 @@
               "fondo_m": null,
               "precio_usd_m2": 1700000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 24000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 70,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8503,7 +9822,7 @@
               "area_m2": 628860,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 2.50,
+              "precio_usd_m2": 2.5,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -8596,7 +9915,7 @@
               "area_m2": 832,
               "frente_m": 25,
               "fondo_m": null,
-              "precio_usd_m2": 631.10,
+              "precio_usd_m2": 631.1,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -8754,6 +10073,34 @@
               "fondo_m": null,
               "precio_usd_m2": "CONSULTAR",
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 13600,
+              "frente_m": 60,
+              "fondo_m": null,
+              "precio_usd_m2": 550,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 26000,
+              "frente_m": 115,
+              "fondo_m": null,
+              "precio_usd_m2": 550,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 125000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 375,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 43406.51,
+              "frente_m": 212.38,
+              "fondo_m": null,
+              "precio_usd_m2": 575,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -8794,6 +10141,13 @@
               "fondo_m": null,
               "precio_usd_m2": 289.97,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 24250,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 65.98,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -8827,10 +10181,10 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
-              "area_m2": 1600000.00 ,
-              "frente_m": 300.00,
+              "area_m2": 1600000.0,
+              "frente_m": 300.0,
               "fondo_m": null,
-              "precio_usd_m2": 15.00,
+              "precio_usd_m2": 15.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -8939,32 +10293,6 @@
           ]
         },
         {
-          "ubicacion": "Av. Nuñez de Cáceres",
-          "solares": [
-            {
-              "area_m2": 2189.31,
-              "frente_m": 86.27,
-              "fondo_m": 25.71,
-              "precio_usd_m2": 2600,
-              "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 725,
-              "frente_m": 20.52,
-              "fondo_m": 35.36,
-              "precio_usd_m2": 2700000,
-              "estatus_legal": "CON TÍTULO"
-            },
-            {
-              "area_m2": 571,
-              "frente_m": 20,
-              "fondo_m": null,
-              "precio_usd_m2": 1250000,
-              "estatus_legal": "DESLINDADO"
-            }
-          ]
-        },
-        {
           "ubicacion": "Uvero Alto - Punta Cana",
           "solares": [
             {
@@ -8987,6 +10315,90 @@
               "fondo_m": null,
               "precio_usd_m2": 90,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4370508,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 509000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 65,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 490000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 200000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 170,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 105000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 175,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 60000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 260,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 35000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 22207,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 19200,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 270,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 14500,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 350,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 14000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 300,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 9641,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 270,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9064,7 +10476,7 @@
           "solares": [
             {
               "area_m2": 771,
-              "frente_m": 27.30,
+              "frente_m": 27.3,
               "fondo_m": null,
               "precio_usd_m2": 1426.72,
               "estatus_legal": "CON TÍTULO"
@@ -9151,6 +10563,42 @@
           ]
         },
         {
+          "ubicacion": "NACO - AV. TIRADENTES",
+          "solares": [
+            {
+              "area_m2": 1029.0,
+              "frente_m": 40.0,
+              "precio_usd_m2": 2450.0,
+              "precio_total_usd": 2521050.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA SUR - AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1123.0,
+              "frente_m": 30.0,
+              "precio_usd_m2": 2537.85,
+              "precio_total_usd": 2850000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1126.0,
+              "frente_m": 30.0,
+              "precio_usd_m2": 2590.0,
+              "precio_total_usd": 2916340.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
           "ubicacion": "Naco",
           "solares": [
             {
@@ -9197,6 +10645,49 @@
               "fondo_m": null,
               "precio_usd_m2": 18,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 200000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": null,
+              "estatus_legal": "CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "RAMÓN SANTANA - SAN PEDRO DE MACORÍS",
+          "solares": [
+            {
+              "area_m2": 1886580.0,
+              "frente_m": null,
+              "precio_usd_m2": 0.9,
+              "precio_total_usd": 1707317.07,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Las Américas Km 7",
+          "solares": [
+            {
+              "area_m2": 1140,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 421.05,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Las Américas Km 8",
+          "solares": [
+            {
+              "area_m2": 932,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1072.96,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -9228,6 +10719,832 @@
               "fondo_m": null,
               "precio_usd_m2": 110,
               "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Arroyo Manzano (Proyecto)",
+          "solares": [
+            {
+              "area_m2": "CONSULTAR",
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "PROYECTO AL 50% - BUSCANDO INVERSIONISTA"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Ecológica",
+          "solares": [
+            {
+              "area_m2": 155000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 109.38,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Las Américas",
+          "solares": [
+            {
+              "area_m2": 24000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 93.75,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 450000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 175,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Cap Cana (Las Palmas)",
+          "solares": [
+            {
+              "area_m2": 1801.84,
+              "frente_m": 29.71,
+              "fondo_m": null,
+              "precio_usd_m2": 610.49,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Circunvalación Verón",
+          "solares": [
+            {
+              "area_m2": 509000,
+              "frente_m": 600,
+              "fondo_m": null,
+              "precio_usd_m2": 75,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Ensanche Espaillat (Casa)",
+          "solares": [
+            {
+              "area_m2": "CONSULTAR",
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Juan Dolio (Guavaberry)",
+          "solares": [
+            {
+              "area_m2": 5964.92,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 54.49,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Los Cacicazgos (Edificio)",
+          "solares": [
+            {
+              "area_m2": 539.05,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3895.74,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Marginal Las Américas",
+          "solares": [
+            {
+              "area_m2": 100000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 125,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Monte Plata (Don Juan)",
+          "solares": [
+            {
+              "area_m2": 60370.56,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.68,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Monte Plata (El Mamey)",
+          "solares": [
+            {
+              "area_m2": 471665,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.73,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Monte Plata (Los Arroyos)",
+          "solares": [
+            {
+              "area_m2": 119483.4,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2.22,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Monte Plata (Yamasá)",
+          "solares": [
+            {
+              "area_m2": 18980.73,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 5.76,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Naco (Triple Frente)",
+          "solares": [
+            {
+              "area_m2": 2362.76,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2350,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Próx. Embajada Americana",
+          "solares": [
+            {
+              "area_m2": 1136,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 96.83,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SAN CRISTÓBAL - COLONIA DE LOS MONTONES",
+          "solares": [
+            {
+              "area_m2": 65000.0,
+              "frente_m": null,
+              "precio_usd_m2": 12.2,
+              "precio_total_usd": 793000.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Santiago (Detrás del HOMS)",
+          "solares": [
+            {
+              "area_m2": 444.47,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 360.66,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA - AV. RÓMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1251.0,
+              "frente_m": 24.0,
+              "precio_usd_m2": 2600.0,
+              "precio_total_usd": 3252600.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Santo Domingo Este (Complejo)",
+          "solares": [
+            {
+              "area_m2": 84000.62,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BOCA CHICA (BLOQUE 1)",
+          "solares": [
+            {
+              "area_m2": 250000.0,
+              "frente_m": null,
+              "precio_usd_m2": 25.0,
+              "precio_total_usd": 6250000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BOCA CHICA (BLOQUE 2)",
+          "solares": [
+            {
+              "area_m2": 45000.0,
+              "frente_m": null,
+              "precio_usd_m2": 25.0,
+              "precio_total_usd": 1125000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SERRALLÉS",
+          "solares": [
+            {
+              "area_m2": 720.0,
+              "frente_m": 21.79,
+              "precio_usd_m2": 2083.33,
+              "precio_total_usd": 1500000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "GASPAR HERNÁNDEZ",
+          "solares": [
+            {
+              "area_m2": 1586098.11,
+              "frente_m": 1000.0,
+              "precio_usd_m2": 3.82,
+              "precio_total_usd": 6053232.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BAYAGUANA",
+          "solares": [
+            {
+              "area_m2": 8008318.29,
+              "frente_m": null,
+              "precio_usd_m2": 0.9,
+              "precio_total_usd": 7247367.48,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "ENGOMBE (NAVES)",
+          "solares": [
+            {
+              "area_m2": 600.0,
+              "frente_m": null,
+              "precio_usd_m2": 352.3,
+              "precio_total_usd": 211382.11,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "COLINA CENTRO - JACOBO MAJLUTA",
+          "solares": [
+            {
+              "area_m2": 8000.0,
+              "frente_m": null,
+              "precio_usd_m2": 380.0,
+              "precio_total_usd": 3040000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URBANIZACIÓN ITALIA",
+          "solares": [
+            {
+              "area_m2": 2395.0,
+              "frente_m": null,
+              "precio_usd_m2": 390.24,
+              "precio_total_usd": 934624.8,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. PRIVADA",
+          "solares": [
+            {
+              "area_m2": 724.0,
+              "frente_m": 25.0,
+              "precio_usd_m2": 1643.65,
+              "precio_total_usd": 1190000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URBANIZACIÓN REAL",
+          "solares": [
+            {
+              "area_m2": 731.0,
+              "frente_m": 23.0,
+              "precio_usd_m2": 2068.67,
+              "precio_total_usd": 1512195.12,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "HACIENDA ESTRELLA",
+          "solares": [
+            {
+              "area_m2": 75463.2,
+              "frente_m": null,
+              "precio_usd_m2": 2.11,
+              "precio_total_usd": 159349.59,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "INGENIO CONSUELO",
+          "solares": [
+            {
+              "area_m2": 10700.0,
+              "frente_m": null,
+              "precio_usd_m2": 73.17,
+              "precio_total_usd": 782919.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MICHES - PLAYA ESMERALDA",
+          "solares": [
+            {
+              "area_m2": 1000000.0,
+              "frente_m": 160.0,
+              "precio_usd_m2": 100.0,
+              "precio_total_usd": 100000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MICHES - PLAYA MICHES",
+          "solares": [
+            {
+              "area_m2": 16000.0,
+              "frente_m": 70.0,
+              "precio_usd_m2": 95.0,
+              "precio_total_usd": 1520000.0,
+              "estatus_legal": "A CONSULTAR"
+            },
+            {
+              "area_m2": 3500000.0,
+              "frente_m": 300.0,
+              "precio_usd_m2": 60.0,
+              "precio_total_usd": 210000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "LA VACAMA",
+          "solares": [
+            {
+              "area_m2": 3400000.0,
+              "frente_m": 1000.0,
+              "precio_usd_m2": 40.0,
+              "precio_total_usd": 136000000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PLAYA GUACO - MICHES",
+          "solares": [
+            {
+              "area_m2": 231000.0,
+              "frente_m": 300.0,
+              "precio_usd_m2": 80.0,
+              "precio_total_usd": 18480000.0,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "NISIBÓN",
+          "solares": [
+            {
+              "area_m2": 5000.0,
+              "frente_m": 75.0,
+              "precio_usd_m2": 150.0,
+              "precio_total_usd": 750000.0,
+              "estatus_legal": "ACTUALIZACIÓN DE TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MONTE PLATA - DON JUAN (LA NAGUA)",
+          "solares": [
+            {
+              "area_m2": 320718.6,
+              "frente_m": null,
+              "precio_usd_m2": 2.03,
+              "precio_total_usd": 650406.5,
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "LA VICTORIA - VILLA MELLA",
+          "solares": [
+            {
+              "area_m2": 6288.0,
+              "frente_m": null,
+              "precio_usd_m2": 27.8,
+              "precio_total_usd": 174796.75,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MONTE PLATA - AUTOVÍA DEL SAMANÁ",
+          "solares": [
+            {
+              "area_m2": 13206.06,
+              "frente_m": null,
+              "precio_usd_m2": 25.86,
+              "precio_total_usd": 341463.41,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Urbanización Don Felin I - San Juan de la Maguana",
+          "solares": [
+            {
+              "area_m2": null,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Zona Iban / 27 de Febrero",
+          "solares": [
+            {
+              "area_m2": 1392,
+              "frente_m": 32,
+              "fondo_m": null,
+              "precio_usd_m2": 282.65,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Pizarrete",
+          "solares": [
+            {
+              "area_m2": 102000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 44.12,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2350,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 45.34,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Piantini",
+          "solares": [
+            {
+              "area_m2": 1200,
+              "frente_m": 24,
+              "fondo_m": null,
+              "precio_usd_m2": 3300,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Sabana Grande de Boyá",
+          "solares": [
+            {
+              "area_m2": 63070.09,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.73,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Samaná (Las Galeras)",
+          "solares": [
+            {
+              "area_m2": 2513.53,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 39.16,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "San Isidro (Nave Industrial)",
+          "solares": [
+            {
+              "area_m2": 5048,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 792.39,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Santo Domingo Oeste",
+          "solares": [
+            {
+              "area_m2": 835,
+              "frente_m": 45,
+              "fondo_m": null,
+              "precio_usd_m2": 411.68,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Uvero Alto",
+          "solares": [
+            {
+              "area_m2": 500000,
+              "frente_m": 250,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 300000,
+              "frente_m": 250,
+              "fondo_m": null,
+              "precio_usd_m2": 175,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Zona Este del País",
+          "solares": [
+            {
+              "area_m2": 125772680,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.12,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 156587000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.82,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 66659520,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.99,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. 30 de Mayo",
+          "solares": [
+            {
+              "area_m2": 4750,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 590,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Av. Independencia",
+          "solares": [
+            {
+              "area_m2": 1600,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1500,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1600,
+              "frente_m": 40,
+              "fondo_m": null,
+              "precio_usd_m2": 1250,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Bávaro",
+          "solares": [
+            {
+              "area_m2": 724000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 80,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Cabeza de Toro",
+          "solares": [
+            {
+              "area_m2": 87000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 110,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 2600000,
+              "frente_m": 1700,
+              "fondo_m": null,
+              "precio_usd_m2": 150,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "El Limón",
+          "solares": [
+            {
+              "area_m2": 271000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 30,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Hipódromo",
+          "solares": [
+            {
+              "area_m2": 50000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 110,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "La Julia",
+          "solares": [
+            {
+              "area_m2": 680,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2352.94,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "La Vacama",
+          "solares": [
+            {
+              "area_m2": 158000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 85,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 450000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 100,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 3400000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 40,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Malecón",
+          "solares": [
+            {
+              "area_m2": 4800,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 750,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Nisibón",
+          "solares": [
+            {
+              "area_m2": 300000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Playa Dorada",
+          "solares": [
+            {
+              "area_m2": 65000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 923.08,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Prol. Bolívar",
+          "solares": [
+            {
+              "area_m2": 1296,
+              "frente_m": 20,
+              "fondo_m": null,
+              "precio_usd_m2": 2230.86,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Villa Altagracia",
+          "solares": [
+            {
+              "area_m2": 352161.8,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.51,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "San Antonio de Guerra - Mata Gorda (El Toro)",
+          "solares": [
+            {
+              "area_m2": 62886.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4.65,
+              "estatus_legal": "CON TITULO"
             }
           ]
         }
