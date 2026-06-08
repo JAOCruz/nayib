@@ -7207,6 +7207,218 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-bella-vista-alquiler-001",
+          "title": "Apartamento en Alquiler – Bella Vista",
+          "price": 1200,
+          "showPrice": true,
+          "currency": "USD/mes",
+          "location": "Bella Vista, Santo Domingo",
+          "type": "Apartamento en Alquiler",
+          "units": 1,
+          "area": "71 m²",
+          "image": "/images/propiedades/84/1.jpg",
+          "description": "Apartamento en alquiler en Bella Vista. 71 m² en Piso 7. Incluye 1 habitación, 1.5 baños, sala/comedor, cocina, área de lavado, balcón, 1 parqueo + locker. Aménities: área social, jacuzzi y gimnasio.",
+          "features": [
+            "71 m² | Piso 7",
+            "1 Habitación",
+            "1.5 Baños",
+            "Sala / Comedor",
+            "Cocina",
+            "Área de lavado",
+            "Balcón",
+            "1 Parqueo + Locker",
+            "Área social",
+            "Jacuzzi",
+            "Gimnasio"
+          ],
+          "status": "Disponible",
+          "badge": "Alquiler",
+          "gallery": [
+            "/images/propiedades/84/1.jpg",
+            "/images/propiedades/84/2.jpg",
+            "/images/propiedades/84/3.jpg",
+            "/images/propiedades/84/4.jpg",
+            "/images/propiedades/84/5.jpg",
+            "/images/propiedades/84/6.jpg",
+            "/images/propiedades/84/7.jpg",
+            "/images/propiedades/84/8.jpg",
+            "/images/propiedades/84/9.jpg",
+            "/images/propiedades/84/10.jpg",
+            "/images/propiedades/84/11.jpg",
+            "/images/propiedades/84/12.jpg",
+            "/images/propiedades/84/13.jpg",
+            "/images/propiedades/84/14.jpg",
+            "/images/propiedades/84/15.jpg",
+            "/images/propiedades/84/16.jpg",
+            "/images/propiedades/84/17.jpg",
+            "/images/propiedades/84/18.jpg",
+            "/images/propiedades/84/19.jpg",
+            "/images/propiedades/84/20.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "1 Mes de alquiler",
+            "contract": "Contrato anual renovable",
+            "construction": "Pago mensual: US$1,200",
+            "delivery": "Disponibilidad inmediata"
+          },
+          "apartment_types": [
+            {
+              "type": "Único",
+              "area": "71 m²",
+              "price": "US$1,200 mensual",
+              "features": [
+                "1 Habitación",
+                "1.5 Baños",
+                "Sala / Comedor",
+                "Cocina",
+                "Área de lavado",
+                "Balcón",
+                "1 Parqueo + Locker"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-finca-venta-001",
+          "title": "Finca en Venta – 557 Tareas (2 Fincas)",
+          "price": 1150000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Zona Rural (Consultar ubicación exacta)",
+          "type": "Finca / Terreno",
+          "units": 1,
+          "area": "557 Tareas",
+          "image": "/images/propiedades/85/1.jpg",
+          "description": "Finca de 557 tareas compuesta por 2 fincas con abundante agua natural: manantial propio 'Los Berros', piscina natural y conexión directa con el Río Comatillo. Incluye casa de 2 niveles con 5 habitaciones, cuartel para guardianes, cocina + despensa, habitaciones de servicio, almacén, planta eléctrica de 15 kW, 2 enramadas y área de BBQ. Negociable.",
+          "features": [
+            "557 Tareas (2 fincas)",
+            "Manantial propio 'Los Berros'",
+            "Piscina natural",
+            "Conexión con Río Comatillo",
+            "Casa de 2 niveles",
+            "5 Habitaciones",
+            "Cuartel para guardianes",
+            "Cocina + Despensa",
+            "Habitaciones de servicio",
+            "Almacén",
+            "Planta eléctrica 15 kW",
+            "2 Enramadas",
+            "Área de BBQ"
+          ],
+          "status": "Disponible",
+          "badge": "Negociable",
+          "gallery": [
+            "/images/propiedades/85/1.jpg",
+            "/images/propiedades/85/2.jpg",
+            "/images/propiedades/85/3.jpg",
+            "/images/propiedades/85/4.jpg",
+            "/images/propiedades/85/5.jpg",
+            "/images/propiedades/85/6.jpg",
+            "/images/propiedades/85/7.jpg",
+            "/images/propiedades/85/8.jpg",
+            "/images/propiedades/85/9.jpg",
+            "/images/propiedades/85/10.jpg",
+            "/images/propiedades/85/11.jpg",
+            "/images/propiedades/85/12.jpg",
+            "/images/propiedades/85/13.jpg",
+            "/images/propiedades/85/14.jpg",
+            "/images/propiedades/85/15.jpg",
+            "/images/propiedades/85/16.jpg",
+            "/images/propiedades/85/17.jpg",
+            "/images/propiedades/85/18.jpg",
+            "/images/propiedades/85/19.jpg",
+            "/images/propiedades/85/20.jpg"
+          ],
+          "payment_plan": {
+            "reservation": "A discutir en negociación",
+            "contract": "Documentación en regla",
+            "construction": "Precio negociable",
+            "delivery": "Lista para transferencia"
+          },
+          "apartment_types": [
+            {
+              "type": "Inversión Completa",
+              "area": "557 Tareas",
+              "features": [
+                "2 Fincas unificadas",
+                "Casa de 2 niveles incluida",
+                "Agua natural abundante",
+                "Maquinaria y mejoras incluidas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-cacicazgos-lujo-001",
+          "title": "Exclusivo Proyecto Residencial en Los Cacicazgos",
+          "price": 1010000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 22,
+          "area": "295 - 302 m²",
+          "image": "/images/propiedades/86/1.jpg",
+          "description": "Proyecto moderno de 11 niveles con solo 2 apartamentos por piso, ubicado en Los Cacicazgos, una de las zonas más exclusivas de Santo Domingo. Apartamentos de lujo desde 295 m² hasta 302 m² netos con 3 habitaciones, 3.5 baños, sala + estudio + comedor, amplia terraza, cocina fría y caliente, área de lavado, habitación de servicio, 3 parqueos techados y locker. Entrega estimada: Junio 2029.",
+          "features": [
+            "11 Niveles | 2 aptos por piso",
+            "Lobby de lujo y sala de espera",
+            "Piscina",
+            "Lounge con bar integrado",
+            "Gimnasio equipado",
+            "Área infantil",
+            "Salón de actividades",
+            "BBQ",
+            "2 Ascensores de lujo + ascensor de servicio",
+            "Seguridad 24/7 y circuito cerrado",
+            "Planta eléctrica full",
+            "Gas común",
+            "Parqueos adicionales disponibles",
+            "Pisos en mármol importado",
+            "Cocinas modulares importadas",
+            "Puertas importadas",
+            "Ventanales y puertas corredizas",
+            "Preinstalación de A/C",
+            "Calentador de agua a gas"
+          ],
+          "status": "En construcción",
+          "badge": "Preventa",
+          "gallery": [
+            "/images/propiedades/86/1.jpg",
+            "/images/propiedades/86/2.jpg",
+            "/images/propiedades/86/3.jpg",
+            "/images/propiedades/86/4.jpg",
+            "/images/propiedades/86/5.jpg",
+            "/images/propiedades/86/6.jpg",
+            "/images/propiedades/86/7.jpg"
+          ],
+          "delivery": "Junio 2029",
+          "payment_plan": {
+            "reservation": "Consultar disponibilidad",
+            "contract": "Plan de pago personalizado",
+            "construction": "Respaldo fiduciario",
+            "delivery": "80% contra entrega"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento de Lujo",
+              "area": "295 - 302 m²",
+              "price": "Desde US$1,010,000",
+              "features": [
+                "3 Habitaciones",
+                "3.5 Baños",
+                "Sala + Estudio + Comedor",
+                "Amplia terraza",
+                "Cocina fría y caliente",
+                "Área de lavado",
+                "Habitación de servicio",
+                "3 Parqueos techados",
+                "Locker incluido"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -9969,10 +10181,10 @@
               "estatus_legal": "CON TÍTULO"
             },
             {
-              "area_m2": 1600000.00 ,
-              "frente_m": 300.00,
+              "area_m2": 1600000.0,
+              "frente_m": 300.0,
               "fondo_m": null,
-              "precio_usd_m2": 15.00,
+              "precio_usd_m2": 15.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -10080,7 +10292,6 @@
             }
           ]
         },
-        
         {
           "ubicacion": "Uvero Alto - Punta Cana",
           "solares": [
@@ -10480,7 +10691,6 @@
             }
           ]
         },
-        
         {
           "ubicacion": "San José de Ocoa",
           "solares": [
