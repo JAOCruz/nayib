@@ -7434,6 +7434,13 @@
               "precio_usd_m2": 5009.11,
               "precio_total_usd": 2750000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1156.08,
+              "frente_m": 24.0,
+              "fondo_m": null,
+              "precio_usd_m2": 1750.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7735,6 +7742,13 @@
               "fondo_m": null,
               "precio_usd_m2": 2.73,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1251431.4,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.05,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7813,6 +7827,13 @@
               "precio_usd_m2": 595.0,
               "precio_total_usd": 15470000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 26000.0,
+              "frente_m": 230.0,
+              "fondo_m": null,
+              "precio_usd_m2": 615.38,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -7838,6 +7859,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 132,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1228.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 737.26,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -7986,6 +8014,13 @@
               "fondo_m": null,
               "precio_usd_m2": 1900,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1156.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1690.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8162,6 +8197,27 @@
               "precio_usd_m2": 17.0,
               "precio_total_usd": 5100000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 470000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 40.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 700000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 35.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1570000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 15.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8272,6 +8328,13 @@
               "fondo_m": 19.9,
               "precio_usd_m2": 850,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 361.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 866.36,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -8346,6 +8409,13 @@
               "frente_m": null,
               "fondo_m": null,
               "precio_usd_m2": 2600,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1560.24,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2100.0,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -8700,6 +8770,27 @@
               "precio_usd_m2": 1990.0,
               "precio_total_usd": 6095370.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 1276.52,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3000.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1313.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 4950.5,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 1363.8,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3000.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9143,6 +9234,20 @@
               "precio_usd_m2": 85.0,
               "precio_total_usd": 3570000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 9433.0,
+              "frente_m": 40.0,
+              "fondo_m": null,
+              "precio_usd_m2": 120.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 60000.0,
+              "frente_m": 150.0,
+              "fondo_m": null,
+              "precio_usd_m2": 160.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9357,6 +9462,20 @@
               "precio_usd_m2": 3212.62,
               "precio_total_usd": 2750000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 600.0,
+              "frente_m": 20.0,
+              "fondo_m": null,
+              "precio_usd_m2": 2290.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 672.0,
+              "frente_m": 17.5,
+              "fondo_m": null,
+              "precio_usd_m2": 2350.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9624,6 +9743,13 @@
               "precio_usd_m2": 3600.0,
               "precio_total_usd": 50400000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 4550.0,
+              "frente_m": "64.88 / 70.24",
+              "fondo_m": null,
+              "precio_usd_m2": 3500.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9744,6 +9870,13 @@
               "precio_usd_m2": null,
               "precio_total_usd": null,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": "DESDE 216",
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "A CONSULTAR",
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -9756,6 +9889,13 @@
               "fondo_m": null,
               "precio_usd_m2": 2.5,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 370000.0,
+              "frente_m": 200.0,
+              "fondo_m": null,
+              "precio_usd_m2": 20.0,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11260,6 +11400,13 @@
               "precio_usd_m2": 393.21,
               "precio_total_usd": 328333.33,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 835.0,
+              "frente_m": 45.0,
+              "fondo_m": null,
+              "precio_usd_m2": 388.36,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11383,6 +11530,13 @@
               "precio_usd_m2": null,
               "precio_total_usd": null,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 100000.0,
+              "frente_m": 350.0,
+              "fondo_m": null,
+              "precio_usd_m2": "A CONSULTAR",
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11530,6 +11684,13 @@
               "precio_usd_m2": 200.0,
               "precio_total_usd": 60000.0,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 300.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 197.53,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11608,6 +11769,13 @@
               "precio_usd_m2": 1416.67,
               "precio_total_usd": 1133333.33,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 800.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1399.18,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11647,6 +11815,13 @@
               "precio_usd_m2": 6.63,
               "precio_total_usd": 416666.67,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 62886.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 6.54,
+              "estatus_legal": "CON TITULO"
             }
           ]
         },
@@ -11707,6 +11882,320 @@
               "precio_usd_m2": 95.0,
               "precio_total_usd": 950000.0,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. 6 DE NOVIEMBRE",
+          "solares": [
+            {
+              "area_m2": 1335.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 351.41,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. ECOLOGICA",
+          "solares": [
+            {
+              "area_m2": 1351568.77,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 120.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. LUPERON",
+          "solares": [
+            {
+              "area_m2": 55000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1100.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. REPUBLICA DE COLOMBIA",
+          "solares": [
+            {
+              "area_m2": 17000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 500.0,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 82000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 490.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BANI - PERAVIA",
+          "solares": [
+            {
+              "area_m2": 1370126.2,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2.09,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA",
+          "solares": [
+            {
+              "area_m2": 2016.0,
+              "frente_m": 38.0,
+              "fondo_m": null,
+              "precio_usd_m2": 2000.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA - AV. ROMULO BETHANCOURT",
+          "solares": [
+            {
+              "area_m2": 1272.0,
+              "frente_m": 32.0,
+              "fondo_m": null,
+              "precio_usd_m2": 2437.11,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BELLA VISTA / AV. ROMULO BETANCOURT",
+          "solares": [
+            {
+              "area_m2": 678.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3834.81,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "CAP CANA - PUNTA ESPADA",
+          "solares": [
+            {
+              "area_m2": 1800.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 611.11,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "CIRCUNVALACION / AUT. DUARTE",
+          "solares": [
+            {
+              "area_m2": 55000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 145.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "FINCA LOS BERROS",
+          "solares": [
+            {
+              "area_m2": 350275.02,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 3.28,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "GAZCUE - AV. BOLIVAR",
+          "solares": [
+            {
+              "area_m2": 1320.0,
+              "frente_m": 28.0,
+              "fondo_m": null,
+              "precio_usd_m2": 1550.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "HIPODROMO V CENTENARIO",
+          "solares": [
+            {
+              "area_m2": 50000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 110.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "JACOBO MAJLUTA",
+          "solares": [
+            {
+              "area_m2": 191000.0,
+              "frente_m": 200.0,
+              "fondo_m": null,
+              "precio_usd_m2": 130.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MARGINAL LAS AMERICAS",
+          "solares": [
+            {
+              "area_m2": 430000.0,
+              "frente_m": 340.0,
+              "fondo_m": null,
+              "precio_usd_m2": 99.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "MIRADOR DEL OESTE",
+          "solares": [
+            {
+              "area_m2": 652.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 350.93,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PLAYA ESMERALDA - MICHES",
+          "solares": [
+            {
+              "area_m2": 3000000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 60.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PROVINCIA SAN JUAN",
+          "solares": [
+            {
+              "area_m2": 8804040.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 0.52,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "REPUBLICA DE COLOMBIA",
+          "solares": [
+            {
+              "area_m2": 174000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 325.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SAMANA",
+          "solares": [
+            {
+              "area_m2": 377316.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.75,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SAN JOSE DE OCOA",
+          "solares": [
+            {
+              "area_m2": 80672.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 6.22,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SAN PEDRO DE MACORIS",
+          "solares": [
+            {
+              "area_m2": 1261090.93,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 50.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "SEYBA MACAO - HIGUEY",
+          "solares": [
+            {
+              "area_m2": 10000.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95.0,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URBANIZACION REAL",
+          "solares": [
+            {
+              "area_m2": 486.0,
+              "frente_m": 19.0,
+              "fondo_m": null,
+              "precio_usd_m2": 1453.03,
+              "estatus_legal": "CON TITULO"
+            },
+            {
+              "area_m2": 731.0,
+              "frente_m": 23.0,
+              "fondo_m": null,
+              "precio_usd_m2": 2139.24,
+              "estatus_legal": "CON TITULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "VALLEJUELO - SAN JUAN",
+          "solares": [
+            {
+              "area_m2": 1257720.0,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1.7,
+              "estatus_legal": "CON TITULO"
             }
           ]
         }
