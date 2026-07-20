@@ -727,8 +727,8 @@ class PagePropertiesManager {
                 }
 
                 // Price filter (price per m²)
-                if (solar.precio_usd_m2 === 'CONSULTAR') {
-                    // If price filter is active, exclude "CONSULTAR" properties
+                if (this.isConsultar(solar.precio_usd_m2)) {
+                    // If price filter is active, exclude "A CONSULTAR" properties
                     if (priceMin > 0 || priceMax < Infinity) {
                         return false;
                     }
@@ -890,6 +890,10 @@ class PagePropertiesManager {
         return result;
     }
 
+    isConsultar(value) {
+        return typeof value === 'string' && value.trim().toUpperCase() === 'A CONSULTAR';
+    }
+
     createSolarRow(solar, index) {
         // Check if this is a special case for Bella Vista Sur solares which are in DOP
         const isDominicanPeso = this.currentLocation === 'Bella Vista Sur' && 
@@ -899,6 +903,8 @@ class PagePropertiesManager {
         // Values over 10,000 are likely total prices, not price per m²
         const isLikelyTotalPrice = typeof solar.precio_usd_m2 === 'number' && solar.precio_usd_m2 > 10000;
         
+        const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
+        
         let pricePerM2, totalPrice;
         
         if (isDominicanPeso || isLikelyTotalPrice) {
@@ -906,15 +912,13 @@ class PagePropertiesManager {
             // the stored value is the total price
             // We need to calculate the price per m²
             totalPrice = solar.precio_usd_m2;
-            pricePerM2 = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
-                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
-                         Math.round(solar.precio_usd_m2 / solar.area_m2));
+            pricePerM2 = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
+                        Math.round(solar.precio_usd_m2 / solar.area_m2);
         } else {
             // For properties with price per m², we need to calculate the total price
-            pricePerM2 = solar.precio_usd_m2;
-            totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' : 
-                        (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : 
-                         (solar.area_m2 * solar.precio_usd_m2));
+            pricePerM2 = priceIsConsultar ? 'CONSULTAR' : solar.precio_usd_m2;
+            totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
+                        (solar.area_m2 * solar.precio_usd_m2);
         }
         
         // Create a custom ID that encodes both the location and the index
