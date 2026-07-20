@@ -240,17 +240,21 @@ class PropertiesManager {
         `).join('');
     }
 
+    isConsultar(value) {
+        return typeof value === 'string' && value.trim().toUpperCase() === 'A CONSULTAR';
+    }
+
     createSolarRow(solar) {
-        const totalPrice = typeof solar.area_m2 === 'string' ? 'CONSULTAR' :
-            (solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' :
-                (solar.area_m2 * solar.precio_usd_m2).toLocaleString());
+        const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
+        const totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' :
+            (solar.area_m2 * solar.precio_usd_m2).toLocaleString();
 
         return `
             <div class="solar_row">
                 <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
-                <div class="col_precio">${solar.precio_usd_m2 === 'CONSULTAR' ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>
+                <div class="col_precio">${priceIsConsultar ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>
                 <div class="col_estatus">
                     <span class="estatus_badge ${solar.estatus_legal ? solar.estatus_legal.toLowerCase().replace(/\s+/g, '_') : ''}">
                         ${solar.estatus_legal}
