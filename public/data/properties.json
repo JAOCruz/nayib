@@ -7429,7 +7429,7 @@
           "location": "Las Terrenas, Samaná",
           "type": "Terreno",
           "area": "70,000 m²",
-          "image": "images/propiedades/87/1.jpg",
+          "image": "/images/propiedades/87/1.jpg",
           "description": "Excepcional oportunidad de inversión para desarrolladores en Las Terrenas, Samaná. Este amplio terreno cuenta con una impresionante superficie de 70,000 m² y 96 metros de frente de playa, ubicado en uno de los destinos turísticos más exclusivos y de mayor crecimiento de la República Dominicana. Ideal para el desarrollo de proyectos hoteleros, residenciales de lujo, villas o condominios turísticos.",
           "features": [
             "70,000 m² de terreno",
@@ -7441,13 +7441,13 @@
           "status": "Disponible",
           "badge": "A Consultar",
           "gallery": [
-            "images/propiedades/87/1.jpg",
-            "images/propiedades/87/2.jpg",
-            "images/propiedades/87/3.jpg",
-            "images/propiedades/87/4.jpg",
-            "images/propiedades/87/5.jpg",
-            "images/propiedades/87/6.jpg",
-            "images/propiedades/87/7.jpg"
+            "/images/propiedades/87/1.jpg",
+            "/images/propiedades/87/2.jpg",
+            "/images/propiedades/87/3.jpg",
+            "/images/propiedades/87/4.jpg",
+            "/images/propiedades/87/5.jpg",
+            "/images/propiedades/87/6.jpg",
+            "/images/propiedades/87/7.jpg"
           ]
         },
         {
@@ -7459,7 +7459,7 @@
           "location": "Proyecto Riomar, Playa El Soco, San Pedro de Macorís",
           "type": "Solar",
           "area": "696 m²",
-          "image": "images/propiedades/88/1.jpg",
+          "image": "/images/propiedades/88/1.jpg",
           "description": "Excelente oportunidad de inversión dentro de un proyecto cerrado en una de las zonas con mayor potencial de crecimiento de San Pedro de Macorís. Este solar cuenta con una superficie de 696 m² completamente deslindado. Está ubicado estratégicamente en la entrada del proyecto, en un entorno tranquilo y de alta plusvalía, a pocos minutos de Playa El Soco.",
           "features": [
             "696 m² de terreno",
@@ -7472,11 +7472,11 @@
           "status": "Disponible",
           "badge": "A Consultar",
           "gallery": [
-            "images/propiedades/88/1.jpg",
-            "images/propiedades/88/2.jpg",
-            "images/propiedades/88/3.jpg",
-            "images/propiedades/88/4.jpg",
-            "images/propiedades/88/5.jpg"
+            "/images/propiedades/88/1.jpg",
+            "/images/propiedades/88/2.jpg",
+            "/images/propiedades/88/3.jpg",
+            "/images/propiedades/88/4.jpg",
+            "/images/propiedades/88/5.jpg"
           ]
         }
       ]
