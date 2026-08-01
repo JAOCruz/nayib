@@ -7423,14 +7423,14 @@
         {
           "id": "prop-terreno-las-terrenas-frente-mar-001",
           "title": "Terreno Frente al Mar de 70,000 m² en Venta en Las Terrenas, Samaná",
-          "price": 0,
-          "showPrice": false,
+          "price": 3500000,
+          "showPrice": true,
           "currency": "USD",
           "location": "Las Terrenas, Samaná",
           "type": "Terreno",
           "area": "70,000 m²",
           "image": "/images/propiedades/87/1.jpg",
-          "description": "Excepcional oportunidad de inversión para desarrolladores en Las Terrenas, Samaná. Este amplio terreno cuenta con una impresionante superficie de 70,000 m² y 96 metros de frente de playa, ubicado en uno de los destinos turísticos más exclusivos y de mayor crecimiento de la República Dominicana. Ideal para el desarrollo de proyectos hoteleros, residenciales de lujo, villas o condominios turísticos.",
+          "description": "Excepcional oportunidad para inversionistas y desarrolladores. Amplio terreno con frente de playa de 96 metros, ubicado en uno de los destinos turísticos más exclusivos y de mayor crecimiento de la República Dominicana. Ideal para proyectos hoteleros, residenciales de lujo, villas o condominios turísticos. Precio: US$50.00 por m² (US$3,500,000.00 total).",
           "features": [
             "70,000 m² de terreno",
             "96 metros de frente de playa",
@@ -7439,7 +7439,7 @@
             "Zona de alta plusvalía"
           ],
           "status": "Disponible",
-          "badge": "A Consultar",
+          "badge": "En Venta",
           "gallery": [
             "/images/propiedades/87/1.jpg",
             "/images/propiedades/87/2.jpg",
@@ -7453,14 +7453,14 @@
         {
           "id": "prop-solar-riomar-playa-el-soco-001",
           "title": "Solar en Venta en Proyecto Riomar, Playa El Soco",
-          "price": 0,
-          "showPrice": false,
-          "currency": "USD",
+          "price": 2910000,
+          "showPrice": true,
+          "currency": "DOP",
           "location": "Proyecto Riomar, Playa El Soco, San Pedro de Macorís",
           "type": "Solar",
           "area": "696 m²",
           "image": "/images/propiedades/88/1.jpg",
-          "description": "Excelente oportunidad de inversión dentro de un proyecto cerrado en una de las zonas con mayor potencial de crecimiento de San Pedro de Macorís. Este solar cuenta con una superficie de 696 m² completamente deslindado. Está ubicado estratégicamente en la entrada del proyecto, en un entorno tranquilo y de alta plusvalía, a pocos minutos de Playa El Soco.",
+          "description": "Excelente oportunidad de inversión dentro de un proyecto cerrado en una de las zonas con mayor potencial de crecimiento de San Pedro de Macorís. Solar de 696 m² completamente deslindado, ubicado en la entrada del proyecto, a pocos minutos de Playa El Soco. Precio de venta: RD$2,910,000 (equivalente a aproximadamente US$70 por m²).",
           "features": [
             "696 m² de terreno",
             "Proyecto cerrado",
@@ -7470,7 +7470,7 @@
             "Entorno tranquilo y de alta plusvalía"
           ],
           "status": "Disponible",
-          "badge": "A Consultar",
+          "badge": "En Venta",
           "gallery": [
             "/images/propiedades/88/1.jpg",
             "/images/propiedades/88/2.jpg",
@@ -12477,7 +12477,7 @@
               "area_m2": 70000,
               "frente_m": 96,
               "fondo_m": null,
-              "precio_usd_m2": "A CONSULTAR",
+              "precio_usd_m2": 50,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12489,7 +12489,7 @@
               "area_m2": 696,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": "A CONSULTAR",
+              "precio_usd_m2": 70,
               "estatus_legal": "DESLINDADO"
             }
           ]
