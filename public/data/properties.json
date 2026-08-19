@@ -7772,7 +7772,7 @@
               "area_m2": 3717,
               "frente_m": 60,
               "fondo_m": null,
-              "precio_usd_m2": 3900,
+              "precio_usd_m2": 3980.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8081,7 +8081,7 @@
               "area_m2": 26000,
               "frente_m": 100,
               "fondo_m": 260,
-              "precio_usd_m2": 590,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -10087,7 +10087,7 @@
               "area_m2": 648.0,
               "frente_m": 22.0,
               "fondo_m": null,
-              "precio_usd_m2": 1590.0,
+              "precio_usd_m2": 1450.0,
               "precio_total_usd": 1030320.0,
               "estatus_legal": "CON TÍTULO"
             }
@@ -11785,9 +11785,9 @@
           "solares": [
             {
               "area_m2": 1600,
-              "frente_m": null,
+              "frente_m": 40.0,
               "fondo_m": null,
-              "precio_usd_m2": 1500,
+              "precio_usd_m2": 1250.0,
               "estatus_legal": "CON TITULO"
             },
             {
@@ -12363,7 +12363,7 @@
               "area_m2": 50000.0,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 110.0,
+              "precio_usd_m2": 130.0,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -12375,7 +12375,7 @@
               "area_m2": 191000.0,
               "frente_m": 200.0,
               "fondo_m": null,
-              "precio_usd_m2": 130.0,
+              "precio_usd_m2": 138.0,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -12502,7 +12502,7 @@
               "area_m2": 731.0,
               "frente_m": 23.0,
               "fondo_m": null,
-              "precio_usd_m2": 2139.24,
+              "precio_usd_m2": 2188.78,
               "estatus_legal": "CON TITULO"
             }
           ]
