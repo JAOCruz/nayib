@@ -8088,7 +8088,7 @@
               "area_m2": 26000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 580,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8103,7 +8103,7 @@
               "area_m2": 26000.0,
               "frente_m": 230.0,
               "fondo_m": null,
-              "precio_usd_m2": 615.38,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TITULO"
             }
           ]
@@ -12551,6 +12551,7 @@
               "area_m2": null,
               "frente_m": null,
               "precio_usd_m2": "A CONSULTAR",
+              "precio_total_usd": 1000000.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]

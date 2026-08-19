@@ -247,21 +247,34 @@ class PropertiesManager {
     createSolarRow(solar) {
         const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
         const areaIsMissing = solar.area_m2 === null || solar.area_m2 === undefined;
-        const totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar || areaIsMissing ? 'CONSULTAR' :
-            (solar.area_m2 * solar.precio_usd_m2).toLocaleString();
+        const areaIsString = typeof solar.area_m2 === 'string';
+        const canComputeFromArea = !areaIsMissing && !areaIsString;
+        const hasTotalPrice = typeof solar.precio_total_usd === 'number';
+
+        let pricePerM2, totalPrice;
+        if (hasTotalPrice) {
+            totalPrice = solar.precio_total_usd;
+            pricePerM2 = !canComputeFromArea ? 'CONSULTAR' : Math.round(solar.precio_total_usd / solar.area_m2);
+        } else {
+            pricePerM2 = priceIsConsultar ? 'CONSULTAR' : solar.precio_usd_m2;
+            totalPrice = priceIsConsultar || !canComputeFromArea ? 'CONSULTAR' : (solar.area_m2 * solar.precio_usd_m2);
+        }
+
+        const priceDisplay = pricePerM2 === 'CONSULTAR' ? 'CONSULTAR' : '$' + pricePerM2.toLocaleString();
+        const totalDisplay = totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice.toLocaleString();
 
         return `
             <div class="solar_row">
-                <div class="col_area">${areaIsMissing ? '-' : (typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString())}</div>
+                <div class="col_area">${areaIsMissing ? '-' : (areaIsString ? solar.area_m2 : solar.area_m2.toLocaleString())}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
-                <div class="col_precio">${priceIsConsultar ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>
+                <div class="col_precio">${priceDisplay}</div>
                 <div class="col_estatus">
                     <span class="estatus_badge ${solar.estatus_legal ? solar.estatus_legal.toLowerCase().replace(/\s+/g, '_') : ''}">
                         ${solar.estatus_legal}
                     </span>
                 </div>
-                <div class="col_total">${totalPrice === 'CONSULTAR' ? 'CONSULTAR' : '$' + totalPrice}</div>
+                <div class="col_total">${totalDisplay}</div>
             </div>
         `;
     }

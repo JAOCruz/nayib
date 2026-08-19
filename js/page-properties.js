@@ -905,20 +905,26 @@ class PagePropertiesManager {
         
         const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
         
+        // Si existe un precio total explícito, lo usamos como fuente principal.
+        const hasTotalPrice = typeof solar.precio_total_usd === 'number';
+        const areaIsMissing = solar.area_m2 === null || solar.area_m2 === undefined;
+        const areaIsString = typeof solar.area_m2 === 'string';
+        const canComputeFromArea = !areaIsMissing && !areaIsString;
+
         let pricePerM2, totalPrice;
-        
+
         if (isDominicanPeso || isLikelyTotalPrice) {
-            // For Dominican Peso properties or properties with total prices,
-            // the stored value is the total price
-            // We need to calculate the price per m²
+            // El valor guardado es un precio total (DOP o USD grande)
             totalPrice = solar.precio_usd_m2;
-            pricePerM2 = typeof solar.area_m2 === 'string' || priceIsConsultar || solar.area_m2 === null || solar.area_m2 === undefined ? 'CONSULTAR' :
-                        Math.round(solar.precio_usd_m2 / solar.area_m2);
+            pricePerM2 = !canComputeFromArea ? 'CONSULTAR' : Math.round(solar.precio_usd_m2 / solar.area_m2);
+        } else if (hasTotalPrice) {
+            // Precio total explícito (por ejemplo, nave industrial sin área)
+            totalPrice = solar.precio_total_usd;
+            pricePerM2 = !canComputeFromArea ? 'CONSULTAR' : Math.round(solar.precio_total_usd / solar.area_m2);
         } else {
-            // For properties with price per m², we need to calculate the total price
+            // Precio por m²; calculamos el total si tenemos área
             pricePerM2 = priceIsConsultar ? 'CONSULTAR' : solar.precio_usd_m2;
-            totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar || solar.area_m2 === null || solar.area_m2 === undefined ? 'CONSULTAR' :
-                        (solar.area_m2 * solar.precio_usd_m2);
+            totalPrice = priceIsConsultar || !canComputeFromArea ? 'CONSULTAR' : (solar.area_m2 * solar.precio_usd_m2);
         }
         
         // Create a custom ID that encodes both the location and the index

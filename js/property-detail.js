@@ -132,12 +132,24 @@ class PropertyDetailManager {
             if (location && location.solares && location.solares[index]) {
                 // Construimos un objeto "Propiedad" falso para el renderizado
                 const solar = location.solares[index];
+                let price = null;
+                let showPrice = false;
+                if (typeof solar.precio_total_usd === 'number') {
+                    price = solar.precio_total_usd;
+                    showPrice = true;
+                } else if (typeof solar.precio_usd_m2 === 'number' && typeof solar.area_m2 === 'number') {
+                    price = solar.precio_usd_m2 * solar.area_m2;
+                    showPrice = true;
+                }
                 return {
                     ...solar,
                     id: id,
                     title: `Solar en ${location.ubicacion}`,
                     location: location.ubicacion,
                     type: 'Solar',
+                    price: price,
+                    showPrice: showPrice,
+                    currency: 'USD',
                     image: 'images/s-4.jpg',
                     description: `Solar ubicado en ${location.ubicacion}${solar.area_m2 ? ` con ${solar.area_m2} m²` : ''}.`,
                     gallery: ['images/s-4.jpg', 'images/s-2.jpg', 'images/s-3.jpg'] // Imágenes default
