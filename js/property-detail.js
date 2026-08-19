@@ -139,7 +139,7 @@ class PropertyDetailManager {
                     location: location.ubicacion,
                     type: 'Solar',
                     image: 'images/s-4.jpg',
-                    description: `Solar ubicado en ${location.ubicacion} con ${solar.area_m2} m².`,
+                    description: `Solar ubicado en ${location.ubicacion}${solar.area_m2 ? ` con ${solar.area_m2} m²` : ''}.`,
                     gallery: ['images/s-4.jpg', 'images/s-2.jpg', 'images/s-3.jpg'] // Imágenes default
                 };
             }

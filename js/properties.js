@@ -246,12 +246,13 @@ class PropertiesManager {
 
     createSolarRow(solar) {
         const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
-        const totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' :
+        const areaIsMissing = solar.area_m2 === null || solar.area_m2 === undefined;
+        const totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar || areaIsMissing ? 'CONSULTAR' :
             (solar.area_m2 * solar.precio_usd_m2).toLocaleString();
 
         return `
             <div class="solar_row">
-                <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
+                <div class="col_area">${areaIsMissing ? '-' : (typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString())}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
                 <div class="col_precio">${priceIsConsultar ? 'CONSULTAR' : '$' + solar.precio_usd_m2.toLocaleString()}</div>

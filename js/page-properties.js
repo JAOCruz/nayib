@@ -721,7 +721,7 @@ class PagePropertiesManager {
                 }
 
                 // Area filter
-                const area = typeof solar.area_m2 === 'string' ? 0 : solar.area_m2;
+                const area = typeof solar.area_m2 === 'string' || solar.area_m2 === null || solar.area_m2 === undefined ? 0 : solar.area_m2;
                 if (area < areaMin || area > areaMax) {
                     return false;
                 }
@@ -912,12 +912,12 @@ class PagePropertiesManager {
             // the stored value is the total price
             // We need to calculate the price per m²
             totalPrice = solar.precio_usd_m2;
-            pricePerM2 = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
+            pricePerM2 = typeof solar.area_m2 === 'string' || priceIsConsultar || solar.area_m2 === null || solar.area_m2 === undefined ? 'CONSULTAR' :
                         Math.round(solar.precio_usd_m2 / solar.area_m2);
         } else {
             // For properties with price per m², we need to calculate the total price
             pricePerM2 = priceIsConsultar ? 'CONSULTAR' : solar.precio_usd_m2;
-            totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
+            totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar || solar.area_m2 === null || solar.area_m2 === undefined ? 'CONSULTAR' :
                         (solar.area_m2 * solar.precio_usd_m2);
         }
         
@@ -939,7 +939,7 @@ class PagePropertiesManager {
         
         return `
             <div class="solar_row" onclick="window.location.href='property-detail.html?id=${solarId}&type=solares'" style="cursor: pointer;">
-                <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
+                <div class="col_area">${solar.area_m2 === null || solar.area_m2 === undefined ? '-' : (typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString())}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
                 <div class="col_precio">${priceDisplay}</div>
