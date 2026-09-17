@@ -721,7 +721,7 @@ class PagePropertiesManager {
                 }
 
                 // Area filter
-                const area = typeof solar.area_m2 === 'string' ? 0 : solar.area_m2;
+                const area = typeof solar.area_m2 === 'string' || solar.area_m2 === null || solar.area_m2 === undefined ? 0 : solar.area_m2;
                 if (area < areaMin || area > areaMax) {
                     return false;
                 }
@@ -905,20 +905,26 @@ class PagePropertiesManager {
         
         const priceIsConsultar = this.isConsultar(solar.precio_usd_m2);
         
+        // Si existe un precio total explícito, lo usamos como fuente principal.
+        const hasTotalPrice = typeof solar.precio_total_usd === 'number';
+        const areaIsMissing = solar.area_m2 === null || solar.area_m2 === undefined;
+        const areaIsString = typeof solar.area_m2 === 'string';
+        const canComputeFromArea = !areaIsMissing && !areaIsString;
+
         let pricePerM2, totalPrice;
-        
+
         if (isDominicanPeso || isLikelyTotalPrice) {
-            // For Dominican Peso properties or properties with total prices,
-            // the stored value is the total price
-            // We need to calculate the price per m²
+            // El valor guardado es un precio total (DOP o USD grande)
             totalPrice = solar.precio_usd_m2;
-            pricePerM2 = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
-                        Math.round(solar.precio_usd_m2 / solar.area_m2);
+            pricePerM2 = !canComputeFromArea ? 'CONSULTAR' : Math.round(solar.precio_usd_m2 / solar.area_m2);
+        } else if (hasTotalPrice) {
+            // Precio total explícito (por ejemplo, nave industrial sin área)
+            totalPrice = solar.precio_total_usd;
+            pricePerM2 = !canComputeFromArea ? 'CONSULTAR' : Math.round(solar.precio_total_usd / solar.area_m2);
         } else {
-            // For properties with price per m², we need to calculate the total price
+            // Precio por m²; calculamos el total si tenemos área
             pricePerM2 = priceIsConsultar ? 'CONSULTAR' : solar.precio_usd_m2;
-            totalPrice = typeof solar.area_m2 === 'string' || priceIsConsultar ? 'CONSULTAR' : 
-                        (solar.area_m2 * solar.precio_usd_m2);
+            totalPrice = priceIsConsultar || !canComputeFromArea ? 'CONSULTAR' : (solar.area_m2 * solar.precio_usd_m2);
         }
         
         // Create a custom ID that encodes both the location and the index
@@ -939,7 +945,7 @@ class PagePropertiesManager {
         
         return `
             <div class="solar_row" onclick="window.location.href='property-detail.html?id=${solarId}&type=solares'" style="cursor: pointer;">
-                <div class="col_area">${typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString()}</div>
+                <div class="col_area">${solar.area_m2 === null || solar.area_m2 === undefined ? '-' : (typeof solar.area_m2 === 'string' ? solar.area_m2 : solar.area_m2.toLocaleString())}</div>
                 <div class="col_frente">${solar.frente_m ? solar.frente_m.toLocaleString() : '-'}</div>
                 <div class="col_fondo">${solar.fondo_m ? solar.fondo_m.toLocaleString() : '-'}</div>
                 <div class="col_precio">${priceDisplay}</div>

@@ -7419,6 +7419,65 @@
               ]
             }
           ]
+        },
+        {
+          "id": "prop-terreno-las-terrenas-frente-mar-001",
+          "title": "Terreno Frente al Mar de 70,000 m² en Venta en Las Terrenas, Samaná",
+          "price": 3500000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Las Terrenas, Samaná",
+          "type": "Terreno",
+          "area": "70,000 m²",
+          "image": "/images/propiedades/87/1.jpg",
+          "description": "Excepcional oportunidad para inversionistas y desarrolladores. Amplio terreno con frente de playa de 96 metros, ubicado en uno de los destinos turísticos más exclusivos y de mayor crecimiento de la República Dominicana. Ideal para proyectos hoteleros, residenciales de lujo, villas o condominios turísticos. Precio: US$50.00 por m² (US$3,500,000.00 total).",
+          "features": [
+            "70,000 m² de terreno",
+            "96 metros de frente de playa",
+            "Acceso directo a la playa",
+            "Ideal para hotel, villas o condominio turístico",
+            "Zona de alta plusvalía"
+          ],
+          "status": "Disponible",
+          "badge": "En Venta",
+          "gallery": [
+            "/images/propiedades/87/1.jpg",
+            "/images/propiedades/87/2.jpg",
+            "/images/propiedades/87/3.jpg",
+            "/images/propiedades/87/4.jpg",
+            "/images/propiedades/87/5.jpg",
+            "/images/propiedades/87/6.jpg",
+            "/images/propiedades/87/7.jpg"
+          ]
+        },
+        {
+          "id": "prop-solar-riomar-playa-el-soco-001",
+          "title": "Solar en Venta en Proyecto Riomar, Playa El Soco",
+          "price": 2910000,
+          "showPrice": true,
+          "currency": "DOP",
+          "location": "Proyecto Riomar, Playa El Soco, San Pedro de Macorís",
+          "type": "Solar",
+          "area": "696 m²",
+          "image": "/images/propiedades/88/1.jpg",
+          "description": "Excelente oportunidad de inversión dentro de un proyecto cerrado en una de las zonas con mayor potencial de crecimiento de San Pedro de Macorís. Solar de 696 m² completamente deslindado, ubicado en la entrada del proyecto, a pocos minutos de Playa El Soco. Precio de venta: RD$2,910,000 (equivalente a aproximadamente US$70 por m²).",
+          "features": [
+            "696 m² de terreno",
+            "Proyecto cerrado",
+            "Deslindado",
+            "Ubicado en la entrada del proyecto",
+            "A pocos minutos de Playa El Soco",
+            "Entorno tranquilo y de alta plusvalía"
+          ],
+          "status": "Disponible",
+          "badge": "En Venta",
+          "gallery": [
+            "/images/propiedades/88/1.jpg",
+            "/images/propiedades/88/2.jpg",
+            "/images/propiedades/88/3.jpg",
+            "/images/propiedades/88/4.jpg",
+            "/images/propiedades/88/5.jpg"
+          ]
         }
       ]
     },
@@ -7713,7 +7772,7 @@
               "area_m2": 3717,
               "frente_m": 60,
               "fondo_m": null,
-              "precio_usd_m2": 3900,
+              "precio_usd_m2": 3980.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8022,14 +8081,14 @@
               "area_m2": 26000,
               "frente_m": 100,
               "fondo_m": 260,
-              "precio_usd_m2": 590,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "area_m2": 26000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 580,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8044,7 +8103,7 @@
               "area_m2": 26000,
               "frente_m": 230,
               "fondo_m": null,
-              "precio_usd_m2": 615.38,
+              "precio_usd_m2": 595.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -9194,6 +9253,13 @@
               "precio_usd_m2": 45,
               "precio_total_usd": 89100000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "LAS TERRENAS",
+              "area_m2": 70000.0,
+              "frente_m": 96.0,
+              "precio_usd_m2": 50.0,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -10021,8 +10087,8 @@
               "area_m2": 648,
               "frente_m": 22,
               "fondo_m": null,
-              "precio_usd_m2": 1590,
-              "precio_total_usd": 1030320,
+              "precio_usd_m2": 1450.0,
+              "precio_total_usd": 939600.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -10251,6 +10317,13 @@
               "fondo_m": null,
               "precio_usd_m2": 1.82,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "SAN ANTONIO DE GUERRA",
+              "area_m2": 252000.0,
+              "frente_m": null,
+              "precio_usd_m2": 13.33,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -10295,6 +10368,13 @@
               "frente_m": 39,
               "fondo_m": null,
               "precio_usd_m2": 2600,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "BELLA VISTA SUR",
+              "area_m2": 2016.0,
+              "frente_m": 38.0,
+              "precio_usd_m2": 2000.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -10904,6 +10984,13 @@
               "frente_m": 40,
               "fondo_m": null,
               "precio_usd_m2": 2480.07,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "NACO",
+              "area_m2": 2190.0,
+              "frente_m": 38.0,
+              "precio_usd_m2": 2750.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -11556,6 +11643,20 @@
               "fondo_m": null,
               "precio_usd_m2": 3300,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "PIANTINI",
+              "area_m2": 947.0,
+              "frente_m": 32.0,
+              "precio_usd_m2": 3500.0,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "PIANTINI",
+              "area_m2": 2280.0,
+              "frente_m": 40.0,
+              "precio_usd_m2": 3400.0,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -11684,9 +11785,9 @@
           "solares": [
             {
               "area_m2": 1600,
-              "frente_m": null,
+              "frente_m": 40.0,
               "fondo_m": null,
-              "precio_usd_m2": 1500,
+              "precio_usd_m2": 1250.0,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -12068,6 +12169,13 @@
               "precio_usd_m2": 115,
               "precio_total_usd": 34500000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "PUNTA CAUCEDO",
+              "area_m2": 3000000.0,
+              "frente_m": null,
+              "precio_usd_m2": 100.0,
+              "estatus_legal": "CON TÍTULO"
             }
           ]
         },
@@ -12255,7 +12363,7 @@
               "area_m2": 50000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 110,
+              "precio_usd_m2": 130.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12267,7 +12375,7 @@
               "area_m2": 191000,
               "frente_m": 200,
               "fondo_m": null,
-              "precio_usd_m2": 130,
+              "precio_usd_m2": 138.0,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12394,7 +12502,7 @@
               "area_m2": 731,
               "frente_m": 23,
               "fondo_m": null,
-              "precio_usd_m2": 2139.24,
+              "precio_usd_m2": 2188.78,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12874,6 +12982,315 @@
               "fondo_m": null,
               "precio_usd_m2": 1279.91,
               "precio_total_usd": 1535893.16,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Las Terrenas, Samaná",
+          "solares": [
+            {
+              "area_m2": 70000,
+              "frente_m": 96,
+              "fondo_m": null,
+              "precio_usd_m2": 50,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "Proyecto Riomar, Playa El Soco, San Pedro de Macorís",
+          "solares": [
+            {
+              "area_m2": 696,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 70,
+              "estatus_legal": "DESLINDADO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AUTOPISTA DUARTE KM 14 (NAVE INDUSTRIAL)",
+          "solares": [
+            {
+              "ubicacion": "AUTOPISTA DUARTE KM 14 (NAVE INDUSTRIAL)",
+              "area_m2": null,
+              "frente_m": null,
+              "precio_usd_m2": "A CONSULTAR",
+              "precio_total_usd": 1000000.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AUTOVIA DEL ESTE - JUBEY, BOCA CHICA",
+          "solares": [
+            {
+              "ubicacion": "AUTOVIA DEL ESTE - JUBEY, BOCA CHICA",
+              "area_m2": 350000.0,
+              "frente_m": null,
+              "precio_usd_m2": 38.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. 27 DE FEBRERO (EDIFICIO CORPORATIVO)",
+          "solares": [
+            {
+              "ubicacion": "AV. 27 DE FEBRERO (EDIFICIO CORPORATIVO)",
+              "area_m2": 652.8,
+              "frente_m": null,
+              "precio_usd_m2": 4519.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. CAONABO",
+          "solares": [
+            {
+              "ubicacion": "AV. CAONABO",
+              "area_m2": 528.0,
+              "frente_m": 23.0,
+              "precio_usd_m2": 1483.59,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. CHARLES DE GAULLE",
+          "solares": [
+            {
+              "ubicacion": "AV. CHARLES DE GAULLE",
+              "area_m2": 9000.0,
+              "frente_m": null,
+              "precio_usd_m2": 150.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
+          "solares": [
+            {
+              "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
+              "area_m2": 500.0,
+              "frente_m": null,
+              "precio_usd_m2": 9.0,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
+              "area_m2": 800.0,
+              "frente_m": null,
+              "precio_usd_m2": 9.0,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
+              "area_m2": 1300.0,
+              "frente_m": null,
+              "precio_usd_m2": 9.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+          "solares": [
+            {
+              "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+              "area_m2": 1700.0,
+              "frente_m": null,
+              "precio_usd_m2": 8.5,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+              "area_m2": 2000.0,
+              "frente_m": null,
+              "precio_usd_m2": 8.5,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+              "area_m2": 3000.0,
+              "frente_m": null,
+              "precio_usd_m2": 8.5,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+              "area_m2": 5000.0,
+              "frente_m": null,
+              "precio_usd_m2": 8.5,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "BAJOS DE HAINA (ALQUILER)",
+              "area_m2": 18000.0,
+              "frente_m": null,
+              "precio_usd_m2": 8.5,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "CALLE CARMEN DE MENDOZA",
+          "solares": [
+            {
+              "ubicacion": "CALLE CARMEN DE MENDOZA",
+              "area_m2": 993.65,
+              "frente_m": null,
+              "precio_usd_m2": 1157.35,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "CAP CANA - LAS IGUANAS",
+          "solares": [
+            {
+              "ubicacion": "CAP CANA - LAS IGUANAS",
+              "area_m2": 736.0,
+              "frente_m": null,
+              "precio_usd_m2": 407.61,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "CAP CANA - LAS IGUANAS",
+              "area_m2": 900.0,
+              "frente_m": null,
+              "precio_usd_m2": 388.89,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "CIRCUNVALACION VERON-BAVARO",
+          "solares": [
+            {
+              "ubicacion": "CIRCUNVALACION VERON-BAVARO",
+              "area_m2": 509000.0,
+              "frente_m": 600.0,
+              "precio_usd_m2": 60.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "ENSANCHE PARAISO (ALQUILER)",
+          "solares": [
+            {
+              "ubicacion": "ENSANCHE PARAISO (ALQUILER)",
+              "area_m2": 480.0,
+              "frente_m": null,
+              "precio_usd_m2": 10.0,
+              "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "ubicacion": "ENSANCHE PARAISO (ALQUILER)",
+              "area_m2": 800.0,
+              "frente_m": null,
+              "precio_usd_m2": 7.5,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "HERRERA (ALQUILER)",
+          "solares": [
+            {
+              "ubicacion": "HERRERA (ALQUILER)",
+              "area_m2": 2000.0,
+              "frente_m": null,
+              "precio_usd_m2": 7.45,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "HERRERA (NAVE INDUSTRIAL)",
+          "solares": [
+            {
+              "ubicacion": "HERRERA (NAVE INDUSTRIAL)",
+              "area_m2": 2000.0,
+              "frente_m": null,
+              "precio_usd_m2": 1400.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "JUAN DOLIO - CABAMAR",
+          "solares": [
+            {
+              "ubicacion": "JUAN DOLIO - CABAMAR",
+              "area_m2": 4635.76,
+              "frente_m": null,
+              "precio_usd_m2": "A CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "JUAN DOLIO - VILLAS DEL MAR",
+          "solares": [
+            {
+              "ubicacion": "JUAN DOLIO - VILLAS DEL MAR",
+              "area_m2": 1050.0,
+              "frente_m": null,
+              "precio_usd_m2": 120.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PARAISO (981 M2 EN VENTA)",
+          "solares": [
+            {
+              "ubicacion": "PARAISO (981 M2 EN VENTA)",
+              "area_m2": 981.0,
+              "frente_m": 40.0,
+              "precio_usd_m2": 3300.0,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PUNTA RUCIA",
+          "solares": [
+            {
+              "ubicacion": "PUNTA RUCIA",
+              "area_m2": 32878.6,
+              "frente_m": null,
+              "precio_usd_m2": "A CONSULTAR",
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "RIOMAR - PLAYA EL SOCO",
+          "solares": [
+            {
+              "ubicacion": "RIOMAR - PLAYA EL SOCO",
+              "area_m2": 696.0,
+              "frente_m": null,
+              "precio_usd_m2": 69.68,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "TULUM, MEXICO",
+          "solares": [
+            {
+              "ubicacion": "TULUM, MEXICO",
+              "area_m2": 600.0,
+              "frente_m": null,
+              "precio_usd_m2": 336.63,
               "estatus_legal": "CON TÍTULO"
             }
           ]
