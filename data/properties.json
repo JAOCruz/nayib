@@ -5,6 +5,82 @@
       "description": "Multifamiliares, estudios, Airbnb y terrenos. Oportunidades de inversión verificadas en el mercado dominicano.",
       "properties": [
         {
+          "id": "prop-naco-luxury-001",
+          "title": "Apartamentos de Lujo en Naco",
+          "price": 179000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Naco, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 1,
+          "area": "117 - 140 m²",
+          "image": "/images/instagram/naco-luxury-1.jpg",
+          "description": "🏙️ Apartamentos de lujo en Naco – Entregado en abril 2025. Proyecto residencial moderno en Naco, una zona exclusiva y céntrica de Santo Domingo, cerca de centros comerciales, restaurantes y vías principales. Apartamentos de 1, 2 y 3 habitaciones con áreas desde 117 m² hasta 140 m². Amenidades: piscina, terraza cubierta y descubierta, área de BBQ, gimnasio equipado climatizado, área de juegos para niños, salón lounge multipropósito, 2 ascensores, planta full, seguridad y CCTV, ducto de basura.",
+          "features": [
+            "1, 2 y 3 habitaciones",
+            "117 - 140 m²",
+            "Entregado abril 2025",
+            "Piscina",
+            "Terraza cubierta y descubierta",
+            "Área de BBQ",
+            "Gimnasio equipado climatizado",
+            "Área de juegos para niños",
+            "Salón lounge multipropósito",
+            "2 ascensores",
+            "Planta full",
+            "Seguridad y CCTV",
+            "Ducto de basura",
+            "Zona exclusiva Naco"
+          ],
+          "status": "Listo para entrega",
+          "badge": "Entrega Inmediata",
+          "gallery": [
+            "/images/instagram/naco-luxury-1.jpg"
+          ],
+          "delivery": "Entregado Abril 2025",
+          "payment_plan": {
+            "reservation": "A consultar",
+            "contract": "A consultar",
+            "construction": "Financiamiento disponible",
+            "delivery": "Entregado Abril 2025"
+          },
+          "apartment_types": [
+            {
+              "type": "1 Habitación",
+              "area": "117 m²",
+              "price": "desde 179,000 USD",
+              "features": [
+                "1 habitación",
+                "Terraza",
+                "Gimnasio",
+                "Piscina"
+              ]
+            },
+            {
+              "type": "2 Habitaciones",
+              "area": "A consultar",
+              "price": "desde 260,000 USD",
+              "features": [
+                "2 habitaciones",
+                "Terraza",
+                "Gimnasio",
+                "Piscina"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "140 m²",
+              "price": "desde 307,000 USD",
+              "features": [
+                "3 habitaciones",
+                "Terraza",
+                "Gimnasio",
+                "Piscina"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-anacaona-deluxe-001",
           "title": "Apartamentos Deluxe - Av. Anacaona",
           "price": 2350000,
