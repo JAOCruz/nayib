@@ -5,6 +5,153 @@
       "description": "Multifamiliares, estudios, Airbnb y terrenos. Oportunidades de inversión verificadas en el mercado dominicano.",
       "properties": [
         {
+          "id": "prop-anacaona-deluxe-001",
+          "title": "Apartamentos Deluxe - Av. Anacaona",
+          "price": 2350000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Av. Anacaona, Sector Cacicazgos, Santo Domingo",
+          "type": "Apartamentos de Lujo",
+          "units": 1,
+          "area": "560 - 1120 m²",
+          "image": "/images/instagram/anacaona-1.jpg",
+          "description": "VIVIR EN LAS ALTURAS, CON PRIVACIDAD ABSOLUTA. Torre de apartamentos deluxe en Av. Anacaona, Sector Cacicazgos, frente al Parque Mirador Sur. Un apartamento por nivel de 560 m², con 4 habitaciones cada una con baño y walk-in closet, estudio, family room, terraza, cocina fría/caliente, área de servicio, 4 parqueos techados y lockers. Penthouse dúplex de 1,120 m² con terraza privada y piscina, vistas 360° de la ciudad y el mar. Amenidades: lobby de lujo, piscina y terrazas sociales, lounge & bar, gimnasio, spa, salón multipropósito, área de niños, sala de entretenimiento y seguridad 24/7. Entrega estimada: 2029.",
+          "features": [
+            "Un apartamento por nivel",
+            "560 m²",
+            "4 habitaciones con baño y walk-in closet",
+            "Estudio",
+            "Family room",
+            "Terraza",
+            "Cocina fría/caliente",
+            "Área de servicio",
+            "4 parqueos techados",
+            "Lockers",
+            "Penthouse dúplex 1,120 m²",
+            "Terraza privada con piscina",
+            "Vistas 360° ciudad/mar",
+            "Lobby de lujo",
+            "Piscina y terrazas sociales",
+            "Lounge & bar",
+            "Gimnasio",
+            "Spa",
+            "Salón multipropósito",
+            "Área de niños",
+            "Sala de entretenimiento",
+            "Seguridad 24/7",
+            "Frente a Parque Mirador Sur"
+          ],
+          "status": "En construcción",
+          "badge": "Entrega 2029",
+          "gallery": [
+            "/images/instagram/anacaona-1.jpg"
+          ],
+          "delivery": "2029",
+          "payment_plan": {
+            "reservation": "A consultar",
+            "contract": "A consultar",
+            "construction": "Plan de financiamiento disponible",
+            "delivery": "2029"
+          },
+          "apartment_types": [
+            {
+              "type": "Apartamento Deluxe",
+              "area": "560 m²",
+              "price": "2,350,000 - 2,580,000 USD",
+              "features": [
+                "4 habitaciones con baño y walk-in closet",
+                "Estudio",
+                "Family room",
+                "Terraza",
+                "Cocina fría/caliente",
+                "Área de servicio",
+                "4 parqueos techados",
+                "Lockers"
+              ]
+            },
+            {
+              "type": "Penthouse Dúplex",
+              "area": "1,120 m²",
+              "price": "4,550,000 USD",
+              "features": [
+                "Terraza privada con piscina",
+                "Vistas 360° ciudad/mar",
+                "4 habitaciones con baño y walk-in closet",
+                "Estudio",
+                "Family room",
+                "Área de servicio",
+                "4 parqueos techados"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prop-ensanche-naco-001",
+          "title": "Vive o Invierte en el Corazón de Naco",
+          "price": 253000,
+          "showPrice": true,
+          "currency": "USD",
+          "location": "Ensanche Naco, Santo Domingo",
+          "type": "Apartamentos",
+          "units": 1,
+          "area": "90 - 195 m²",
+          "image": "/images/instagram/naco-1.jpg",
+          "description": "✨ Vive o invierte en el corazón de Naco ✨. Modernos apartamentos de 2 y 3 habitaciones con áreas desde 90 m² hasta 195 m², balcones, family rooms y 2-3 parqueos. El proyecto cuenta con lobby climatizado amoblado, piscina en rooftop con terraza y bar, gimnasio completamente equipado, salón multipropósito, área de BBQ, área de niños, seguridad, planta de emergencia y tres ascensores. Ubicado en Ensanche Naco, cerca de Av. Tiradentes y Rafael Augusto Sánchez. Precios desde USD 253,000. Entrega estimada: diciembre 2026.",
+          "features": [
+            "2 y 3 habitaciones",
+            "Balcones",
+            "Family room",
+            "2-3 parqueos",
+            "Lobby climatizado amoblado",
+            "Piscina en rooftop",
+            "Terraza y bar",
+            "Gimnasio equipado",
+            "Salón multipropósito",
+            "Área de BBQ",
+            "Área de niños",
+            "Seguridad",
+            "Planta de emergencia",
+            "Tres ascensores",
+            "Cerca de Av. Tiradentes"
+          ],
+          "status": "En construcción",
+          "badge": "Entrega Diciembre 2026",
+          "gallery": [
+            "/images/instagram/naco-1.jpg"
+          ],
+          "delivery": "Diciembre 2026",
+          "payment_plan": {
+            "reservation": "A consultar",
+            "contract": "A consultar",
+            "construction": "Plan de financiamiento disponible",
+            "delivery": "Diciembre 2026"
+          },
+          "apartment_types": [
+            {
+              "type": "2 Habitaciones",
+              "area": "90 - 120 m²",
+              "price": "desde 253,000 USD",
+              "features": [
+                "2 habitaciones",
+                "Balcones",
+                "Family room",
+                "2-3 parqueos"
+              ]
+            },
+            {
+              "type": "3 Habitaciones",
+              "area": "120 - 195 m²",
+              "price": "A consultar",
+              "features": [
+                "3 habitaciones",
+                "Balcones",
+                "Family room",
+                "2-3 parqueos"
+              ]
+            }
+          ]
+        },
+        {
           "id": "prop-santiago-001",
           "title": "Apartamentos de Alto Estándar en Santiago",
           "price": 230000,
