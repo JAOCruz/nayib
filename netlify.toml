@@ -2,6 +2,16 @@
   publish = "."
   command = ""
 
+# Panel de administración (/admin): funciones en netlify/functions
+[functions]
+  directory = "netlify/functions"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-cache"
+
 # Security headers
 [[headers]]
   for = "/*"

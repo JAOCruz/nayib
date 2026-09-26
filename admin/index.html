@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel · Lowest Wessin</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <img src="/images/logo-mobile.png" alt="LOWESS" class="logo">
+    <div class="topbar-right" id="userBox" hidden>
+      <span id="userName"></span>
+      <button class="btn-link" id="logoutBtn">Salir</button>
+    </div>
+  </header>
+
+  <!-- Login -->
+  <main id="loginView" class="view narrow" hidden>
+    <form id="loginForm" class="card">
+      <h1>Panel de propiedades</h1>
+      <label>Usuario<input name="username" autocomplete="username" required></label>
+      <label>Contraseña<input name="password" type="password" autocomplete="current-password" required></label>
+      <button class="btn btn-primary" type="submit">Entrar</button>
+      <p class="error" id="loginError"></p>
+    </form>
+  </main>
+
+  <!-- Lista -->
+  <main id="listView" class="view" hidden>
+    <div class="toolbar">
+      <div class="tabs" id="categoryTabs"></div>
+      <button class="btn btn-primary" id="newBtn">+ Nueva propiedad</button>
+    </div>
+    <input id="searchInput" class="search" type="search" placeholder="Buscar por título, ubicación o ID…">
+    <div id="propertyList" class="property-list"></div>
+  </main>
+
+  <!-- Editor -->
+  <main id="editorView" class="view" hidden>
+    <div class="toolbar">
+      <button class="btn-link" id="backBtn">← Volver</button>
+      <h2 id="editorTitle">Nueva propiedad</h2>
+    </div>
+
+    <section class="card" id="igBox">
+      <h3>Importar desde Instagram</h3>
+      <p class="hint">Pega el link del post: se traen todas las fotos del carrusel y se llenan los campos con la descripción. Revisa todo antes de publicar.</p>
+      <div class="row">
+        <input id="igUrl" type="url" placeholder="https://www.instagram.com/p/…">
+        <button class="btn" id="igBtn" type="button">Importar</button>
+      </div>
+      <p class="status" id="igStatus"></p>
+    </section>
+
+    <form id="editorForm" class="card" novalidate>
+      <h3>Fotos</h3>
+      <p class="hint">La primera foto es la portada. Usa las flechas para cambiar el orden.</p>
+      <div id="photoGrid" class="photo-grid"></div>
+      <label class="btn file-btn">+ Agregar fotos
+        <input id="photoInput" type="file" accept="image/*" multiple hidden>
+      </label>
+
+      <h3>Datos principales</h3>
+      <div class="grid">
+        <label class="span-2">Título *<input name="title" required></label>
+        <label>Categoría
+          <select name="category">
+            <option value="propiedades">Propiedades</option>
+            <option value="oficinas">Oficinas</option>
+          </select>
+        </label>
+        <label>Tipo<input name="type" list="typeList" placeholder="Apartamento, Villa, Solar…"></label>
+        <label>Precio *<input name="price" type="number" min="0" step="1" inputmode="numeric"></label>
+        <label>Moneda
+          <select name="currency">
+            <option>USD</option>
+            <option>DOP</option>
+            <option>USD/mes</option>
+          </select>
+        </label>
+        <label class="check"><input name="showPrice" type="checkbox" checked> Mostrar precio (si no, dice "A Consultar")</label>
+        <label class="span-2">Ubicación<input name="location" list="locationList" placeholder="Naco, Santo Domingo"></label>
+        <label>Área<input name="area" placeholder="117 - 140 m²"></label>
+        <label>Unidades<input name="units" type="number" min="0" step="1"></label>
+        <label>Estado<input name="status" list="statusList" placeholder="Disponible"></label>
+        <label>Etiqueta (badge)<input name="badge" list="badgeList" placeholder="Entrega Inmediata"></label>
+        <label class="span-2">Entrega<input name="delivery" placeholder="Diciembre 2027"></label>
+        <label class="check span-2"><input name="featured" type="checkbox"> Destacar en la página de inicio</label>
+      </div>
+
+      <h3>Descripción</h3>
+      <textarea name="description" rows="7"></textarea>
+
+      <h3>Características <span class="hint">(una por línea)</span></h3>
+      <textarea name="features" rows="7" placeholder="3 habitaciones&#10;2 baños&#10;Piscina"></textarea>
+
+      <details>
+        <summary>Plan de pago (opcional)</summary>
+        <div class="grid">
+          <label>Reserva<input name="pp_reservation" placeholder="500 USD"></label>
+          <label>Contrato<input name="pp_contract" placeholder="10%"></label>
+          <label>Durante construcción<input name="pp_construction" placeholder="20%"></label>
+          <label>Entrega<input name="pp_delivery" placeholder="70%"></label>
+        </div>
+      </details>
+
+      <p class="error" id="editorError"></p>
+      <div class="actions">
+        <button class="btn" type="button" id="cancelBtn">Cancelar</button>
+        <button class="btn btn-primary" type="submit" id="publishBtn">Publicar</button>
+      </div>
+      <p class="status" id="publishStatus"></p>
+    </form>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <datalist id="typeList"></datalist>
+  <datalist id="locationList"></datalist>
+  <datalist id="statusList"></datalist>
+  <datalist id="badgeList"></datalist>
+
+  <script src="/admin/parse-caption.js?v=1"></script>
+  <script src="/admin/admin.js?v=1"></script>
+</body>
+</html>
