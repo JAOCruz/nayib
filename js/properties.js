@@ -134,8 +134,8 @@ class PropertiesManager {
         card.className = 'property_card';
 
         card.innerHTML = `
-            <div class="img-box">
-                <img src="${property.image}" alt="${property.title}">
+            <div class="img-box img-fit" style="background-image: url('${property.thumb || property.image}')">
+                <img src="${property.thumb || property.image}" alt="${property.title}" loading="lazy">
                 <div class="badge">
                     <span>${property.badge}</span>
                 </div>

@@ -814,9 +814,9 @@ class PagePropertiesManager {
         return `
             <div class="property_item">
                 ${hasImage ? `
-                <div class="img-box">
+                <div class="img-box img-fit" style="background-image: url('${property.thumb || property.image}')">
                     <a href="property-detail.html?id=${property.id}&type=${this.currentPage}">
-                        <img src="${property.image}" alt="${property.title}">
+                        <img src="${property.thumb || property.image}" alt="${property.title}" loading="lazy">
                         <div class="badge">
                             <span>${property.badge}</span>
                         </div>

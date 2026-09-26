@@ -214,7 +214,7 @@
             const sold = p.status === 'Vendido';
             return `
         <div class="prop-row" data-id="${esc(p.id)}">
-          <img src="${esc(p.image || (p.gallery || [])[0] || '')}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+          <img src="${esc(p.thumb || p.image || (p.gallery || [])[0] || '')}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
           <div>
             <div class="prop-title">${esc(p.title)}${sold ? '<span class="pill sold">Vendido</span>' : ''}${
               isFeatured(p.id) ? '<span class="pill star">★ Destacada</span>' : ''
@@ -520,6 +520,8 @@
 
       property.gallery = state.photos.map((p) => (p.kind === 'existing' ? p.src : `/${p.path}`));
       property.image = property.gallery[0];
+      // La miniatura optimizada solo corresponde a la portada original
+      if (property.image !== state.editing.property.image) delete property.thumb;
 
       status.textContent = 'Publicando…';
       await api('admin-save', {

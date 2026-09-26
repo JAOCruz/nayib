@@ -1,0 +1,28 @@
+/* Foto completa en las tarjetas: la imagen se ve entera (sin recortar) y el espacio
+   sobrante se rellena con la misma foto difuminada. Útil para fotos cuadradas de Instagram. */
+.img-box.img-fit {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box.img-fit::before {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  background: inherit;
+  filter: blur(16px) brightness(0.85);
+  z-index: 0;
+}
+
+.img-box.img-fit img {
+  position: relative;
+  z-index: 1;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+.img-box.img-fit .badge {
+  z-index: 2;
+}
