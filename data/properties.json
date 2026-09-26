@@ -35,7 +35,21 @@
           "status": "Listo para entrega",
           "badge": "Entrega Inmediata",
           "gallery": [
-            "/images/instagram/naco-luxury-1.jpg"
+            "/images/instagram/naco-luxury-1.jpg",
+            "/images/instagram/naco-luxury-2.jpg",
+            "/images/instagram/naco-luxury-3.jpg",
+            "/images/instagram/naco-luxury-4.jpg",
+            "/images/instagram/naco-luxury-5.jpg",
+            "/images/instagram/naco-luxury-6.jpg",
+            "/images/instagram/naco-luxury-7.jpg",
+            "/images/instagram/naco-luxury-8.jpg",
+            "/images/instagram/naco-luxury-9.jpg",
+            "/images/instagram/naco-luxury-10.jpg",
+            "/images/instagram/naco-luxury-11.jpg",
+            "/images/instagram/naco-luxury-12.jpg",
+            "/images/instagram/naco-luxury-13.jpg",
+            "/images/instagram/naco-luxury-14.jpg",
+            "/images/instagram/naco-luxury-15.jpg"
           ],
           "delivery": "Entregado Abril 2025",
           "payment_plan": {
@@ -120,7 +134,21 @@
           "status": "En construcción",
           "badge": "Entrega 2029",
           "gallery": [
-            "/images/instagram/anacaona-1.jpg"
+            "/images/instagram/anacaona-1.jpg",
+            "/images/instagram/anacaona-2.jpg",
+            "/images/instagram/anacaona-3.jpg",
+            "/images/instagram/anacaona-4.jpg",
+            "/images/instagram/anacaona-5.jpg",
+            "/images/instagram/anacaona-6.jpg",
+            "/images/instagram/anacaona-7.jpg",
+            "/images/instagram/anacaona-8.jpg",
+            "/images/instagram/anacaona-9.jpg",
+            "/images/instagram/anacaona-10.jpg",
+            "/images/instagram/anacaona-11.jpg",
+            "/images/instagram/anacaona-12.jpg",
+            "/images/instagram/anacaona-13.jpg",
+            "/images/instagram/anacaona-14.jpg",
+            "/images/instagram/anacaona-15.jpg"
           ],
           "delivery": "2029",
           "payment_plan": {
@@ -193,7 +221,16 @@
           "status": "En construcción",
           "badge": "Entrega Diciembre 2026",
           "gallery": [
-            "/images/instagram/naco-1.jpg"
+            "/images/instagram/naco-1.jpg",
+            "/images/instagram/naco-2.jpg",
+            "/images/instagram/naco-3.jpg",
+            "/images/instagram/naco-4.jpg",
+            "/images/instagram/naco-5.jpg",
+            "/images/instagram/naco-6.jpg",
+            "/images/instagram/naco-7.jpg",
+            "/images/instagram/naco-8.jpg",
+            "/images/instagram/naco-9.jpg",
+            "/images/instagram/naco-10.jpg"
           ],
           "delivery": "Diciembre 2026",
           "payment_plan": {
