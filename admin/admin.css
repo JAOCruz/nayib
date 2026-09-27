@@ -165,3 +165,18 @@ summary { cursor: pointer; font-weight: 600; color: var(--navy); margin-bottom: 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 20;
 }
+
+/* Terrenos */
+.toolbar-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.row.wrap { flex-wrap: wrap; }
+.group { background: var(--card); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
+.group-title { font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.table-wrap { overflow-x: auto; }
+table.lots { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.lots th { text-align: left; color: var(--muted); font-weight: 500; padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+table.lots td { padding: 6px 8px; border-bottom: 1px solid #eef1f4; white-space: nowrap; }
+table.lots td.actions-cell { text-align: right; }
+table.lots tr.dupe { color: var(--muted); }
+table.lots tr.dupe td:nth-child(3)::after { content: ' · ya está en la web'; font-size: 11px; }
+.pill.warn { background: #fff4d6; color: #8a6100; }
+.more { text-align: center; margin: 12px 0; }

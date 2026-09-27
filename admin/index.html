@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Panel · Lowest Wessin</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/admin/admin.css?v=1">
+  <link rel="stylesheet" href="/admin/admin.css?v=2">
 </head>
 <body>
   <header class="topbar">
@@ -32,7 +32,11 @@
   <main id="listView" class="view" hidden>
     <div class="toolbar">
       <div class="tabs" id="categoryTabs"></div>
-      <button class="btn btn-primary" id="newBtn">+ Nueva propiedad</button>
+      <div class="toolbar-actions">
+        <button class="btn btn-primary" id="newBtn">+ Nueva propiedad</button>
+        <button class="btn" id="importSolaresBtn" hidden>Importar Excel</button>
+        <button class="btn btn-primary" id="newSolarBtn" hidden>+ Agregar terreno</button>
+      </div>
     </div>
     <input id="searchInput" class="search" type="search" placeholder="Buscar por título, ubicación o ID…">
     <div id="propertyList" class="property-list"></div>
@@ -116,14 +120,82 @@
     </form>
   </main>
 
+
+  <!-- Terreno individual -->
+  <main id="solarView" class="view" hidden>
+    <div class="toolbar">
+      <button class="btn-link" data-back>← Volver</button>
+      <h2 id="solarTitle">Agregar terreno</h2>
+    </div>
+    <form id="solarForm" class="card" novalidate>
+      <div class="grid">
+        <label class="span-2">Ubicación *<input name="ubicacion" list="ubicacionList" required placeholder="Ej. PUNTA CANA - UVERO ALTO"></label>
+        <p class="hint span-2">Si la ubicación ya existe, el terreno se agrega a ese grupo.</p>
+        <label>Metraje (m²)<input name="area_m2" inputmode="decimal" placeholder="1500"></label>
+        <label>Estatus legal<input name="estatus_legal" list="estatusList" value="CON TÍTULO"></label>
+        <label>Frente (m)<input name="frente_m" inputmode="decimal" placeholder="Opcional"></label>
+        <label>Fondo (m)<input name="fondo_m" inputmode="decimal" placeholder="Opcional"></label>
+        <label>Precio por m² (US$)<input name="precio_usd_m2" inputmode="decimal"></label>
+        <label>Precio total (US$)<input name="precio_total_usd" inputmode="decimal"></label>
+        <label class="check span-2"><input name="consultar" type="checkbox"> Precio "A consultar"</label>
+        <p class="hint span-2">Llena el precio por m² o el total: el otro se calcula con el metraje.</p>
+      </div>
+      <p class="error" id="solarError"></p>
+      <div class="actions">
+        <button class="btn" type="button" data-back>Cancelar</button>
+        <button class="btn btn-primary" type="submit" id="solarSaveBtn">Publicar</button>
+      </div>
+    </form>
+  </main>
+
+  <!-- Importar Excel de terrenos -->
+  <main id="importView" class="view" hidden>
+    <div class="toolbar">
+      <button class="btn-link" data-back>← Volver</button>
+      <h2>Importar terrenos desde Excel</h2>
+    </div>
+    <section class="card">
+      <p class="hint">Sube el Excel de terrenos (mismo formato que "Solares AGOSTO"): una fila por terreno con las columnas
+        <b>LOCALIZACION</b>, <b>METRAJE (M2)</b>, <b>FRENTE (M)</b>, <b>FONDO (M)</b> (opcional), <b>PRECIO POR M2 ($USD)</b>,
+        <b>PRECIO TOTAL ($USD)</b> y <b>ESTATUS LEGAL</b>. Las filas del pie (tasa del dólar, contacto) se ignoran.</p>
+      <div class="row wrap">
+        <label class="btn file-btn">Elegir archivo (.xlsx, .xls, .csv)
+          <input id="excelInput" type="file" accept=".xlsx,.xls,.csv" hidden>
+        </label>
+        <button class="btn" type="button" id="templateBtn">Descargar plantilla</button>
+      </div>
+      <p class="status" id="importStatus"></p>
+    </section>
+    <section class="card" id="importPreview" hidden>
+      <div class="toolbar">
+        <h3 id="importSummary"></h3>
+        <label class="check"><input type="checkbox" id="showDupes"> Mostrar repetidos</label>
+      </div>
+      <div class="table-wrap">
+        <table class="lots">
+          <thead><tr><th></th><th>Fila</th><th>Ubicación</th><th>Metraje</th><th>Frente</th><th>Fondo</th><th>US$/m²</th><th>Total US$</th><th>Estatus</th><th></th></tr></thead>
+          <tbody id="importRows"></tbody>
+        </table>
+      </div>
+      <p class="error" id="importError"></p>
+      <div class="actions">
+        <button class="btn btn-primary" type="button" id="importPublishBtn">Publicar seleccionados</button>
+      </div>
+    </section>
+  </main>
+
   <div id="toast" class="toast" hidden></div>
 
   <datalist id="typeList"></datalist>
   <datalist id="locationList"></datalist>
   <datalist id="statusList"></datalist>
   <datalist id="badgeList"></datalist>
+  <datalist id="ubicacionList"></datalist>
+  <datalist id="estatusList"></datalist>
 
   <script src="/admin/parse-caption.js?v=1"></script>
-  <script src="/admin/admin.js?v=2"></script>
+  <script src="/admin/solares-import.js?v=1"></script>
+  <script src="/admin/admin.js?v=3"></script>
+  <script src="/admin/solares.js?v=1"></script>
 </body>
 </html>

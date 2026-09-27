@@ -33,7 +33,7 @@
   }
 
   function show(view) {
-    ['loginView', 'listView', 'editorView'].forEach((v) => ($(v).hidden = v !== view));
+    ['loginView', 'listView', 'editorView', 'solarView', 'importView'].forEach((v) => ($(v).hidden = v !== view));
     $('userBox').hidden = view === 'loginView';
     window.scrollTo(0, 0);
   }
@@ -196,12 +196,22 @@
 
   function renderList() {
     const cats = ['propiedades', 'oficinas'];
-    $('categoryTabs').innerHTML = cats
-      .map((c) => {
-        const n = state.data.categories[c]?.properties.length || 0;
-        return `<button class="tab ${c === state.category ? 'active' : ''}" data-cat="${c}">${esc(state.data.categories[c]?.name || c)} (${n})</button>`;
-      })
-      .join('');
+    const solaresCount = (state.data.categories.solares?.data || []).reduce((n, g) => n + g.solares.length, 0);
+    $('categoryTabs').innerHTML =
+      cats
+        .map((c) => {
+          const n = state.data.categories[c]?.properties.length || 0;
+          return `<button class="tab ${c === state.category ? 'active' : ''}" data-cat="${c}">${esc(state.data.categories[c]?.name || c)} (${n})</button>`;
+        })
+        .join('') +
+      `<button class="tab ${state.category === 'solares' ? 'active' : ''}" data-cat="solares">Terrenos (${solaresCount})</button>`;
+
+    const isSolares = state.category === 'solares';
+    $('newBtn').hidden = isSolares;
+    $('newSolarBtn').hidden = !isSolares;
+    $('importSolaresBtn').hidden = !isSolares;
+    $('searchInput').placeholder = isSolares ? 'Buscar terreno por ubicación…' : 'Buscar por título, ubicación o ID…';
+    if (isSolares) return window.Solares.renderList($('propertyList'), state.search);
 
     const q = state.search.trim().toLowerCase();
     const list = (state.data.categories[state.category]?.properties || []).filter(
@@ -570,6 +580,9 @@
     }
   });
   form.addEventListener('submit', publish);
+
+  // Lo que usa el módulo de terrenos (solares.js)
+  window.AdminApp = { state, api, toast, show, esc, loadData, renderList };
 
   // ---------- inicio ----------
 
