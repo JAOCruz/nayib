@@ -1,6 +1,6 @@
 // Sube una foto (ya redimensionada en el navegador) como blob de git; se incluye en el commit al guardar.
 import { requireUser, json } from './_lib/auth.mjs';
-import { createBlob } from './_lib/github.mjs';
+import { createBlob, explainGitHubError } from './_lib/github.mjs';
 
 const MAX_BYTES = 4 * 1024 * 1024;
 
@@ -18,6 +18,6 @@ export default async (req) => {
     return json({ sha: await createBlob(match[1]) });
   } catch (e) {
     console.error(e);
-    return json({ error: 'No se pudo subir la foto a GitHub.' }, 502);
+    return json({ error: explainGitHubError(e, 'No se pudo subir la foto a GitHub.') }, 502);
   }
 };

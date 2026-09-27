@@ -92,3 +92,15 @@ export async function commitData({ mutate, files = [], message, author }) {
     }
   }
 }
+
+// Mensaje entendible para el panel según la respuesta de GitHub (sin exponer el token)
+export function explainGitHubError(e, fallback) {
+  const text = String(e?.message || '');
+  if (e?.status === 401 || /Bad credentials/i.test(text)) return 'GitHub rechazó el token (GITHUB_TOKEN inválido o vencido).';
+  if (e?.status === 403 && /not accessible by personal access token/i.test(text)) {
+    return 'El token de GitHub no tiene permiso de escritura: dale "Contents: Read and write" sobre JAOCruz/nayib.';
+  }
+  if (e?.status === 404) return 'El token de GitHub no tiene acceso al repositorio JAOCruz/nayib (revisa "Repository access").';
+  if (/GITHUB_TOKEN no configurado/.test(text)) return 'Falta configurar GITHUB_TOKEN en Netlify.';
+  return `${fallback} (GitHub ${e?.status || '?'})`;
+}

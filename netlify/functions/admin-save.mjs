@@ -1,6 +1,6 @@
 // Crea, edita o elimina una propiedad y lo publica con un commit en la rama de producción.
 import { requireUser, json } from './_lib/auth.mjs';
-import { commitData } from './_lib/github.mjs';
+import { commitData, explainGitHubError } from './_lib/github.mjs';
 
 const CATEGORIES = ['propiedades', 'oficinas'];
 const ID_RE = /^[a-z0-9][a-z0-9-]{2,80}$/;
@@ -90,6 +90,6 @@ export default async (req) => {
     return json({ error: 'Acción no válida' }, 400);
   } catch (e) {
     console.error(e);
-    return json({ error: 'No se pudo guardar en GitHub. Intenta de nuevo.' }, 502);
+    return json({ error: explainGitHubError(e, 'No se pudo guardar en GitHub. Intenta de nuevo.') }, 502);
   }
 };
