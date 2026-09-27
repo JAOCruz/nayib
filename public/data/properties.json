@@ -5,6 +5,50 @@
       "description": "Multifamiliares, estudios, Airbnb y terrenos. Oportunidades de inversión verificadas en el mercado dominicano.",
       "properties": [
         {
+          "currency": "USD",
+          "showPrice": true,
+          "status": "En construcción",
+          "features": [
+            "Lobby de lujo y sala de espera",
+            "Piscina",
+            "Lounge con bar integrado",
+            "Gimnasio equipado",
+            "Área infantil",
+            "Salón de actividades",
+            "BBQ",
+            "2 ascensores de lujo + ascensor de servicio",
+            "Seguridad y circuito cerrado 24/7",
+            "Planta eléctrica full",
+            "Gas común",
+            "Parqueos adicionales disponibles",
+            "Pisos en mármol importado",
+            "Cocinas modulares importadas",
+            "Puertas importadas",
+            "Ventanales y puertas corredizas",
+            "Preinstalación de A/C",
+            "Calentador de agua a gas"
+          ],
+          "gallery": [
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-1.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-2.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-3.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-4.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-5.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-6.jpg",
+            "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-7.jpg"
+          ],
+          "id": "prop-proyecto-residencial-en-los-cacicazgos-dldf8",
+          "title": "Proyecto Residencial en Los Cacicazgos",
+          "price": 1010000,
+          "location": "Los Cacicazgos, Santo Domingo",
+          "type": "Apartamentos",
+          "area": "295 - 302 m²",
+          "description": "EXCLUSIVO PROYECTO RESIDENCIAL EN LOS CACICAZGOS Ubicado en el sector Los Cacicazgos, en una de las zonas más exclusivas y cotizadas de Santo Domingo. Proyecto moderno de 11 niveles con solo 2 apartamentos por piso, diseñado para quienes buscan privacidad, amplitud y lujo.",
+          "badge": "Los Cacicazgos",
+          "delivery": "Junio 2029",
+          "image": "/images/panel/prop-proyecto-residencial-en-los-cacicazgos-dldf8/mukdldf9-1.jpg"
+        },
+        {
           "id": "prop-naco-luxury-001",
           "title": "Apartamentos de Lujo en Naco",
           "price": 179000,
@@ -8131,7 +8175,7 @@
               "area_m2": 3717,
               "frente_m": 60,
               "fondo_m": null,
-              "precio_usd_m2": 3980.0,
+              "precio_usd_m2": 3980,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8440,14 +8484,14 @@
               "area_m2": 26000,
               "frente_m": 100,
               "fondo_m": 260,
-              "precio_usd_m2": 595.0,
+              "precio_usd_m2": 595,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "area_m2": 26000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 595.0,
+              "precio_usd_m2": 595,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -8462,7 +8506,7 @@
               "area_m2": 26000,
               "frente_m": 230,
               "fondo_m": null,
-              "precio_usd_m2": 595.0,
+              "precio_usd_m2": 595,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -9615,9 +9659,9 @@
             },
             {
               "ubicacion": "LAS TERRENAS",
-              "area_m2": 70000.0,
-              "frente_m": 96.0,
-              "precio_usd_m2": 50.0,
+              "area_m2": 70000,
+              "frente_m": 96,
+              "precio_usd_m2": 50,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -10446,8 +10490,8 @@
               "area_m2": 648,
               "frente_m": 22,
               "fondo_m": null,
-              "precio_usd_m2": 1450.0,
-              "precio_total_usd": 939600.0,
+              "precio_usd_m2": 1450,
+              "precio_total_usd": 939600,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -10679,7 +10723,7 @@
             },
             {
               "ubicacion": "SAN ANTONIO DE GUERRA",
-              "area_m2": 252000.0,
+              "area_m2": 252000,
               "frente_m": null,
               "precio_usd_m2": 13.33,
               "estatus_legal": "CON TÍTULO"
@@ -10731,9 +10775,9 @@
             },
             {
               "ubicacion": "BELLA VISTA SUR",
-              "area_m2": 2016.0,
-              "frente_m": 38.0,
-              "precio_usd_m2": 2000.0,
+              "area_m2": 2016,
+              "frente_m": 38,
+              "precio_usd_m2": 2000,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -11347,9 +11391,9 @@
             },
             {
               "ubicacion": "NACO",
-              "area_m2": 2190.0,
-              "frente_m": 38.0,
-              "precio_usd_m2": 2750.0,
+              "area_m2": 2190,
+              "frente_m": 38,
+              "precio_usd_m2": 2750,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12005,16 +12049,16 @@
             },
             {
               "ubicacion": "PIANTINI",
-              "area_m2": 947.0,
-              "frente_m": 32.0,
-              "precio_usd_m2": 3500.0,
+              "area_m2": 947,
+              "frente_m": 32,
+              "precio_usd_m2": 3500,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "PIANTINI",
-              "area_m2": 2280.0,
-              "frente_m": 40.0,
-              "precio_usd_m2": 3400.0,
+              "area_m2": 2280,
+              "frente_m": 40,
+              "precio_usd_m2": 3400,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12144,9 +12188,9 @@
           "solares": [
             {
               "area_m2": 1600,
-              "frente_m": 40.0,
+              "frente_m": 40,
               "fondo_m": null,
-              "precio_usd_m2": 1250.0,
+              "precio_usd_m2": 1250,
               "estatus_legal": "CON TÍTULO"
             },
             {
@@ -12531,9 +12575,9 @@
             },
             {
               "ubicacion": "PUNTA CAUCEDO",
-              "area_m2": 3000000.0,
+              "area_m2": 3000000,
               "frente_m": null,
-              "precio_usd_m2": 100.0,
+              "precio_usd_m2": 100,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12722,7 +12766,7 @@
               "area_m2": 50000,
               "frente_m": null,
               "fondo_m": null,
-              "precio_usd_m2": 130.0,
+              "precio_usd_m2": 130,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -12734,7 +12778,7 @@
               "area_m2": 191000,
               "frente_m": 200,
               "fondo_m": null,
-              "precio_usd_m2": 138.0,
+              "precio_usd_m2": 138,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13377,7 +13421,7 @@
               "area_m2": null,
               "frente_m": null,
               "precio_usd_m2": "A CONSULTAR",
-              "precio_total_usd": 1000000.0,
+              "precio_total_usd": 1000000,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13387,9 +13431,9 @@
           "solares": [
             {
               "ubicacion": "AUTOVIA DEL ESTE - JUBEY, BOCA CHICA",
-              "area_m2": 350000.0,
+              "area_m2": 350000,
               "frente_m": null,
-              "precio_usd_m2": 38.0,
+              "precio_usd_m2": 38,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13401,7 +13445,7 @@
               "ubicacion": "AV. 27 DE FEBRERO (EDIFICIO CORPORATIVO)",
               "area_m2": 652.8,
               "frente_m": null,
-              "precio_usd_m2": 4519.0,
+              "precio_usd_m2": 4519,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13411,8 +13455,8 @@
           "solares": [
             {
               "ubicacion": "AV. CAONABO",
-              "area_m2": 528.0,
-              "frente_m": 23.0,
+              "area_m2": 528,
+              "frente_m": 23,
               "precio_usd_m2": 1483.59,
               "estatus_legal": "CON TÍTULO"
             }
@@ -13423,9 +13467,9 @@
           "solares": [
             {
               "ubicacion": "AV. CHARLES DE GAULLE",
-              "area_m2": 9000.0,
+              "area_m2": 9000,
               "frente_m": null,
-              "precio_usd_m2": 150.0,
+              "precio_usd_m2": 150,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13435,23 +13479,23 @@
           "solares": [
             {
               "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
-              "area_m2": 500.0,
+              "area_m2": 500,
               "frente_m": null,
-              "precio_usd_m2": 9.0,
+              "precio_usd_m2": 9,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
-              "area_m2": 800.0,
+              "area_m2": 800,
               "frente_m": null,
-              "precio_usd_m2": 9.0,
+              "precio_usd_m2": 9,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "AV. INDEPENDENCIA (ALQUILER)",
-              "area_m2": 1300.0,
+              "area_m2": 1300,
               "frente_m": null,
-              "precio_usd_m2": 9.0,
+              "precio_usd_m2": 9,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13461,35 +13505,35 @@
           "solares": [
             {
               "ubicacion": "BAJOS DE HAINA (ALQUILER)",
-              "area_m2": 1700.0,
+              "area_m2": 1700,
               "frente_m": null,
               "precio_usd_m2": 8.5,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "BAJOS DE HAINA (ALQUILER)",
-              "area_m2": 2000.0,
+              "area_m2": 2000,
               "frente_m": null,
               "precio_usd_m2": 8.5,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "BAJOS DE HAINA (ALQUILER)",
-              "area_m2": 3000.0,
+              "area_m2": 3000,
               "frente_m": null,
               "precio_usd_m2": 8.5,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "BAJOS DE HAINA (ALQUILER)",
-              "area_m2": 5000.0,
+              "area_m2": 5000,
               "frente_m": null,
               "precio_usd_m2": 8.5,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "BAJOS DE HAINA (ALQUILER)",
-              "area_m2": 18000.0,
+              "area_m2": 18000,
               "frente_m": null,
               "precio_usd_m2": 8.5,
               "estatus_legal": "CON TÍTULO"
@@ -13513,14 +13557,14 @@
           "solares": [
             {
               "ubicacion": "CAP CANA - LAS IGUANAS",
-              "area_m2": 736.0,
+              "area_m2": 736,
               "frente_m": null,
               "precio_usd_m2": 407.61,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "CAP CANA - LAS IGUANAS",
-              "area_m2": 900.0,
+              "area_m2": 900,
               "frente_m": null,
               "precio_usd_m2": 388.89,
               "estatus_legal": "CON TÍTULO"
@@ -13532,9 +13576,9 @@
           "solares": [
             {
               "ubicacion": "CIRCUNVALACION VERON-BAVARO",
-              "area_m2": 509000.0,
-              "frente_m": 600.0,
-              "precio_usd_m2": 60.0,
+              "area_m2": 509000,
+              "frente_m": 600,
+              "precio_usd_m2": 60,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13544,14 +13588,14 @@
           "solares": [
             {
               "ubicacion": "ENSANCHE PARAISO (ALQUILER)",
-              "area_m2": 480.0,
+              "area_m2": 480,
               "frente_m": null,
-              "precio_usd_m2": 10.0,
+              "precio_usd_m2": 10,
               "estatus_legal": "CON TÍTULO"
             },
             {
               "ubicacion": "ENSANCHE PARAISO (ALQUILER)",
-              "area_m2": 800.0,
+              "area_m2": 800,
               "frente_m": null,
               "precio_usd_m2": 7.5,
               "estatus_legal": "CON TÍTULO"
@@ -13563,7 +13607,7 @@
           "solares": [
             {
               "ubicacion": "HERRERA (ALQUILER)",
-              "area_m2": 2000.0,
+              "area_m2": 2000,
               "frente_m": null,
               "precio_usd_m2": 7.45,
               "estatus_legal": "CON TÍTULO"
@@ -13575,9 +13619,9 @@
           "solares": [
             {
               "ubicacion": "HERRERA (NAVE INDUSTRIAL)",
-              "area_m2": 2000.0,
+              "area_m2": 2000,
               "frente_m": null,
-              "precio_usd_m2": 1400.0,
+              "precio_usd_m2": 1400,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13599,9 +13643,9 @@
           "solares": [
             {
               "ubicacion": "JUAN DOLIO - VILLAS DEL MAR",
-              "area_m2": 1050.0,
+              "area_m2": 1050,
               "frente_m": null,
-              "precio_usd_m2": 120.0,
+              "precio_usd_m2": 120,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13611,9 +13655,9 @@
           "solares": [
             {
               "ubicacion": "PARAISO (981 M2 EN VENTA)",
-              "area_m2": 981.0,
-              "frente_m": 40.0,
-              "precio_usd_m2": 3300.0,
+              "area_m2": 981,
+              "frente_m": 40,
+              "precio_usd_m2": 3300,
               "estatus_legal": "CON TÍTULO"
             }
           ]
@@ -13635,7 +13679,7 @@
           "solares": [
             {
               "ubicacion": "RIOMAR - PLAYA EL SOCO",
-              "area_m2": 696.0,
+              "area_m2": 696,
               "frente_m": null,
               "precio_usd_m2": 69.68,
               "estatus_legal": "CON TÍTULO"
@@ -13647,7 +13691,7 @@
           "solares": [
             {
               "ubicacion": "TULUM, MEXICO",
-              "area_m2": 600.0,
+              "area_m2": 600,
               "frente_m": null,
               "precio_usd_m2": 336.63,
               "estatus_legal": "CON TÍTULO"
