@@ -13697,6 +13697,18 @@
               "estatus_legal": "CON TÍTULO"
             }
           ]
+        },
+        {
+          "ubicacion": "LAS TERRENAS - PLAYA BONITA",
+          "solares": [
+            {
+              "area_m2": 1200,
+              "frente_m": 30,
+              "fondo_m": null,
+              "precio_usd_m2": 250,
+              "estatus_legal": "CON TÍTULO"
+            }
+          ]
         }
       ]
     }
