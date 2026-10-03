@@ -8083,6 +8083,22 @@
               "fondo_m": 42,
               "precio_usd_m2": 1350,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 867,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1960.78,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 1700000
+            },
+            {
+              "area_m2": 2378.98,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1600,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 3806368
             }
           ]
         },
@@ -8735,6 +8751,14 @@
               "precio_usd_m2": 1650,
               "precio_total_usd": 2409000,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 2089,
+              "frente_m": 50,
+              "fondo_m": null,
+              "precio_usd_m2": 1150,
+              "estatus_legal": "PAPELES EN ORDEN",
+              "precio_total_usd": 2402350
             }
           ]
         },
@@ -9976,6 +10000,14 @@
               "fondo_m": 27.4,
               "precio_usd_m2": 1690,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 725,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 1655.17,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 1199998.25
             }
           ]
         },
@@ -11167,6 +11199,14 @@
               "fondo_m": null,
               "precio_usd_m2": 1938.28,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 885,
+              "frente_m": 50,
+              "fondo_m": null,
+              "precio_usd_m2": 2372.88,
+              "estatus_legal": "DESLINDADO",
+              "precio_total_usd": 2100000
             }
           ]
         },
@@ -13329,6 +13369,14 @@
               "precio_usd_m2": 2453.16,
               "precio_total_usd": 1729549.25,
               "estatus_legal": "CON TÍTULO"
+            },
+            {
+              "area_m2": 705.03,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 2416.84,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 1703944.71
             }
           ]
         },
@@ -13651,6 +13699,160 @@
               "frente_m": null,
               "precio_usd_m2": 336.63,
               "estatus_legal": "CON TÍTULO"
+            }
+          ]
+        },
+        {
+          "ubicacion": "ARROYO HONDO VIEJO",
+          "solares": [
+            {
+              "area_m2": 1032,
+              "frente_m": 20.16,
+              "fondo_m": null,
+              "precio_usd_m2": 875,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 903000
+            }
+          ]
+        },
+        {
+          "ubicacion": "AV. TIRADENTES",
+          "solares": [
+            {
+              "area_m2": 1029,
+              "frente_m": 40,
+              "fondo_m": null,
+              "precio_usd_m2": 3012.63,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 3100000
+            }
+          ]
+        },
+        {
+          "ubicacion": "BAVARO - RESIDENCIAL MAYBET",
+          "solares": [
+            {
+              "area_m2": 701,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 180,
+              "estatus_legal": "CON TÍTULO",
+              "precio_total_usd": 126180
+            }
+          ]
+        },
+        {
+          "ubicacion": "BONAO - PROX. JACARANDAS",
+          "solares": [
+            {
+              "area_m2": 13849,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 26.13,
+              "estatus_legal": "CON TÍTULO",
+              "precio_total_usd": 361874.37
+            }
+          ]
+        },
+        {
+          "ubicacion": "CIRCUNVALACION - LA CUABA",
+          "solares": [
+            {
+              "area_m2": 246000,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 15.63,
+              "estatus_legal": "DESLINDADO",
+              "precio_total_usd": 3843750
+            }
+          ]
+        },
+        {
+          "ubicacion": "JARABACOA - MANABAO",
+          "solares": [
+            {
+              "area_m2": 16146.29,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 16.41,
+              "estatus_legal": "CON TÍTULO",
+              "precio_total_usd": 264960.62
+            }
+          ]
+        },
+        {
+          "ubicacion": "JARABACOA - PROX. SALTO DE JIMENOA (VILLA)",
+          "solares": [
+            {
+              "area_m2": 3100,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": 95.5,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 296050
+            }
+          ]
+        },
+        {
+          "ubicacion": "LAS PALMAS DE OVIEDO",
+          "solares": [
+            {
+              "area_m2": 8336,
+              "frente_m": null,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "A CONSULTAR"
+            }
+          ]
+        },
+        {
+          "ubicacion": "PIANTINI - C. MANUEL DE JESUS TRONCOSO (ALQUILER)",
+          "solares": [
+            {
+              "area_m2": 712,
+              "frente_m": 12.53,
+              "fondo_m": null,
+              "precio_usd_m2": 17.56,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 12502.72
+            }
+          ]
+        },
+        {
+          "ubicacion": "PIANTINI - ENTORNO BLUEMALL / WTC",
+          "solares": [
+            {
+              "area_m2": 1749.24,
+              "frente_m": 67.8,
+              "fondo_m": null,
+              "precio_usd_m2": "CONSULTAR",
+              "estatus_legal": "VALIDACION PENDIENTE"
+            }
+          ]
+        },
+        {
+          "ubicacion": "URB. BUENAVENTURA",
+          "solares": [
+            {
+              "area_m2": 1500,
+              "frente_m": 50,
+              "fondo_m": null,
+              "precio_usd_m2": 130.76,
+              "estatus_legal": "PAPELES EN ORDEN",
+              "precio_total_usd": 196134.87
+            }
+          ]
+        },
+        {
+          "ubicacion": "VILLA ALTAGRACIA - AUTOPISTA DUARTE",
+          "solares": [
+            {
+              "area_m2": 88000,
+              "frente_m": 180,
+              "fondo_m": null,
+              "precio_usd_m2": 25,
+              "estatus_legal": "A CONSULTAR",
+              "precio_total_usd": 2200000
             }
           ]
         }
