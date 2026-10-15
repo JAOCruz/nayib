@@ -1,3 +1,6 @@
+const FORMSPARK_URL = 'https://submit-form.com/BFgZ45QHC';
+const TURNSTILE_SITEKEY = '0x4AAAAAAClr6T1zCDx9IXGF';
+
 // Property Detail Handler
 class PropertyDetailManager {
     constructor() {
@@ -266,21 +269,23 @@ class PropertyDetailManager {
                         <form id="contactForm">
                             <div class="form-group">
                                 <label>Nombre</label>
-                                <input type="text" class="form-control" id="name" required>
+                                <input type="text" class="form-control" id="name" name="nombre" required>
                             </div>
                             <div class="form-group">
                                 <label>Correo Electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                             <div class="form-group">
                                 <label>Teléfono</label>
-                                <input type="tel" class="form-control" id="phone" required>
+                                <input type="tel" class="form-control" id="phone" name="telefono" required>
                             </div>
                             <div class="form-group">
                                 <label>Mensaje</label>
-                                <textarea class="form-control" id="message" rows="4">Estoy interesado en: ${property.title}</textarea>
+                                <textarea class="form-control" id="message" name="mensaje" rows="4">Estoy interesado en: ${property.title}</textarea>
                             </div>
+                            <div class="cf-turnstile" data-sitekey="${TURNSTILE_SITEKEY}"></div>
                             <button type="submit" class="btn-contact">Enviar Solicitud</button>
+                            <p class="inquiry-status" role="status"></p>
                         </form>
                     </div>
 
@@ -295,9 +300,12 @@ class PropertyDetailManager {
 
         container.innerHTML = html;
 
-        document.getElementById('contactForm')?.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Gracias por su mensaje. Nos pondremos en contacto pronto.');
+        this.bindInquiryForm(document.getElementById('contactForm'), {
+            tipo: 'Propiedad',
+            codigo: property.id,
+            titulo: property.title,
+            ubicacion: property.location || '',
+            precio: this.formatPrice(property),
         });
     }
 
@@ -381,6 +389,65 @@ class PropertyDetailManager {
         this.updateLightbox();
     }
 
+    // Envía la consulta a Formspark (mismo destino que los formularios de Inicio y Contacto)
+    // con la propiedad o el terreno identificados.
+    bindInquiryForm(form, item) {
+        if (!form) return;
+        const widget = form.querySelector('.cf-turnstile');
+        if (widget && window.turnstile) window.turnstile.render(widget);
+        const status = form.querySelector('.inquiry-status');
+        const button = form.querySelector('button[type="submit"]');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const fields = Object.fromEntries(new FormData(form).entries());
+            if (widget && window.turnstile && !fields['cf-turnstile-response']) {
+                status.className = 'inquiry-status error';
+                status.textContent = 'Por favor, complete la verificación de seguridad antes de enviar.';
+                return;
+            }
+            const payload = {
+                form_type: `consulta_${item.tipo.toLowerCase()}`,
+                '_email.subject': `Consulta: ${item.titulo}${item.metraje ? ` · ${item.metraje}` : ` (${item.codigo})`}`,
+                nombre: fields.nombre,
+                email: fields.email,
+                telefono: fields.telefono,
+                mensaje: fields.mensaje,
+                tipo: item.tipo,
+                codigo: item.codigo,
+                titulo: item.titulo,
+                ubicacion: item.ubicacion,
+                ...(item.metraje ? { metraje: item.metraje } : {}),
+                ...(item.precio_m2 ? { precio_m2: item.precio_m2 } : {}),
+                precio: item.precio,
+                enlace: window.location.href,
+                'cf-turnstile-response': fields['cf-turnstile-response'] || '',
+            };
+
+            button.disabled = true;
+            status.className = 'inquiry-status';
+            status.textContent = 'Enviando…';
+            try {
+                const res = await fetch(FORMSPARK_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                form.reset();
+                form.querySelectorAll('input, textarea, button').forEach((el) => { el.disabled = true; });
+                status.className = 'inquiry-status ok';
+                status.textContent = 'Gracias, recibimos su consulta. Le contactaremos pronto.';
+            } catch (err) {
+                console.error('Error enviando la consulta', err);
+                if (widget && window.turnstile) window.turnstile.reset(widget);
+                button.disabled = false;
+                status.className = 'inquiry-status error';
+                status.innerHTML = 'No se pudo enviar la consulta. Escríbanos por <a href="https://wa.me/18098641996" target="_blank" rel="noopener">WhatsApp</a> o llame al +1 (809) 864-1996.';
+            }
+        });
+    }
+
     // Esta función maneja TANTO errores como el formulario especial de SOLARES
     showErrorMessage(message) {
         const container = document.getElementById('property-detail-container');
@@ -398,19 +465,26 @@ class PropertyDetailManager {
                             <h3>¿Desea contactarnos sobre este solar?</h3>
                             <p>Complete el formulario para recibir más información sobre el solar en ${locationName}.</p>
                             <form id="solarForm">
-                                <div class="form-group"><label>Nombre</label><input class="form-control" required></div>
-                                <div class="form-group"><label>Email</label><input class="form-control" type="email" required></div>
-                                <div class="form-group"><label>Teléfono</label><input class="form-control" required></div>
-                                <div class="form-group"><label>Mensaje</label><textarea class="form-control" rows="4">Me interesa el solar en ${locationName}.</textarea></div>
+                                <div class="form-group"><label>Nombre</label><input class="form-control" name="nombre" required></div>
+                                <div class="form-group"><label>Email</label><input class="form-control" type="email" name="email" required></div>
+                                <div class="form-group"><label>Teléfono</label><input class="form-control" name="telefono" required></div>
+                                <div class="form-group"><label>Mensaje</label><textarea class="form-control" name="mensaje" rows="4">Me interesa el solar en ${locationName}.</textarea></div>
+                                <div class="cf-turnstile" data-sitekey="${TURNSTILE_SITEKEY}"></div>
                                 <button type="submit" class="btn-contact">Enviar</button>
+                                <p class="inquiry-status" role="status"></p>
                             </form>
                         </div>
                     </div>
                 </div>`;
 
-            document.getElementById('solarForm')?.addEventListener('submit', (e) => {
-                e.preventDefault();
-                container.innerHTML = `<div class="alert alert-success">Gracias, le contactaremos pronto.</div>`;
+            this.bindInquiryForm(document.getElementById('solarForm'), {
+                tipo: 'Terreno',
+                codigo: this.propertyId,
+                titulo: solar ? solar.title : 'Solar',
+                ubicacion: solar ? solar.location : '',
+                metraje: solar && solar.area_m2 ? `${solar.area_m2} m²` : '',
+                precio: solar ? this.formatPrice(solar) : '',
+                precio_m2: solar && typeof solar.precio_usd_m2 === 'number' ? `US$${solar.precio_usd_m2.toLocaleString()}/m²` : '',
             });
             return;
         }

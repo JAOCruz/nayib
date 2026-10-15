@@ -24,6 +24,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <link href="css/cards.css?v=1" rel="stylesheet" />
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 
 <body class="sub_page">
@@ -195,9 +196,11 @@
             <h5>
               Newsletter
             </h5>
-            <form action="">
-              <input type="email" placeholder="Ingresa tu correo electrónico">
-              <button>
+            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+              <input type="hidden" name="form_type" value="newsletter">
+              <div class="cf-turnstile" data-sitekey="0x4AAAAAAClr6T1zCDx9IXGF"></div>
+              <button type="submit">
                 Suscribirse
               </button>
             </form>

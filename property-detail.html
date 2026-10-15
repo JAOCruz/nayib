@@ -430,6 +430,13 @@
       }
     }
   </style>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <style>
+    .contact-form .cf-turnstile { margin: 10px 0; }
+    .inquiry-status { margin: 10px 0 0; font-size: 14px; }
+    .inquiry-status.ok { color: #1b7a3a; font-weight: 500; }
+    .inquiry-status.error { color: #a3242a; }
+  </style>
 </head>
 
 <body class="sub_page">
@@ -590,9 +597,11 @@
             <h5>
               Newsletter
             </h5>
-            <form action="">
-              <input type="email" placeholder="Ingresa tu correo electrónico">
-              <button>
+            <form action="https://submit-form.com/BFgZ45QHC" method="POST">
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+              <input type="hidden" name="form_type" value="newsletter">
+              <div class="cf-turnstile" data-sitekey="0x4AAAAAAClr6T1zCDx9IXGF"></div>
+              <button type="submit">
                 Suscribirse
               </button>
             </form>
@@ -643,7 +652,7 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/cdn-config.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-  <script type="text/javascript" src="js/property-detail.js"></script>
+  <script type="text/javascript" src="js/property-detail.js?v=2"></script>
 
 </body>
 
