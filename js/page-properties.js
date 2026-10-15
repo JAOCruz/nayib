@@ -157,6 +157,9 @@ class PagePropertiesManager {
 
         this.renderPropiedades();
         this.setupPropiedadesFilters();
+        if (this.fillFiltersFromUrl({ buscar: 'propertySearch', precio_min: 'priceMin', precio_max: 'priceMax' })) {
+            this.applyPropiedadesFilters();
+        }
     }
 
     renderPropiedades() {
@@ -259,6 +262,26 @@ class PagePropertiesManager {
         // Reset to first page when filters are applied
         this.currentPageNumber = 1;
         this.renderPropiedades();
+    }
+
+    // Rellena los filtros con los parámetros del enlace (p. ej. el que llega en cada consulta).
+    // Devuelve true si se rellenó alguno.
+    fillFiltersFromUrl(map) {
+        const params = new URLSearchParams(window.location.search);
+        let filled = false;
+        for (const [param, inputId] of Object.entries(map)) {
+            const value = params.get(param);
+            const input = document.getElementById(inputId);
+            if (value && input) {
+                input.value = value;
+                filled = true;
+            }
+        }
+        if (filled) {
+            const target = document.querySelector('.properties_container');
+            if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 300);
+        }
+        return filled;
     }
 
     clearPropiedadesFilters() {
@@ -466,6 +489,9 @@ class PagePropertiesManager {
             this.renderSolares();
             this.setupSolaresFilters();
             this.setupPagination();
+            if (this.fillFiltersFromUrl({ ubicacion: 'locationSearch', area_min: 'areaMin', area_max: 'areaMax', precio_min: 'priceMin', precio_max: 'priceMax' })) {
+                this.applySolaresFilters();
+            }
         } catch (error) {
             console.error('Error in loadSolares:', error);
             debugDiv.innerHTML = '<strong>Error in loadSolares:</strong> ' + error.message;
@@ -521,10 +547,14 @@ class PagePropertiesManager {
         this.filteredData.forEach(location => {
             console.log('Processing location:', location.ubicacion);
             console.log('Location solares count:', location.solares.length);
-            location.solares.forEach(solar => {
+            // Solares de todas las ubicaciones con este nombre (hay nombres repetidos en los datos), en el mismo orden que usa property-detail.js
+            const sameName = (this.originalSolaresData || []).filter(loc => loc.ubicacion === location.ubicacion).flatMap(loc => loc.solares);
+            location.solares.forEach((solar, i) => {
                 allSolares.push({
                     ...solar,
-                    ubicacion: location.ubicacion
+                    ubicacion: location.ubicacion,
+                    // posición real en los datos, para que el enlace abra este solar aunque haya filtros o paginación
+                    _idx: sameName.indexOf(solar) >= 0 ? sameName.indexOf(solar) : i
                 });
             });
         });
@@ -895,6 +925,7 @@ class PagePropertiesManager {
     }
 
     createSolarRow(solar, index) {
+        if (typeof solar._idx === 'number') index = solar._idx;
         // Check if this is a special case for Bella Vista Sur solares which are in DOP
         const isDominicanPeso = this.currentLocation === 'Bella Vista Sur' && 
                                (solar.precio_usd_m2 === 1050000 || solar.precio_usd_m2 === 2800000);

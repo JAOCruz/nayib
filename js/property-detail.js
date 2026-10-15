@@ -123,7 +123,9 @@ class PropertyDetailManager {
                 const parts = id.split('___');
                 const locationName = decodeURIComponent(parts[1]);
                 index = parseInt(parts[3]);
-                location = solaresData.find(loc => loc.ubicacion === locationName);
+                // Une las ubicaciones con el mismo nombre (hay repetidas), igual que la lista de solares
+                const sameName = solaresData.filter(loc => loc.ubicacion === locationName);
+                if (sameName.length) location = { ubicacion: locationName, solares: sameName.flatMap(loc => loc.solares) };
             } else if (id.includes('-')) {
                 // Formato antiguo
                 const parts = id.split('-');
@@ -306,6 +308,7 @@ class PropertyDetailManager {
             titulo: property.title,
             ubicacion: property.location || '',
             precio: this.formatPrice(property),
+            lista: this.listingUrl(property),
         });
     }
 
@@ -420,7 +423,9 @@ class PropertyDetailManager {
                 ...(item.metraje ? { metraje: item.metraje } : {}),
                 ...(item.precio_m2 ? { precio_m2: item.precio_m2 } : {}),
                 precio: item.precio,
-                enlace: window.location.href,
+                // enlace: la lista de Propiedades o Terrenos ya filtrada para mostrar este inmueble
+                enlace: item.lista || window.location.href,
+                ...(item.lista && item.tipo === 'Propiedad' ? { ficha: window.location.href } : {}),
                 'cf-turnstile-response': fields['cf-turnstile-response'] || '',
             };
 
@@ -449,6 +454,23 @@ class PropertyDetailManager {
     }
 
     // Esta función maneja TANTO errores como el formulario especial de SOLARES
+    // URL de la lista (propiedades.html / solares.html) con los filtros que muestran solo este inmueble
+    listingUrl(item) {
+        const base = `${window.location.origin}${window.location.pathname.replace(/[^/]*$/, '')}`;
+        const params = new URLSearchParams();
+        if (this.propertyType === 'solares') {
+            params.set('ubicacion', item.location);
+            if (typeof item.area_m2 === 'number') { params.set('area_min', item.area_m2); params.set('area_max', item.area_m2); }
+            if (typeof item.precio_usd_m2 === 'number') { params.set('precio_min', item.precio_usd_m2); params.set('precio_max', item.precio_usd_m2); }
+            return `${base}solares.html?${params}`;
+        }
+        const propiedades = this.propertiesData?.categories?.propiedades?.properties || [];
+        if (!propiedades.some(p => p.id === item.id)) return '';
+        params.set('buscar', item.title);
+        if (typeof item.price === 'number') { params.set('precio_min', item.price); params.set('precio_max', item.price); }
+        return `${base}propiedades.html?${params}`;
+    }
+
     showErrorMessage(message) {
         const container = document.getElementById('property-detail-container');
 
@@ -500,6 +522,7 @@ class PropertyDetailManager {
                 metraje: solar && solar.area_m2 ? `${solar.area_m2} m²` : '',
                 precio: solar ? this.formatPrice(solar) : '',
                 precio_m2: solar && typeof solar.precio_usd_m2 === 'number' ? `US$${solar.precio_usd_m2.toLocaleString()}/m²` : '',
+                lista: solar ? this.listingUrl(solar) : '',
             });
             return;
         }
