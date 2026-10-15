@@ -456,11 +456,26 @@ class PropertyDetailManager {
         if (this.propertyType === 'solares') {
             const solar = this.findSolarProperty(this.propertyId);
             const locationName = solar ? solar.location : 'este solar';
+            const num = v => (typeof v === 'number' ? v.toLocaleString() : v);
+            const datos = solar ? [
+                ['Área', solar.area_m2 != null ? `${num(solar.area_m2)} m²` : ''],
+                ['Frente', solar.frente_m ? `${num(solar.frente_m)} m` : ''],
+                ['Fondo', solar.fondo_m ? `${num(solar.fondo_m)} m` : ''],
+                ['Precio por m²', typeof solar.precio_usd_m2 === 'number' ? `US$${num(solar.precio_usd_m2)}` : (solar.precio_usd_m2 || '')],
+                ['Precio total', this.formatPrice(solar)],
+                ['Estatus legal', solar.estatus_legal || ''],
+            ].filter(([, v]) => v) : [];
+            const resumen = solar ? `
+                        <div class="solar-summary">
+                            <h2>${solar.title}</h2>
+                            <dl>${datos.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
+                            <a href="solares.html">← Ver todos los terrenos</a>
+                        </div>` : '';
 
-            // Renderizamos solo el form de contacto para solares
+            // Resumen del solar + form de contacto
             container.innerHTML = `
                 <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
+                    <div class="col-lg-8 offset-lg-2">${resumen}
                         <div class="contact-form">
                             <h3>¿Desea contactarnos sobre este solar?</h3>
                             <p>Complete el formulario para recibir más información sobre el solar en ${locationName}.</p>
