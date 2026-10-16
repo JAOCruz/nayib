@@ -274,7 +274,7 @@
           "type": "Apartamentos",
           "units": 2,
           "area": "98.27 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png",
+          "image": "/fotos/Propiedades/2/1.png",
           "description": "Se venden 2 Apartamentos que quedan disponibles en un proyecto residencial de alto estándar dentro del corazón de Santiago, con diseño moderno, vistas a la ciudad, áreas verdes y acceso rápido a servicios, comercios y espacios recreativos.",
           "features": [
             "Azotea",
@@ -287,26 +287,26 @@
           "status": "Listo para entrega",
           "badge": "Entrega Inmediata",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/19.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/20.png"
+            "/fotos/Propiedades/2/1.png",
+            "/fotos/Propiedades/2/2.png",
+            "/fotos/Propiedades/2/3.png",
+            "/fotos/Propiedades/2/4.png",
+            "/fotos/Propiedades/2/5.png",
+            "/fotos/Propiedades/2/6.png",
+            "/fotos/Propiedades/2/7.png",
+            "/fotos/Propiedades/2/8.png",
+            "/fotos/Propiedades/2/9.png",
+            "/fotos/Propiedades/2/10.png",
+            "/fotos/Propiedades/2/11.png",
+            "/fotos/Propiedades/2/12.png",
+            "/fotos/Propiedades/2/13.png",
+            "/fotos/Propiedades/2/14.png",
+            "/fotos/Propiedades/2/15.png",
+            "/fotos/Propiedades/2/16.png",
+            "/fotos/Propiedades/2/17.png",
+            "/fotos/Propiedades/2/18.png",
+            "/fotos/Propiedades/2/19.png",
+            "/fotos/Propiedades/2/20.png"
           ],
           "payment_plan": {
             "reservation": "5,000 USD",
@@ -343,7 +343,7 @@
           "type": "Apartamentos de Lujo",
           "units": 5,
           "area": "51.43 - 238.27 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png",
+          "image": "/fotos/Propiedades/1/1.png",
           "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort. Ofrece acceso a playa privada, campos de golf, hoteles 5 estrellas, club de playa, zona comercial y seguridad 24/7, ideal para una experiencia vacacional única.",
           "features": [
             "Lobby de lujo",
@@ -359,17 +359,17 @@
           "status": "En construcción",
           "badge": "Proyecto Exclusivo",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/11.png"
+            "/fotos/Propiedades/1/1.png",
+            "/fotos/Propiedades/1/2.png",
+            "/fotos/Propiedades/1/3.png",
+            "/fotos/Propiedades/1/4.png",
+            "/fotos/Propiedades/1/5.png",
+            "/fotos/Propiedades/1/6.png",
+            "/fotos/Propiedades/1/7.png",
+            "/fotos/Propiedades/1/8.png",
+            "/fotos/Propiedades/1/9.png",
+            "/fotos/Propiedades/1/10.png",
+            "/fotos/Propiedades/1/11.png"
           ],
           "delivery": "Febrero 2027",
           "payment_plan": {
@@ -460,7 +460,7 @@
           "type": "Apartamentos de Lujo",
           "units": 1,
           "area": "111.85 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/1.png",
+          "image": "/fotos/Propiedades/3/1.png",
           "description": "Se venden apartamentos de lujo en innovador proyecto dentro de Santiago de los Caballeros, que combina flora y urbanismo para ofrecer un espacio habitable único. Integra vivienda, recreación, deporte y naturaleza en ambientes armónicos y funcionales para todas las edades, brindando un estilo de vida distinto, rodeado de naturaleza y excelentes amenidades.",
           "features": [
             "Área común",
@@ -475,26 +475,26 @@
           "status": "En construcción",
           "badge": "Proyecto Innovador",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/19.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/3/20.png"
+            "/fotos/Propiedades/3/1.png",
+            "/fotos/Propiedades/3/2.png",
+            "/fotos/Propiedades/3/3.png",
+            "/fotos/Propiedades/3/4.png",
+            "/fotos/Propiedades/3/5.png",
+            "/fotos/Propiedades/3/6.png",
+            "/fotos/Propiedades/3/7.png",
+            "/fotos/Propiedades/3/8.png",
+            "/fotos/Propiedades/3/9.png",
+            "/fotos/Propiedades/3/10.png",
+            "/fotos/Propiedades/3/11.png",
+            "/fotos/Propiedades/3/12.png",
+            "/fotos/Propiedades/3/13.png",
+            "/fotos/Propiedades/3/14.png",
+            "/fotos/Propiedades/3/15.png",
+            "/fotos/Propiedades/3/16.png",
+            "/fotos/Propiedades/3/17.png",
+            "/fotos/Propiedades/3/18.png",
+            "/fotos/Propiedades/3/19.png",
+            "/fotos/Propiedades/3/20.png"
           ],
           "delivery": "Diciembre 2027",
           "payment_plan": {
@@ -644,7 +644,7 @@
           "type": "Apartamentos de Lujo",
           "units": 1,
           "area": "83 - 231 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png",
+          "image": "/fotos/Propiedades/4/1.png",
           "description": "Se venden apartamentos de lujo en nuevo proyecto de Cap Cana, con un entorno exclusivo que combina la comodidad, privacidad y alta rentabilidad. A pasos del aeropuerto, con acceso a playas paradisíacas, marina, golf, clubes privados y amenidades de primer nivel. Una inversión segura en el destino más exclusivo del Caribe.",
           "features": [
             "Piscina semi-olímpica",
@@ -662,16 +662,16 @@
           "status": "En construcción",
           "badge": "Destino Exclusivo",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/10.png"
+            "/fotos/Propiedades/4/1.png",
+            "/fotos/Propiedades/4/2.png",
+            "/fotos/Propiedades/4/3.png",
+            "/fotos/Propiedades/4/4.png",
+            "/fotos/Propiedades/4/5.png",
+            "/fotos/Propiedades/4/6.png",
+            "/fotos/Propiedades/4/7.png",
+            "/fotos/Propiedades/4/8.png",
+            "/fotos/Propiedades/4/9.png",
+            "/fotos/Propiedades/4/10.png"
           ],
           "delivery": "Septiembre 2027",
           "payment_plan": {
@@ -748,7 +748,7 @@
           "type": "Apartamentos",
           "units": 3,
           "area": "49 - 105 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/1.png",
+          "image": "/fotos/Propiedades/5/1.png",
           "description": "Apartamentos en venta en el corazón de Bávaro, diseñado para ofrecer comodidad, placer y todo lo que necesitas en un solo lugar.",
           "features": [
             "Piscina",
@@ -760,18 +760,18 @@
           "status": "Listo para entrega",
           "badge": "Entrega Inmediata",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/5/12.png"
+            "/fotos/Propiedades/5/1.png",
+            "/fotos/Propiedades/5/2.png",
+            "/fotos/Propiedades/5/3.png",
+            "/fotos/Propiedades/5/4.png",
+            "/fotos/Propiedades/5/5.png",
+            "/fotos/Propiedades/5/6.png",
+            "/fotos/Propiedades/5/7.png",
+            "/fotos/Propiedades/5/8.png",
+            "/fotos/Propiedades/5/9.png",
+            "/fotos/Propiedades/5/10.png",
+            "/fotos/Propiedades/5/11.png",
+            "/fotos/Propiedades/5/12.png"
           ],
           "delivery": "Listo para entrega",
           "payment_plan": {
@@ -1135,7 +1135,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "341 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/1.png",
+          "image": "/fotos/Propiedades/6/1.png",
           "description": "Apartamento con precio de oportunidad en venta en el sector de La Julia. 2do piso, 1 apartamento por piso, 341 metros cuadrados, 4 parqueos, 4 habitaciones con sus baños y closets, balcón tipo terraza, 2 salas, estudio, comedor amplio, área de lavado, cuarto de servicio, ascensor que te deja directamente en el apartamento, ascensor de carga.",
           "features": [
             "4 Habitaciones",
@@ -1153,15 +1153,15 @@
           "status": "Disponible",
           "badge": "Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/6/9.png"
+            "/fotos/Propiedades/6/1.png",
+            "/fotos/Propiedades/6/2.png",
+            "/fotos/Propiedades/6/3.png",
+            "/fotos/Propiedades/6/4.png",
+            "/fotos/Propiedades/6/5.png",
+            "/fotos/Propiedades/6/6.png",
+            "/fotos/Propiedades/6/7.png",
+            "/fotos/Propiedades/6/8.png",
+            "/fotos/Propiedades/6/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1201,7 +1201,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/1.png",
+          "image": "/fotos/Propiedades/7/1.png",
           "description": "Se vende apartamento de oportunidad única en Bella Vista Sur, con las siguientes características: 3 Habitaciones, cada una con sus Baños, Baño de visita, Área de Cocina, Área de Lavado, Sala y Comedor Independientes, Estudio Adaptado, Apartamento recién Remodelado, Ascensor Nuevo en la Torre, 2 Parqueos Techados.",
           "features": [
             "3 Habitaciones con baños",
@@ -1217,26 +1217,26 @@
           "status": "Disponible",
           "badge": "Recién Remodelado",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/19.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/7/20.png"
+            "/fotos/Propiedades/7/1.png",
+            "/fotos/Propiedades/7/2.png",
+            "/fotos/Propiedades/7/3.png",
+            "/fotos/Propiedades/7/4.png",
+            "/fotos/Propiedades/7/5.png",
+            "/fotos/Propiedades/7/6.png",
+            "/fotos/Propiedades/7/7.png",
+            "/fotos/Propiedades/7/8.png",
+            "/fotos/Propiedades/7/9.png",
+            "/fotos/Propiedades/7/10.png",
+            "/fotos/Propiedades/7/11.png",
+            "/fotos/Propiedades/7/12.png",
+            "/fotos/Propiedades/7/13.png",
+            "/fotos/Propiedades/7/14.png",
+            "/fotos/Propiedades/7/15.png",
+            "/fotos/Propiedades/7/16.png",
+            "/fotos/Propiedades/7/17.png",
+            "/fotos/Propiedades/7/18.png",
+            "/fotos/Propiedades/7/19.png",
+            "/fotos/Propiedades/7/20.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1276,7 +1276,7 @@
           "type": "Proyecto",
           "units": 8,
           "area": "Proyecto Aprobado",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/1.png",
+          "image": "/fotos/Propiedades/8/1.png",
           "description": "Se vende proyecto inmobiliario aprobado, ideal para inversionistas o ingenieros civiles que buscan empezar a construir. El proyecto estaría ubicado en una excelente zona del Cacique, completamente listo para iniciar: cuenta con diseño aprobado, licencia de construcción, renders y todos los documentos necesarios. No tiene ningún tipo de gravamen, ni temas legales. Es una excelente oportunidad, especialmente para inversionistas que buscan comenzar con algo manejable: son solo 8 apartamentos pequeños y una atractiva área social. En caso de que sea de interés para ustedes o alguien cercano, también existe la posibilidad de que podamos encargarnos de la construcción, aunque esto es totalmente opcional para el comprador.",
           "features": [
             "Proyecto completamente aprobado",
@@ -1294,18 +1294,18 @@
           "status": "Proyecto Aprobado",
           "badge": "Listo para Construir",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/8/12.png"
+            "/fotos/Propiedades/8/1.png",
+            "/fotos/Propiedades/8/2.png",
+            "/fotos/Propiedades/8/3.png",
+            "/fotos/Propiedades/8/4.png",
+            "/fotos/Propiedades/8/5.png",
+            "/fotos/Propiedades/8/6.png",
+            "/fotos/Propiedades/8/7.png",
+            "/fotos/Propiedades/8/8.png",
+            "/fotos/Propiedades/8/9.png",
+            "/fotos/Propiedades/8/10.png",
+            "/fotos/Propiedades/8/11.png",
+            "/fotos/Propiedades/8/12.png"
           ],
           "delivery": "Proyecto Aprobado",
           "payment_plan": {
@@ -1345,7 +1345,7 @@
           "type": "Villa",
           "units": 1,
           "area": "298 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/1.png",
+          "image": "/fotos/Propiedades/9/1.png",
           "description": "Esta hermosa villa de dos niveles con título y deslinde al día cuenta con una hermosa vista al mar, la ciudad de las terrenas y a las montañas, ubicada en El Jamito a 500 metros de la carretera Sánchez-Las Terrenas, a 10 minutos las mejores playas y al centro de la ciudad. Con 298 metros totales distribuidos en 105 metros habitables, 32 metros de terraza y piscina 161 metros de jardín y parqueo. Con potencial para seguir construyendo.",
           "features": [
             "Villa de dos niveles",
@@ -1381,23 +1381,23 @@
           "status": "Disponible",
           "badge": "Las Terrenas Premium",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/9/17.png"
+            "/fotos/Propiedades/9/1.png",
+            "/fotos/Propiedades/9/2.png",
+            "/fotos/Propiedades/9/3.png",
+            "/fotos/Propiedades/9/4.png",
+            "/fotos/Propiedades/9/5.png",
+            "/fotos/Propiedades/9/6.png",
+            "/fotos/Propiedades/9/7.png",
+            "/fotos/Propiedades/9/8.png",
+            "/fotos/Propiedades/9/9.png",
+            "/fotos/Propiedades/9/10.png",
+            "/fotos/Propiedades/9/11.png",
+            "/fotos/Propiedades/9/12.png",
+            "/fotos/Propiedades/9/13.png",
+            "/fotos/Propiedades/9/14.png",
+            "/fotos/Propiedades/9/15.png",
+            "/fotos/Propiedades/9/16.png",
+            "/fotos/Propiedades/9/17.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1456,7 +1456,7 @@
           "type": "Apartamentos",
           "units": 2,
           "area": "57 - 81 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/1.png",
+          "image": "/fotos/Propiedades/10/1.png",
           "description": "Vendo 2 apartamentos en Juan Dolio. Apartamentos completamente amueblados a 3 minutos de la playa Hemingway, con área común que incluye piscina, gimnasio y área infantil.",
           "features": [
             "Apartamentos completamente amueblados",
@@ -1470,25 +1470,25 @@
           "status": "Disponible",
           "badge": "Cerca de la Playa",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/10/19.png"
+            "/fotos/Propiedades/10/1.png",
+            "/fotos/Propiedades/10/2.png",
+            "/fotos/Propiedades/10/3.png",
+            "/fotos/Propiedades/10/4.png",
+            "/fotos/Propiedades/10/5.png",
+            "/fotos/Propiedades/10/6.png",
+            "/fotos/Propiedades/10/7.png",
+            "/fotos/Propiedades/10/8.png",
+            "/fotos/Propiedades/10/9.png",
+            "/fotos/Propiedades/10/10.png",
+            "/fotos/Propiedades/10/11.png",
+            "/fotos/Propiedades/10/12.png",
+            "/fotos/Propiedades/10/13.png",
+            "/fotos/Propiedades/10/14.png",
+            "/fotos/Propiedades/10/15.png",
+            "/fotos/Propiedades/10/16.png",
+            "/fotos/Propiedades/10/17.png",
+            "/fotos/Propiedades/10/18.png",
+            "/fotos/Propiedades/10/19.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1547,7 +1547,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "47 - 100 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/1.png",
+          "image": "/fotos/Propiedades/11/1.png",
           "description": "Aprovecha los precios de inversión en apartamentos para este proyecto de oportunidad ÚNICA en el centro del D.N. Torre de 12 niveles con apartamentos de 1 y 2 habitaciones, lobby de doble altura climatizado y amenidades de lujo.",
           "features": [
             "Sector EL MILLÓN",
@@ -1569,17 +1569,17 @@
           "status": "En construcción",
           "badge": "Oportunidad Única",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/11/11.png"
+            "/fotos/Propiedades/11/1.png",
+            "/fotos/Propiedades/11/2.png",
+            "/fotos/Propiedades/11/3.png",
+            "/fotos/Propiedades/11/4.png",
+            "/fotos/Propiedades/11/5.png",
+            "/fotos/Propiedades/11/6.png",
+            "/fotos/Propiedades/11/7.png",
+            "/fotos/Propiedades/11/8.png",
+            "/fotos/Propiedades/11/9.png",
+            "/fotos/Propiedades/11/10.png",
+            "/fotos/Propiedades/11/11.png"
           ],
           "delivery": "En construcción",
           "payment_plan": {
@@ -1628,7 +1628,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "350 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/1.png",
+          "image": "/fotos/Propiedades/12/1.png",
           "description": "Apartamento de oportunidad en Bella Vista de 350 m² con acabados de lujo. Todos los pisos en mármol, techo con cornisa de yeso y altura de 3 metros entrepiso.",
           "features": [
             "2 parqueos techados",
@@ -1647,16 +1647,16 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/12/10.png"
+            "/fotos/Propiedades/12/1.png",
+            "/fotos/Propiedades/12/2.png",
+            "/fotos/Propiedades/12/3.png",
+            "/fotos/Propiedades/12/4.png",
+            "/fotos/Propiedades/12/5.png",
+            "/fotos/Propiedades/12/6.png",
+            "/fotos/Propiedades/12/7.png",
+            "/fotos/Propiedades/12/8.png",
+            "/fotos/Propiedades/12/9.png",
+            "/fotos/Propiedades/12/10.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1697,7 +1697,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "154 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/1.png",
+          "image": "/fotos/Propiedades/13/1.png",
           "description": "Vendo apartamento en Samaná con vista al mar. 2do nivel, que es una 1ra para la entrada por el diseño del complejo. El complejo tiene 2 playas, área social con 2 piscinas, 2 restaurantes, gimnasio, entre otros. Todos los documentos al día.",
           "features": [
             "2 habitaciones con sus baños y vista al mar",
@@ -1714,24 +1714,24 @@
           "status": "Disponible",
           "badge": "Vista al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/13/18.png"
+            "/fotos/Propiedades/13/1.png",
+            "/fotos/Propiedades/13/2.png",
+            "/fotos/Propiedades/13/3.png",
+            "/fotos/Propiedades/13/4.png",
+            "/fotos/Propiedades/13/5.png",
+            "/fotos/Propiedades/13/6.png",
+            "/fotos/Propiedades/13/7.png",
+            "/fotos/Propiedades/13/8.png",
+            "/fotos/Propiedades/13/9.png",
+            "/fotos/Propiedades/13/10.png",
+            "/fotos/Propiedades/13/11.png",
+            "/fotos/Propiedades/13/12.png",
+            "/fotos/Propiedades/13/13.png",
+            "/fotos/Propiedades/13/14.png",
+            "/fotos/Propiedades/13/15.png",
+            "/fotos/Propiedades/13/16.png",
+            "/fotos/Propiedades/13/17.png",
+            "/fotos/Propiedades/13/18.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1770,7 +1770,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "231 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/1.png",
+          "image": "/fotos/Propiedades/14/1.png",
           "description": "Apartamento en Bella Vista nivel 8 con vistas inigualables al Parque Mirador Sur y al majestuoso Mar Caribe. Edificio clásico con mantenimiento accesible, ubicado en el corazón de Bella Vista, una de las mejores ubicaciones de Santo Domingo.",
           "features": [
             "231 m² perfectamente distribuidos",
@@ -1787,15 +1787,15 @@
           "status": "Disponible",
           "badge": "Vista al Parque",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/14/9.png"
+            "/fotos/Propiedades/14/1.png",
+            "/fotos/Propiedades/14/2.png",
+            "/fotos/Propiedades/14/3.png",
+            "/fotos/Propiedades/14/4.png",
+            "/fotos/Propiedades/14/5.png",
+            "/fotos/Propiedades/14/6.png",
+            "/fotos/Propiedades/14/7.png",
+            "/fotos/Propiedades/14/8.png",
+            "/fotos/Propiedades/14/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1833,7 +1833,7 @@
           "type": "Loft",
           "units": 1,
           "area": "103.63 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/1.png",
+          "image": "/fotos/Propiedades/15/1.png",
           "description": "Se vende apartamento TIPO LOFT a precio de oportunidad única en el corazón del Distrito Nacional, NACO. Nivel 11 (último piso), 2 niveles, completamente amueblado. Torre NO permite AirBnb.",
           "features": [
             "Nivel 11 (último piso)",
@@ -1851,24 +1851,24 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/15/18.png"
+            "/fotos/Propiedades/15/1.png",
+            "/fotos/Propiedades/15/2.png",
+            "/fotos/Propiedades/15/3.png",
+            "/fotos/Propiedades/15/4.png",
+            "/fotos/Propiedades/15/5.png",
+            "/fotos/Propiedades/15/6.png",
+            "/fotos/Propiedades/15/7.png",
+            "/fotos/Propiedades/15/8.png",
+            "/fotos/Propiedades/15/9.png",
+            "/fotos/Propiedades/15/10.png",
+            "/fotos/Propiedades/15/11.png",
+            "/fotos/Propiedades/15/12.png",
+            "/fotos/Propiedades/15/13.png",
+            "/fotos/Propiedades/15/14.png",
+            "/fotos/Propiedades/15/15.png",
+            "/fotos/Propiedades/15/16.png",
+            "/fotos/Propiedades/15/17.png",
+            "/fotos/Propiedades/15/18.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1905,7 +1905,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "145 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/1.png",
+          "image": "/fotos/Propiedades/16/1.png",
           "description": "Apartamento frente al mar en Condominio Vista Mare, Samaná. Con amplio balcón con jacuzzi frente al mar, área común con piscinas, restaurante, área de juegos de mesa, gimnasio, servicios de conserjería. Posee playa de uso exclusivo para sus propietarios.",
           "features": [
             "2 habitaciones cada una con baño y closets",
@@ -1925,16 +1925,16 @@
           "status": "Disponible",
           "badge": "Frente al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/16/10.png"
+            "/fotos/Propiedades/16/1.png",
+            "/fotos/Propiedades/16/2.png",
+            "/fotos/Propiedades/16/3.png",
+            "/fotos/Propiedades/16/4.png",
+            "/fotos/Propiedades/16/5.png",
+            "/fotos/Propiedades/16/6.png",
+            "/fotos/Propiedades/16/7.png",
+            "/fotos/Propiedades/16/8.png",
+            "/fotos/Propiedades/16/9.png",
+            "/fotos/Propiedades/16/10.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -1973,7 +1973,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "410 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/1.png",
+          "image": "/fotos/Propiedades/17/1.png",
           "description": "Se vende gran apartamento Pent-House de 3 niveles a precio de oportunidad en Urbanización Real, Renacimiento. El metraje es 410 M² en título pero el techo está en contrato que sería casi 600 M² con el metraje del techo.",
           "features": [
             "3 niveles",
@@ -1988,25 +1988,25 @@
           "status": "Disponible",
           "badge": "Pent-House",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/17/19.png"
+            "/fotos/Propiedades/17/1.png",
+            "/fotos/Propiedades/17/2.png",
+            "/fotos/Propiedades/17/3.png",
+            "/fotos/Propiedades/17/4.png",
+            "/fotos/Propiedades/17/5.png",
+            "/fotos/Propiedades/17/6.png",
+            "/fotos/Propiedades/17/7.png",
+            "/fotos/Propiedades/17/8.png",
+            "/fotos/Propiedades/17/9.png",
+            "/fotos/Propiedades/17/10.png",
+            "/fotos/Propiedades/17/11.png",
+            "/fotos/Propiedades/17/12.png",
+            "/fotos/Propiedades/17/13.png",
+            "/fotos/Propiedades/17/14.png",
+            "/fotos/Propiedades/17/15.png",
+            "/fotos/Propiedades/17/16.png",
+            "/fotos/Propiedades/17/17.png",
+            "/fotos/Propiedades/17/18.png",
+            "/fotos/Propiedades/17/19.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2044,7 +2044,7 @@
           "type": "Villa",
           "units": 1,
           "area": "1,470.32 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/1.png",
+          "image": "/fotos/Propiedades/18/1.png",
           "description": "Villa de lujo de 2 niveles en Casa de Campo con 6 habitaciones, salón grande, sala, bar, terraza espaciosa, recibidor, cocinas caliente y fría, habitación máster en planta baja y segunda nivel, piscina, jacuzzi, techo en madera, gazebo cerca de la piscina, pérgola dentro de la piscina, escalera en cristal, madera preciosa.",
           "features": [
             "Villa de 2 niveles",
@@ -2069,25 +2069,25 @@
           "status": "Disponible",
           "badge": "Villa de Lujo",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/18/19.png"
+            "/fotos/Propiedades/18/1.png",
+            "/fotos/Propiedades/18/2.png",
+            "/fotos/Propiedades/18/3.png",
+            "/fotos/Propiedades/18/4.png",
+            "/fotos/Propiedades/18/5.png",
+            "/fotos/Propiedades/18/6.png",
+            "/fotos/Propiedades/18/7.png",
+            "/fotos/Propiedades/18/8.png",
+            "/fotos/Propiedades/18/9.png",
+            "/fotos/Propiedades/18/10.png",
+            "/fotos/Propiedades/18/11.png",
+            "/fotos/Propiedades/18/12.png",
+            "/fotos/Propiedades/18/13.png",
+            "/fotos/Propiedades/18/14.png",
+            "/fotos/Propiedades/18/15.png",
+            "/fotos/Propiedades/18/16.png",
+            "/fotos/Propiedades/18/17.png",
+            "/fotos/Propiedades/18/18.png",
+            "/fotos/Propiedades/18/19.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2128,7 +2128,7 @@
           "type": "Apartamento de Lujo",
           "units": 1,
           "area": "602 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png",
+          "image": "/fotos/Propiedades/19/1.png",
           "description": "Se vende apartamento de 602 metros cuadrados en el Piso 25 de la torre Anacaona 27. Esta majestuosa torre de 41 niveles y 180 metros de altura, es el rascacielos más alto de la República Dominicana y a su vez el más alto de las Antillas. Vista impresionante de la ciudad, del Parque Mirador Sur y casi toda la costa del Caribe.",
           "features": [
             "602 metros cuadrados",
@@ -2151,24 +2151,24 @@
           "status": "Disponible",
           "badge": "Torre Más Alta",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/19/18.png"
+            "/fotos/Propiedades/19/1.png",
+            "/fotos/Propiedades/19/2.png",
+            "/fotos/Propiedades/19/3.png",
+            "/fotos/Propiedades/19/4.png",
+            "/fotos/Propiedades/19/5.png",
+            "/fotos/Propiedades/19/6.png",
+            "/fotos/Propiedades/19/7.png",
+            "/fotos/Propiedades/19/8.png",
+            "/fotos/Propiedades/19/9.png",
+            "/fotos/Propiedades/19/10.png",
+            "/fotos/Propiedades/19/11.png",
+            "/fotos/Propiedades/19/12.png",
+            "/fotos/Propiedades/19/13.png",
+            "/fotos/Propiedades/19/14.png",
+            "/fotos/Propiedades/19/15.png",
+            "/fotos/Propiedades/19/16.png",
+            "/fotos/Propiedades/19/17.png",
+            "/fotos/Propiedades/19/18.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2208,7 +2208,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "354 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/1.png",
+          "image": "/fotos/Propiedades/20/1.png",
           "description": "Se vende elegante Penthouse en la exclusiva zona de La Julia. Vista al mar y a la ciudad, ubicado en 8vo y 9no niveles con características únicas de lujo.",
           "features": [
             "Vista al mar y a la ciudad",
@@ -2229,25 +2229,25 @@
           "status": "Disponible",
           "badge": "Negociable",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/12.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/13.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/14.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/15.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/16.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/17.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/18.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/20/19.png"
+            "/fotos/Propiedades/20/1.png",
+            "/fotos/Propiedades/20/2.png",
+            "/fotos/Propiedades/20/3.png",
+            "/fotos/Propiedades/20/4.png",
+            "/fotos/Propiedades/20/5.png",
+            "/fotos/Propiedades/20/6.png",
+            "/fotos/Propiedades/20/7.png",
+            "/fotos/Propiedades/20/8.png",
+            "/fotos/Propiedades/20/9.png",
+            "/fotos/Propiedades/20/10.png",
+            "/fotos/Propiedades/20/11.png",
+            "/fotos/Propiedades/20/12.png",
+            "/fotos/Propiedades/20/13.png",
+            "/fotos/Propiedades/20/14.png",
+            "/fotos/Propiedades/20/15.png",
+            "/fotos/Propiedades/20/16.png",
+            "/fotos/Propiedades/20/17.png",
+            "/fotos/Propiedades/20/18.png",
+            "/fotos/Propiedades/20/19.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2285,7 +2285,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "205 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/1.png",
+          "image": "/fotos/Propiedades/21/1.png",
           "description": "Vendo apartamento elegante en pleno sector de Naco. Tercer piso con características de lujo y terminaciones de alta calidad.",
           "features": [
             "Tercer (3er) piso",
@@ -2305,14 +2305,14 @@
           "status": "Disponible",
           "badge": "Elegante",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/21/8.png"
+            "/fotos/Propiedades/21/1.png",
+            "/fotos/Propiedades/21/2.png",
+            "/fotos/Propiedades/21/3.png",
+            "/fotos/Propiedades/21/4.png",
+            "/fotos/Propiedades/21/5.png",
+            "/fotos/Propiedades/21/6.png",
+            "/fotos/Propiedades/21/7.png",
+            "/fotos/Propiedades/21/8.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2350,7 +2350,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "275 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/1.png",
+          "image": "/fotos/Propiedades/22/1.png",
           "description": "Se vende Penthouse en Bella Vista. Torre moderna en pisos 7 y 8 con características únicas y excelente ubicación.",
           "features": [
             "Torre moderna",
@@ -2372,15 +2372,15 @@
           "status": "Disponible",
           "badge": "Negociable",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/22/9.png"
+            "/fotos/Propiedades/22/1.png",
+            "/fotos/Propiedades/22/2.png",
+            "/fotos/Propiedades/22/3.png",
+            "/fotos/Propiedades/22/4.png",
+            "/fotos/Propiedades/22/5.png",
+            "/fotos/Propiedades/22/6.png",
+            "/fotos/Propiedades/22/7.png",
+            "/fotos/Propiedades/22/8.png",
+            "/fotos/Propiedades/22/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2569,7 +2569,7 @@
           "type": "Loft",
           "units": 1,
           "area": "130.3 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/1.png",
+          "image": "/fotos/Propiedades/23/1.png",
           "description": "En venta, bello apartamento tipo loft ubicado en la Av. Enriquillo, Los Cacicazgos. Diseño moderno en dos niveles con terminaciones de lujo.",
           "features": [
             "Metraje neto: 130.3 M²",
@@ -2581,15 +2581,15 @@
           "status": "Disponible",
           "badge": "Negociable",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/23/9.png"
+            "/fotos/Propiedades/23/1.png",
+            "/fotos/Propiedades/23/2.png",
+            "/fotos/Propiedades/23/3.png",
+            "/fotos/Propiedades/23/4.png",
+            "/fotos/Propiedades/23/5.png",
+            "/fotos/Propiedades/23/6.png",
+            "/fotos/Propiedades/23/7.png",
+            "/fotos/Propiedades/23/8.png",
+            "/fotos/Propiedades/23/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2626,7 +2626,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "125 - 237 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24/1.png",
+          "image": "/fotos/Propiedades/24/1.png",
           "description": "Proyecto de Apartamentos en Respaldo Los Tres Ojos. Listos para entrega con excelentes terminaciones y amenidades.",
           "features": [
             "3 Habitaciones (Principal con baño y walking closet)",
@@ -2653,10 +2653,10 @@
           "status": "Listo para entrega",
           "badge": "Listo para Entrega",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/24/4.png"
+            "/fotos/Propiedades/24/1.png",
+            "/fotos/Propiedades/24/2.png",
+            "/fotos/Propiedades/24/3.png",
+            "/fotos/Propiedades/24/4.png"
           ],
           "delivery": "Listo para entrega",
           "payment_plan": {
@@ -2704,7 +2704,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25/1.png",
+          "image": "/fotos/Propiedades/25/1.png",
           "description": "Proyecto en plano de amplios apartamentos, con excelente distribución en el Ensanche Isabelita, a 500 metros de la Ave. España. Ideal para vivir o invertir.",
           "features": [
             "Apartamentos de 3 habitaciones (Principal con baño y walk-in closet)",
@@ -2730,10 +2730,10 @@
           "status": "En construcción",
           "badge": "En Construcción",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/25/4.png"
+            "/fotos/Propiedades/25/1.png",
+            "/fotos/Propiedades/25/2.png",
+            "/fotos/Propiedades/25/3.png",
+            "/fotos/Propiedades/25/4.png"
           ],
           "delivery": "Marzo 2025",
           "payment_plan": {
@@ -2783,7 +2783,7 @@
           "type": "Apartamento de Lujo",
           "units": 1,
           "area": "358 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/1.png",
+          "image": "/fotos/Propiedades/26/1.png",
           "description": "Apartamento NUEVO en venta en Av. Anacaona, Santo Domingo D.N. (SOLO SE VENDE AMUEBLADO). Piso 17 orientación oeste con vista espectacular.",
           "features": [
             "Piso 17 orientación oeste",
@@ -2804,15 +2804,15 @@
           "status": "Disponible",
           "badge": "Amueblado",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/26/9.png"
+            "/fotos/Propiedades/26/1.png",
+            "/fotos/Propiedades/26/2.png",
+            "/fotos/Propiedades/26/3.png",
+            "/fotos/Propiedades/26/4.png",
+            "/fotos/Propiedades/26/5.png",
+            "/fotos/Propiedades/26/6.png",
+            "/fotos/Propiedades/26/7.png",
+            "/fotos/Propiedades/26/8.png",
+            "/fotos/Propiedades/26/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2852,7 +2852,7 @@
           "type": "Habitación",
           "units": 1,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/1.png",
+          "image": "/fotos/Propiedades/27/1.png",
           "description": "Se alquila habitación semi-amueblada, amplia y con W/C en el sector de Los Restauradores. Se busca que preferiblemente la persona que alquile sea joven, de 20 a 30 años.",
           "features": [
             "Habitación semi-amueblada",
@@ -2872,15 +2872,15 @@
           "status": "Disponible",
           "badge": "Alquiler",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/27/9.png"
+            "/fotos/Propiedades/27/1.png",
+            "/fotos/Propiedades/27/2.png",
+            "/fotos/Propiedades/27/3.png",
+            "/fotos/Propiedades/27/4.png",
+            "/fotos/Propiedades/27/5.png",
+            "/fotos/Propiedades/27/6.png",
+            "/fotos/Propiedades/27/7.png",
+            "/fotos/Propiedades/27/8.png",
+            "/fotos/Propiedades/27/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2920,7 +2920,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "193 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/1.png",
+          "image": "/fotos/Propiedades/28/1.png",
           "description": "Se vende Apto. en Bella Vista con excelentes características y ubicación privilegiada.",
           "features": [
             "3 Habitaciones",
@@ -2940,15 +2940,15 @@
           "status": "Disponible",
           "badge": "Negociable",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/28/9.png"
+            "/fotos/Propiedades/28/1.png",
+            "/fotos/Propiedades/28/2.png",
+            "/fotos/Propiedades/28/3.png",
+            "/fotos/Propiedades/28/4.png",
+            "/fotos/Propiedades/28/5.png",
+            "/fotos/Propiedades/28/6.png",
+            "/fotos/Propiedades/28/7.png",
+            "/fotos/Propiedades/28/8.png",
+            "/fotos/Propiedades/28/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -2987,7 +2987,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "320 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/1.png",
+          "image": "/fotos/Propiedades/29/1.png",
           "description": "Apartamento con precio de oportunidad en venta en el sector de La Julia. 2do piso con características únicas y excelente distribución.",
           "features": [
             "2do piso",
@@ -3007,15 +3007,15 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/29/9.png"
+            "/fotos/Propiedades/29/1.png",
+            "/fotos/Propiedades/29/2.png",
+            "/fotos/Propiedades/29/3.png",
+            "/fotos/Propiedades/29/4.png",
+            "/fotos/Propiedades/29/5.png",
+            "/fotos/Propiedades/29/6.png",
+            "/fotos/Propiedades/29/7.png",
+            "/fotos/Propiedades/29/8.png",
+            "/fotos/Propiedades/29/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3056,7 +3056,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "466 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/1.png",
+          "image": "/fotos/Propiedades/30/1.png",
           "description": "Vendemos hermoso Pent House frente al Parque Mirador Sur, localizado en la Avenida Cayetano Germosén, diseñado en tres niveles (6to, 7mo y 8vo) con características únicas de lujo.",
           "features": [
             "Área habitacional neta de 466 M²",
@@ -3080,14 +3080,14 @@
           "status": "Disponible",
           "badge": "Frente al Parque",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/30/8.png"
+            "/fotos/Propiedades/30/1.png",
+            "/fotos/Propiedades/30/2.png",
+            "/fotos/Propiedades/30/3.png",
+            "/fotos/Propiedades/30/4.png",
+            "/fotos/Propiedades/30/5.png",
+            "/fotos/Propiedades/30/6.png",
+            "/fotos/Propiedades/30/7.png",
+            "/fotos/Propiedades/30/8.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3128,7 +3128,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "65 - 294 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/1.png",
+          "image": "/fotos/Propiedades/31/1.png",
           "description": "Dos (2) torres de apartamentos de oportunidad en venta, totalmente nuevos en el sector de La Esperilla, entrega 2025.",
           "features": [
             "ÁREA INFANTIL",
@@ -3147,12 +3147,12 @@
           "status": "En construcción",
           "badge": "Entrega 2025",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/31/6.png"
+            "/fotos/Propiedades/31/1.png",
+            "/fotos/Propiedades/31/2.png",
+            "/fotos/Propiedades/31/3.png",
+            "/fotos/Propiedades/31/4.png",
+            "/fotos/Propiedades/31/5.png",
+            "/fotos/Propiedades/31/6.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -3284,7 +3284,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/1.png",
+          "image": "/fotos/Propiedades/32/1.png",
           "description": "Apartamento en venta en Zona Universitaria con excelentes características y amenidades de la torre.",
           "features": [
             "Séptimo piso (7mo)",
@@ -3313,15 +3313,15 @@
           "status": "Disponible",
           "badge": "Zona Universitaria",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/32/9.png"
+            "/fotos/Propiedades/32/1.png",
+            "/fotos/Propiedades/32/2.png",
+            "/fotos/Propiedades/32/3.png",
+            "/fotos/Propiedades/32/4.png",
+            "/fotos/Propiedades/32/5.png",
+            "/fotos/Propiedades/32/6.png",
+            "/fotos/Propiedades/32/7.png",
+            "/fotos/Propiedades/32/8.png",
+            "/fotos/Propiedades/32/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3367,7 +3367,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "183 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/1.png",
+          "image": "/fotos/Propiedades/33/1.png",
           "description": "Apartamento en venta ubicado en el Mirador Norte, Distrito Nacional. A una calle de la Av. 27 Febrero con excelentes características y ubicación privilegiada.",
           "features": [
             "3 Habitaciones (1 de ellas adaptada a Family Room)",
@@ -3390,15 +3390,15 @@
           "status": "Disponible",
           "badge": "Mirador Norte",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/33/9.png"
+            "/fotos/Propiedades/33/1.png",
+            "/fotos/Propiedades/33/2.png",
+            "/fotos/Propiedades/33/3.png",
+            "/fotos/Propiedades/33/4.png",
+            "/fotos/Propiedades/33/5.png",
+            "/fotos/Propiedades/33/6.png",
+            "/fotos/Propiedades/33/7.png",
+            "/fotos/Propiedades/33/8.png",
+            "/fotos/Propiedades/33/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3441,7 +3441,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "315.76 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/1.png",
+          "image": "/fotos/Propiedades/34/1.png",
           "description": "Hermoso Penthouse de Lujo Amueblado en Mirador Norte. Frente al Downtown Center Mall. 11 Piso, 2 niveles con características únicas de lujo.",
           "features": [
             "3 Habitaciones / 4.5 Baños",
@@ -3456,15 +3456,14 @@
           "status": "Disponible",
           "badge": "Amueblado",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/34/9.png"
+            "/fotos/Propiedades/34/1.png",
+            "/fotos/Propiedades/34/3.png",
+            "/fotos/Propiedades/34/4.png",
+            "/fotos/Propiedades/34/5.png",
+            "/fotos/Propiedades/34/6.png",
+            "/fotos/Propiedades/34/7.png",
+            "/fotos/Propiedades/34/8.png",
+            "/fotos/Propiedades/34/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3505,7 +3504,7 @@
           "type": "Apartamento de Lujo",
           "units": 1,
           "area": "369.75 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/1.png",
+          "image": "/fotos/Propiedades/35/1.png",
           "description": "Espectacular apartamento de oportunidad en La Esperilla a tan solo unos pasos del Teatro Nacional, en una zona céntrica de la ciudad de Santo Domingo.",
           "features": [
             "Área de 369.75 m²",
@@ -3537,14 +3536,14 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/35/8.png"
+            "/fotos/Propiedades/35/1.png",
+            "/fotos/Propiedades/35/2.png",
+            "/fotos/Propiedades/35/3.png",
+            "/fotos/Propiedades/35/4.png",
+            "/fotos/Propiedades/35/5.png",
+            "/fotos/Propiedades/35/6.png",
+            "/fotos/Propiedades/35/7.png",
+            "/fotos/Propiedades/35/8.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3594,7 +3593,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "656.35 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/1.png",
+          "image": "/fotos/Propiedades/36/1.png",
           "description": "Pent-House de Oportunidad en Piantini ubicado en una de las zonas más céntricas y exclusivas. Edificio de muy baja densidad, sólo 10 familias. Excelente vista citadina.",
           "features": [
             "656.35 M²",
@@ -3609,16 +3608,16 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/36/10.png"
+            "/fotos/Propiedades/36/1.png",
+            "/fotos/Propiedades/36/2.png",
+            "/fotos/Propiedades/36/3.png",
+            "/fotos/Propiedades/36/4.png",
+            "/fotos/Propiedades/36/5.png",
+            "/fotos/Propiedades/36/6.png",
+            "/fotos/Propiedades/36/7.png",
+            "/fotos/Propiedades/36/8.png",
+            "/fotos/Propiedades/36/9.png",
+            "/fotos/Propiedades/36/10.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3663,7 +3662,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "328 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/1.png",
+          "image": "/fotos/Propiedades/37/1.png",
           "description": "Se vende apartamento de oportunidad en Naco con excelentes características y ubicación privilegiada.",
           "features": [
             "3 habitaciones cada una con baño",
@@ -3690,13 +3689,13 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/37/7.png"
+            "/fotos/Propiedades/37/1.png",
+            "/fotos/Propiedades/37/2.png",
+            "/fotos/Propiedades/37/3.png",
+            "/fotos/Propiedades/37/4.png",
+            "/fotos/Propiedades/37/5.png",
+            "/fotos/Propiedades/37/6.png",
+            "/fotos/Propiedades/37/7.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3742,7 +3741,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "204 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/1.png",
+          "image": "/fotos/Propiedades/38/1.png",
           "description": "Oportunidad única en Los Cacicazgos, Piso 17 con vista al mar y balcón tipo terraza.",
           "features": [
             "Vista al mar",
@@ -3764,13 +3763,13 @@
           "status": "Disponible",
           "badge": "Vista al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/38/7.png"
+            "/fotos/Propiedades/38/1.png",
+            "/fotos/Propiedades/38/2.png",
+            "/fotos/Propiedades/38/3.png",
+            "/fotos/Propiedades/38/4.png",
+            "/fotos/Propiedades/38/5.png",
+            "/fotos/Propiedades/38/6.png",
+            "/fotos/Propiedades/38/7.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3811,7 +3810,7 @@
           "type": "Villa",
           "units": 1,
           "area": "575.01 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/1.png",
+          "image": "/fotos/Propiedades/39/1.png",
           "description": "Vendo hermosa villa amueblada en Jarabacoa con características únicas y ubicación privilegiada en la montaña.",
           "features": [
             "4 Habitaciones grandes con sus baños, closets y kitchenette cada una",
@@ -3825,11 +3824,11 @@
           "status": "Disponible",
           "badge": "Amueblada",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/39/5.png"
+            "/fotos/Propiedades/39/1.png",
+            "/fotos/Propiedades/39/2.png",
+            "/fotos/Propiedades/39/3.png",
+            "/fotos/Propiedades/39/4.png",
+            "/fotos/Propiedades/39/5.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -3865,7 +3864,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "63 - 143 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/1.png",
+          "image": "/fotos/Propiedades/50/1.png",
           "description": "Es una torre moderna y vanguardista, ubicada en el exclusivo sector de Bella Vista con apartamentos desde $157,000 USD.",
           "features": [
             "Drive way",
@@ -3885,12 +3884,12 @@
           "status": "En construcción",
           "badge": "Desde $157,000",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/50/6.png"
+            "/fotos/Propiedades/50/1.png",
+            "/fotos/Propiedades/50/2.png",
+            "/fotos/Propiedades/50/3.png",
+            "/fotos/Propiedades/50/4.png",
+            "/fotos/Propiedades/50/5.png",
+            "/fotos/Propiedades/50/6.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4004,7 +4003,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "172.5 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52/1.png",
+          "image": "/fotos/Propiedades/52/1.png",
           "description": "Espacioso apartamento en el corazón de la ciudad Santo Domingo en el sector PARAÍSO, vistas del ocaso al oeste desde las habitaciones y fresco viento en el balcón tipo terraza por el este.",
           "features": [
             "Lujo, Naturaleza y Espacios Grandes",
@@ -4022,10 +4021,10 @@
           "status": "Disponible",
           "badge": "Sector Paraíso",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/52/4.png"
+            "/fotos/Propiedades/52/1.png",
+            "/fotos/Propiedades/52/2.png",
+            "/fotos/Propiedades/52/3.png",
+            "/fotos/Propiedades/52/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -4064,7 +4063,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "54 - 137 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png",
+          "image": "/fotos/Propiedades/40/1.png",
           "description": "Apartamentos nuevos por el sector Esperilla, Conarte VIII, El Vergel con terminaciones de primera calidad.",
           "features": [
             "Puertas y Closets en madera preciosa",
@@ -4095,12 +4094,12 @@
           "status": "En construcción",
           "badge": "Conarte VIII",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/40/6.png"
+            "/fotos/Propiedades/40/1.png",
+            "/fotos/Propiedades/40/2.png",
+            "/fotos/Propiedades/40/3.png",
+            "/fotos/Propiedades/40/4.png",
+            "/fotos/Propiedades/40/5.png",
+            "/fotos/Propiedades/40/6.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4165,7 +4164,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/1.png",
+          "image": "/fotos/Propiedades/42/1.png",
           "description": "Este proyecto cuenta con aptos de 1 y 2 habitaciones con excelentes características y amenidades.",
           "features": [
             "Amplio Lobby",
@@ -4185,14 +4184,14 @@
           "status": "En construcción",
           "badge": "El Vergel",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/42/8.png"
+            "/fotos/Propiedades/42/1.png",
+            "/fotos/Propiedades/42/2.png",
+            "/fotos/Propiedades/42/3.png",
+            "/fotos/Propiedades/42/4.png",
+            "/fotos/Propiedades/42/5.png",
+            "/fotos/Propiedades/42/6.png",
+            "/fotos/Propiedades/42/7.png",
+            "/fotos/Propiedades/42/8.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4242,7 +4241,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "574 - 670 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/1.png",
+          "image": "/fotos/Propiedades/43/1.png",
           "description": "Concepto elegante, lujoso y al más alto nivel, con espectacular vista al mar.",
           "features": [
             "Un apartamento por nivel",
@@ -4268,15 +4267,15 @@
           "status": "En construcción",
           "badge": "Vista al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/43/9.png"
+            "/fotos/Propiedades/43/1.png",
+            "/fotos/Propiedades/43/2.png",
+            "/fotos/Propiedades/43/3.png",
+            "/fotos/Propiedades/43/4.png",
+            "/fotos/Propiedades/43/5.png",
+            "/fotos/Propiedades/43/6.png",
+            "/fotos/Propiedades/43/7.png",
+            "/fotos/Propiedades/43/8.png",
+            "/fotos/Propiedades/43/9.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4340,7 +4339,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "195 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/1.png",
+          "image": "/fotos/Propiedades/44/1.png",
           "description": "Esta es una torre moderna, ubicada en el exclusivo sector de Naco en Santo Domingo, República Dominicana, el proyecto está a dos y tres esquinas de los principales centros comerciales de la ciudad.",
           "features": [
             "Amplio Lobby, finamente terminado, climatizado y amueblado",
@@ -4368,11 +4367,11 @@
           "status": "En construcción",
           "badge": "Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/44/5.png"
+            "/fotos/Propiedades/44/1.png",
+            "/fotos/Propiedades/44/2.png",
+            "/fotos/Propiedades/44/3.png",
+            "/fotos/Propiedades/44/4.png",
+            "/fotos/Propiedades/44/5.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4456,7 +4455,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/1.png",
+          "image": "/fotos/Propiedades/45/1.png",
           "description": "Esta es una torre moderna, ubicada en el exclusivo sector de Naco, Santo Domingo, República Dominicana, el proyecto está a dos y tres esquina de los principales centros comerciales de la ciudad de Santo Domingo.",
           "features": [
             "Amplio Lobby, finamente terminado, climatizado y amueblado",
@@ -4483,12 +4482,12 @@
           "status": "En construcción",
           "badge": "Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/45/6.png"
+            "/fotos/Propiedades/45/1.png",
+            "/fotos/Propiedades/45/2.png",
+            "/fotos/Propiedades/45/3.png",
+            "/fotos/Propiedades/45/4.png",
+            "/fotos/Propiedades/45/5.png",
+            "/fotos/Propiedades/45/6.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4528,7 +4527,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/1.png",
+          "image": "/fotos/Propiedades/46/1.png",
           "description": "Esta una torre moderna, ubicada en el exclusivo sector de Naco, Santo Domingo, República Dominicana, el proyecto está a dos y tres esquina de los principales centros comerciales de la ciudad de Santo Domingo.",
           "features": [
             "Amplio Lobby, doble altura, finamente terminado, climatizado y amueblado",
@@ -4556,9 +4555,9 @@
           "status": "En construcción",
           "badge": "Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/46/3.png"
+            "/fotos/Propiedades/46/1.png",
+            "/fotos/Propiedades/46/2.png",
+            "/fotos/Propiedades/46/3.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4598,7 +4597,7 @@
           "type": "Pent-House",
           "units": 1,
           "area": "470 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/1.png",
+          "image": "/fotos/Propiedades/47/1.png",
           "description": "Este es un Penthouse en un piso 14, ubicado en el exclusivo sector de Piantini, el cual consta de un área Total de construcción de Cuatrocientos Setenta (470) metros cuadrados.",
           "features": [
             "Cuatrocientos Veinte (420) Metros Cuadrados de Construcción neta de apartamento en el primer nivel del Pent-house",
@@ -4621,14 +4620,14 @@
           "status": "Disponible",
           "badge": "Piantini",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/47/8.png"
+            "/fotos/Propiedades/47/1.png",
+            "/fotos/Propiedades/47/2.png",
+            "/fotos/Propiedades/47/3.png",
+            "/fotos/Propiedades/47/4.png",
+            "/fotos/Propiedades/47/5.png",
+            "/fotos/Propiedades/47/6.png",
+            "/fotos/Propiedades/47/7.png",
+            "/fotos/Propiedades/47/8.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -4673,7 +4672,7 @@
           "type": "Apartamentos de Lujo",
           "units": 42,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/1.png",
+          "image": "/fotos/Propiedades/48/1.png",
           "description": "Es una Torre Moderna de 23 niveles de apartamentos, proyectados a 2 apartamentos por nivel.",
           "features": [
             "Cuatro niveles de estacionamientos",
@@ -4705,9 +4704,9 @@
           "status": "En construcción",
           "badge": "Los Cacicazgos",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/48/3.png"
+            "/fotos/Propiedades/48/1.png",
+            "/fotos/Propiedades/48/2.png",
+            "/fotos/Propiedades/48/3.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4753,7 +4752,7 @@
           "type": "Apartamentos",
           "units": 144,
           "area": "83 - 146 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/1.png",
+          "image": "/fotos/Propiedades/53/1.png",
           "description": "Es una torre moderna de 19 pisos. La cual tendrá 144 apartamentos de 1, 2 y 3 habitaciones, un nivel de área social, dos niveles de parqueos con un total de 189 parqueos.",
           "features": [
             "Amplio Lobby, finamente terminado y amueblado",
@@ -4783,9 +4782,9 @@
           "status": "En construcción",
           "badge": "Juan Dolio Beach",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/53/3.png"
+            "/fotos/Propiedades/53/1.png",
+            "/fotos/Propiedades/53/2.png",
+            "/fotos/Propiedades/53/3.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4851,7 +4850,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "63 - 143 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/1.png",
+          "image": "/fotos/Propiedades/54/1.png",
           "description": "Es una torre moderna y vanguardista, ubicada en el exclusivo sector de Bella Vista.",
           "features": [
             "Drive way",
@@ -4871,11 +4870,11 @@
           "status": "En construcción",
           "badge": "Bella Vista",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/54/5.png"
+            "/fotos/Propiedades/54/1.png",
+            "/fotos/Propiedades/54/2.png",
+            "/fotos/Propiedades/54/3.png",
+            "/fotos/Propiedades/54/4.png",
+            "/fotos/Propiedades/54/5.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -4990,7 +4989,7 @@
           "type": "Apartamentos de Lujo",
           "units": 30,
           "area": "282 - 565 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/1.png",
+          "image": "/fotos/Propiedades/55/1.png",
           "description": "Es una torre moderna de 18 niveles de apartamentos, proyectados a 2 apartamentos por nivel; 28 apartamentos de 282 mt2 netos de construcción y dos Pent House de 2 niveles de 565 mt2 neto de construcción.",
           "features": [
             "Cuatro niveles de estacionamientos",
@@ -5023,11 +5022,11 @@
           "status": "En construcción",
           "badge": "Los Cacicazgos",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/55/5.png"
+            "/fotos/Propiedades/55/1.png",
+            "/fotos/Propiedades/55/2.png",
+            "/fotos/Propiedades/55/3.png",
+            "/fotos/Propiedades/55/4.png",
+            "/fotos/Propiedades/55/5.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5081,7 +5080,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/1.png",
+          "image": "/fotos/Propiedades/56/1.png",
           "description": "Apartamentos nuevos y económicos en Vista Hermosa.",
           "features": [
             "Portón eléctrico",
@@ -5094,10 +5093,10 @@
           "status": "En construcción",
           "badge": "Vista Hermosa",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/56/4.png"
+            "/fotos/Propiedades/56/1.png",
+            "/fotos/Propiedades/56/2.png",
+            "/fotos/Propiedades/56/3.png",
+            "/fotos/Propiedades/56/4.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5134,7 +5133,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "60 - 170 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/1.png",
+          "image": "/fotos/Propiedades/57/1.png",
           "description": "Es un proyecto de 11 niveles de apartamentos distribuidos de la siguiente manera.",
           "features": [
             "Aptos. de 1, 2 y 3 habitaciones con 60 metros, 92 metros y 170 metros cuadrados de área neta respectivamente",
@@ -5167,15 +5166,15 @@
           "status": "En construcción",
           "badge": "La Esperilla",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/57/9.png"
+            "/fotos/Propiedades/57/1.png",
+            "/fotos/Propiedades/57/2.png",
+            "/fotos/Propiedades/57/3.png",
+            "/fotos/Propiedades/57/4.png",
+            "/fotos/Propiedades/57/5.png",
+            "/fotos/Propiedades/57/6.png",
+            "/fotos/Propiedades/57/7.png",
+            "/fotos/Propiedades/57/8.png",
+            "/fotos/Propiedades/57/9.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5242,7 +5241,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "68 - 143 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/1.png",
+          "image": "/fotos/Propiedades/58/1.png",
           "description": "Es un proyecto de 15 niveles de apartamentos distribuidos de la siguiente manera.",
           "features": [
             "Aptos. de 1 habitación de 68 metros2, de 2 habitaciones de 105 metros2, 112 metros2 y de 115 metros2 y de 3 habitaciones de 143 metros2 de área neta de construcción",
@@ -5261,14 +5260,14 @@
           "status": "En construcción",
           "badge": "La Esperilla",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/58/8.png"
+            "/fotos/Propiedades/58/1.png",
+            "/fotos/Propiedades/58/2.png",
+            "/fotos/Propiedades/58/3.png",
+            "/fotos/Propiedades/58/4.png",
+            "/fotos/Propiedades/58/5.png",
+            "/fotos/Propiedades/58/6.png",
+            "/fotos/Propiedades/58/7.png",
+            "/fotos/Propiedades/58/8.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5336,7 +5335,7 @@
           "type": "Oficinas",
           "units": 0,
           "area": "44.5 - 47.5 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/1.png",
+          "image": "/fotos/Propiedades/59/1.png",
           "description": "Este es un proyecto de oficinas comerciales en el exclusivo sector BELLA VISTA, Santo Domingo, República Dominicana, de 14 niveles de los cuales, 5 niveles corresponden a parqueos, un nivel en el último piso para el área social y los 8 niveles restantes corresponden a locales de oficinas.",
           "features": [
             "Locales de oficinas de 44.5, 45 y 47.5 metros cuadrados",
@@ -5360,10 +5359,10 @@
           "status": "En construcción",
           "badge": "Bella Vista",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/59/4.png"
+            "/fotos/Propiedades/59/1.png",
+            "/fotos/Propiedades/59/2.png",
+            "/fotos/Propiedades/59/3.png",
+            "/fotos/Propiedades/59/4.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5428,7 +5427,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "90 - 132 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/1.png",
+          "image": "/fotos/Propiedades/60/1.png",
           "description": "Esta es una torre ubicada en el sector La Esperilla, los apartamentos constan con las siguientes características.",
           "features": [
             "2 Habs.: Aptos. tipo A – F 100 mts2 (Vista hacia el norte) / tipo B 90 mts2 (Vista hacia el este)",
@@ -5448,10 +5447,10 @@
           "status": "En construcción",
           "badge": "La Esperilla",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/60/4.png"
+            "/fotos/Propiedades/60/1.png",
+            "/fotos/Propiedades/60/2.png",
+            "/fotos/Propiedades/60/3.png",
+            "/fotos/Propiedades/60/4.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -5529,7 +5528,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "50 - 245 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/1.png",
+          "image": "/fotos/Propiedades/61/1.png",
           "description": "Apartamentos de 1, 2 y 3 habitaciones. Precios desde US$70,000.00 hasta US$350,000.00 desde 50 Mts2 hasta 245 Mts2.",
           "features": [
             "8vo nivel con 4 habitaciones y 110 Mts2 de terraza",
@@ -5549,12 +5548,12 @@
           "status": "Disponible",
           "badge": "El Vergel",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/61/6.png"
+            "/fotos/Propiedades/61/1.png",
+            "/fotos/Propiedades/61/2.png",
+            "/fotos/Propiedades/61/3.png",
+            "/fotos/Propiedades/61/4.png",
+            "/fotos/Propiedades/61/5.png",
+            "/fotos/Propiedades/61/6.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5621,7 +5620,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/1.png",
+          "image": "/fotos/Propiedades/62/1.png",
           "description": "Esta es una torre ubicada en el exclusivo sector de Renacimiento.",
           "features": [
             "Lobby Amueblado y climatizado",
@@ -5645,12 +5644,12 @@
           "status": "Disponible",
           "badge": "Renacimiento",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/62/6.png"
+            "/fotos/Propiedades/62/1.png",
+            "/fotos/Propiedades/62/2.png",
+            "/fotos/Propiedades/62/3.png",
+            "/fotos/Propiedades/62/4.png",
+            "/fotos/Propiedades/62/5.png",
+            "/fotos/Propiedades/62/6.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5700,7 +5699,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/1.png",
+          "image": "/fotos/Propiedades/63/1.png",
           "description": "Esta es una torre de lujo ubicada en el sector de Urbanización Real.",
           "features": [
             "Elegante y moderno lobby",
@@ -5730,11 +5729,11 @@
           "status": "Disponible",
           "badge": "Urbanización Real",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/63/5.png"
+            "/fotos/Propiedades/63/1.png",
+            "/fotos/Propiedades/63/2.png",
+            "/fotos/Propiedades/63/3.png",
+            "/fotos/Propiedades/63/4.png",
+            "/fotos/Propiedades/63/5.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5789,7 +5788,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "52 - 107 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/1.png",
+          "image": "/fotos/Propiedades/64/1.png",
           "description": "Es un proyecto de lujo que combina la modernidad, elegancia y el confort distribuidos en 9 niveles y 2 sótanos.",
           "features": [
             "Apartamentos de 1 y 2 habitaciones",
@@ -5814,13 +5813,13 @@
           "status": "Disponible",
           "badge": "La Esperilla",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/64/7.png"
+            "/fotos/Propiedades/64/1.png",
+            "/fotos/Propiedades/64/2.png",
+            "/fotos/Propiedades/64/3.png",
+            "/fotos/Propiedades/64/4.png",
+            "/fotos/Propiedades/64/5.png",
+            "/fotos/Propiedades/64/6.png",
+            "/fotos/Propiedades/64/7.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5874,7 +5873,7 @@
           "type": "Apartamentos",
           "units": 0,
           "area": "90 - 97 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/1.png",
+          "image": "/fotos/Propiedades/65/1.png",
           "description": "Apartamentos de lujo y modernos a buen precio.",
           "features": [
             "Apartamentos de 3 habitaciones de 90mts2 y 97mts2",
@@ -5895,15 +5894,15 @@
           "status": "Disponible",
           "badge": "Desde $63,500",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/65/9.png"
+            "/fotos/Propiedades/65/1.png",
+            "/fotos/Propiedades/65/2.png",
+            "/fotos/Propiedades/65/3.png",
+            "/fotos/Propiedades/65/4.png",
+            "/fotos/Propiedades/65/5.png",
+            "/fotos/Propiedades/65/6.png",
+            "/fotos/Propiedades/65/7.png",
+            "/fotos/Propiedades/65/8.png",
+            "/fotos/Propiedades/65/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -5941,7 +5940,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/1.png",
+          "image": "/fotos/Propiedades/66/1.png",
           "description": "Lujosos apartamentos de 1, 2 y 3 habitaciones ubicados en el refinado sector de Arroyo Hondo.",
           "features": [
             "Lobby Amueblado Climatizado",
@@ -5952,15 +5951,15 @@
           "status": "Disponible",
           "badge": "Desde $70,000",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/66/9.png"
+            "/fotos/Propiedades/66/1.png",
+            "/fotos/Propiedades/66/2.png",
+            "/fotos/Propiedades/66/3.png",
+            "/fotos/Propiedades/66/4.png",
+            "/fotos/Propiedades/66/5.png",
+            "/fotos/Propiedades/66/6.png",
+            "/fotos/Propiedades/66/7.png",
+            "/fotos/Propiedades/66/8.png",
+            "/fotos/Propiedades/66/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6016,7 +6015,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/1.png",
+          "image": "/fotos/Propiedades/67/1.png",
           "description": "Apartamento exclusivo en Naco con características de lujo.",
           "features": [
             "1 apartamento por piso",
@@ -6042,12 +6041,12 @@
           "status": "Disponible",
           "badge": "Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/67/6.png"
+            "/fotos/Propiedades/67/1.png",
+            "/fotos/Propiedades/67/2.png",
+            "/fotos/Propiedades/67/3.png",
+            "/fotos/Propiedades/67/4.png",
+            "/fotos/Propiedades/67/5.png",
+            "/fotos/Propiedades/67/6.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6097,7 +6096,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/1.png",
+          "image": "/fotos/Propiedades/68/1.png",
           "description": "Proyecto localizado en el sector de La Julia del D.N., en la mejor zona de Santo Domingo por sus espectaculares vistas al mar.",
           "features": [
             "Espectaculares vistas al mar",
@@ -6124,15 +6123,15 @@
           "status": "Disponible",
           "badge": "Vistas al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/68/9.png"
+            "/fotos/Propiedades/68/1.png",
+            "/fotos/Propiedades/68/2.png",
+            "/fotos/Propiedades/68/3.png",
+            "/fotos/Propiedades/68/4.png",
+            "/fotos/Propiedades/68/5.png",
+            "/fotos/Propiedades/68/6.png",
+            "/fotos/Propiedades/68/7.png",
+            "/fotos/Propiedades/68/8.png",
+            "/fotos/Propiedades/68/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6176,7 +6175,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "245 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/1.png",
+          "image": "/fotos/Propiedades/69/1.png",
           "description": "Apartamento especial de 245m2 en Cap Cana, es la única unidad de 2 habitaciones disponible con cuarto de servicio.",
           "features": [
             "Dos (2) Habitaciones",
@@ -6202,10 +6201,10 @@
           "status": "Disponible",
           "badge": "Cap Cana",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/69/4.png"
+            "/fotos/Propiedades/69/1.png",
+            "/fotos/Propiedades/69/2.png",
+            "/fotos/Propiedades/69/3.png",
+            "/fotos/Propiedades/69/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6252,7 +6251,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "245 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
+          "image": "/fotos/Propiedades/70/1.png",
           "description": "Apartamento especial de 245m2 en Cap Cana, es la única unidad de 2 habitaciones disponible con cuarto de servicio.",
           "features": [
             "Dos (2) Habitaciones",
@@ -6278,10 +6277,10 @@
           "status": "Disponible",
           "badge": "Cap Cana",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/4.png"
+            "/fotos/Propiedades/70/1.png",
+            "/fotos/Propiedades/70/2.png",
+            "/fotos/Propiedades/70/3.png",
+            "/fotos/Propiedades/70/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6327,7 +6326,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "54 m² + 24 m² terraza",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
+          "image": "/fotos/Propiedades/70/1.png",
           "description": "Apartamento totalmente NUEVO de 54 metros cuadrados + terraza de 24 metros cuadrados en el sector del Vergel, en alquiler por tan solo 875 USD$/mes.",
           "features": [
             "54 metros cuadrados",
@@ -6338,10 +6337,10 @@
           "status": "Disponible",
           "badge": "Alquiler $875",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/70/4.png"
+            "/fotos/Propiedades/70/1.png",
+            "/fotos/Propiedades/70/2.png",
+            "/fotos/Propiedades/70/3.png",
+            "/fotos/Propiedades/70/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6374,7 +6373,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "165 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/1.png",
+          "image": "/fotos/Propiedades/71/1.png",
           "description": "OFERTA DE APARTAMENTO AMUEBLADO EN ALQUILER NEGOCIABLE EN LA ESPERILLA.",
           "features": [
             "3 habitaciones",
@@ -6388,13 +6387,13 @@
           "status": "Disponible",
           "badge": "Alquiler $1,300",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/71/7.png"
+            "/fotos/Propiedades/71/1.png",
+            "/fotos/Propiedades/71/2.png",
+            "/fotos/Propiedades/71/3.png",
+            "/fotos/Propiedades/71/4.png",
+            "/fotos/Propiedades/71/5.png",
+            "/fotos/Propiedades/71/6.png",
+            "/fotos/Propiedades/71/7.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6431,7 +6430,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "95 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/1.jpeg",
+          "image": "/fotos/Propiedades/81/1.jpeg",
           "description": "Renta este elegante apartamento de oportunidad única en el centro del Distrito Nacional. Apartamento amueblado en El Vergel con todas las comodidades necesarias para una vida cómoda y segura.",
           "features": [
             "1 Habitación",
@@ -6447,17 +6446,17 @@
           "status": "Disponible",
           "badge": "Alquiler $950",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/1.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/2.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/3.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/4.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/5.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/6.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/7.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/8.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/9.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/10.jpeg",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/81/11.jpeg"
+            "/fotos/Propiedades/81/1.jpeg",
+            "/fotos/Propiedades/81/2.jpeg",
+            "/fotos/Propiedades/81/3.jpeg",
+            "/fotos/Propiedades/81/4.jpeg",
+            "/fotos/Propiedades/81/5.jpeg",
+            "/fotos/Propiedades/81/6.jpeg",
+            "/fotos/Propiedades/81/7.jpeg",
+            "/fotos/Propiedades/81/8.jpeg",
+            "/fotos/Propiedades/81/9.jpeg",
+            "/fotos/Propiedades/81/10.jpeg",
+            "/fotos/Propiedades/81/11.jpeg"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6576,7 +6575,7 @@
           "type": "Apartamentos",
           "units": 2,
           "area": "52 - 140 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/1.png",
+          "image": "/fotos/Propiedades/73/1.png",
           "description": "Precio de oportunidad. En venta dos apartamentos totalmente nuevos en el Sector Bella Vista.",
           "features": [
             "1 de 1 habitación, 52m2 de Apto. y 50m2 de terraza. 129,500 $US",
@@ -6600,10 +6599,10 @@
           "status": "Disponible",
           "badge": "Precio Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/73/4.png"
+            "/fotos/Propiedades/73/1.png",
+            "/fotos/Propiedades/73/2.png",
+            "/fotos/Propiedades/73/3.png",
+            "/fotos/Propiedades/73/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6654,7 +6653,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "130 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/1.png",
+          "image": "/fotos/Propiedades/74/1.png",
           "description": "Apartamento de 130m2 a US$ 165,000 con hermosa vista al mar, balcón tipo terraza, terminación de primera y excelente distribución.",
           "features": [
             "3 habitaciones",
@@ -6677,10 +6676,10 @@
           "status": "Disponible",
           "badge": "Vista al Mar",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/74/4.png"
+            "/fotos/Propiedades/74/1.png",
+            "/fotos/Propiedades/74/2.png",
+            "/fotos/Propiedades/74/3.png",
+            "/fotos/Propiedades/74/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6724,7 +6723,7 @@
           "type": "Apartamentos",
           "units": 1,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/1.png",
+          "image": "/fotos/Propiedades/75/1.png",
           "description": "ALQUILER DE OPORTUNIDAD EN NACO.",
           "features": [
             "2 Habitaciones",
@@ -6739,10 +6738,10 @@
           "status": "Disponible",
           "badge": "Alquiler Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/75/4.png"
+            "/fotos/Propiedades/75/1.png",
+            "/fotos/Propiedades/75/2.png",
+            "/fotos/Propiedades/75/3.png",
+            "/fotos/Propiedades/75/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -6780,7 +6779,7 @@
           "type": "Apartamentos de Lujo",
           "units": 0,
           "area": "N/A",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/1.png",
+          "image": "/fotos/Propiedades/76/1.png",
           "description": "APARTAMENTOS NUEVOS EN VENTA EN TORRE MODERNA DE 23 NIVELES.",
           "features": [
             "Dos Ascensores de Lujo",
@@ -6796,10 +6795,10 @@
           "status": "En construcción",
           "badge": "Bella Vista",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/76/4.png"
+            "/fotos/Propiedades/76/1.png",
+            "/fotos/Propiedades/76/2.png",
+            "/fotos/Propiedades/76/3.png",
+            "/fotos/Propiedades/76/4.png"
           ],
           "delivery": "2025",
           "payment_plan": {
@@ -6838,7 +6837,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "150 m² + 50 m² parqueos",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/1.png",
+          "image": "/fotos/Propiedades/77/1.png",
           "description": "APARTAMENTO DE OPORTUNIDAD EN VENTA, EN NACO. Piso alto en el corazón de Naco con 3 habitaciones.",
           "features": [
             "Hermoso apartamento en el corazón de NACO",
@@ -6858,10 +6857,10 @@
           "status": "Disponible",
           "badge": "Naco",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/77/4.png"
+            "/fotos/Propiedades/77/1.png",
+            "/fotos/Propiedades/77/2.png",
+            "/fotos/Propiedades/77/3.png",
+            "/fotos/Propiedades/77/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -7201,7 +7200,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "172.5 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/1.png",
+          "image": "/fotos/Propiedades/78/1.png",
           "description": "APARTAMENTO EN VENTA EN SECTOR PARAÍSO. Lujo, Naturaleza y Espacios Grandes.",
           "features": [
             "3 Hab + Estudio",
@@ -7219,10 +7218,10 @@
           "status": "Disponible",
           "badge": "Sector Paraíso",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/78/4.png"
+            "/fotos/Propiedades/78/1.png",
+            "/fotos/Propiedades/78/2.png",
+            "/fotos/Propiedades/78/3.png",
+            "/fotos/Propiedades/78/4.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -7262,7 +7261,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "341 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/1.png",
+          "image": "/fotos/Propiedades/79/1.png",
           "description": "Apartamento con precio de oportunidad en venta en el sector de La Julia. Ubicado en 2do piso con 1 apartamento por piso, 341 metros cuadrados, 4 parqueos, 4 habitaciones con sus baños y closets, balcón tipo terraza, 2 salas, estudio, comedor amplio, área de lavado, cuarto de servicio, ascensor que te deja directamente en el apartamento y ascensor de carga.",
           "features": [
             "2do piso",
@@ -7282,15 +7281,15 @@
           "status": "Disponible",
           "badge": "Precio de Oportunidad",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/79/9.png"
+            "/fotos/Propiedades/79/1.png",
+            "/fotos/Propiedades/79/2.png",
+            "/fotos/Propiedades/79/3.png",
+            "/fotos/Propiedades/79/4.png",
+            "/fotos/Propiedades/79/5.png",
+            "/fotos/Propiedades/79/6.png",
+            "/fotos/Propiedades/79/7.png",
+            "/fotos/Propiedades/79/8.png",
+            "/fotos/Propiedades/79/9.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -7330,7 +7329,7 @@
           "type": "Apartamento",
           "units": 1,
           "area": "95 m²",
-          "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/1.png",
+          "image": "/fotos/Propiedades/80/1.png",
           "description": "Apartamento Amueblado en Piantini ubicado en un 6to nivel, en torre con lobby elegante, 2 ascensores, planta eléctrica, seguridad 24/7. 95 m² con 1 habitación, 1 parqueo, 1 baño y 2 balcones. Antes alquilado en USD$ 1,100, ahora disponible desde USD$ 1,000. Opción a venta en USD$ 141,066. Ideal para ejecutivos o parejas que buscan comodidad y ubicación premium en el corazón de Piantini.",
           "features": [
             "6to nivel",
@@ -7349,18 +7348,18 @@
           "status": "Disponible",
           "badge": "Piantini Premium",
           "gallery": [
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/1.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/2.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/3.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/4.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/5.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/6.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/7.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/8.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/9.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/10.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/11.png",
-            "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/80/12.png"
+            "/fotos/Propiedades/80/1.png",
+            "/fotos/Propiedades/80/2.png",
+            "/fotos/Propiedades/80/3.png",
+            "/fotos/Propiedades/80/4.png",
+            "/fotos/Propiedades/80/5.png",
+            "/fotos/Propiedades/80/6.png",
+            "/fotos/Propiedades/80/7.png",
+            "/fotos/Propiedades/80/8.png",
+            "/fotos/Propiedades/80/9.png",
+            "/fotos/Propiedades/80/10.png",
+            "/fotos/Propiedades/80/11.png",
+            "/fotos/Propiedades/80/12.png"
           ],
           "delivery": "Disponible",
           "payment_plan": {
@@ -13868,7 +13867,7 @@
       "location": "Santiago, República Dominicana",
       "type": "Apartamentos",
       "area": "98.27 m²",
-      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/2/1.png",
+      "image": "/fotos/Propiedades/2/1.png",
       "description": "Proyecto residencial de alto estándar en el corazón de Santiago, con diseño moderno y vistas panorámicas.",
       "features": [
         "1 Habitación",
@@ -13890,7 +13889,7 @@
       "type": "Apartamentos de Lujo",
       "units": 5,
       "area": "51.43 - 238.27 m²",
-      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/1/1.png",
+      "image": "/fotos/Propiedades/1/1.png",
       "description": "Se venden apartamentos de lujo en proyecto exclusivo dentro de Playa Nueva Romana que combina diseño moderno, naturaleza y comfort.",
       "features": [
         "Lobby de lujo",
@@ -13911,7 +13910,7 @@
       "location": "Cap Cana",
       "type": "Apartamentos de Lujo",
       "area": "83 - 231 m²",
-      "image": "https://lowest.nyc3.cdn.digitaloceanspaces.com/Propiedades/4/1.png",
+      "image": "/fotos/Propiedades/4/1.png",
       "description": "Apartamentos de lujo en nuevo proyecto de Cap Cana, con entorno exclusivo que combina comodidad, privacidad y alta rentabilidad.",
       "features": [
         "Piscina semi-olímpica",

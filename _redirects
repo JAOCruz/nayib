@@ -3,5 +3,9 @@
 /data/properties.json /data/properties.json 200!
 /data/* /data/:splat 200!
 
+# Fotos de publicaciones antiguas: alojadas en Cloudflare R2 (bucket "nayib"), servidas desde /fotos/*
+# Para cambiar de proveedor, basta con cambiar esta línea.
+/fotos/* https://pub-547dab3254db457fb2e4ddc3e848aa50.r2.dev/:splat 200
+
 # Handle SPA routing if needed
 /* /index.html 200
